@@ -1,6 +1,8 @@
 # Setting up
 1. Set up Git LFS. https://git-lfs.github.com/
 2. Set up Unity for Git. 
+
+
 For versions of Unity 3D v4.3 and up:
 
 1. (Skip this step in v4.5 and up) Enable External option in Unity → Preferences → Packages → Repository.
