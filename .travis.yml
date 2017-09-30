@@ -26,4 +26,4 @@ script:
 # environment variables used in bash scripts
 env:
   global:
-  - UNITYCI_PROJECT_NAME="UnityProject"
+  - UNITYCI_PROJECT_NAME="BadManor"
