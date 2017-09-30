@@ -53,4 +53,4 @@ cat $(pwd)/unity.log
 #echo "Build logs (OSX)"
 #cat $(pwd)/unity.log
 
-exit $(($rc1|$rc2))
+exit $(($rc1)) #$(($rc1|$rc2))
