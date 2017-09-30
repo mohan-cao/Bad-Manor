@@ -14,9 +14,13 @@ echo 'Downloading Unity 5.3.5 Windows Build Support pkg:'
 curl --retry 5 -o Unity_win.pkg https://download.unity3d.com/download_unity/960ebf59018a/MacEditorTargetInstaller/UnitySetup-Windows-Support-for-Editor-5.3.5f1.pkg
 if [ $? -ne 0 ]; then { echo "Download failed"; exit $?; } fi
 
+curl --retry 5 -o Unity_mac.pkg https://download.unity3d.com/download_unity/960ebf59018a/MacEditorTargetInstaller/UnitySetup-Mac-Support-for-Editor-5.3.5f1.pkg
+if [ $? -ne 0 ]; then { echo "Download failed"; exit $?; } fi
+
 # Run installer(s)
 echo 'Installing Unity.pkg'
 sudo installer -dumplog -package Unity.pkg -target /
 echo 'Installing Unity_win.pkg'
 sudo installer -dumplog -package Unity_win.pkg -target /
-
+echo 'Installing Unity_mac.pkg'
+sudo installer -dumplog -package Unity_mac.pkg -target /
