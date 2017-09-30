@@ -22,5 +22,5 @@ echo 'Installing Unity.pkg'
 sudo installer -dumplog -package Unity.pkg -target /
 echo 'Installing Unity_win.pkg'
 sudo installer -dumplog -package Unity_win.pkg -target /
-echo 'Installing Unity_mac.pkg'
-sudo installer -dumplog -package Unity_mac.pkg -target /
+# echo 'Installing Unity_mac.pkg'
+# sudo installer -dumplog -package Unity_mac.pkg -target /
