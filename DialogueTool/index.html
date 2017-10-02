@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dialogue tool</title>
+</head>
+<script defer async src="dialogue.js"></script>
+<body>
+<div>
+    <select>
+        <option value="trigger">On trigger from</option>
+        <option value="continue">Continue from dialogue id</option>
+        <option value="disable">Disabled</option>
+    </select>
+    <input type="number" id="dialogue-id">
+    <label for="sd">Single dialogue response</label>
+    <input name="sd" id="sd" type="text">
+    <button>Add</button>
+</div>
+<select multiple>
+    <option value="hi">hi1</option>
+</select>
+</body>
+</html>
