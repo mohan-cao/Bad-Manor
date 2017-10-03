@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Sounds
 {
-    abstract class Sound : MonoBehaviour;
+    abstract class Sound : MonoBehaviour
     {
     }
 }

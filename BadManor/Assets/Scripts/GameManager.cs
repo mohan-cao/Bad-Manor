@@ -45,7 +45,7 @@ namespace Assets.Scripts
 
         public long timeSinceStart()
         {
-            return sm.timeSinceStart();
+            return scorem.timeSinceStart();
         }
     }
 }
