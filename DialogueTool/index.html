@@ -15,13 +15,54 @@
         <option value="continue">Continue from dialogue id</option>
         <option value="disable">Disabled</option>
     </select>
-    <input type="number" id="dialogue-id">
-    <label for="sd">Single dialogue response</label>
-    <input name="sd" id="sd" type="text">
+
+    <select id="triggers">
+        <option value="character">Character name/id:</option>
+        <option value="scene">Scene name/id:</option>
+        <option value="item">Item name/id:</option>
+    </select>
+
+    <input type="number" id="id">
+
+    <label for="sdtoggle">Single dialogue</label><input type="radio" name="type" id="sdtoggle">
+    <label for="bnfdtoggle">Back and forth dialogue</label><input type="radio" name="type" id="bnfdtoggle">
+    <label for="qnatoggle">Question and answer</label><input type="radio" name="type" id="qnatoggle">
+
+    <div id="sd-enable">
+        <label for="sd">Single dialogue response</label><br>
+        <input id="sd">
+    </div>
+
+    <div id="bnfd-enable">
+        <label for="bnfd">Back and forth dialogue response</label><br>
+        <input id="bnfd">
+    </div>
+
+    <div id="qna-enable">
+        <label>Question and answer response</label><br>
+        <label>
+            Choice A
+            <input type="text" id="qna_a">
+        </label>
+        <label>
+            Choice B
+            <input type="text" id="qna_b">
+        </label>
+        <label>
+            Choice C
+            <input type="text" id="qna_c">
+        </label>
+        <label>
+            Choice D
+            <input type="text" id="qna_d">
+        </label>
+    </div>
+
     <button>Add</button>
 </div>
-<select multiple>
+<select size="10">
     <option value="hi">hi1</option>
 </select>
+<div id="selected-list"></div>
 </body>
 </html>
