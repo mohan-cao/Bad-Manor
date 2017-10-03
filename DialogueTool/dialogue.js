@@ -94,7 +94,7 @@ $(document).ready(function () {
         var nextstate = $("input#nextstate").val();
         if(!currentChar.hasOwnProperty(fsmstate)) currentChar[fsmstate] = { info : {}, exchange : {}, question: {} }; //define the object
         if(currentState==="sd"){
-            currentChar[fsmstate].info[conversationid] = { text: $("input#sd").val(), parameters: param, nextDialogue: chainDialogueId, nextState: nextstate };
+            currentChar[fsmstate].info[conversationid] = { text: $("textarea#sd").val(), parameters: param, nextDialogue: chainDialogueId, nextState: nextstate };
         }else if(currentState==="bnfd"){
             currentChar[fsmstate].exchange[conversationid] = { npc: $("textarea#bnfd2").val(), player: $("textarea#bnfd").val(), npcFirst: $("input#bnfd-reverse").is(":checked"), parameters: param, nextDialogue: chainDialogueId, nextState: nextstate };
         }else if(currentState==="qna"){
@@ -106,7 +106,7 @@ $(document).ready(function () {
        // TODO: currently does nothing
     });
     $("button#generate").click(function() {
-        $(this).after("<a href='data:application/json;charset:utf-8,"+JSON.stringify(currentChar)+"' download='"+currentChar.name+".json'>Download</a>");
+        $(this).after("<a href='data:application/json;charset:utf-8,"+encodeURIComponent(JSON.stringify(currentChar))+"' download='"+currentChar.name+".json'>Download</a>");
     })
 });
 
