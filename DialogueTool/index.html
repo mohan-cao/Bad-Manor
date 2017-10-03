@@ -7,39 +7,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dialogue tool</title>
 </head>
-<script defer async src="dialogue.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="dialogue.js"></script>
+<style>
+    div.hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+    }
+    input:required{
+        background-color:red;
+    }
+    input:required:valid{
+        background-color:inherit;
+    }
+</style>
 <body>
 <div>
-    <select>
-        <option value="trigger">On trigger from</option>
+    <!--<select id="triggers">
+        <optgroup label="On trigger from">
+            <option value="character">Character name/id:</option>
+            <option value="scene">Scene name/id:</option>
+            <option value="item">Item name/id:</option>
+        </optgroup>
         <option value="continue">Continue from dialogue id</option>
         <option value="disable">Disabled</option>
-    </select>
+    </select>-->
 
-    <select id="triggers">
-        <option value="character">Character name/id:</option>
-        <option value="scene">Scene name/id:</option>
-        <option value="item">Item name/id:</option>
-    </select>
-
-    <input type="number" id="id">
-
-    <label for="sdtoggle">Single dialogue</label><input type="radio" name="type" id="sdtoggle">
-    <label for="bnfdtoggle">Back and forth dialogue</label><input type="radio" name="type" id="bnfdtoggle">
-    <label for="qnatoggle">Question and answer</label><input type="radio" name="type" id="qnatoggle">
-
-    <div id="sd-enable">
-        <label for="sd">Single dialogue response</label><br>
-        <input id="sd">
+    <div>
+        <label for="charid">Character id </label><input type="text" id="charid" placeholder="Leave empty if dialogue is not character-specific"><br>
+        <label for="currentstate">FSM state id </label><input type="text" id="currentstate" value="initial" required><br>
+        <label for="conversationid">(optional) Conversation id </label><input type="text" id="conversationid" placeholder="Leave empty to auto-generate">
     </div>
 
-    <div id="bnfd-enable">
-        <label for="bnfd">Back and forth dialogue response</label><br>
-        <input id="bnfd">
+    <div class="hr"></div>
+
+    <div>
+        <div style="display:inline-block; text-align: center;"><label for="sdtoggle">Informational dialogue</label><br><input type="radio" name="type" id="sdtoggle" checked></div>
+        <div style="display:inline-block; text-align: center;"><label for="bnfdtoggle">Back and Forth exchange dialogue</label><br><input type="radio" name="type" id="bnfdtoggle"></div>
+        <div style="display:inline-block; text-align: center;"><label for="qnatoggle">Question and answer</label><br><input type="radio" name="type" id="qnatoggle"></div>
     </div>
 
-    <div id="qna-enable">
-        <label>Question and answer response</label><br>
+    <div class="hr"></div>
+
+    <div class="enableclass" id="sd-enable">
+        <p>Informational dialogue</p>
+        <textarea id="sd" placeholder="Character's dialogue"></textarea>
+    </div>
+
+    <div class="enableclass" id="bnfd-enable" style="display:none;">
+        <p>Back and forth (Exchange) dialogue response</p>
+        <label for="bnfd-reverse">NPC speaks first?</label><input type="checkbox" id="bnfd-reverse">
+        <textarea id="bnfd" cols="30" rows="10" placeholder="Player's dialogue here"></textarea>
+        <textarea id="bnfd2" cols="30" rows="10" placeholder="NPC's dialogue here"></textarea>
+    </div>
+
+    <div class="enableclass" id="qna-enable" style="display:none;">
+        <label>Question dialogue</label><br>
         <label>
             Choice A
             <input type="text" id="qna_a">
@@ -58,11 +86,22 @@
         </label>
     </div>
 
-    <button>Add</button>
+    <div class="hr"></div>
+
+    <div><label>(Optional) Chained dialogue id </label><input type="text" id="linkidmanual"> OR <select id="linkid"></select></div>
+    <div><label for="param">(Optional) Change character parameter <br><textarea id="param" style="width:500px;height:75px;" placeholder='{ "mood" : "whatever" , "yes" : "no", 0 : "1" }'></textarea></label></div>
+    <div><label for="nextstate">(Optional) (Caution) Set global FSM state upon finish <input type="text" id="nextstate"></label></div>
+
+    <button id="addbtn">Add</button>
 </div>
-<select size="10">
-    <option value="hi">hi1</option>
+<div class="hr"></div>
+<select size="10" id="convoidlist">
 </select>
-<div id="selected-list"></div>
+<button id="removebtn">Remove (Not working)</button>
+
+<div>
+    <button id="generate">Generate JSON files</button>
+    <button onclick="localStorage.clear();window.location.reload();">Debug: Clear localStorage</button>
+</div>
 </body>
 </html>
