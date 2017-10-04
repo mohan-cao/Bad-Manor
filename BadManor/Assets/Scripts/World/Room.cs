@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace Assets.Scripts.World
 {
-    class Rooftop : Level
+    abstract class Room : MonoBehaviour
     {
     }
 }
