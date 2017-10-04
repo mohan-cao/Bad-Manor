@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using UnityEngine;
 
 namespace Assets.Scripts.World
 {
-    abstract class Level : MonoBehaviour
+    class GroundLevel : Room
     {
     }
 }
