@@ -1,0 +1,285 @@
+{
+   "name":"Iwo",
+   "greetings":"Hello there.",
+   "farewell":"Goodbye.",
+   "tut1":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-0":{
+            "npc":"Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!",
+            "player":"Hey, what’s up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut2"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut2":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-1":{
+            "npc":"The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table.",
+            "player":"Hey, what’s up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut3"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut3":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-2":{
+            "npc":"I heard a rumor that Charles has been left off of the will. Maybe he is as lazy as Avni says.",
+            "player":"Hey, what’s up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findbertha":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-3":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "getsecuritykey":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-4":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "entersecurity":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-5":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findsecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-6":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "investigatesecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-7":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "gettapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-8":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "trytapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-9":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "powersource":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-10":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "playtapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-11":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "finalevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-12":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "accuse":{
+      "info":{
+
+      },
+      "exchange":{
+         "Iwo-13":{
+            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   }
+}
