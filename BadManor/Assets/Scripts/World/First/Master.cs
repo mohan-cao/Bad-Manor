@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Assets.Scripts.World
 {
-    class GroundLevel : Level
+    class Master : Room
     {
     }
 }
