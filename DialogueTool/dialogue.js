@@ -106,8 +106,13 @@ $(document).ready(function () {
        // TODO: currently does nothing
     });
     $("button#generate").click(function() {
-        $(this).after("<a href='data:application/json;charset:utf-8,"+encodeURIComponent(JSON.stringify(currentChar))+"' download='"+currentChar.name+".json'>Download</a>");
-    })
+        $("textarea#output").val(JSON.stringify(currentChar));
+    });
+    $("button#read").click(function(){
+       currentChar = JSON.parse($("textarea#output").val());
+       $("input#charid").val(currentChar.name);
+       render();
+    });
 });
 
 function updateConversationIds(id, remove){
