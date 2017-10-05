@@ -1,5 +1,5 @@
 {
-   "name":"Iwo",
+   "name":"Brange",
    "greetings":"Hello there.",
    "farewell":"Goodbye.",
    "tut1":{
@@ -7,9 +7,9 @@
 
       },
       "exchange":{
-         "Iwo-0":{
-            "npc":"Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!",
-            "player":"Hey, what’s up?",
+         "Brange-0":{
+            "npc":"Bertha looks as beautiful tonight as she did 30 years ago. How silly was Maurice to think that an old man like him could have appealed to a beautiful young woman like her, even if he is the richest man in the country.",
+            "player":"Hey, what's up?",
             "npcFirst":false,
             "parameters":{
 
@@ -27,9 +27,9 @@
 
       },
       "exchange":{
-         "Iwo-1":{
+         "Brange-1":{
             "npc":"The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table.",
-            "player":"Hey, what’s up?",
+            "player":"Hey, what's up?",
             "npcFirst":false,
             "parameters":{
 
@@ -47,15 +47,15 @@
 
       },
       "exchange":{
-         "Iwo-2":{
-            "npc":"I heard a rumor that Charles has been left off of the will. Maybe he is as lazy as Avni says.",
-            "player":"Hey, what’s up?",
+         "Brange-2":{
+            "npc":"Why would Bertha leave Charles off of the will? Maybe Avni’s complaints have gotten to her.",
+            "player":"Hey, what's up?",
             "npcFirst":false,
             "parameters":{
 
             },
             "nextDialogue":null,
-            "nextState":""
+            "nextState":"endtut"
          }
       },
       "question":{
@@ -67,10 +67,10 @@
 
       },
       "exchange":{
-         "Iwo-3":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
-            "player":"",
-            "npcFirst":true,
+         "Brange-3":{
+            "npc":"No, I’m so worried. Please find her as soon as you can.",
+            "player":"Have you seen Bertha lately?",
+            "npcFirst":false,
             "parameters":{
 
             },
@@ -87,10 +87,10 @@
 
       },
       "exchange":{
-         "Iwo-4":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
-            "player":"",
-            "npcFirst":true,
+         "Brange-4":{
+            "npc":"You’ll need a key to get in. Bertha manages everything around here, so I don’t know exactly where it is, but she likes to hide things under the bathmats. Other than that, Mi Na probably has a key.",
+            "player":"Do you know how I can get into the security room?",
+            "npcFirst":false,
             "parameters":{
 
             },
@@ -107,8 +107,8 @@
 
       },
       "exchange":{
-         "Iwo-5":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+         "Brange-5":{
+            "npc":"Please find Bertha.",
             "player":"",
             "npcFirst":true,
             "parameters":{
@@ -127,8 +127,8 @@
 
       },
       "exchange":{
-         "Iwo-6":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+         "Brange-6":{
+            "npc":"Please find Bertha.",
             "player":"",
             "npcFirst":true,
             "parameters":{
@@ -147,8 +147,8 @@
 
       },
       "exchange":{
-         "Iwo-7":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+         "Brange-7":{
+            "npc":"Please find Bertha.",
             "player":"",
             "npcFirst":true,
             "parameters":{
@@ -167,8 +167,8 @@
 
       },
       "exchange":{
-         "Iwo-8":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+         "Brange-8":{
+            "npc":"Please find Bertha.",
             "player":"",
             "npcFirst":true,
             "parameters":{
@@ -187,8 +187,8 @@
 
       },
       "exchange":{
-         "Iwo-9":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+         "Brange-9":{
+            "npc":"Please find Bertha.",
             "player":"",
             "npcFirst":true,
             "parameters":{
@@ -207,8 +207,8 @@
 
       },
       "exchange":{
-         "Iwo-10":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+         "Brange-10":{
+            "npc":"Please find Bertha.",
             "player":"",
             "npcFirst":true,
             "parameters":{
@@ -227,8 +227,8 @@
 
       },
       "exchange":{
-         "Iwo-11":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+         "Brange-11":{
+            "npc":"Please find Bertha.",
             "player":"",
             "npcFirst":true,
             "parameters":{
@@ -247,8 +247,8 @@
 
       },
       "exchange":{
-         "Iwo-12":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
+         "Brange-12":{
+            "npc":"Please find Bertha.",
             "player":"",
             "npcFirst":true,
             "parameters":{
@@ -267,15 +267,25 @@
 
       },
       "exchange":{
-         "Iwo-13":{
-            "npc":"It depends.;My meals will have the right amount of servings and portions.",
-            "player":"",
+         "Brange-13":{
+            "npc":"Please find Bertha.",
+            "player":"I know what happened to Bertha",
             "npcFirst":true,
             "parameters":{
 
             },
             "nextDialogue":null,
             "nextState":""
+         },
+         "Brange-14":{
+            "npc":"What do you mean? Something happened? Is everything alright?",
+            "player":"Bertha was murdered Brange. _____ killed her.",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":"Brange-13",
+            "nextState":"end"
          }
       },
       "question":{
