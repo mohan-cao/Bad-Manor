@@ -1,0 +1,285 @@
+{
+   "name":"Avni",
+   "greetings":"Hello there.",
+   "farewell":"Goodbye.",
+   "tut1":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-0":{
+            "npc":"Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut2"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut2":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-1":{
+            "npc":"The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut3"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut3":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-2":{
+            "npc":"I heard a rumor that Charles has been left off of Bertha’s will. Maybe my complaints have finally gotten through to her.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"endtut"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findbertha":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-3":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "getsecuritykey":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-4":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "entersecurity":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-5":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findsecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-6":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "investigatesecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-7":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "gettapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-8":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "trytapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-9":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "powersource":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-10":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "playtapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-11":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "finalevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-12":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "accuse":{
+      "info":{
+
+      },
+      "exchange":{
+         "Avni-13":{
+            "npc":"Do you think Charles will ever get a job? He’s so lazy.;What’s Charles doing again? Nothing.;Where’s Charles?;Sorry, not now. Charles is slacking off again and I need him to get a job.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   }
+}
