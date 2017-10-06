@@ -12,7 +12,6 @@ public class DialogueManager : MonoBehaviour {
 	// Use this for initialization
 
 	public void StartConvo() {
-		Debug.Log ("STARTING CONVO IN DIALOG MANAGER");
 		dialogueLines = new string[] {"This is line one", "This is my second line of dialog", "While am I still talking, this is my third line"};
 		currentLine = -1;
 
@@ -22,8 +21,7 @@ public class DialogueManager : MonoBehaviour {
 
 	public bool NextLine()
 	{
-		Debug.Log ("NEXT LINE IN DIALOG MANAGER");
-		currentLine = Random.Range (0, dialogueLines.Length - 1);
+		currentLine++;
 		if (currentLine >= dialogueLines.Length) 
 		{
 			return false;
@@ -34,7 +32,6 @@ public class DialogueManager : MonoBehaviour {
 
 	public void EndConvo() 
 	{
-		Debug.Log ("ENDING CONVO IN DIALOG MANAGER");
 		currentLine = 0;
 		dBox.SetActive (false);
 	}
