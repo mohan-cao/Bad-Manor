@@ -13,12 +13,16 @@ namespace Assets.Scripts.Characters
 		public float moveTime = 0.1f;
 
 		private Rigidbody2D rb2d;
-		private BoxCollider2D collider;
+		private DialogueManager dMan;
+
+
+		private bool isConvo;
 
 		void Start()
 		{
 			rb2d = GetComponent<Rigidbody2D> ();
-			collider = GetComponent<BoxCollider2D> ();
+			dMan = FindObjectOfType<DialogueManager> ();
+			isConvo = false;
 		}
 
 		void Update()
@@ -26,22 +30,43 @@ namespace Assets.Scripts.Characters
 			float moveHorizontal = Input.GetAxisRaw ("Horizontal");
 			float moveVertical = Input.GetAxisRaw ("Vertical");
 
+			if (isConvo) 
+			{
+				if (Input.GetKeyUp (KeyCode.Space)) 
+				{
+					Debug.Log ("CONTINUING CONVO");
+					isConvo = dMan.NextLine ();
+					if (!isConvo) {
+						dMan.EndConvo ();
+					}
+				}
+				return;
+			}
+
 			if (moveVertical != 0 || moveHorizontal != 0) 
 			{
-				Vector3 start = transform.position;
 				Vector3 movement = new Vector3 (moveHorizontal, moveVertical, 0f);
-				Vector3 end = start + (movement * moveTime);
-
-				//collider.enabled = false;
-				//RaycastHit2D hit = Physics2D.Linecast (new Vector2(start.x, start.y), new Vector2(end.x, end.y));
-				//collider.enabled = true;
-
-				//if (hit.transform == null) 
-				//{
-					transform.Translate (movement * moveTime);
-				//}
-
+				transform.Translate (movement * moveTime);
 			}
+		}
+
+		void OnTriggerStay2D(Collider2D other)
+		{
+			//Debug.Log ("TRIGGER IN PLAYER");
+			if (other.gameObject.tag == "NPC") 
+			{
+				if (Input.GetKeyUp (KeyCode.Space) && !isConvo) 
+				{
+					Debug.Log ("STARTING CONVO IN PLAYER");
+					dMan.StartConvo ();
+					isConvo = true;
+				}
+			}
+		}
+
+		void SetIsConvo(bool boo)
+		{
+			isConvo = boo;
 		}
 
     }

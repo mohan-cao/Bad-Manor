@@ -6,25 +6,20 @@ public class DialogueHolder : MonoBehaviour {
 	public string dialogue;
 	private DialogueManager dMan;
 	public string[] dialogueLines;
+
 	// Use this for initialization
 	void Start () {
 		dMan = FindObjectOfType<DialogueManager> ();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		//player = GetComponentsInParent<Player>();
 	}
 
 	void OnTriggerStay2D(Collider2D other){
-		if (other.gameObject.name == "Player") {
+		Debug.Log ("OnTriggerStay2D " + other.gameObject.tag);
+		if (other.gameObject.tag == "NPC") {
 			if (Input.GetKeyUp(KeyCode.Space)) {
-				//dMan.ShowBox (dialogue);
-				if(!dMan.dialogActive){
-					dMan.dialogueLines = dialogueLines;
-					dMan.currentLine = 0;
-					dMan.ShowDialogue();
-				}
+				Debug.Log ("STARTING CONVO IN DIALOG HOLDER");
+				dMan.StartConvo ();
+				//player.SetIsConvo (true);
 			}
 		
 		}
