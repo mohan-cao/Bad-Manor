@@ -8,12 +8,17 @@ namespace Assets.Scripts
 {
     public class GameLoader : MonoBehaviour
     {
-
-        public static GameLoader inst;
-        public GameObject gM;
-    
+        private GameManager gM;
+        public static GameObject inst = null;
+        
         private void Awake()
         {
+            inst = inst ?? this;
+            if (inst != this)
+            {
+                Destroy(gameObject);
+            }
+            DontDestroyOnLoad(gameObject);
             newGame();
         }
 

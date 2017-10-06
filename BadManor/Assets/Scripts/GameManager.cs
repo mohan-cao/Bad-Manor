@@ -33,19 +33,15 @@ namespace Assets.Scripts
             POWER_SOURCE = 11,
             PLAY_TAPES = 12,
             FINAL_EVIDENCE = 13,
-            ACCUSE = 14
+            ACCUSE = 14,
+            FINISHED = 15
         }
 
         public static GameManager inst = null;
         
-        private void Awake()
+        public GameManager()
         {
             inst = inst ?? this;
-            if (inst != this)
-            {
-                Destroy(gameObject);
-            }
-            DontDestroyOnLoad(gameObject);
             InitGame();
         }
 
@@ -68,6 +64,20 @@ namespace Assets.Scripts
         public GameState currentState()
         {
             return gameState;
+        }
+
+        public void newState(GameState nextState)
+        {
+            //HOOK IN HERE TO MAKE CALLS
+            if (nextState == GameState.TUTORIAL_1)
+            {
+                scoreM.resume();
+            }
+            if (nextState == GameState.FINISHED)
+            {
+                scoreM.pause();
+            }
+            gameState = nextState;
         }
 
         public long timeSinceStart()
