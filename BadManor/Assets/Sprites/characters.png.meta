@@ -39,7 +39,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -62,15 +62,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -21, y: 32}
-        - {x: -24, y: 22}
-        - {x: -24, y: -25}
-        - {x: -23, y: -29}
-        - {x: -20, y: -32}
-        - {x: 19, y: -32}
-        - {x: 24, y: -28}
-        - {x: 24, y: 28}
-        - {x: 18, y: 32}
+      - - {x: -24, y: 32}
+        - {x: -24, y: -16}
+        - {x: -23, y: -22}
+        - {x: -18, y: -27}
+        - {x: 24, y: -27}
+        - {x: 24, y: 32}
     outline: []
   spritePackingTag: 
   userData: 

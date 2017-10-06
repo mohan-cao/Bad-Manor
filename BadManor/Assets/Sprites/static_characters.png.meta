@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 0995cd88ac420c143bac4fb25fe83a20
+timeCreated: 1507285563
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Security_Manager_static
+    21300002: PLAYER_static
+    21300004: Host_static
+    21300006: Anvi_static
+    21300008: Son_static
+    21300010: Gambler_static
+    21300012: Director_static
+    21300014: Husband_static
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Security_Manager_static
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 806
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -24, y: 22}
+        - {x: -24, y: -25}
+        - {x: -23, y: -29}
+        - {x: -20, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 27}
+        - {x: 18, y: 32}
+    - name: PLAYER_static
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1186
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -24, y: 22}
+        - {x: -24, y: -26}
+        - {x: -22, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 27}
+        - {x: 18, y: 32}
+    - name: Host_static
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 647
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 32}
+        - {x: -19, y: 32}
+        - {x: -28, y: 24}
+        - {x: -28, y: -25}
+        - {x: -27, y: -32}
+        - {x: 22, y: -32}
+        - {x: 27, y: -31}
+        - {x: 28, y: -23}
+        - {x: 28, y: 23}
+    - name: Anvi_static
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 497
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 32}
+        - {x: -27, y: 21}
+        - {x: -28, y: 20}
+        - {x: -28, y: -32}
+        - {x: 28, y: -32}
+        - {x: 28, y: 31}
+        - {x: 21, y: 32}
+    - name: Son_static
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 423
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -24, y: 22}
+        - {x: -24, y: -26}
+        - {x: -22, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 27}
+        - {x: 18, y: 32}
+    - name: Gambler_static
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 341
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -24, y: 22}
+        - {x: -24, y: -26}
+        - {x: -22, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 27}
+        - {x: 18, y: 32}
+    - name: Director_static
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 189
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 32}
+        - {x: -24, y: 22}
+        - {x: -24, y: -26}
+        - {x: -22, y: -32}
+        - {x: 24, y: -32}
+        - {x: 24, y: 27}
+        - {x: 18, y: 32}
+    - name: Husband_static
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 45
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 32}
+        - {x: -24.5, y: 30}
+        - {x: -24.5, y: -32}
+        - {x: 25.5, y: -32}
+        - {x: 25.5, y: 32}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
