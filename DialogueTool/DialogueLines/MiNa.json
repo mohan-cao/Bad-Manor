@@ -1,0 +1,315 @@
+{
+   "name":"MiNa",
+   "greetings":"Hello there.",
+   "farewell":"Goodbye.",
+   "tut1":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-0":{
+            "npc":"Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut2"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut2":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-1":{
+            "npc":"The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut3"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut3":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-2":{
+            "npc":"I heard a rumor that Charles has been left off of Bertha’s will. Maybe he is as lazy as Avni says.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"endtut"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findbertha":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-3":{
+            "npc":"Of course not, I just asked you to find her. Hurry up and do your job.",
+            "player":"Have you seen Bertha lately?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "getsecuritykey":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-4":{
+            "npc":"You need a key to get in, Y-you can’t have it. Hurry up and find Bertha.",
+            "player":"Do you know how I can get into the security room?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "entersecurity":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-5":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;One of Bertha and Maurice’s old movies is going to be playing later tonight, I remember watching it back when it was released.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Maurice looks ancient… how old is he? 90? 100?;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.;Look how lonely Maurice seems. If only he’d gotten over Bertha and found a wife.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findsecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-6":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;One of Bertha and Maurice’s old movies is going to be playing later tonight, I remember watching it back when it was released.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Maurice looks ancient… how old is he? 90? 100?;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.;Look how lonely Maurice seems. If only he’d gotten over Bertha and found a wife.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "investigatesecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-7":{
+            "npc":"What? You aren’t supposed to go inside there.",
+            "player":"I found a belt with the initials C.F.D. on it in the security room. Do you know anything about this?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         },
+         "MiNa-8":{
+            "npc":"Th-they’re in Charles’ room.",
+            "player":"I need the security tapes. Where are they?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":"MiNa-7",
+            "nextState":""
+         },
+         "MiNa-9":{
+            "npc":"I-I, U-uh W-we… Okay, look. I’ll tell you, but you have to keep this a secret, alright?",
+            "player":"What? Why?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":"MiNa-8",
+            "nextState":""
+         },
+         "MiNa-10":{
+            "npc":"Ch-Charles and I are having an affair. I locked the tapes inside his room because it contains all the evidence. I’ll give you the keys to Charles’ room, just leave me alone.",
+            "player":"Just tell me what’s going on.",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":"MiNa-9",
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "gettapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-11":{
+            "npc":"I thought I told you to leave me alone.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "trytapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-12":{
+            "npc":"I thought I told you to leave me alone.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "powersource":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-13":{
+            "npc":"I thought I told you to leave me alone.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "playtapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-14":{
+            "npc":"I thought I told you to leave me alone.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "finalevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-15":{
+            "npc":"I thought I told you to leave me alone.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "accuse":{
+      "info":{
+
+      },
+      "exchange":{
+         "MiNa-16":{
+            "npc":"I thought I told you to leave me alone.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   }
+}

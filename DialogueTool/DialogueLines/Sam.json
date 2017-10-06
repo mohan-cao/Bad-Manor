@@ -1,0 +1,285 @@
+{
+   "name":"Sam",
+   "greetings":"Hello there.",
+   "farewell":"Goodbye.",
+   "tut1":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-0":{
+            "npc":"Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut2"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut2":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-1":{
+            "npc":"The debt collectors will surely be paying a visit soon. I’ve been bleeding money for months at the blackjack table.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut3"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut3":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-2":{
+            "npc":"I heard a rumor that Charles has been left off of Bertha’s will. Maybe he is as lazy as Avni says.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"endtut"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findbertha":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-3":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "getsecuritykey":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-4":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "entersecurity":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-5":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findsecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-6":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "investigatesecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-7":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "gettapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-8":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "trytapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-9":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "powersource":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-10":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "playtapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-11":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "finalevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-12":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "accuse":{
+      "info":{
+
+      },
+      "exchange":{
+         "Sam-13":{
+            "npc":"Damn it! Not again. Why do I always lose?;I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.;One of these days I’ll win big, and then I’ll quit gambling for good.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   }
+}

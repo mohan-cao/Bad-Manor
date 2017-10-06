@@ -1,0 +1,23 @@
+{
+   "name":"Detective",
+   "greetings":"Hello there.",
+   "farewell":"Goodbye.",
+   "endtut":{
+      "info":{
+         "Detective-0":{
+            "text":"Now that I’ve blended in with the guests, I should try find Bertha.",
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"findbertha"
+         }
+      },
+      "exchange":{
+
+      },
+      "question":{
+
+      }
+   }
+}
