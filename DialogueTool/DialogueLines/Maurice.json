@@ -1,0 +1,315 @@
+{
+   "name":"Maurice",
+   "greetings":"Hello there.",
+   "farewell":"Goodbye.",
+   "tut1":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-0":{
+            "npc":"Bertha looks as beautiful tonight as she did 30 years ago. How silly was I to think that a rich old man like me could have appealed to a beautiful young woman like her.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut2"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut2":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-1":{
+            "npc":"The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut3"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut3":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-2":{
+            "npc":"I heard a rumor that Charles has been left off of Bertha’s will. Maybe he is as lazy as Avni says.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"endtut"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findbertha":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-3":{
+            "npc":"Sorry, I can’t talk right now.",
+            "player":"Have you seen Bertha lately?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "getsecuritykey":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-4":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "entersecurity":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-5":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findsecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-6":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "investigatesecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-7":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "gettapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-8":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "trytapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-9":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "powersource":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-10":{
+            "npc":"Ha! I can’t believe Sam is claiming he’s going to be able to pay off all his debts after tonight - he never wins, tonight will be no different.",
+            "player":"What’s that big thing you’re carrying around?",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         },
+         "Maurice-11":{
+            "npc":"Oh, it’s a portable battery pack. I grabbed it from downstairs because I wanted to take some photos of Bertha on the rooftop. My camera is very power hungry, you know.",
+            "player":"What? Show me the photos.",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":"Maurice-10",
+            "nextState":""
+         },
+         "Maurice-12":{
+            "npc":"Of course! Doesn’t Bertha look beautiful in these?",
+            "player":"Can I take that battery pack?",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":"Maurice-11",
+            "nextState":""
+         },
+         "Maurice-13":{
+            "npc":"Absolutely! I don’t need it any more.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":"Maurice-12",
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "playtapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-14":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "finalevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-15":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "accuse":{
+      "info":{
+
+      },
+      "exchange":{
+         "Maurice-16":{
+            "npc":"This margarita is delicious, I think I might get another one;Have you tried Iwo’s Special Coupled Tempura? He doesn’t usually make it except for special occasions like tonight.;Don’t know what’s been going on between Avni and Charles… she’s been glaring at him all night.;Don’t you think Brange looks a little more nervous than usual? He seems pale.;Bertha must be extremely wealthy to be able to afford this place… It’s gigantic!;Sam is so handsome, it’s no wonder the ladies are obsessed with him.;The way Iwo’s sushi is encapsulated in seaweed is so classy.;I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!;The security manager is small, but she really intimidates me.;I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   }
+}
