@@ -9,17 +9,17 @@ namespace Assets.Scripts
     public class GameLoader : MonoBehaviour
     {
         private GameManager gM;
-        public static GameObject inst = null;
+        public static GameLoader inst = null;
         
         private void Awake()
         {
-            inst = inst ?? this;
+			inst = inst ?? this;
             if (inst != this)
             {
                 Destroy(gameObject);
             }
             DontDestroyOnLoad(gameObject);
-            newGame();
+			UnityEngine.SceneManagement.SceneManager.LoadScene ("WelcomeScene");
         }
 
         private void newGame()
