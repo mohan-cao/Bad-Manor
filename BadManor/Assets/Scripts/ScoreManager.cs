@@ -10,11 +10,26 @@ namespace Assets.Scripts
     class ScoreManager : MonoBehaviour
     {
         [SerializeField]
-        private Stopwatch st; //Need to set to 0 on new game
+        private Stopwatch st;
+
+        public ScoreManager()
+        {
+            st = new Stopwatch();
+        }
+        
         public long timeSinceStart()
         {
-            //to implement
             return st.ElapsedMilliseconds;
+        }
+
+        public void resume()
+        {
+            st.Start();
+        }
+
+        public void pause()
+        {
+            st.Stop();
         }
     }
 }

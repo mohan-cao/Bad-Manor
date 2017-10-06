@@ -8,11 +8,23 @@ namespace Assets.Scripts
 {
     public class GameLoader : MonoBehaviour
     {
-    public GameObject gM;
 
-    private void Awake()
-    {
-        gM = gM == null ? Instantiate(gM) : gM;
+        public static GameLoader inst;
+        public GameObject gM;
+    
+        private void Awake()
+        {
+            newGame();
+        }
+
+        private void newGame()
+        {
+            gM = new GameManager();
+        }
+
+        private void loadGame()
+        {
+            //TODO
+        }
     }
-}
 }
