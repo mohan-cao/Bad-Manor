@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-	class CharacterManager : MonoBehaviour
+	public class CharacterManager : MonoBehaviour
     {
 
 		public float moveTime = 0.1f;		//Time to move character in seconds

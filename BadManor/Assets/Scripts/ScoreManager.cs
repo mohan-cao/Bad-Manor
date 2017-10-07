@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    class ScoreManager : MonoBehaviour
+    public class ScoreManager : MonoBehaviour
     {
         [SerializeField]
         private Stopwatch st;

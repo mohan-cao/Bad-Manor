@@ -6,7 +6,8 @@ using UnityEngine;
 
 namespace Assets.Scripts.Items
 {
-    abstract class Item : MonoBehaviour
+    public abstract class Item : MonoBehaviour
     {
+		public string name;
     }
 }

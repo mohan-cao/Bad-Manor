@@ -20,6 +20,7 @@ namespace Assets.Scripts
             }
             DontDestroyOnLoad(gameObject);
 			UnityEngine.SceneManagement.SceneManager.LoadScene ("WelcomeScene");
+			newGame ();
         }
 
         private void newGame()
