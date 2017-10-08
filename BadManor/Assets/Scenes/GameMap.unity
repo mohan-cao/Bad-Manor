@@ -164,6 +164,7 @@ GameObject:
   - 223: {fileID: 57191876}
   - 114: {fileID: 57191875}
   - 114: {fileID: 57191874}
+  - 114: {fileID: 57191878}
   m_Layer: 5
   m_Name: AccuseCanvas
   m_TagString: Untagged
@@ -256,6 +257,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &57191878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 57191873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b7afe761ae7b54a94b42db4b4678e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIPanel: {fileID: 0}
+  tg: {fileID: 0}
 --- !u!1001 &67489317
 Prefab:
   m_ObjectHideFlags: 0
@@ -1555,7 +1569,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 463529458}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 57191878}
+        m_MethodName: notNow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &463529458
@@ -3008,7 +3033,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 862093325}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 57191878}
+        m_MethodName: makeAccusation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &862093325
@@ -3302,6 +3338,22 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 903423391}
+--- !u!1 &919581013 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 142892, guid: a185f5006ec158b4e9f2ab0f5f24f2f4, type: 2}
+  m_PrefabInternal: {fileID: 814936148}
+--- !u!114 &919581014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 919581013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d922c0481d43bda4ab77e938bf7c6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: 0.1
 --- !u!1001 &921460872
 Prefab:
   m_ObjectHideFlags: 0
