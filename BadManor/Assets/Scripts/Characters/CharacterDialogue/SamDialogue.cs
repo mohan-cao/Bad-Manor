@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class SamDialogue : MonoBehaviour {
 
-    private string characterName = "Brange";
+    private string characterName = "Sam";
     private Dictionary<GameManager.GameState, string[]> storyLines;
     private List<string> randomLines = new List<string>();
 
