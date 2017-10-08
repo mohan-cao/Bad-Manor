@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour {
 
     private Dictionary<string, CharacterDialogue> characterDialogues = new Dictionary<string, CharacterDialogue>();
 
+    // Instance of dialogue box for controlling view
 	private DialogueBoxManager dbm;
 	private int count = 0;
 
@@ -17,6 +18,7 @@ public class DialogueManager : MonoBehaviour {
 	bool needtoendconvo;
     //String array of the conversation associated to a particular story lines.
 
+        // Set up instances of Character Dialogue classes
     private void Start()
     {
         characterDialogues["Anvi"] = AnviDialogue.getInstance();
@@ -29,7 +31,9 @@ public class DialogueManager : MonoBehaviour {
 
     public void StartConvo(string character){
 
+        // Set all variables
         npcCharacter = character;
+        count = 0;
         dbm = FindObjectOfType<DialogueBoxManager>();
         //GameManager.GameState gameState = GameManager.inst.currentState();
 
@@ -41,25 +45,35 @@ public class DialogueManager : MonoBehaviour {
         
 	}
 
-    //Displaying appropriate text.
+    // Displaying appropriate text.
+    // Returns true if convo is still going (a line was said)
+    // Returns false if convo has ended (so dialogue box has now closed)
     public bool NextLine() {
 
+        // if character has no story during this game state and has already said one random line
         if (storyLines == null && count == 1)
         {
+            // end the conversation
             EndConvo();
             return false;
-        } else if (storyLines == null && count == 0)
+        } // if character has no story during this game state and has not already said one random line
+        else if (storyLines == null && count == 0)
         {
+            // say the random line, increase count
             string line = characterDialogues[npcCharacter].getRandomLine();
             dbm.SayLine(line, npcCharacter);
             count++;
             return true;
-        } else if (count >= storyLines.Length - 1)
+        } // if character has storylines, but has finished all of them
+        else if (count >= storyLines.Length - 1)
         {
+            // end the conversation
             EndConvo();
             return false;
-        } else
+        } // if character has storylines and still has more lines left in converstaion
+        else
         {
+            // say the next line in convo and increase count
             string text = storyLines[count];
             count++;
             string name = storyLines[count];
