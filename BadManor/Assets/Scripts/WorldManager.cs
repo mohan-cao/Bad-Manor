@@ -9,7 +9,20 @@ namespace Assets.Scripts
 {
     public class WorldManager : MonoBehaviour
     {
+		public void startTutorial()
+		{
+			GameManager.inst.newState (GameManager.GameState.TUTORIAL_1);
+		}
 
+		public void secondTutorial()
+		{
+			GameManager.inst.newState (GameManager.GameState.TUTORIAL_2);
+		}
+
+		public void finalTutorial()
+		{
+			GameManager.inst.newState (GameManager.GameState.TUTORIAL_3);
+		}
 
 		public void sampleItem()
 		{
