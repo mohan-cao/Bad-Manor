@@ -29,7 +29,7 @@ namespace Assets.Scripts.Characters
 			isConvo = false;
 		}
 
-		void Update()
+		void FixedUpdate()
 		{
 			float moveHorizontal = Input.GetAxisRaw ("Horizontal");
 			float moveVertical = Input.GetAxisRaw ("Vertical");
