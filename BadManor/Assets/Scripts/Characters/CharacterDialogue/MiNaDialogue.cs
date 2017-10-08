@@ -10,7 +10,17 @@ public class MiNaDialogue : CharacterDialogue
     private Dictionary<GameManager.GameState, string[]> storyLines;
     private List<string> randomLines = new List<string>();
 
-    private void Start()
+    private static MiNaDialogue inst;
+
+    public static MiNaDialogue getInstance()
+    {
+        if (inst == null)
+            inst = new MiNaDialogue();
+
+        return inst;
+    }
+
+    private MiNaDialogue()
     {
         storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "DIALOGUE LINE 1", "CHARACTER WHO SAYS DIALOGUE LINE 1", "DIALOGUE LINE 2", "CHARACTER WHO SAYS DIALOGUE LINE 2" };
 

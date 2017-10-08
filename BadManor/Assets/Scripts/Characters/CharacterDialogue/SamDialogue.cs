@@ -10,7 +10,17 @@ public class SamDialogue : CharacterDialogue
     private Dictionary<GameManager.GameState, string[]> storyLines;
     private List<string> randomLines = new List<string>();
 
-    private void Start()
+    private static SamDialogue inst;
+
+    public static SamDialogue getInstance()
+    {
+        if (inst == null)
+            inst = new SamDialogue();
+
+        return inst;
+    }
+
+    private SamDialogue()
     {
         storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "DIALOGUE LINE 1", "CHARACTER WHO SAYS DIALOGUE LINE 1", "DIALOGUE LINE 2", "CHARACTER WHO SAYS DIALOGUE LINE 2" };
 

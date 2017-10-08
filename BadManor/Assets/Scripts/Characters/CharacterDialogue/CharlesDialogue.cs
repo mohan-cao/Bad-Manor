@@ -10,7 +10,17 @@ public class CharlesDialogue : CharacterDialogue
     private Dictionary<GameManager.GameState, string[]> storyLines;
     private List<string> randomLines = new List<string>();
 
-    private void Start()
+    private static CharlesDialogue inst;
+
+    public static CharlesDialogue getInstance()
+    {
+        if (inst == null)
+            inst = new CharlesDialogue();
+
+        return inst;
+    }
+
+    private CharlesDialogue()
     {
         storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "DIALOGUE LINE 1", "CHARACTER WHO SAYS DIALOGUE LINE 1", "DIALOGUE LINE 2", "CHARACTER WHO SAYS DIALOGUE LINE 2" };
 
