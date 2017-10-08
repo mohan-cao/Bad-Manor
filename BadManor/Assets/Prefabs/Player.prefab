@@ -11,7 +11,6 @@ GameObject:
   - 61: {fileID: 6118746}
   - 50: {fileID: 5044310}
   - 212: {fileID: 21286842}
-  - 114: {fileID: 11456154}
   - 61: {fileID: 6112092}
   m_Layer: 0
   m_Name: Player
@@ -159,18 +158,6 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142892}
   m_Enabled: 1
---- !u!114 &11456154
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 114016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc97ad6824333b84bb27f2f39b54de2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveTime: 0.1
 --- !u!124 &12497254
 Behaviour:
   m_ObjectHideFlags: 1

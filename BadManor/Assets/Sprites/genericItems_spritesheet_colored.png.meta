@@ -1,0 +1,2542 @@
+fileFormatVersion: 2
+guid: 3313bf27087c48046a45aa4ebefdd5bb
+timeCreated: 1507457030
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: genericItems_spritesheet_colored_0
+    21300002: genericItems_spritesheet_colored_1
+    21300004: genericItems_spritesheet_colored_2
+    21300006: genericItems_spritesheet_colored_3
+    21300008: genericItems_spritesheet_colored_4
+    21300010: genericItems_spritesheet_colored_5
+    21300012: genericItems_spritesheet_colored_6
+    21300014: genericItems_spritesheet_colored_7
+    21300016: genericItems_spritesheet_colored_8
+    21300018: genericItems_spritesheet_colored_9
+    21300020: genericItems_spritesheet_colored_10
+    21300022: genericItems_spritesheet_colored_11
+    21300024: genericItems_spritesheet_colored_12
+    21300026: genericItems_spritesheet_colored_13
+    21300028: genericItems_spritesheet_colored_14
+    21300030: genericItems_spritesheet_colored_15
+    21300032: genericItems_spritesheet_colored_16
+    21300034: genericItems_spritesheet_colored_17
+    21300036: genericItems_spritesheet_colored_18
+    21300038: genericItems_spritesheet_colored_19
+    21300040: genericItems_spritesheet_colored_20
+    21300042: genericItems_spritesheet_colored_21
+    21300044: genericItems_spritesheet_colored_22
+    21300046: genericItems_spritesheet_colored_23
+    21300048: genericItems_spritesheet_colored_24
+    21300050: genericItems_spritesheet_colored_25
+    21300052: genericItems_spritesheet_colored_26
+    21300054: genericItems_spritesheet_colored_27
+    21300056: genericItems_spritesheet_colored_28
+    21300058: genericItems_spritesheet_colored_29
+    21300060: genericItems_spritesheet_colored_30
+    21300062: genericItems_spritesheet_colored_31
+    21300064: genericItems_spritesheet_colored_32
+    21300066: genericItems_spritesheet_colored_33
+    21300068: genericItems_spritesheet_colored_34
+    21300070: genericItems_spritesheet_colored_35
+    21300072: genericItems_spritesheet_colored_36
+    21300074: genericItems_spritesheet_colored_37
+    21300076: genericItems_spritesheet_colored_38
+    21300078: genericItems_spritesheet_colored_39
+    21300080: genericItems_spritesheet_colored_40
+    21300082: genericItems_spritesheet_colored_41
+    21300084: genericItems_spritesheet_colored_42
+    21300086: genericItems_spritesheet_colored_43
+    21300088: genericItems_spritesheet_colored_44
+    21300090: genericItems_spritesheet_colored_45
+    21300092: genericItems_spritesheet_colored_46
+    21300094: genericItems_spritesheet_colored_47
+    21300096: genericItems_spritesheet_colored_48
+    21300098: genericItems_spritesheet_colored_49
+    21300100: genericItems_spritesheet_colored_50
+    21300102: genericItems_spritesheet_colored_51
+    21300104: genericItems_spritesheet_colored_52
+    21300106: genericItems_spritesheet_colored_53
+    21300108: genericItems_spritesheet_colored_54
+    21300110: genericItems_spritesheet_colored_55
+    21300112: genericItems_spritesheet_colored_56
+    21300114: genericItems_spritesheet_colored_57
+    21300116: genericItems_spritesheet_colored_58
+    21300118: genericItems_spritesheet_colored_59
+    21300120: genericItems_spritesheet_colored_60
+    21300122: genericItems_spritesheet_colored_61
+    21300124: genericItems_spritesheet_colored_62
+    21300126: genericItems_spritesheet_colored_63
+    21300128: genericItems_spritesheet_colored_64
+    21300130: genericItems_spritesheet_colored_65
+    21300132: genericItems_spritesheet_colored_66
+    21300134: genericItems_spritesheet_colored_67
+    21300136: genericItems_spritesheet_colored_68
+    21300138: genericItems_spritesheet_colored_69
+    21300140: genericItems_spritesheet_colored_70
+    21300142: genericItems_spritesheet_colored_71
+    21300144: genericItems_spritesheet_colored_72
+    21300146: genericItems_spritesheet_colored_73
+    21300148: genericItems_spritesheet_colored_74
+    21300150: genericItems_spritesheet_colored_75
+    21300152: genericItems_spritesheet_colored_76
+    21300154: genericItems_spritesheet_colored_77
+    21300156: genericItems_spritesheet_colored_78
+    21300158: genericItems_spritesheet_colored_79
+    21300160: genericItems_spritesheet_colored_80
+    21300162: genericItems_spritesheet_colored_81
+    21300164: genericItems_spritesheet_colored_82
+    21300166: genericItems_spritesheet_colored_83
+    21300168: genericItems_spritesheet_colored_84
+    21300170: genericItems_spritesheet_colored_85
+    21300172: genericItems_spritesheet_colored_86
+    21300174: genericItems_spritesheet_colored_87
+    21300176: genericItems_spritesheet_colored_88
+    21300178: genericItems_spritesheet_colored_89
+    21300180: genericItems_spritesheet_colored_90
+    21300182: genericItems_spritesheet_colored_91
+    21300184: genericItems_spritesheet_colored_92
+    21300186: genericItems_spritesheet_colored_93
+    21300188: genericItems_spritesheet_colored_94
+    21300190: genericItems_spritesheet_colored_95
+    21300192: genericItems_spritesheet_colored_96
+    21300194: genericItems_spritesheet_colored_97
+    21300196: genericItems_spritesheet_colored_98
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: genericItems_spritesheet_colored_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1949
+        width: 382
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 161, y: 49.5}
+        - {x: -144, y: 49.5}
+        - {x: -191, y: -11.5}
+        - {x: -191, y: -27.5}
+        - {x: -190, y: -30.5}
+        - {x: -157, y: -49.5}
+        - {x: 90, y: -49.5}
+        - {x: 191, y: -21.5}
+        - {x: 191, y: -3.5}
+        - {x: 179, y: 40.5}
+      - - {x: 155, y: -49.5}
+        - {x: 180, y: -49.5}
+        - {x: 179, y: -46.5}
+        - {x: 163, y: -38.5}
+        - {x: 160, y: -38.5}
+        - {x: 155, y: -45.5}
+    - name: genericItems_spritesheet_colored_1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1970
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 39}
+        - {x: -40, y: 39}
+        - {x: -45, y: 33}
+        - {x: -45, y: 3}
+        - {x: -33, y: -39}
+        - {x: 1, y: -39}
+        - {x: 45, y: -30}
+        - {x: 45, y: 25}
+        - {x: 44, y: 32}
+    - name: genericItems_spritesheet_colored_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1913
+        width: 154
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -34.5}
+        - {x: 0, y: -10.5}
+        - {x: 7, y: -33.5}
+        - {x: 8, y: -34.5}
+        - {x: 8, y: -54.5}
+        - {x: 9, y: -67.5}
+        - {x: 58, y: -67.5}
+        - {x: 77, y: -16.5}
+        - {x: 77, y: 51.5}
+        - {x: 68, y: 67.5}
+        - {x: -69, y: 67.5}
+        - {x: -77, y: 0.5}
+        - {x: -77, y: -67.5}
+        - {x: 5, y: -67.5}
+        - {x: 8, y: -58.5}
+        - {x: 8, y: -37.5}
+    - name: genericItems_spritesheet_colored_3
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1953
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 47.5}
+        - {x: -21, y: 40.5}
+        - {x: -30, y: -9.5}
+        - {x: -30, y: -41.5}
+        - {x: -25, y: -41.5}
+        - {x: -22, y: -39.5}
+        - {x: -15, y: -47.5}
+        - {x: 9, y: -47.5}
+        - {x: 30, y: -6.5}
+        - {x: 30, y: 44.5}
+        - {x: 24, y: 47.5}
+    - name: genericItems_spritesheet_colored_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1913
+        width: 55
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 25.5}
+        - {x: 27.5, y: 67.5}
+        - {x: -27.5, y: 67.5}
+        - {x: -27.5, y: 37.5}
+        - {x: -26.5, y: 30.5}
+        - {x: -19.5, y: -11.5}
+        - {x: -18.5, y: -16.5}
+        - {x: -16.5, y: -18.5}
+        - {x: -12.5, y: -29.5}
+        - {x: -10.5, y: -31.5}
+        - {x: -7.5, y: -35.5}
+        - {x: -14.5, y: -32.5}
+        - {x: -19.5, y: -30.5}
+        - {x: -27.5, y: -39.5}
+        - {x: -27.5, y: -46.5}
+        - {x: -19.5, y: -55.5}
+        - {x: -6.5, y: -67.5}
+        - {x: 4.5, y: -67.5}
+        - {x: 27.5, y: -43.5}
+        - {x: 27.5, y: -41.5}
+        - {x: 23.5, y: -35.5}
+    - name: genericItems_spritesheet_colored_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1725
+        width: 161
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 11, w: 132}
+      outline:
+      - - {x: -80.5, y: 66}
+        - {x: -80.5, y: -66}
+        - {x: 50.5, y: -66}
+        - {x: 80.5, y: -50}
+        - {x: 80.5, y: 64}
+        - {x: 78.5, y: 66}
+    - name: genericItems_spritesheet_colored_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1747
+        width: 113
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 101}
+        - {x: -56.5, y: -11}
+        - {x: -56.5, y: -91}
+        - {x: -0.5, y: -101}
+        - {x: 36.5, y: -101}
+        - {x: 42.5, y: -94}
+        - {x: 56.5, y: 55}
+        - {x: 56.5, y: 101}
+    - name: genericItems_spritesheet_colored_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1770
+        width: 104
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 94}
+        - {x: 22, y: 94}
+        - {x: -52, y: -33}
+        - {x: -52, y: -94}
+        - {x: -20, y: -94}
+        - {x: 13, y: -65}
+        - {x: 34, y: 5}
+        - {x: 52, y: 67}
+        - {x: 52, y: 85}
+    - name: genericItems_spritesheet_colored_8
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1780
+        width: 177
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.5, y: 70}
+        - {x: 69.5, y: 71}
+        - {x: 78.5, y: 82}
+        - {x: 78.5, y: 90}
+        - {x: 4.5, y: 90}
+        - {x: 2.5, y: 86}
+        - {x: -40.5, y: 90}
+        - {x: -77.5, y: 90}
+        - {x: -88.5, y: 63}
+        - {x: -88.5, y: -87}
+        - {x: -87.5, y: -90}
+        - {x: -8.5, y: -90}
+        - {x: -8.5, y: -51}
+        - {x: 48.5, y: -14}
+        - {x: 88.5, y: 24}
+      - - {x: 77.5, y: -52}
+        - {x: 75.5, y: -54}
+        - {x: 57.5, y: -90}
+        - {x: 74.5, y: -90}
+        - {x: 88.5, y: -64}
+        - {x: 88.5, y: -57}
+        - {x: 80.5, y: -52}
+    - name: genericItems_spritesheet_colored_9
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1808
+        width: 66
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 53}
+        - {x: -29, y: 4}
+        - {x: -33, y: -20}
+        - {x: -33, y: -46}
+        - {x: -16, y: -54}
+        - {x: -4, y: -54}
+        - {x: 33, y: 28}
+        - {x: 33, y: 50}
+        - {x: 28, y: 53}
+      - - {x: -30, y: 54}
+        - {x: -30, y: 50}
+        - {x: -26, y: 49}
+        - {x: -13, y: 49}
+        - {x: -11, y: 53}
+        - {x: -11, y: 54}
+    - name: genericItems_spritesheet_colored_10
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1913
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 20}
+        - {x: -20, y: 3}
+        - {x: -20, y: -20}
+        - {x: -2, y: -20}
+        - {x: 20, y: 1}
+        - {x: 20, y: 20}
+    - name: genericItems_spritesheet_colored_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1680
+        width: 86
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 68}
+        - {x: -43, y: -49}
+        - {x: -43, y: -68}
+        - {x: 24, y: -68}
+        - {x: 43, y: -29}
+        - {x: 43, y: 68}
+    - name: genericItems_spritesheet_colored_12
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1755
+        width: 70
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 59.5}
+        - {x: 1, y: 32.5}
+        - {x: -35, y: -20.5}
+        - {x: -35, y: -55.5}
+        - {x: -30, y: -59.5}
+        - {x: -2, y: -59.5}
+        - {x: 35, y: -5.5}
+        - {x: 35, y: 48.5}
+        - {x: 34, y: 56.5}
+        - {x: 29, y: 59.5}
+    - name: genericItems_spritesheet_colored_13
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1808
+        width: 70
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 52.5}
+        - {x: -18, y: 49.5}
+        - {x: -35, y: 3.5}
+        - {x: -35, y: -52.5}
+        - {x: 25, y: -52.5}
+        - {x: 35, y: -47.5}
+        - {x: 35, y: 52.5}
+    - name: genericItems_spritesheet_colored_14
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1516
+        width: 121
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 105}
+        - {x: -51.5, y: 100}
+        - {x: -60.5, y: 8}
+        - {x: -60.5, y: -105}
+        - {x: 31.5, y: -105}
+        - {x: 60.5, y: -51}
+        - {x: 60.5, y: 105}
+      - - {x: -55.5, y: 93}
+        - {x: -60.5, y: 93}
+        - {x: -60.5, y: 77}
+        - {x: -53.5, y: 77}
+        - {x: -51.5, y: 78}
+        - {x: -51.5, y: 91}
+    - name: genericItems_spritesheet_colored_15
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1612
+        width: 100
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 79}
+        - {x: -45, y: -29}
+        - {x: -50, y: -50}
+        - {x: -50, y: -79}
+        - {x: -25, y: -79}
+        - {x: 50, y: 27}
+        - {x: 50, y: 79}
+    - name: genericItems_spritesheet_colored_16
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1642
+        width: 94
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 64}
+        - {x: -37, y: 20}
+        - {x: -47, y: -42}
+        - {x: -47, y: -64}
+        - {x: 6, y: -64}
+        - {x: 47, y: -40}
+        - {x: 47, y: 64}
+    - name: genericItems_spritesheet_colored_17
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1683
+        width: 132
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: -34}
+        - {x: 10, y: -36}
+        - {x: 66, y: -36}
+        - {x: 66, y: 0}
+        - {x: 57, y: 35}
+        - {x: 50, y: 36}
+        - {x: -53, y: 36}
+        - {x: -66, y: 34}
+        - {x: -66, y: -7}
+        - {x: -63, y: -32}
+        - {x: -62, y: -36}
+        - {x: -18, y: -36}
+        - {x: -17, y: -35}
+        - {x: -2, y: -26}
+        - {x: 8, y: -2}
+    - name: genericItems_spritesheet_colored_18
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1720
+        width: 58
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 44}
+        - {x: -29, y: 16}
+        - {x: -29, y: -40}
+        - {x: -25, y: -44}
+        - {x: 23, y: -44}
+        - {x: 29, y: 2}
+        - {x: 29, y: 44}
+    - name: genericItems_spritesheet_colored_19
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1551
+        width: 74
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 65.5}
+        - {x: -22, y: 29.5}
+        - {x: -37, y: -36.5}
+        - {x: -37, y: -61.5}
+        - {x: -29, y: -65.5}
+        - {x: -13, y: -65.5}
+        - {x: 9, y: -30.5}
+        - {x: 37, y: 41.5}
+        - {x: 37, y: 65.5}
+    - name: genericItems_spritesheet_colored_20
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1601
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 44.5}
+        - {x: -31, y: -39.5}
+        - {x: -29, y: -44.5}
+        - {x: 21, y: -44.5}
+        - {x: 27, y: -38.5}
+        - {x: 31, y: 2.5}
+        - {x: 31, y: 44.5}
+    - name: genericItems_spritesheet_colored_21
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1655
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 32.5}
+        - {x: -28.5, y: 5.5}
+        - {x: -28.5, y: -32.5}
+        - {x: -0.5, y: -32.5}
+        - {x: 28.5, y: 4.5}
+        - {x: 28.5, y: 32.5}
+    - name: genericItems_spritesheet_colored_22
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1287
+        width: 221
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.5, y: 70.5}
+        - {x: 110.5, y: 91.5}
+        - {x: 110.5, y: 130.5}
+        - {x: 95.5, y: 141.5}
+        - {x: 61.5, y: 152.5}
+        - {x: 26.5, y: 152.5}
+        - {x: 14.5, y: 118.5}
+        - {x: -110.5, y: 66.5}
+        - {x: -110.5, y: -152.5}
+        - {x: 67.5, y: -152.5}
+        - {x: 110.5, y: -94.5}
+        - {x: 110.5, y: -63.5}
+        - {x: 59.5, y: -22.5}
+      - - {x: 105.5, y: -152.5}
+        - {x: 110.5, y: -152.5}
+        - {x: 110.5, y: -142.5}
+        - {x: 107.5, y: -143.5}
+      - - {x: -110.5, y: 113.5}
+        - {x: -110.5, y: 80.5}
+        - {x: -101.5, y: 74.5}
+        - {x: -77.5, y: 74.5}
+        - {x: 6.5, y: 122.5}
+        - {x: 6.5, y: 132.5}
+        - {x: -11.5, y: 152.5}
+        - {x: -39.5, y: 152.5}
+        - {x: -107.5, y: 126.5}
+    - name: genericItems_spritesheet_colored_23
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1514
+        width: 95
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 49}
+        - {x: -47.5, y: 27}
+        - {x: -47.5, y: 4}
+        - {x: -35.5, y: -49}
+        - {x: -5.5, y: -49}
+        - {x: 37.5, y: -43}
+        - {x: 45.5, y: -40}
+        - {x: 47.5, y: -1}
+        - {x: 47.5, y: 49}
+      - - {x: -47.5, y: -3}
+        - {x: -44.5, y: -2}
+        - {x: -44.5, y: 2}
+        - {x: -46.5, y: 4}
+        - {x: -47.5, y: 4}
+    - name: genericItems_spritesheet_colored_24
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1542
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 50}
+        - {x: -10.5, y: 50}
+        - {x: -42.5, y: 10}
+        - {x: -42.5, y: -50}
+        - {x: 19.5, y: -50}
+        - {x: 42.5, y: -49}
+        - {x: 42.5, y: 7}
+        - {x: 23.5, y: 45}
+    - name: genericItems_spritesheet_colored_25
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1587
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -25, y: 27}
+        - {x: -26, y: 18}
+        - {x: -26, y: -34}
+        - {x: -7, y: -34}
+        - {x: 26, y: -6}
+        - {x: 26, y: 23}
+        - {x: 9, y: 34}
+    - name: genericItems_spritesheet_colored_26
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1513
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 37.5}
+        - {x: -21, y: -3.5}
+        - {x: -21, y: -37.5}
+        - {x: 8, y: -37.5}
+        - {x: 21, y: 10.5}
+        - {x: 21, y: 37.5}
+    - name: genericItems_spritesheet_colored_27
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1551
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 18}
+        - {x: -19, y: -11}
+        - {x: -14, y: -18}
+        - {x: 15, y: -18}
+        - {x: 19, y: -17}
+        - {x: 19, y: 14}
+        - {x: 17, y: 18}
+    - name: genericItems_spritesheet_colored_28
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1477
+        width: 35
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 9}
+        - {x: 15.5, y: 11}
+        - {x: 15.5, y: 55}
+        - {x: -13.5, y: 55}
+        - {x: -17.5, y: 34}
+        - {x: -17.5, y: -54}
+        - {x: -13.5, y: -55}
+        - {x: 17.5, y: -55}
+        - {x: 17.5, y: 9}
+    - name: genericItems_spritesheet_colored_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1312
+        width: 152
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -19}
+        - {x: 71, y: 9}
+        - {x: 76, y: 25}
+        - {x: 76, y: 76}
+        - {x: 73, y: 79}
+        - {x: 68, y: 102}
+        - {x: -75, y: 102}
+        - {x: -76, y: 101}
+        - {x: -76, y: 80}
+        - {x: -66, y: 75}
+        - {x: -63, y: 77}
+        - {x: -53, y: 83}
+        - {x: -43, y: 78}
+        - {x: -53, y: 81}
+        - {x: -59, y: 79}
+        - {x: -76, y: 67}
+        - {x: -76, y: -46}
+        - {x: -53, y: -102}
+        - {x: 50, y: -102}
+        - {x: 53, y: -101}
+        - {x: 76, y: -62}
+        - {x: 76, y: -39}
+        - {x: 57, y: -15}
+    - name: genericItems_spritesheet_colored_30
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1425
+        width: 91
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 44.5}
+        - {x: -45.5, y: -4.5}
+        - {x: -45.5, y: -15.5}
+        - {x: -16.5, y: -44.5}
+        - {x: -2.5, y: -44.5}
+        - {x: 45.5, y: 3.5}
+        - {x: 45.5, y: 18.5}
+        - {x: 19.5, y: 44.5}
+    - name: genericItems_spritesheet_colored_31
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1266
+        width: 87
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 124}
+        - {x: -43.5, y: 54}
+        - {x: -43.5, y: -112}
+        - {x: -40.5, y: -124}
+        - {x: 43.5, y: -124}
+        - {x: 43.5, y: 124}
+      - - {x: 40.5, y: -119}
+        - {x: 42.5, y: -121}
+        - {x: 43.5, y: -121}
+        - {x: 43.5, y: -114}
+        - {x: 40.5, y: -115}
+    - name: genericItems_spritesheet_colored_32
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1435
+        width: 74
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 53.5}
+        - {x: 3, y: 53.5}
+        - {x: -37, y: -42.5}
+        - {x: -37, y: -52.5}
+        - {x: -34, y: -53.5}
+        - {x: -21, y: -53.5}
+        - {x: 30, y: 3.5}
+        - {x: 37, y: 19.5}
+        - {x: 37, y: 41.5}
+    - name: genericItems_spritesheet_colored_33
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1352
+        width: 68
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 99.5}
+        - {x: -34, y: 99.5}
+        - {x: -34, y: -99.5}
+        - {x: -26, y: -99.5}
+        - {x: -18, y: -93.5}
+        - {x: 34, y: -38.5}
+        - {x: 34, y: 64.5}
+      - - {x: 31, y: -84.5}
+        - {x: 33, y: -86.5}
+        - {x: 34, y: -86.5}
+        - {x: 34, y: -72.5}
+        - {x: 31, y: -73.5}
+    - name: genericItems_spritesheet_colored_34
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1362
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 5.5}
+        - {x: 11, y: -33.5}
+        - {x: 11, y: -40.5}
+        - {x: 12, y: -46.5}
+        - {x: 18, y: -57.5}
+        - {x: 30, y: -57.5}
+        - {x: 32, y: -49.5}
+        - {x: 32, y: 51.5}
+        - {x: 29, y: 57.5}
+        - {x: 18, y: 57.5}
+        - {x: 13, y: 53.5}
+        - {x: 1, y: 43.5}
+        - {x: -32, y: 13.5}
+        - {x: -32, y: -55.5}
+        - {x: -30, y: -57.5}
+        - {x: 9, y: -57.5}
+        - {x: 10, y: -46.5}
+        - {x: 12, y: -12.5}
+      - - {x: -32, y: 44.5}
+        - {x: -29, y: 45.5}
+        - {x: -29, y: 51.5}
+        - {x: -31, y: 53.5}
+        - {x: -32, y: 53.5}
+    - name: genericItems_spritesheet_colored_35
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1264
+        width: 96
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 75}
+        - {x: 45, y: 76}
+        - {x: 23, y: 76}
+        - {x: -42, y: 14}
+        - {x: -48, y: -12}
+        - {x: -48, y: -76}
+        - {x: -12, y: -76}
+        - {x: 8, y: -63}
+        - {x: 25, y: -18}
+        - {x: 31, y: 7}
+        - {x: 48, y: 60}
+      - - {x: -48, y: 7}
+        - {x: -45, y: 8}
+        - {x: -45, y: 12}
+        - {x: -47, y: 14}
+        - {x: -48, y: 14}
+      - - {x: -48, y: 18}
+        - {x: -45, y: 19}
+        - {x: -45, y: 22}
+        - {x: -47, y: 24}
+        - {x: -48, y: 24}
+    - name: genericItems_spritesheet_colored_36
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1370
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32.5}
+        - {x: -36, y: 29.5}
+        - {x: -36, y: -31.5}
+        - {x: -35, y: -32.5}
+        - {x: 34, y: -32.5}
+        - {x: 36, y: -26.5}
+        - {x: 36, y: 32.5}
+    - name: genericItems_spritesheet_colored_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1272
+        width: 152
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 20}
+        - {x: -59, y: 19}
+        - {x: -74, y: 3}
+        - {x: -76, y: -7}
+        - {x: -76, y: -20}
+        - {x: 62, y: -20}
+        - {x: 76, y: -3}
+        - {x: 76, y: 14}
+        - {x: 70, y: 20}
+    - name: genericItems_spritesheet_colored_38
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1208
+        width: 105
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.5, y: 39.5}
+        - {x: -52.5, y: 17.5}
+        - {x: -52.5, y: -37.5}
+        - {x: -51.5, y: -39.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 52.5, y: -21.5}
+        - {x: 52.5, y: 34.5}
+        - {x: 46.5, y: 39.5}
+    - name: genericItems_spritesheet_colored_39
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1256
+        width: 82
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 48}
+        - {x: -29, y: 48}
+        - {x: -41, y: -11}
+        - {x: -41, y: -38}
+        - {x: 10, y: -48}
+        - {x: 24, y: -48}
+        - {x: 41, y: 3}
+        - {x: 41, y: 38}
+        - {x: 38, y: 44}
+    - name: genericItems_spritesheet_colored_40
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1236
+        width: 59
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 58}
+        - {x: -29.5, y: 37}
+        - {x: -29.5, y: -58}
+        - {x: -18.5, y: -58}
+        - {x: 29.5, y: 6}
+        - {x: 29.5, y: 58}
+    - name: genericItems_spritesheet_colored_41
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1138
+        width: 50
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 107}
+        - {x: -25, y: 107}
+        - {x: -25, y: -107}
+        - {x: -8, y: -107}
+        - {x: 18, y: -88}
+        - {x: 25, y: -59}
+        - {x: 25, y: 58}
+    - name: genericItems_spritesheet_colored_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1168
+        width: 146
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 52}
+        - {x: -73, y: 28}
+        - {x: -73, y: -11}
+        - {x: -55, y: -52}
+        - {x: 26, y: -52}
+        - {x: 43, y: -49}
+        - {x: 73, y: -9}
+        - {x: 73, y: 33}
+        - {x: 38, y: 52}
+    - name: genericItems_spritesheet_colored_43
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1055
+        width: 218
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 76.5}
+        - {x: 20, y: 76.5}
+        - {x: -98, y: 33.5}
+        - {x: -109, y: 27.5}
+        - {x: -109, y: -73.5}
+        - {x: -108, y: -76.5}
+        - {x: 11, y: -76.5}
+        - {x: 75, y: -61.5}
+        - {x: 91, y: -53.5}
+        - {x: 109, y: 49.5}
+        - {x: 109, y: 71.5}
+      - - {x: -109, y: 76.5}
+        - {x: -109, y: 50.5}
+        - {x: -90, y: 42.5}
+        - {x: -10, y: 42.5}
+        - {x: 6, y: 58.5}
+        - {x: 6, y: 76.5}
+    - name: genericItems_spritesheet_colored_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1176
+        width: 116
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 48}
+        - {x: -58, y: -48}
+        - {x: 58, y: -48}
+        - {x: 58, y: 28}
+        - {x: 41, y: 48}
+    - name: genericItems_spritesheet_colored_45
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1084
+        width: 98
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 90}
+        - {x: -49, y: -88}
+        - {x: -29, y: -90}
+        - {x: 44, y: -90}
+        - {x: 49, y: -66}
+        - {x: 49, y: 51}
+        - {x: 2, y: 90}
+      - - {x: 10, y: 90}
+        - {x: 10, y: 81}
+        - {x: 20, y: 51}
+        - {x: 30, y: 44}
+        - {x: 38, y: 44}
+        - {x: 38, y: 60}
+        - {x: 24, y: 90}
+      - - {x: -49, y: 90}
+        - {x: -49, y: 60}
+        - {x: -45, y: 60}
+        - {x: -43, y: 68}
+        - {x: -43, y: 85}
+        - {x: -45, y: 90}
+    - name: genericItems_spritesheet_colored_46
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1086
+        width: 84
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: -71}
+        - {x: -42, y: -71}
+        - {x: -42, y: -89}
+        - {x: -38, y: -89}
+        - {x: -38, y: -72}
+      - - {x: 21, y: -83}
+        - {x: 37, y: -69}
+        - {x: 42, y: -64}
+        - {x: 42, y: 72}
+        - {x: 30, y: 89}
+        - {x: -28, y: 89}
+        - {x: -42, y: 67}
+        - {x: -42, y: -74}
+        - {x: -31, y: -89}
+        - {x: 40, y: -89}
+        - {x: 39, y: -88}
+        - {x: 35, y: -85}
+        - {x: 24, y: -85}
+    - name: genericItems_spritesheet_colored_47
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1106
+        width: 59
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 65}
+        - {x: -29.5, y: 1}
+        - {x: -29.5, y: -65}
+        - {x: -15.5, y: -65}
+        - {x: 24.5, y: -9}
+        - {x: 29.5, y: 46}
+        - {x: 29.5, y: 65}
+    - name: genericItems_spritesheet_colored_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 145
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 74}
+        - {x: -72.5, y: -10}
+        - {x: -72.5, y: -25}
+        - {x: -6.5, y: -74}
+        - {x: 7.5, y: -74}
+        - {x: 13.5, y: -70}
+        - {x: 72.5, y: 2}
+        - {x: 72.5, y: 41}
+        - {x: 41.5, y: 74}
+      - - {x: 70.5, y: -74}
+        - {x: 69.5, y: -71}
+        - {x: 57.5, y: -71}
+        - {x: 56.5, y: -74}
+    - name: genericItems_spritesheet_colored_49
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 862
+        width: 318
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -154, y: -39}
+        - {x: -159, y: -60}
+        - {x: -159, y: -98}
+        - {x: -154, y: -111}
+        - {x: -42, y: -111}
+        - {x: -42, y: -39}
+      - - {x: 159, y: 69}
+        - {x: 146, y: 111}
+        - {x: 76, y: 111}
+        - {x: 40, y: 92}
+        - {x: -78, y: 50}
+        - {x: -80, y: 48}
+        - {x: -79, y: 39}
+        - {x: -82, y: 52}
+        - {x: -151, y: 52}
+        - {x: -159, y: 42}
+        - {x: -159, y: -1}
+        - {x: -151, y: -41}
+        - {x: -148, y: -43}
+        - {x: -138, y: -45}
+        - {x: -135, y: -34}
+        - {x: -138, y: -26}
+        - {x: -139, y: -17}
+        - {x: -140, y: -9}
+        - {x: -137, y: -27}
+        - {x: -132, y: -31}
+        - {x: -122, y: -31}
+        - {x: -117, y: -25}
+        - {x: -105, y: -27}
+        - {x: -95, y: -28}
+        - {x: -90, y: -21}
+        - {x: -85, y: -31}
+        - {x: -63, y: -46}
+        - {x: -41, y: -43}
+        - {x: -39, y: -41}
+        - {x: -49, y: -90}
+        - {x: -33, y: -106}
+        - {x: 3, y: -111}
+        - {x: 23, y: -111}
+        - {x: 65, y: -67}
+        - {x: 72, y: -25}
+        - {x: 159, y: 28}
+      - - {x: 133, y: -72}
+        - {x: 139, y: -70}
+        - {x: 159, y: -35}
+        - {x: 159, y: -18}
+        - {x: 150, y: -18}
+        - {x: 72, y: -61}
+        - {x: 62, y: -84}
+        - {x: 62, y: -93}
+        - {x: 76, y: -106}
+        - {x: 81, y: -106}
+        - {x: 110, y: -74}
+        - {x: 110, y: -73}
+        - {x: 106, y: -68}
+      - - {x: 114, y: 22}
+        - {x: 108, y: 17}
+        - {x: 98, y: 31}
+        - {x: 74, y: 40}
+        - {x: 63, y: 40}
+        - {x: 63, y: -1}
+        - {x: 87, y: -20}
+        - {x: 139, y: -20}
+        - {x: 141, y: -6}
+        - {x: 141, y: 9}
+        - {x: 135, y: 19}
+      - - {x: -159, y: 111}
+        - {x: -159, y: 56}
+        - {x: -110, y: 56}
+        - {x: -56, y: 82}
+        - {x: -56, y: 111}
+      - - {x: 14, y: 98}
+        - {x: 32, y: 98}
+        - {x: 41, y: 102}
+        - {x: 41, y: 111}
+        - {x: -9, y: 111}
+        - {x: -8, y: 108}
+    - name: genericItems_spritesheet_colored_50
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 980
+        width: 60
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 56}
+        - {x: -30, y: -32}
+        - {x: -30, y: -56}
+        - {x: 30, y: -56}
+        - {x: 30, y: -37}
+        - {x: 14, y: 55}
+        - {x: 11, y: 56}
+    - name: genericItems_spritesheet_colored_51
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1047
+        width: 49
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 45.5}
+        - {x: -24.5, y: 2.5}
+        - {x: -24.5, y: -43.5}
+        - {x: -23.5, y: -45.5}
+        - {x: -7.5, y: -45.5}
+        - {x: 24.5, y: 5.5}
+        - {x: 24.5, y: 45.5}
+    - name: genericItems_spritesheet_colored_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 885
+        width: 143
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: 68}
+        - {x: -71.5, y: -21}
+        - {x: -71.5, y: -53}
+        - {x: -26.5, y: -68}
+        - {x: 31.5, y: -68}
+        - {x: 71.5, y: -22}
+        - {x: 71.5, y: 68}
+    - name: genericItems_spritesheet_colored_53
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 985
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 31}
+        - {x: -15, y: 31}
+        - {x: -22, y: 22}
+        - {x: -24, y: 11}
+        - {x: -24, y: -31}
+        - {x: -6, y: -31}
+        - {x: 12, y: -14}
+        - {x: 24, y: 1}
+        - {x: 24, y: 27}
+    - name: genericItems_spritesheet_colored_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 817
+        width: 141
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 34}
+        - {x: -70.5, y: -11}
+        - {x: -70.5, y: -28}
+        - {x: -48.5, y: -33}
+        - {x: -26.5, y: -34}
+        - {x: 51.5, y: -34}
+        - {x: 70.5, y: 0}
+        - {x: 70.5, y: 27}
+        - {x: 67.5, y: 34}
+    - name: genericItems_spritesheet_colored_55
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 822
+        width: 118
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 55}
+        - {x: -44, y: 55}
+        - {x: -59, y: 46}
+        - {x: -59, y: -17}
+        - {x: -48, y: -55}
+        - {x: -5, y: -55}
+        - {x: 59, y: -46}
+        - {x: 59, y: -10}
+        - {x: 53, y: 43}
+    - name: genericItems_spritesheet_colored_56
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 869
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: 42}
+        - {x: -30, y: 10}
+        - {x: -48, y: -19}
+        - {x: -48, y: -36}
+        - {x: -40, y: -42}
+        - {x: -9, y: -42}
+        - {x: 31, y: -20}
+        - {x: 48, y: 24}
+        - {x: 48, y: 42}
+    - name: genericItems_spritesheet_colored_57
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 776
+        width: 88
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 70}
+        - {x: -20, y: 70}
+        - {x: -44, y: 6}
+        - {x: -44, y: -70}
+        - {x: -21, y: -70}
+        - {x: -6, y: -57}
+        - {x: 44, y: 24}
+        - {x: 44, y: 64}
+        - {x: 41, y: 66}
+    - name: genericItems_spritesheet_colored_58
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 879
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 47}
+        - {x: -30, y: 19}
+        - {x: -30, y: -47}
+        - {x: 21, y: -47}
+        - {x: 30, y: -38}
+        - {x: 30, y: 45}
+        - {x: 17, y: 47}
+    - name: genericItems_spritesheet_colored_59
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 870
+        width: 58
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 55}
+        - {x: -10, y: 48}
+        - {x: -29, y: -16}
+        - {x: -29, y: -50}
+        - {x: -8, y: -55}
+        - {x: 5, y: -55}
+        - {x: 29, y: -34}
+        - {x: 29, y: 55}
+    - name: genericItems_spritesheet_colored_60
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 824
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 19}
+        - {x: -7.5, y: 19}
+        - {x: -23.5, y: 9}
+        - {x: -25.5, y: -1}
+        - {x: -25.5, y: -19}
+        - {x: 9.5, y: -19}
+        - {x: 25.5, y: -6}
+        - {x: 25.5, y: 18}
+    - name: genericItems_spritesheet_colored_61
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 822
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 20}
+        - {x: -20, y: -2}
+        - {x: -20, y: -17}
+        - {x: -17, y: -20}
+        - {x: -2, y: -20}
+        - {x: 20, y: 2}
+        - {x: 20, y: 17}
+        - {x: 17, y: 20}
+    - name: genericItems_spritesheet_colored_62
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 734
+        width: 98
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 12}
+        - {x: 20, y: 9}
+        - {x: 18, y: -1}
+        - {x: -11, y: -24}
+        - {x: -13, y: -32}
+        - {x: -23, y: -28}
+        - {x: 9, y: -8}
+        - {x: 6, y: -3}
+        - {x: 29, y: 18}
+        - {x: 35, y: 41}
+        - {x: 16, y: 59}
+        - {x: 4, y: 59}
+        - {x: 1, y: 56}
+        - {x: 0, y: 52}
+        - {x: 1, y: 55}
+        - {x: 2, y: 59}
+        - {x: 2, y: 63}
+        - {x: -2, y: 64}
+        - {x: -39, y: 64}
+        - {x: -49, y: 55}
+        - {x: -49, y: -53}
+        - {x: -38, y: -64}
+        - {x: 12, y: -64}
+        - {x: 49, y: -22}
+        - {x: 49, y: 11}
+        - {x: 48, y: 14}
+    - name: genericItems_spritesheet_colored_63
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 670
+        width: 139
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: -26.5}
+        - {x: -61.5, y: -79.5}
+        - {x: -61.5, y: -101.5}
+        - {x: -2.5, y: -101.5}
+        - {x: 9.5, y: -66.5}
+        - {x: 9.5, y: -26.5}
+      - - {x: -37.5, y: 101.5}
+        - {x: -69.5, y: 40.5}
+        - {x: -69.5, y: -16.5}
+        - {x: -64.5, y: -28.5}
+        - {x: -60.5, y: -31.5}
+        - {x: -50.5, y: -30.5}
+        - {x: 2.5, y: -18.5}
+        - {x: 7.5, y: -3.5}
+        - {x: 4.5, y: -34.5}
+        - {x: 2.5, y: -101.5}
+        - {x: 69.5, y: -101.5}
+        - {x: 69.5, y: 101.5}
+      - - {x: 66.5, y: 37.5}
+        - {x: 68.5, y: 35.5}
+        - {x: 69.5, y: 35.5}
+        - {x: 69.5, y: 42.5}
+        - {x: 66.5, y: 41.5}
+    - name: genericItems_spritesheet_colored_64
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 791
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 39.5}
+        - {x: 7, y: 39.5}
+        - {x: -4, y: 33.5}
+        - {x: -29, y: -8.5}
+        - {x: -29, y: -31.5}
+        - {x: -26, y: -39.5}
+        - {x: 1, y: -39.5}
+        - {x: 28, y: -0.5}
+        - {x: 29, y: 10.5}
+        - {x: 29, y: 36.5}
+      - - {x: 25, y: -32.5}
+        - {x: 25, y: -35.5}
+        - {x: 27, y: -37.5}
+        - {x: 29, y: -37.5}
+        - {x: 29, y: -29.5}
+        - {x: 28, y: -29.5}
+    - name: genericItems_spritesheet_colored_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 136
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68, y: 64.5}
+        - {x: -68, y: -53.5}
+        - {x: -24, y: -64.5}
+        - {x: 68, y: -64.5}
+        - {x: 68, y: 64.5}
+    - name: genericItems_spritesheet_colored_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 707
+        width: 120
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 55}
+        - {x: -15, y: 44}
+        - {x: -39, y: 45}
+        - {x: -46, y: 43}
+        - {x: -47, y: 28}
+        - {x: -41, y: 25}
+        - {x: -60, y: -29}
+        - {x: -60, y: -39}
+        - {x: -45, y: -55}
+        - {x: 1, y: -55}
+        - {x: 60, y: 16}
+        - {x: 60, y: 55}
+    - name: genericItems_spritesheet_colored_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 717
+        width: 108
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 52.5}
+        - {x: -54, y: 5.5}
+        - {x: -54, y: -45.5}
+        - {x: -41, y: -52.5}
+        - {x: -23, y: -52.5}
+        - {x: 54, y: 30.5}
+        - {x: 54, y: 52.5}
+    - name: genericItems_spritesheet_colored_68
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 606
+        width: 90
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 64}
+        - {x: -16, y: 64}
+        - {x: -45, y: 53}
+        - {x: -45, y: -2}
+        - {x: -30, y: -64}
+        - {x: 31, y: -64}
+        - {x: 45, y: -58}
+        - {x: 45, y: 19}
+        - {x: 40, y: 58}
+    - name: genericItems_spritesheet_colored_69
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 639
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 52}
+        - {x: -14, y: 38}
+        - {x: -8, y: 26}
+        - {x: -38, y: -28}
+        - {x: -38, y: -39}
+        - {x: -22, y: -46}
+        - {x: -19, y: -47}
+        - {x: -11, y: -35}
+        - {x: 0, y: -51}
+        - {x: 2, y: -52}
+        - {x: 25, y: -52}
+        - {x: 38, y: 5}
+        - {x: 38, y: 50}
+        - {x: 37, y: 52}
+    - name: genericItems_spritesheet_colored_70
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 579
+        width: 53
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 106}
+        - {x: -26.5, y: 99}
+        - {x: -26.5, y: -106}
+        - {x: 11.5, y: -106}
+        - {x: 26.5, y: -60}
+        - {x: 26.5, y: 106}
+    - name: genericItems_spritesheet_colored_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 566
+        width: 134
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 61}
+        - {x: -67, y: 56}
+        - {x: -67, y: 11}
+        - {x: -55, y: -43}
+        - {x: -29, y: -61}
+        - {x: 36, y: -61}
+        - {x: 67, y: -56}
+        - {x: 67, y: -1}
+        - {x: 56, y: 61}
+    - name: genericItems_spritesheet_colored_72
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 534
+        width: 123
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 77}
+        - {x: -25.5, y: 77}
+        - {x: -61.5, y: 71}
+        - {x: -61.5, y: -34}
+        - {x: -60.5, y: -69}
+        - {x: -45.5, y: -77}
+        - {x: -34.5, y: -77}
+        - {x: -24.5, y: -50}
+        - {x: 61.5, y: 19}
+        - {x: 61.5, y: 37}
+    - name: genericItems_spritesheet_colored_73
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 536
+        width: 106
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 90.5}
+        - {x: -53, y: 73.5}
+        - {x: -53, y: -14.5}
+        - {x: -31, y: -24.5}
+        - {x: -10, y: -25.5}
+        - {x: -7, y: -15.5}
+        - {x: -4, y: 47.5}
+        - {x: -6, y: -24.5}
+        - {x: 9, y: -32.5}
+        - {x: -31, y: -24.5}
+        - {x: -36, y: -24.5}
+        - {x: -51, y: -33.5}
+        - {x: -53, y: -52.5}
+        - {x: -53, y: -88.5}
+        - {x: -48, y: -90.5}
+        - {x: 53, y: -90.5}
+        - {x: 53, y: 73.5}
+        - {x: 41, y: 90.5}
+    - name: genericItems_spritesheet_colored_74
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 589
+        width: 98
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: 64}
+        - {x: -47, y: 64}
+        - {x: -49, y: 9}
+        - {x: -49, y: -64}
+        - {x: 21, y: -64}
+        - {x: 48, y: -49}
+        - {x: 49, y: -12}
+        - {x: 49, y: 56}
+    - name: genericItems_spritesheet_colored_75
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 482
+        width: 163
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: 78.5}
+        - {x: 6.5, y: 32.5}
+        - {x: 10.5, y: 77.5}
+        - {x: 7.5, y: 78.5}
+        - {x: -74.5, y: 78.5}
+        - {x: -71.5, y: 49.5}
+        - {x: -64.5, y: 42.5}
+        - {x: -56.5, y: 43.5}
+        - {x: -70.5, y: 39.5}
+        - {x: -80.5, y: -6.5}
+        - {x: -81.5, y: -32.5}
+        - {x: -81.5, y: -72.5}
+        - {x: -73.5, y: -78.5}
+        - {x: 16.5, y: -78.5}
+        - {x: 81.5, y: -5.5}
+        - {x: 81.5, y: 69.5}
+        - {x: 63.5, y: 78.5}
+      - - {x: 43.5, y: -5.5}
+        - {x: 33.5, y: -5.5}
+        - {x: 12.5, y: -54.5}
+        - {x: 12.5, y: -70.5}
+        - {x: 15.5, y: -78.5}
+        - {x: 53.5, y: -78.5}
+        - {x: 79.5, y: -40.5}
+        - {x: 81.5, y: -36.5}
+        - {x: 81.5, y: -21.5}
+    - name: genericItems_spritesheet_colored_76
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 146
+        width: 127
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: -168.5}
+        - {x: -53.5, y: -183.5}
+        - {x: -63.5, y: -227.5}
+        - {x: -63.5, y: -246.5}
+        - {x: 0.5, y: -246.5}
+        - {x: 5.5, y: -232.5}
+        - {x: 5.5, y: -168.5}
+      - - {x: -52.5, y: 246.5}
+        - {x: -40.5, y: 190.5}
+        - {x: -38.5, y: 188.5}
+        - {x: -46.5, y: 191.5}
+        - {x: -63.5, y: 196.5}
+        - {x: -63.5, y: -219.5}
+        - {x: -45.5, y: -246.5}
+        - {x: 16.5, y: -246.5}
+        - {x: 31.5, y: -241.5}
+        - {x: 34.5, y: -236.5}
+        - {x: 34.5, y: -233.5}
+        - {x: 35.5, y: -232.5}
+        - {x: 35.5, y: -222.5}
+        - {x: 34.5, y: -221.5}
+        - {x: 34.5, y: -165.5}
+        - {x: 38.5, y: -159.5}
+        - {x: 35.5, y: -170.5}
+        - {x: 34.5, y: -178.5}
+        - {x: 37.5, y: -185.5}
+        - {x: 35.5, y: -229.5}
+        - {x: 35.5, y: -233.5}
+        - {x: 34.5, y: -234.5}
+        - {x: 34.5, y: -236.5}
+        - {x: 38.5, y: -245.5}
+        - {x: 41.5, y: -246.5}
+        - {x: 63.5, y: -246.5}
+        - {x: 63.5, y: 229.5}
+        - {x: 43.5, y: 246.5}
+      - - {x: -59.5, y: -82.5}
+        - {x: -63.5, y: -119.5}
+        - {x: -63.5, y: -163.5}
+        - {x: -34.5, y: -168.5}
+        - {x: -15.5, y: -168.5}
+        - {x: -2.5, y: -144.5}
+        - {x: 3.5, y: -96.5}
+        - {x: 3.5, y: -82.5}
+      - - {x: 44.5, y: 188.5}
+        - {x: 37.5, y: 182.5}
+        - {x: 14.5, y: 156.5}
+        - {x: -1.5, y: 124.5}
+        - {x: -1.5, y: 111.5}
+        - {x: 0.5, y: 95.5}
+        - {x: 38.5, y: 95.5}
+        - {x: 52.5, y: 147.5}
+        - {x: 52.5, y: 188.5}
+    - name: genericItems_spritesheet_colored_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209
+        width: 134
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: -49.5}
+        - {x: 67, y: -8.5}
+        - {x: 67, y: 34.5}
+        - {x: 54, y: 69.5}
+        - {x: 67, y: 124.5}
+        - {x: 67, y: 143.5}
+        - {x: 40, y: 176.5}
+        - {x: 11, y: 178.5}
+        - {x: -34, y: 178.5}
+        - {x: -67, y: 107.5}
+        - {x: -67, y: -151.5}
+        - {x: -36, y: -178.5}
+        - {x: 32, y: -178.5}
+        - {x: 67, y: -155.5}
+        - {x: 67, y: -100.5}
+        - {x: 66, y: -95.5}
+      - - {x: 61, y: -58.5}
+        - {x: 61, y: -76.5}
+        - {x: 64, y: -84.5}
+        - {x: 67, y: -84.5}
+        - {x: 67, y: -58.5}
+      - - {x: 63, y: -35.5}
+        - {x: 65, y: -37.5}
+        - {x: 67, y: -37.5}
+        - {x: 67, y: -28.5}
+        - {x: 64, y: -29.5}
+      - - {x: 63, y: 56.5}
+        - {x: 63, y: 42.5}
+        - {x: 66, y: 41.5}
+        - {x: 67, y: 41.5}
+        - {x: 67, y: 58.5}
+        - {x: 66, y: 58.5}
+    - name: genericItems_spritesheet_colored_78
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 454
+        width: 112
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 40}
+        - {x: -54, y: 40}
+        - {x: -56, y: 36}
+        - {x: -56, y: -40}
+        - {x: 25, y: -40}
+        - {x: 56, y: -33}
+        - {x: 56, y: 38}
+        - {x: 51, y: 36}
+    - name: genericItems_spritesheet_colored_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 371
+        width: 207
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: -78}
+        - {x: -62.5, y: -72}
+        - {x: 2.5, y: -61}
+        - {x: 8.5, y: -102}
+        - {x: 21.5, y: -109}
+        - {x: 85.5, y: -109}
+        - {x: 103.5, y: -86}
+        - {x: 103.5, y: -42}
+        - {x: 59.5, y: -39}
+        - {x: 37.5, y: -43}
+        - {x: 37.5, y: -45}
+        - {x: 27.5, y: -45}
+        - {x: 33.5, y: -45}
+        - {x: 41.5, y: -37}
+        - {x: 44.5, y: -32}
+        - {x: 33.5, y: -25}
+        - {x: 53.5, y: -22}
+        - {x: 67.5, y: -7}
+        - {x: 103.5, y: 84}
+        - {x: 103.5, y: 105}
+        - {x: 92.5, y: 109}
+        - {x: 10.5, y: 109}
+        - {x: -103.5, y: 68}
+        - {x: -103.5, y: -109}
+        - {x: -14.5, y: -109}
+        - {x: 2.5, y: -80}
+        - {x: -14.5, y: -69}
+        - {x: -28.5, y: -67}
+      - - {x: 100.5, y: -109}
+        - {x: 103.5, y: -109}
+        - {x: 103.5, y: -104}
+        - {x: 100.5, y: -105}
+      - - {x: -5.5, y: 109}
+        - {x: -98.5, y: 109}
+        - {x: -101.5, y: 105}
+        - {x: -103.5, y: 88}
+        - {x: -103.5, y: 57}
+        - {x: -99.5, y: 54}
+        - {x: -24.5, y: 54}
+        - {x: -2.5, y: 57}
+        - {x: -2.5, y: 98}
+        - {x: -4.5, y: 105}
+    - name: genericItems_spritesheet_colored_80
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 440
+        width: 75
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 47.5}
+        - {x: 1.5, y: 56.5}
+        - {x: -11.5, y: 56.5}
+        - {x: -32.5, y: 2.5}
+        - {x: -37.5, y: -32.5}
+        - {x: -37.5, y: -55.5}
+        - {x: -33.5, y: -56.5}
+        - {x: -20.5, y: -56.5}
+        - {x: 18.5, y: -8.5}
+        - {x: 37.5, y: 30.5}
+        - {x: 37.5, y: 43.5}
+    - name: genericItems_spritesheet_colored_81
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 349
+        width: 124
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 37.5}
+        - {x: 58, y: 49.5}
+        - {x: -62, y: 49.5}
+        - {x: -62, y: -49.5}
+        - {x: -8, y: -49.5}
+        - {x: -7, y: -41.5}
+        - {x: 56, y: -29.5}
+        - {x: 62, y: -18.5}
+    - name: genericItems_spritesheet_colored_82
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 367
+        width: 96
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 35}
+        - {x: -48, y: 32}
+        - {x: -48, y: 7}
+        - {x: -45, y: -24}
+        - {x: -41, y: -24}
+        - {x: -24, y: -35}
+        - {x: -4, y: -35}
+        - {x: 48, y: -12}
+        - {x: 48, y: 32}
+        - {x: 36, y: 35}
+    - name: genericItems_spritesheet_colored_83
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 245
+        width: 185
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 96}
+        - {x: -92.5, y: 21}
+        - {x: -92.5, y: -96}
+        - {x: 12.5, y: -96}
+        - {x: 92.5, y: -65}
+        - {x: 92.5, y: 96}
+      - - {x: 55.5, y: -29}
+        - {x: 34.5, y: -29}
+        - {x: 12.5, y: -74}
+        - {x: 10.5, y: -96}
+        - {x: 79.5, y: -96}
+        - {x: 92.5, y: -81}
+        - {x: 92.5, y: -52}
+        - {x: 81.5, y: -39}
+      - - {x: -63.5, y: 96}
+        - {x: -92.5, y: 93}
+        - {x: -92.5, y: 49}
+        - {x: -91.5, y: 37}
+        - {x: -76.5, y: 24}
+        - {x: -54.5, y: 24}
+        - {x: 3.5, y: 49}
+        - {x: 3.5, y: 94}
+        - {x: -1.5, y: 96}
+    - name: genericItems_spritesheet_colored_84
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 118
+        width: 139
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.5, y: 29}
+        - {x: 19.5, y: 31}
+        - {x: 17.5, y: 26}
+        - {x: 15.5, y: 18}
+        - {x: 6.5, y: 151}
+        - {x: 4.5, y: 155}
+        - {x: -33.5, y: 161}
+        - {x: -62.5, y: 161}
+        - {x: -69.5, y: 151}
+        - {x: -69.5, y: -161}
+        - {x: -21.5, y: -161}
+        - {x: 64.5, y: -67}
+        - {x: 69.5, y: -30}
+        - {x: 69.5, y: 27}
+      - - {x: 44.5, y: -143}
+        - {x: 27.5, y: -143}
+        - {x: 26.5, y: -156}
+        - {x: 26.5, y: -161}
+        - {x: 61.5, y: -161}
+        - {x: 61.5, y: -155}
+        - {x: 60.5, y: -148}
+      - - {x: 62.5, y: -55}
+        - {x: 38.5, y: -55}
+        - {x: 13.5, y: -70}
+        - {x: -1.5, y: -120}
+        - {x: -1.5, y: -139}
+        - {x: -0.5, y: -147}
+        - {x: 25.5, y: -147}
+        - {x: 56.5, y: -137}
+        - {x: 69.5, y: -104}
+        - {x: 69.5, y: -56}
+      - - {x: 66.5, y: -36}
+        - {x: 68.5, y: -38}
+        - {x: 69.5, y: -38}
+        - {x: 69.5, y: -32}
+        - {x: 66.5, y: -33}
+      - - {x: 50.5, y: 161}
+        - {x: 47.5, y: 154}
+        - {x: 39.5, y: 161}
+        - {x: 1.5, y: 161}
+        - {x: 1.5, y: 32}
+        - {x: 17.5, y: 32}
+        - {x: 26.5, y: 48}
+        - {x: 69.5, y: 119}
+        - {x: 69.5, y: 161}
+    - name: genericItems_spritesheet_colored_85
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 212
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62, y: 63.5}
+        - {x: -62, y: -52.5}
+        - {x: -47, y: -63.5}
+        - {x: 62, y: -63.5}
+        - {x: 62, y: 63.5}
+    - name: genericItems_spritesheet_colored_86
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 244
+        width: 113
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 59}
+        - {x: -44.5, y: 42}
+        - {x: -56.5, y: 14}
+        - {x: -56.5, y: -35}
+        - {x: -51.5, y: -46}
+        - {x: -27.5, y: -59}
+        - {x: -10.5, y: -59}
+        - {x: 11.5, y: -51}
+        - {x: 56.5, y: 17}
+        - {x: 56.5, y: 54}
+        - {x: 49.5, y: 59}
+    - name: genericItems_spritesheet_colored_87
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 109
+        width: 189
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: -77.5}
+        - {x: 48.5, y: -18.5}
+        - {x: 94.5, y: 55.5}
+        - {x: 94.5, y: 85.5}
+        - {x: 68.5, y: 100.5}
+        - {x: -82.5, y: 100.5}
+        - {x: -94.5, y: 98.5}
+        - {x: -94.5, y: -97.5}
+        - {x: -93.5, y: -100.5}
+        - {x: -58.5, y: -100.5}
+        - {x: -28.5, y: -98.5}
+        - {x: -25.5, y: -96.5}
+        - {x: -10.5, y: -85.5}
+      - - {x: 73.5, y: -14.5}
+        - {x: 35.5, y: -43.5}
+        - {x: 16.5, y: -81.5}
+        - {x: 16.5, y: -92.5}
+        - {x: 22.5, y: -100.5}
+        - {x: 49.5, y: -100.5}
+        - {x: 94.5, y: -25.5}
+        - {x: 94.5, y: -14.5}
+    - name: genericItems_spritesheet_colored_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 129
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 77}
+        - {x: -64.5, y: 48}
+        - {x: -64.5, y: -77}
+        - {x: 23.5, y: -77}
+        - {x: 64.5, y: -43}
+        - {x: 64.5, y: 73}
+        - {x: 62.5, y: 77}
+    - name: genericItems_spritesheet_colored_89
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 15
+        width: 125
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 97}
+        - {x: 13.5, y: 97}
+        - {x: -38.5, y: 7}
+        - {x: -62.5, y: -80}
+        - {x: -62.5, y: -89}
+        - {x: -48.5, y: -97}
+        - {x: -37.5, y: -97}
+        - {x: 59.5, y: 51}
+        - {x: 62.5, y: 62}
+        - {x: 62.5, y: 74}
+    - name: genericItems_spritesheet_colored_90
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 8
+        width: 110
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 33}
+        - {x: 9, y: 33}
+        - {x: 8, y: 34}
+        - {x: 0, y: 34}
+        - {x: -3, y: 33}
+        - {x: -2, y: 25}
+        - {x: -1, y: 21}
+        - {x: -22, y: 18}
+        - {x: 0, y: 45}
+        - {x: 12, y: 33}
+        - {x: 14, y: 33}
+        - {x: 18, y: 36}
+        - {x: 43, y: 54}
+        - {x: 32, y: 73}
+        - {x: 2, y: 104}
+        - {x: -22, y: 118}
+        - {x: -33, y: 118}
+        - {x: -38, y: 111}
+        - {x: -53, y: 87}
+        - {x: -55, y: 80}
+        - {x: -55, y: -118}
+        - {x: 7, y: -118}
+        - {x: 55, y: -113}
+        - {x: 55, y: 29}
+        - {x: 48, y: 30}
+      - - {x: 52, y: -75}
+        - {x: 54, y: -77}
+        - {x: 55, y: -77}
+        - {x: 55, y: -72}
+        - {x: 53, y: -72}
+    - name: genericItems_spritesheet_colored_91
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 61
+        width: 92
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 66}
+        - {x: -46, y: -6}
+        - {x: -46, y: -66}
+        - {x: -26, y: -66}
+        - {x: 10, y: -34}
+        - {x: 46, y: 51}
+        - {x: 46, y: 66}
+    - name: genericItems_spritesheet_colored_92
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 134
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 44}
+        - {x: -21, y: 30}
+        - {x: -19, y: 17}
+        - {x: -35, y: -16}
+        - {x: -35, y: -41}
+        - {x: -34, y: -44}
+        - {x: -11, y: -44}
+        - {x: -9, y: -43}
+        - {x: 35, y: -3}
+        - {x: 35, y: 44}
+    - name: genericItems_spritesheet_colored_93
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 32
+        width: 68
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 52}
+        - {x: -34, y: 9}
+        - {x: -34, y: -52}
+        - {x: 16, y: -52}
+        - {x: 34, y: -22}
+        - {x: 34, y: 35}
+        - {x: 6, y: 52}
+      - - {x: -32, y: 52}
+        - {x: -32, y: 51}
+        - {x: -29, y: 48}
+        - {x: -11, y: 49}
+        - {x: -9, y: 51}
+        - {x: -9, y: 52}
+    - name: genericItems_spritesheet_colored_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 111
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 23.5}
+        - {x: -55.5, y: 17.5}
+        - {x: -55.5, y: 1.5}
+        - {x: -53.5, y: -0.5}
+        - {x: -0.5, y: -23.5}
+        - {x: 46.5, y: -23.5}
+        - {x: 53.5, y: -16.5}
+        - {x: 55.5, y: -12.5}
+        - {x: 55.5, y: 23.5}
+    - name: genericItems_spritesheet_colored_95
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 4
+        width: 98
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 51}
+        - {x: -14, y: 51}
+        - {x: -49, y: 4}
+        - {x: -49, y: -25}
+        - {x: -5, y: -51}
+        - {x: 21, y: -51}
+        - {x: 47, y: -12}
+        - {x: 49, y: -7}
+        - {x: 49, y: 28}
+    - name: genericItems_spritesheet_colored_96
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 26
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 46}
+        - {x: -26, y: 46}
+        - {x: -35, y: -7}
+        - {x: -35, y: -42}
+        - {x: -30, y: -46}
+        - {x: 25, y: -46}
+        - {x: 31, y: -45}
+        - {x: 35, y: 4}
+        - {x: 35, y: 42}
+        - {x: 33, y: 43}
+    - name: genericItems_spritesheet_colored_97
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 39
+        width: 46
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 47.5}
+        - {x: -14, y: 47.5}
+        - {x: -21, y: 39.5}
+        - {x: -23, y: -9.5}
+        - {x: -23, y: -47.5}
+        - {x: 23, y: -47.5}
+        - {x: 23, y: -21.5}
+        - {x: 20, y: 40.5}
+    - name: genericItems_spritesheet_colored_98
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1
+        width: 90
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
