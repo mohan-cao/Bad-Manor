@@ -73,5 +73,10 @@ namespace Assets.Scripts.Characters
 			isConvo = boo;
 		}
 
+		void OnTriggerEnter2D(Collider2D other){
+						if (other.gameObject.CompareTag ("ItemPickUp")) {
+								other.gameObject.SetActive (false);
+							}
+					}
     }
 }
