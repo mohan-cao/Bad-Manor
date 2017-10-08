@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Assets.Scripts;
 
-public class AnviDialogue : MonoBehaviour {
+public class AnviDialogue : CharacterDialogue
+{
 
     private string characterName = "Anvi";
     private Dictionary<GameManager.GameState, string[]> storyLines;

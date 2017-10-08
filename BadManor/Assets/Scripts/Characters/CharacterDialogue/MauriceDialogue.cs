@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Assets.Scripts;
 
-public class MauriceDialogue : MonoBehaviour {
+public class MauriceDialogue : CharacterDialogue
+{
 
     private string characterName = "Maurice";
     private Dictionary<GameManager.GameState, string[]> storyLines;

@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Assets.Scripts;
 
-public class BrangeDialogue : MonoBehaviour {
+public class BrangeDialogue : CharacterDialogue
+{
 
     private string characterName = "Brange";
     private Dictionary<GameManager.GameState, string[]> storyLines;
