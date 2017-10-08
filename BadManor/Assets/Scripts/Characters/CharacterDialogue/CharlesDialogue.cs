@@ -62,9 +62,8 @@ public class CharlesDialogue : CharacterDialogue
             return value;
         }else if ((int)state > 7 )
         {
-            return new string[] { "",
-                    "Player", "What are you doing snooping around? You better leave before I get Mi Na to make you leave."
-                    , characterName };
+            return new string[] { "What are you doing snooping around? You better leave before I get Mi Na to make you leave."
+                    , characterName, "", "Player" };
         }
         return null;
     }

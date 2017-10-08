@@ -7,7 +7,7 @@ public class SamDialogue : CharacterDialogue
 {
 
     private string characterName = "Sam";
-    private Dictionary<GameManager.GameState, string[]> storyLines;
+    private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
     private List<string> randomLines = new List<string>();
 
     private static SamDialogue inst;
@@ -22,9 +22,23 @@ public class SamDialogue : CharacterDialogue
 
     private SamDialogue()
     {
-        storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "DIALOGUE LINE 1", "CHARACTER WHO SAYS DIALOGUE LINE 1", "DIALOGUE LINE 2", "CHARACTER WHO SAYS DIALOGUE LINE 2" };
+        storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "Hey, what's up",
+                    "Player", "Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!"
+                    , characterName };
 
-        randomLines.Add("I NEED DIALOGUE");
+        storyLines[GameManager.GameState.TUTORIAL_2] = new string[] { "Hey, what's up",
+                    "Player", "The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table."
+                    , characterName };
+
+        storyLines[GameManager.GameState.TUTORIAL_3] = new string[] { "Hey, what's up",
+                    "Player", "I heard a rumor that Charles has been left off of Bertha’s will. Maybe he is as lazy as Avni says."
+                    , characterName };
+
+        randomLines.Add("Damn it! Not again. Why do I always lose?");
+        randomLines.Add("I have the worst luck.;It’s so unfair! Everyone gets a good hand but me.");
+        randomLines.Add("One of these days I’ll win big, and then I’ll quit gambling for good.");
+
+
     }
 
     public string[] getStoryLines(GameManager.GameState state)
