@@ -250,7 +250,7 @@ RectTransform:
   - {fileID: 862093323}
   - {fileID: 463529456}
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 51
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -5064,7 +5064,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 49
 --- !u!114 &1661849530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5507,7 +5507,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 50
 --- !u!1 &1820313365
 GameObject:
   m_ObjectHideFlags: 0
@@ -6227,11 +6227,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2114088708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d3c368bdd477ed428b44956ab8d216e, type: 3}
+  m_Script: {fileID: 11500000, guid: 45b7afe761ae7b54a94b42db4b4678e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UIPanel: {fileID: 57191877}
-  tg: {fileID: 735250269}
+  UIPanel: {fileID: 0}
+  tg: {fileID: 0}
 --- !u!4 &2114088710
 Transform:
   m_ObjectHideFlags: 0
@@ -6244,4 +6244,4 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 52

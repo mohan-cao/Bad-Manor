@@ -9,7 +9,7 @@ namespace Assets.Scripts
 {
     public class GameLoader : MonoBehaviour
     {
-        private GameManager gM;
+        private GameManager gameManager;
         public static GameLoader inst = null;
         
         private void Awake()
@@ -24,7 +24,7 @@ namespace Assets.Scripts
 
         public void newGame()
         {
-            gM = new GameManager();
+            gameManager = new GameManager();
         }
 
         public void loadGame()
