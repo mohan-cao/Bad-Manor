@@ -1,60 +1,82 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Scripts;
+using Assets.Scripts.Characters;
+using System.Collections.Generic;
 
 public class DialogueManager : MonoBehaviour {
 
+    private Dictionary<string, CharacterDialogue> characterDialogues = new Dictionary<string, CharacterDialogue>();
 
-	DialogueBoxManager dbm;
-	int countvalue = 0; 
-	string npccharactername;
+	private DialogueBoxManager dbm;
+	private int count = 0;
+
+    private string[] storyLines;
+
+	string npcCharacter;
 	bool needtoendconvo;
-	//String array of the conversation associated to a particular story lines.
+    //String array of the conversation associated to a particular story lines.
 
-	void initialiseconvo(string npccharacter){
-		//Create dialogue instance associated with NPC character.
-		//Not the best idea but have a separate method and do if-else statements based on the NPC character
-		//Create an instance based on who the outcome is.
-		//String [] *Character*Dialogue.getStoryLines;
-		//if ^ == null {
-		//	get a random line.
-		//}else{
-	//	string initialtext = retrievetexttodisplay();
+    private void Start()
+    {
+        characterDialogues["Anvi"] = AnviDialogue.getInstance();
+        characterDialogues["Brange"] = BrangeDialogue.getInstance();
+        characterDialogues["Charles"] = CharlesDialogue.getInstance();
+        characterDialogues["Maurice"] = MauriceDialogue.getInstance();
+        characterDialogues["MiNa"] = MiNaDialogue.getInstance();
+        characterDialogues["Sam"] = SamDialogue.getInstance();
+    }
 
-	// }
-		string initialtext = texttodisplay();
-		npccharactername = npccharacter;
-		dbm.StartConvo();
-		needtoendconvo = false;
+    public void StartConvo(string character){
+
+        npcCharacter = character;
+        dbm = FindObjectOfType<DialogueBoxManager>();
+        //GameManager.GameState gameState = GameManager.inst.currentState();
+
+        //This is hardcoded for debugging use the line above instead
+        GameManager.GameState gameState = GameManager.GameState.FIND_BERTHA;
+
+        storyLines = characterDialogues[npcCharacter].getStoryLines(gameState);
+        dbm.StartConvo();
+        
 	}
 
-	//Displaying appropriate text.
-	void texttodisplay(){
-		if (needtoendconvo) {
-			dbm.EndConvo ();
-		} else {
-			string texttodisplay;
-			texttodisplay = storylines [countvalue + 1] + ": " + storylines [countvalue];
-			dbm.SayLine(texttodisplay);
-			incrementcountvalue ();
-		}
+    //Displaying appropriate text.
+    public bool NextLine() {
+
+        if (storyLines == null && count == 1)
+        {
+            EndConvo();
+            return false;
+        } else if (storyLines == null && count == 0)
+        {
+            string line = characterDialogues[npcCharacter].getRandomLine();
+            dbm.SayLine(line, npcCharacter);
+            count++;
+            return true;
+        } else if (count >= storyLines.Length - 1)
+        {
+            EndConvo();
+            return false;
+        } else
+        {
+            string text = storyLines[count];
+            count++;
+            string name = storyLines[count];
+            count++;
+
+            dbm.SayLine(text, name);
+
+            return true;
+        }
+
 	}
-		
-	void incrementcountvalue(){
-		//Checking if the conversation has ended or not.
-		if (countvalue + 2 >= storylines.size ()) {
-			needtoendconvo = true;
-		//	dbm.EndConvo ();
-		} 
-		//When the convo needs to progress.
-		else {
-			countvalue += 2;
-		}
-	}
 
-	/*void updatetexttodisplay(){
-		dbm.SayLine();
-	}*/
-
-
+    void EndConvo()
+    {
+        dbm.EndConvo();
+        count = 0;
+        npcCharacter = null;
+    }
 
 }

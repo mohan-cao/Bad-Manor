@@ -6,8 +6,8 @@ using Assets.Scripts;
 public class AnviDialogue : CharacterDialogue
 {
 
-    private string characterName = "Anvi";
-    private Dictionary<GameManager.GameState, string[]> storyLines;
+    private string characterName;
+    private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
     private List<string> randomLines = new List<string>();
 
     private static AnviDialogue inst;
@@ -22,6 +22,8 @@ public class AnviDialogue : CharacterDialogue
 
     private AnviDialogue()
     {
+        characterName = "Anvi";
+
         storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "Hey, what's up?", "Player", "Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!", characterName };
         storyLines[GameManager.GameState.TUTORIAL_2] = new string[] { "Hey, what's up?", "Player", "The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table.", characterName };
         storyLines[GameManager.GameState.TUTORIAL_3] = new string[] { "Hey, what's up?", "Player", "I heard a rumor that Charles has been left off of Bertha’s will. Maybe my complaints have finally gotten through to her.", characterName };
