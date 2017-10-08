@@ -11,6 +11,7 @@ public class Accusation : Interface {
 
     public ToggleGroup tg;
     string accusingName;
+    
     void Start()
     {
         UIPanel.gameObject.SetActive(false);
