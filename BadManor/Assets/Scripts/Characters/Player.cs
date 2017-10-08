@@ -23,7 +23,6 @@ namespace Assets.Scripts.Characters
 			rb2d = GetComponent<Rigidbody2D> ();
 			dMan = FindObjectOfType<DialogueManager> ();
 
-
             //HARD CODING RN
 
 			isConvo = false;
@@ -62,7 +61,7 @@ namespace Assets.Scripts.Characters
 				if (Input.GetKeyUp (KeyCode.Space) && !isConvo) 
 				{
 					Debug.Log ("STARTING CONVO IN PLAYER");
-					dMan.StartConvo ();
+					dMan.initialiseconvo(other.gameObject.name);
 					isConvo = true;
 				}
 			}
