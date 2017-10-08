@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    class SoundManager : MonoBehaviour
+    public class SoundManager : MonoBehaviour
     {
     }
 }

@@ -1,0 +1,295 @@
+{
+   "name":"Brange",
+   "greetings":"Hello there.",
+   "farewell":"Goodbye.",
+   "tut1":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-0":{
+            "npc":"Bertha looks as beautiful tonight as she did 30 years ago. How silly was Maurice to think that an old man like him could have appealed to a beautiful young woman like her, even if he is the richest man in the country.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut2"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut2":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-1":{
+            "npc":"The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"tut3"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "tut3":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-2":{
+            "npc":"Why would Bertha leave Charles off of the will? Maybe Avni’s complaints have gotten to her.",
+            "player":"Hey, what's up?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":"endtut"
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findbertha":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-3":{
+            "npc":"No, I’m so worried. Please find her as soon as you can.",
+            "player":"Have you seen Bertha lately?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "getsecuritykey":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-4":{
+            "npc":"You’ll need a key to get in. Bertha manages everything around here, so I don’t know exactly where it is, but she likes to hide things under the bathmats. Other than that, Mi Na probably has a key.",
+            "player":"Do you know how I can get into the security room?",
+            "npcFirst":false,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "entersecurity":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-5":{
+            "npc":"Please find Bertha.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "findsecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-6":{
+            "npc":"Please find Bertha.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "investigatesecevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-7":{
+            "npc":"Please find Bertha.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "gettapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-8":{
+            "npc":"Please find Bertha.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "trytapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-9":{
+            "npc":"Please find Bertha.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "powersource":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-10":{
+            "npc":"Please find Bertha.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "playtapes":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-11":{
+            "npc":"Please find Bertha.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "finalevidence":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-12":{
+            "npc":"Please find Bertha.",
+            "player":"",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         }
+      },
+      "question":{
+
+      }
+   },
+   "accuse":{
+      "info":{
+
+      },
+      "exchange":{
+         "Brange-13":{
+            "npc":"Please find Bertha.",
+            "player":"I know what happened to Bertha",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":null,
+            "nextState":""
+         },
+         "Brange-14":{
+            "npc":"What do you mean? Something happened? Is everything alright?",
+            "player":"Bertha was murdered Brange. _____ killed her.",
+            "npcFirst":true,
+            "parameters":{
+
+            },
+            "nextDialogue":"Brange-13",
+            "nextState":"end"
+         }
+      },
+      "question":{
+
+      }
+   }
+}

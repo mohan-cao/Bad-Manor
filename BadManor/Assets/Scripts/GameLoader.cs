@@ -8,11 +8,29 @@ namespace Assets.Scripts
 {
     public class GameLoader : MonoBehaviour
     {
-    public GameObject gM;
+        private GameManager gM;
+        public static GameLoader inst = null;
+        
+        private void Awake()
+        {
+			inst = inst ?? this;
+            if (inst != this)
+            {
+                Destroy(gameObject);
+            }
+            DontDestroyOnLoad(gameObject);
+			UnityEngine.SceneManagement.SceneManager.LoadScene ("WelcomeScene");
+			newGame ();
+        }
 
-    private void Awake()
-    {
-        gM = gM == null ? Instantiate(gM) : gM;
+        private void newGame()
+        {
+            gM = new GameManager();
+        }
+
+        private void loadGame()
+        {
+            //TODO
+        }
     }
-}
 }
