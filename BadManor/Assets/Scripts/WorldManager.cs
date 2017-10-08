@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Assets.Scripts
 {
-    class WorldManager : MonoBehaviour
+    public class WorldManager : MonoBehaviour
     {
     }
 }

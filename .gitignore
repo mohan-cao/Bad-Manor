@@ -25,6 +25,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+.idea/
 *.suo
 *.tmp
 *.user
@@ -33,6 +34,8 @@ ExportedObj/
 *.booproj
 *.svd
 *.cs.meta
+*.iml
+*.Iml
 *.pdb
 
 # Unity3D generated meta files
