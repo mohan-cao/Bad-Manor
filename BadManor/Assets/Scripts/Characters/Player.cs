@@ -40,9 +40,6 @@ namespace Assets.Scripts.Characters
 				{
 					Debug.Log ("CONTINUING CONVO");
 					isConvo = dMan.NextLine ();
-					if (!isConvo) {
-						dMan.EndConvo ();
-					}
 				}
 				return;
 			}
@@ -61,8 +58,8 @@ namespace Assets.Scripts.Characters
 			{
 				if (Input.GetKeyUp (KeyCode.Space) && !isConvo) 
 				{
-					Debug.Log ("STARTING CONVO IN PLAYER");
-					dMan.StartConvo ();
+					Debug.Log ("STARTING CONVO WITH " + other.gameObject.name);
+					dMan.StartConvo(other.gameObject.name);
 					isConvo = true;
 				}
 			}

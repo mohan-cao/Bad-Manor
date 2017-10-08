@@ -11,9 +11,9 @@ public class DialogueBoxManager : MonoBehaviour {
 		dBox.SetActive (true);
 	}
 
-	public void SayLine(string text)
+	public void SayLine(string text, string name)
 	{
-        dText.text = text;
+        dText.text = name + ": " + text;
 	}
 
 	public void EndConvo() 
