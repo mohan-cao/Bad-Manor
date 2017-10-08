@@ -15,7 +15,7 @@ public class Accusation : Interface {
 
     void Start()
     {
-        UIPanel.gameObject.SetActive(false);
+        hideAccusePanel();
     }
 
     public void displayAccuse()
@@ -23,9 +23,14 @@ public class Accusation : Interface {
         UIPanel.gameObject.SetActive(true);
     }
 
-    public void notNow()
+    private void hideAccusePanel()
     {
         UIPanel.gameObject.SetActive(false);
+    }
+
+    public void notNow()
+    {
+        hideAccusePanel();
     }
 
     public void makeAccusation()
@@ -38,18 +43,18 @@ public class Accusation : Interface {
             accusingName = t.name;
             break;
         }
-
         if (accusingName == "AccuseSam")
         {
             Debug.Log("you win!");
-            notNow();
-            SceneManager.LoadScene(5);
+            hideAccusePanel();
+            SceneManager.LoadScene("EndScreenWin");
 
-        } else
+        } 
+        else
         {
             Debug.Log("you lose!");
-            notNow();
-            SceneManager.LoadScene(3);
+            hideAccusePanel();
+            SceneManager.LoadScene("EndScreenLose");
         }
     }
 }
