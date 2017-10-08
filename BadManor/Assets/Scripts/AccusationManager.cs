@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AccusationManager : MonoBehaviour {
 
@@ -39,10 +40,13 @@ public class AccusationManager : MonoBehaviour {
         {
             Debug.Log("you win!");
             notNow();
+            SceneManager.LoadScene(5);
+
         } else
         {
             Debug.Log("you lose!");
             notNow();
+            SceneManager.LoadScene(3);
         }
     }
 }
