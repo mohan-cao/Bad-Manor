@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
@@ -19,18 +20,21 @@ namespace Assets.Scripts
                 Destroy(gameObject);
             }
             DontDestroyOnLoad(gameObject);
-			UnityEngine.SceneManagement.SceneManager.LoadScene ("WelcomeScene");
-			newGame ();
         }
 
-        private void newGame()
+        public void newGame()
         {
             gM = new GameManager();
         }
 
-        private void loadGame()
+        public void loadGame()
         {
-            //TODO
+			newGame ();
         }
+
+		public void quitGame()
+		{
+			Application.Quit ();
+		}
     }
 }

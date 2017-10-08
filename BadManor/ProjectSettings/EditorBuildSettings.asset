@@ -6,14 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_preload.unity
-  - enabled: 1
     path: Assets/Scenes/MainMenu/WelcomeScene.unity
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-  - enabled: 1
-    path: Assets/Scenes/Foyer.unity
-  - enabled: 1
-    path: Assets/Scenes/FirstFloorHallway.unity
-  - enabled: 1
-    path: Assets/Scenes/GroundHallway.unity
+    path: Assets/Scenes/GameMap.unity

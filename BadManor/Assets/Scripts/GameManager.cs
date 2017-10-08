@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
@@ -59,6 +60,9 @@ namespace Assets.Scripts
             worldM = new WorldManager();
 			dialogueLines = new Dictionary<string, object> ();
 			parameters = new Dictionary<string, object> ();
+
+			SceneManager.LoadScene (1);
+			SceneManager.UnloadScene (0);
 			TextAsset[] dialogueLoadedLines = Resources.LoadAll<TextAsset> ("");
 			string name = null;
 			foreach (TextAsset t in dialogueLoadedLines) {
