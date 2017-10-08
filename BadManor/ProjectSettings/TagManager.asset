@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - NPC
+  - Warp
+  - Spawn
   layers:
   - Default
   - TransparentFX
@@ -41,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Warp Pads
+    uniqueID: 2363900395
     locked: 0
