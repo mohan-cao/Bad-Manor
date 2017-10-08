@@ -10,5 +10,15 @@ Make a fun game in half a semester
 # Setup Documentation
 Check the CONTRIBUTING.md docs
 
-# The fam
-To be added soon
+# Development Team
+
+| Name         | UPI     | GitHub    |
+| ------------ | ------- | --------- |
+| Abby Shen    | [ashe848](mailto:ashe848@aucklanduni.ac.nz) | [ashe848](http://www.github.com/ashe848) + commits from 'unknown' |
+| Andrew Lyall    | [alya691](mailto:alya691@aucklanduni.ac.nz) | [Scoobster](http://www.github.com/Scoobster) |
+| Brad Miller    | [bmil852](mailto:bmil852@aucklanduni.ac.nz) | [bmil852](http://www.github.com/bmil852) + commits from 'unknown' |
+| Mohan Cao    | [mcao024](mailto:mcao024@aucklanduni.ac.nz) | [mohan-cao](http://www.github.com/mohan-cao) |
+| Michael Kemp | [mkem114](mailto:mkem114@aucklanduni.ac.nz) | [mkem114](http://www.github.com/mkem114)   |
+| Sejal Patel    | [spt098](mailto:spt098@aucklanduni.ac.nz) | [sejpat25](http://www.github.com/sejpat25) |
+| Sidharth Parthasarathy   | [spar743](mailto:spar743@aucklanduni.ac.nz) | [sidpartha1](http://www.github.com/sidpartha1) |
+| Terran Kroft | [tkro003](mailto:tkro003@aucklanduni.ac.nz) | [itemic](http://www.github.com/itemic)    |
