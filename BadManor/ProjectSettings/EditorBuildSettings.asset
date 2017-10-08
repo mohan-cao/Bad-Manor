@@ -12,8 +12,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main.unity
   - enabled: 1
-    path: Assets/Scenes/Foyer.unity
+    path: Assets/Scenes/EndScreenLose.unity
   - enabled: 1
-    path: Assets/Scenes/FirstFloorHallway.unity
+    path: Assets/Scenes/GameMap.unity
   - enabled: 1
-    path: Assets/Scenes/GroundHallway.unity
+    path: Assets/Scenes/EndScreenWin.unity
