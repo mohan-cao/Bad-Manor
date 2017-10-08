@@ -7,7 +7,7 @@ public class CharlesDialogue : CharacterDialogue
 {
 
     private string characterName = "Charles";
-    private Dictionary<GameManager.GameState, string[]> storyLines;
+    private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
     private List<string> randomLines = new List<string>();
 
 

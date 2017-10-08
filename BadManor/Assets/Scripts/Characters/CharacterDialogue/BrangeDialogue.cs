@@ -7,7 +7,7 @@ public class BrangeDialogue : CharacterDialogue
 {
 
     private string characterName = "Brange";
-    private Dictionary<GameManager.GameState, string[]> storyLines;
+    private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
     private List<string> randomLines = new List<string>();
 
     private static BrangeDialogue inst;
@@ -40,17 +40,11 @@ public class BrangeDialogue : CharacterDialogue
             "You’ll need a key to get in. Bertha manages everything around here, so I don’t know exactly where it is, but she likes to hide things under the bathmats. Other than that, Mi Na probably has a key."
                             , characterName };
 
-
-
-        storyLines[GameManager.GameState.ENTER_SECURITY] = new string[] { "I know what happened to Bertha", "Player",
-            "Please find Bertha."
-                            , characterName };
-
-
-        storyLines[GameManager.GameState.ENTER_SECURITY] = new string[] { "What do you mean? Something happened? Is everything alright?", "Player",
-            "Bertha was murdered Brange. _____ killed her."
-                            , characterName };
-
+        /*
+         * NEED TO ADD A WAY OF GETTING WHO THE PLAYER IS ACCUSING IN THIS INSTANCE
+         */
+        storyLines[GameManager.GameState.ACCUSE] = new string[] {  "Please find Bertha.", characterName, "I know what happened to Bertha", "Player",
+            "What do you mean? Something happened? Is everything alright?", characterName, "Bertha was murdered Brange. _____ killed her.", "Player" };
 
         randomLines.Add("Please find Bertha.");
         randomLines.Add("Where is Bertha?");
