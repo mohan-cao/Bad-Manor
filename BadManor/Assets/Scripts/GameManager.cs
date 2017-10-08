@@ -18,7 +18,7 @@ namespace Assets.Scripts
 		public Dictionary<string,object> parameters;
 		public Dictionary<string,object> dialogueLines;
 
-        private GameState gameState = 0;
+		private GameState gameState = GameState.INITIAL;
 
 		[Serializable]
         public enum GameState
@@ -82,16 +82,16 @@ namespace Assets.Scripts
 
         public void newState(GameState nextState)
         {
-            //HOOK IN HERE TO MAKE CALLS
-            if (nextState == GameState.TUTORIAL_1)
-            {
-                scoreM.resume();
-            }
-            if (nextState == GameState.FINISHED)
-            {
-                scoreM.pause();
-            }
-            gameState = nextState;
+			if (nextState == gameState + 1) {
+				//HOOK IN HERE TO MAKE CALLS
+				if (nextState == GameState.TUTORIAL_1) {
+					scoreM.resume ();
+				}
+				if (nextState == GameState.FINISHED) {
+					scoreM.pause ();
+				}
+				gameState = nextState;
+			}
         }
 
         public long timeSinceStart()

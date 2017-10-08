@@ -9,6 +9,8 @@ namespace Assets.Scripts
 {
     public class WorldManager : MonoBehaviour
     {
+
+
 		public void sampleItem()
 		{
 			GameManager.inst.newState (GameManager.GameState.FIND_BERTHA);
