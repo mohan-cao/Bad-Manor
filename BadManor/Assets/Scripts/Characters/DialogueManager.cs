@@ -48,7 +48,6 @@ public class DialogueManager : MonoBehaviour {
         Debug.Log(GameManager.inst.currentState());
         storyLines = characterDialogues[npcCharacter].getStoryLines(gameState);
         dBox.SetActive (true);
-        NextLine();
     }
 
     // Displaying appropriate text.
