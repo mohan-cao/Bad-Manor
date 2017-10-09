@@ -6,12 +6,12 @@
 
 # SE306 Project 2 - Project Bovine
 
-# Execution instructions
+## Execution instructions
 Run the .exe
 
 Press [space] to interact with NPCs via dialogue 
 
-# Setting up
+## Setting up
 1. Set up Git LFS. https://git-lfs.github.com/
 2. Set up Unity for Git. 
 
@@ -24,13 +24,13 @@ For versions of Unity 3D v4.3 and up:
     2. Switch Asset Serialization Mode to Force Text.
 3. Save the scene and project from File menu.
 
-# Adding binary files to be tracked
+## Adding binary files to be tracked
 Since we are gitignoring binary files and large files, we have to use Git large file storage to track changes to these files efficiently.
 https://help.github.com/articles/configuring-git-large-file-storage/
 
 Generally, use `git lfs track "*.ext"` to track a file of type extension if you find that the file you want to track is not being added.
 
-# Development Team
+## Development Team
 
 | Name         | UPI     | GitHub    |
 | ------------ | ------- | --------- |
