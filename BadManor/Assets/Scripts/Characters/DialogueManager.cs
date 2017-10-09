@@ -6,25 +6,47 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine.UI;
 
+/// <summary>
+/// Manages the dialogue from interacting with items and NPCs, responsible for iniating and continuing.</summary>
 public class DialogueManager : MonoBehaviour {
 
+    /// <summary>
+    /// All dialogues.</summary>
     private Dictionary<string, CharacterDialogue> characterDialogues = new Dictionary<string, CharacterDialogue>();
     
+    /// <summary>
+    /// Used to check how many people talked to for tutorial level.</summary>
     private int timesTalked = 0;
     
+    /// <summary>
+    /// How many lines in the dialogue are printed.</summary>
 	private int count = 0;
 
+    /// <summary>
+    /// Story line for item/npc.</summary>
     private string[] storyLines;
 
+    /// <summary>
+    /// Character being talked to.</summary>
 	string npcCharacter;
+    
+    /// <summary>
+    /// Is the dialogue due to finish.</summary>
 	bool needtoendconvo;
+    
+    /// <summary>
+    /// Is it an item being talked to.</summary>
     private bool isItem;
     
+    /// <summary>
+    /// Dialogue box.</summary>
     public GameObject dBox;
+    
+    /// <summary>
+    /// Dialogue text field.</summary>
     public Text dText;
-    //String array of the conversation associated to a particular story lines.
-
-        // Set up instances of Character Dialogue classes
+    
+    // Set up instances of Character Dialogue classes
     private void Start()
     {
         characterDialogues["Anvi"] = AnviDialogue.getInstance();
@@ -35,6 +57,8 @@ public class DialogueManager : MonoBehaviour {
         characterDialogues["Sam"] = SamDialogue.getInstance();
     }
 
+    /// <summary>
+    /// Start conversation with a character.</summary>
     public void StartConvo(string character){
         Debug.Log(character);
         Debug.Log(GameManager.inst.currentState());
@@ -57,14 +81,15 @@ public class DialogueManager : MonoBehaviour {
     // Returns false if convo has ended (so dialogue box has now closed)
     public bool NextLine() {
         
+        // End dialogue with spacebar if it's an item
         if (isItem)
         {
-            Debug.Log("Ending dialogue with spacebar");
+            Debug.Log("DialogueManager: Ending dialogue with spacebar");
             EndConvo();
             return false;
         }
         
-        Debug.Log("HELLO, THE COUNT FOR THE CONVO IS " + count);
+        Debug.Log("DialogueManager: The conversation count is: " + count);
         // if character has no story during this game state and has already said one random line
         if (storyLines == null && count == 1)
         {
@@ -107,6 +132,8 @@ public class DialogueManager : MonoBehaviour {
 
 	}
 
+    /// <summary>
+    /// Show the dialogue if it's an item.</summary>
     public void ShowItemDialogue(string line)
     {
         Debug.Log("Showing Item Dialogue");
@@ -115,9 +142,12 @@ public class DialogueManager : MonoBehaviour {
         dText.text = line;
     }
 
+    /// <summary>
+    /// Ends the conversation.</summary>
     public void EndConvo()
     {
 
+        // If it's an item hide the box and reset isItem
         if (isItem)
         {
             dBox.SetActive(false);
@@ -125,18 +155,19 @@ public class DialogueManager : MonoBehaviour {
             return;
         }
         
-        
+        // Change story state if talking to Mi Na after investigating the evidence
         if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE && npcCharacter.Equals("Mi Na"))
         {
-            Debug.Log("WE'VE HIT THE END........SYKE");
+            Debug.Log("DialogueManager: Mi Na story state change");
             GameManager.inst.WorldManager.openCharlesRoom();
         }
         
-        Debug.Log("END CONVO");
+        // Reset the dialogue box and NPC character
+        Debug.Log("DialogueManager: End of conversation");
         dBox.SetActive (false);
         npcCharacter = null;
         
-        
+        //Switch to the next tutorial or find bertha story state after talking to enough people
         switch (timesTalked)
         {
             case 0:
