@@ -19,6 +19,11 @@ public class AnviDialogue : CharacterDialogue
 
         return inst;
     }
+    
+    public string getName()
+    {
+        return characterName;
+    }
 
     private AnviDialogue()
     {

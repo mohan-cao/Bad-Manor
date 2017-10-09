@@ -11,6 +11,11 @@ public class MiNaDialogue : CharacterDialogue
     private List<string> randomLines = new List<string>();
 
     private static MiNaDialogue inst;
+    
+    public string getName()
+    {
+        return characterName;
+    }
 
     public static MiNaDialogue getInstance()
     {

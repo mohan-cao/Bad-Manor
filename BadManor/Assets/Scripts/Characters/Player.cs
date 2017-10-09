@@ -29,25 +29,28 @@ namespace Assets.Scripts.Characters
 			isConvo = false;
 		}
 
-		void FixedUpdate()
+	    private void Update()
+	    {
+		    if (isConvo) 
+		    {
+			    if (Input.GetKeyUp (KeyCode.Space)) 
+			    {
+				    Debug.Log ("CONTINUING CONVO");
+				    isConvo = dMan.NextLine ();
+			    } else if (Input.GetKeyUp(KeyCode.Escape))
+			    {
+				    Debug.Log("END CONVO IN PLAYER");
+				    isConvo = false;
+				    dMan.EndConvo();
+			    }
+			    return;
+		    }
+	    }
+
+	    void FixedUpdate()
 		{
 			float moveHorizontal = Input.GetAxisRaw ("Horizontal");
 			float moveVertical = Input.GetAxisRaw ("Vertical");
-
-			if (isConvo) 
-			{
-				if (Input.GetKeyUp (KeyCode.Space)) 
-				{
-					Debug.Log ("CONTINUING CONVO");
-					isConvo = dMan.NextLine ();
-				} else if (Input.GetKeyUp(KeyCode.Escape))
-				{
-					Debug.Log("END CONVO IN PLAYER");
-					isConvo = false;
-					dMan.EndConvo();
-				}
-				return;
-			}
 
 			if (moveVertical != 0 || moveHorizontal != 0) 
 			{

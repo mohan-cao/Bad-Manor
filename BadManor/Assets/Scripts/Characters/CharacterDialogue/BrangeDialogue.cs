@@ -19,6 +19,11 @@ public class BrangeDialogue : CharacterDialogue
 
         return inst;
     }
+    
+    public string getName()
+    {
+        return characterName;
+    }
 
     private BrangeDialogue()
     {

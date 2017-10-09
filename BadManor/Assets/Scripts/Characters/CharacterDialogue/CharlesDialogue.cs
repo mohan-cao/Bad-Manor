@@ -21,6 +21,11 @@ public class CharlesDialogue : CharacterDialogue
 
         return inst;
     }
+    
+    public string getName()
+    {
+        return characterName;
+    }
 
     private CharlesDialogue()
     {

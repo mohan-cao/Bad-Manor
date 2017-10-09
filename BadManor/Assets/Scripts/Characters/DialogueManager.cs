@@ -58,14 +58,14 @@ public class DialogueManager : MonoBehaviour {
             //EndConvo();
             //return false;
             string line = characterDialogues[npcCharacter].getRandomLine();
-            dText.text = npcCharacter + ": " + line;
+            dText.text = characterDialogues[npcCharacter].getName() + ": " + line;
             return true;
         } // if character has no story during this game state and has not already said one random line
         else if (storyLines == null && count == 0)
         {
             // say the random line, increase count
             string line = characterDialogues[npcCharacter].getRandomLine();
-            dText.text = name + ": " + line;
+            dText.text = characterDialogues[npcCharacter].getName() + ": " + line;
             count++;
             return true;
         } // if character has storylines, but has finished all of them
@@ -75,7 +75,7 @@ public class DialogueManager : MonoBehaviour {
             //EndConvo();
             //return false;
             string line = characterDialogues[npcCharacter].getRandomLine();
-            dText.text = npcCharacter + ": " + line;
+            dText.text = characterDialogues[npcCharacter].getName() + ": " + line;
             return true;
         } // if character has storylines and still has more lines left in converstaion
         else

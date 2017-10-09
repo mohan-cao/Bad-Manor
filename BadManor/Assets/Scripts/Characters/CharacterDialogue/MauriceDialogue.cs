@@ -13,6 +13,11 @@ public class MauriceDialogue : CharacterDialogue
 
     private static MauriceDialogue inst;
 
+    public string getName()
+    {
+        return characterName;
+    }
+    
     public static MauriceDialogue getInstance()
     {
         if (inst == null)

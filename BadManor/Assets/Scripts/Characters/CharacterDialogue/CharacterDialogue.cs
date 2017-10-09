@@ -9,4 +9,5 @@ public interface CharacterDialogue {
 
     string getRandomLine();
 
+    string getName();
 }

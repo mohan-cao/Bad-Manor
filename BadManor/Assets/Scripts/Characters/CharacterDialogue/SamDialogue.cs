@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
 using System.Collections;
 using Assets.Scripts;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 public class SamDialogue : CharacterDialogue
 {
@@ -11,6 +12,11 @@ public class SamDialogue : CharacterDialogue
     private List<string> randomLines = new List<string>();
 
     private static SamDialogue inst;
+
+    public string getName()
+    {
+        return characterName;
+    }
 
     public static SamDialogue getInstance()
     {
