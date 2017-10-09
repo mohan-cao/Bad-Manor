@@ -40,6 +40,11 @@ namespace Assets.Scripts.Characters
 				{
 					Debug.Log ("CONTINUING CONVO");
 					isConvo = dMan.NextLine ();
+				} else if (Input.GetKeyUp(KeyCode.Escape))
+				{
+					Debug.Log("END CONVO IN PLAYER");
+					isConvo = false;
+					dMan.EndConvo();
 				}
 				return;
 			}

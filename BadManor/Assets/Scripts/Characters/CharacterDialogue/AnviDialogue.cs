@@ -22,7 +22,7 @@ public class AnviDialogue : CharacterDialogue
 
     private AnviDialogue()
     {
-        characterName = "Anvi";
+        characterName = "Anvi Davenport";
 
         storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "Hey, what's up?", "Player", "Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!", characterName };
         storyLines[GameManager.GameState.TUTORIAL_2] = new string[] { "Hey, what's up?", "Player", "The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table.", characterName };

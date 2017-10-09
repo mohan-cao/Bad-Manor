@@ -6,7 +6,7 @@ using Assets.Scripts;
 public class CharlesDialogue : CharacterDialogue
 {
 
-    private string characterName = "Charles";
+    private string characterName = "Charles F. Davenport";
     private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
     private List<string> randomLines = new List<string>();
 

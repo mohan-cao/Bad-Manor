@@ -3,19 +3,21 @@ using System.Collections;
 using Assets.Scripts;
 using Assets.Scripts.Characters;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
 
     private Dictionary<string, CharacterDialogue> characterDialogues = new Dictionary<string, CharacterDialogue>();
-
-    // Instance of dialogue box for controlling view
-	private DialogueBoxManager dbm;
+    
 	private int count = 0;
 
     private string[] storyLines;
 
 	string npcCharacter;
 	bool needtoendconvo;
+    
+    public GameObject dBox;
+    public Text dText;
     //String array of the conversation associated to a particular story lines.
 
         // Set up instances of Character Dialogue classes
@@ -25,7 +27,7 @@ public class DialogueManager : MonoBehaviour {
         characterDialogues["Brange"] = BrangeDialogue.getInstance();
         characterDialogues["Charles"] = CharlesDialogue.getInstance();
         characterDialogues["Maurice"] = MauriceDialogue.getInstance();
-        characterDialogues["MiNa"] = MiNaDialogue.getInstance();
+        characterDialogues["Mi Na"] = MiNaDialogue.getInstance();
         characterDialogues["Sam"] = SamDialogue.getInstance();
     }
 
@@ -34,42 +36,47 @@ public class DialogueManager : MonoBehaviour {
         // Set all variables
         npcCharacter = character;
         count = 0;
-        dbm = FindObjectOfType<DialogueBoxManager>();
         GameManager.GameState gameState = GameManager.inst.currentState();
 
         //This is hardcoded for debugging use the line above instead
         //GameManager.GameState gameState = GameManager.GameState.FIND_BERTHA;
         Debug.Log(GameManager.inst.currentState());
         storyLines = characterDialogues[npcCharacter].getStoryLines(gameState);
-        dbm.StartConvo();
-        
-	}
+        dBox.SetActive (true);
+        NextLine();
+    }
 
     // Displaying appropriate text.
     // Returns true if convo is still going (a line was said)
     // Returns false if convo has ended (so dialogue box has now closed)
     public bool NextLine() {
-
+        Debug.Log("HELLO, THE COUNT FOR THE CONVO IS " + count);
         // if character has no story during this game state and has already said one random line
         if (storyLines == null && count == 1)
         {
             // end the conversation
-            EndConvo();
-            return false;
+            //EndConvo();
+            //return false;
+            string line = characterDialogues[npcCharacter].getRandomLine();
+            dText.text = npcCharacter + ": " + line;
+            return true;
         } // if character has no story during this game state and has not already said one random line
         else if (storyLines == null && count == 0)
         {
             // say the random line, increase count
             string line = characterDialogues[npcCharacter].getRandomLine();
-            dbm.SayLine(line, npcCharacter);
+            dText.text = name + ": " + line;
             count++;
             return true;
         } // if character has storylines, but has finished all of them
         else if (count >= storyLines.Length - 1)
         {
             // end the conversation
-            EndConvo();
-            return false;
+            //EndConvo();
+            //return false;
+            string line = characterDialogues[npcCharacter].getRandomLine();
+            dText.text = npcCharacter + ": " + line;
+            return true;
         } // if character has storylines and still has more lines left in converstaion
         else
         {
@@ -79,17 +86,17 @@ public class DialogueManager : MonoBehaviour {
             string name = storyLines[count];
             count++;
 
-            dbm.SayLine(text, name);
+            dText.text = name + ": " + text;
 
             return true;
         }
 
 	}
 
-    void EndConvo()
+    public void EndConvo()
     {
-        dbm.EndConvo();
-        count = 0;
+        Debug.Log("END CONVO");
+        dBox.SetActive (false);
         npcCharacter = null;
     }
 

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class MiNaDialogue : CharacterDialogue
 {
 
-    private string characterName = "Mi Na";
+    private string characterName = "Mi Na Kim";
     private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
     private List<string> randomLines = new List<string>();
 

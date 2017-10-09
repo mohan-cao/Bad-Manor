@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class SamDialogue : CharacterDialogue
 {
 
-    private string characterName = "Sam";
+    private string characterName = "Sam Hyde";
     private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
     private List<string> randomLines = new List<string>();
 
