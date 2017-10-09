@@ -20,6 +20,5 @@ public class TimerScript : MonoBehaviour
 		minutes = (int) (Time.time / 60f);
 		seconds= (int)(Time.time % 60f);
 		counterText.text = "Playing for : " + minutes.ToString("00") + ":" + seconds.ToString("00");
-
 	}
 }
