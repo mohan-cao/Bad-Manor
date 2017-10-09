@@ -6,6 +6,9 @@
 
 # SE306 Project 2 - Project Bovine
 
+# Execution instructions
+Run the .exe
+
 # Setting up
 1. Set up Git LFS. https://git-lfs.github.com/
 2. Set up Unity for Git. 
