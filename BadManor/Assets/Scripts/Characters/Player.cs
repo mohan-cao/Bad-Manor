@@ -21,6 +21,9 @@ namespace Assets.Scripts.Characters
 	    /// Whether or not the player is currently engaged in a conversation.</summary>
 		private bool _inConversation;
 
+	    private bool spacePressed = false;
+	    private bool escapePressed = false;
+	    
 	    /// <summary>
 	    /// Initialises fields, this method is executed when the player is created in Unity.</summary>
 		void Start()
@@ -42,25 +45,26 @@ namespace Assets.Scripts.Characters
 
 	    /// <summary>
 	    /// Method is run once per physics frame and updates the position of the player by multiplying the force vectors
-	    /// with move time. If the player is currently in a conversation then it is checked how they wish to proceed. 
-	    /// </summary>
+	    /// with move time. </summary>
 	    void FixedUpdate()
 		{
 			if (_inConversation)
 			{
-				CheckConversation();
+				//CheckConversation();
 			}
-			
-			// Get X and Y vectors
-			float moveHorizontal = Input.GetAxisRaw("Horizontal");
-			float moveVertical = Input.GetAxisRaw("Vertical");
-			// If vectors are non-zero
-			if (moveVertical != 0 || moveHorizontal != 0)
+			else
 			{
-				// then figure out the sum
-				Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0f);
-				// multiply by movement time and sum the old position with the change in position
-				transform.Translate(movement * MoveTime);
+				// Get X and Y vectors
+				float moveHorizontal = Input.GetAxisRaw("Horizontal");
+				float moveVertical = Input.GetAxisRaw("Vertical");
+				// If vectors are non-zero
+				if (moveVertical != 0 || moveHorizontal != 0)
+				{
+					// then figure out the sum
+					Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0f);
+					// multiply by movement time and sum the old position with the change in position
+					transform.Translate(movement * MoveTime);
+				}
 			}
 		}
 
@@ -69,7 +73,7 @@ namespace Assets.Scripts.Characters
 	    /// space button then the conversation continues. </summary>
 	    private void CheckConversation()
 	    {
-		    if (Input.GetKeyUp (KeyCode.Space)) 
+		    if (Input.GetKeyUp(KeyCode.Space)) 
 		    {
 			    Debug.Log ("Player: Space was pressed; continuing conversation");
 			    _inConversation = _dialogueManager.NextLine ();
@@ -111,9 +115,9 @@ namespace Assets.Scripts.Characters
 			Debug.Log(other.gameObject.tag);
 			if (other.gameObject.tag.Equals("ItemPickUp"))
 			{
-				// Informs the ItemManager that the player has interacted with an item. True is returned if the 
+				// Informs the ItemManageranager that the player has interacted with an item. True is returned if the 
 				// interaction leads to dialogue.
-				_inConversation = GameManager.inst.itemM.interactedWithItem(other.gameObject);
+				_inConversation = GameManager.inst.ItemManager.interactedWithItem(other.gameObject);
 				Debug.Log("Player: Trigger collider with " + other.gameObject.name
 				          + " | Dialogue triggered: " + _inConversation);
 			}

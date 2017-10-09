@@ -129,7 +129,7 @@ public class DialogueManager : MonoBehaviour {
         if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE && npcCharacter.Equals("Mi Na"))
         {
             Debug.Log("WE'VE HIT THE END........SYKE");
-            GameManager.inst.worldM.openCharlesRoom();
+            GameManager.inst.WorldManager.openCharlesRoom();
         }
         
         Debug.Log("END CONVO");
@@ -141,17 +141,17 @@ public class DialogueManager : MonoBehaviour {
         {
             case 0:
             {
-                GameManager.inst.worldM.secondTutorial();
+                GameManager.inst.WorldManager.secondTutorial();
                 break;
             }
             case 1:
             {
-                GameManager.inst.worldM.finalTutorial();
+                GameManager.inst.WorldManager.finalTutorial();
                 break;
             }
             case 2:
             {
-                GameManager.inst.worldM.sampleItem();
+                GameManager.inst.WorldManager.sampleItem();
                 break;
             }
         }

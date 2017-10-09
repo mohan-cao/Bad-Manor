@@ -29,7 +29,7 @@ namespace Assets.Scripts
 	    /// seen and they may need to be collected and removed from the map.</summary>
 	    public bool interactedWithItem(GameObject gameObject)
 	    {
-		    dMan = FindObjectOfType<DialogueManager>();
+		    dMan = dMan ?? FindObjectOfType<DialogueManager>();
 		    _seen.Add(gameObject);
 		    Debug.Log("ItemManager: Name of interacted item: " + gameObject.name);
 		    
