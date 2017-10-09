@@ -15,7 +15,10 @@ namespace Assets.Scripts.World
         {
             if (other.gameObject.tag == "Player")
             {
-                other.transform.position = RoomLocations.getRoomCoords(roomToGoTo);
+                if (GameManager.inst.worldM.canGoTo(roomToGoTo))
+                {
+                    other.transform.position = RoomLocations.getRoomCoords(roomToGoTo);   
+                }
             }
         }
     }

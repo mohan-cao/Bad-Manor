@@ -9,6 +9,18 @@ namespace Assets.Scripts
 {
     public class WorldManager : MonoBehaviour
     {
+	    public bool canGoTo(RoomLocations.RoomsSpawns room)
+	    {
+		    if (room == RoomLocations.RoomsSpawns.BasementSecurity)
+		    {
+			    if (GameManager.inst.currentState() < GameManager.GameState.ENTER_SECURITY)
+			    {
+				    return false;
+			    }
+		    }
+		    return true;
+	    }
+	    
 		public void startTutorial()
 		{
 			GameManager.inst.newState (GameManager.GameState.TUTORIAL_1);
