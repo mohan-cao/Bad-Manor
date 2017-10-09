@@ -17,6 +17,12 @@ namespace Assets.Scripts
 			    {
 				    return false;
 			    }
+			    else
+			    {
+				    Debug.Log("ABLE TO GO THROUGH TO THE SECURITY ROOM");
+				    enteredSecurity();
+				    return true;
+			    }
 		    }
 		    return true;
 	    }
@@ -50,6 +56,11 @@ namespace Assets.Scripts
 		{
 			GameManager.inst.newState (GameManager.GameState.ENTER_SECURITY);
 		}
+
+	    public void enteredSecurity()
+	    {
+		    GameManager.inst.newState(GameManager.GameState.FIND_SEC_EVIDENCE);
+	    }
 
 		public void foundSecurityEvidence()
 		{

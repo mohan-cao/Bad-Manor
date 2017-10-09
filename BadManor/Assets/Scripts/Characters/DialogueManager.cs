@@ -54,6 +54,11 @@ public class DialogueManager : MonoBehaviour {
             }
         }
         timesTalked++;
+
+        if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE && character == "Mi Na")
+        {
+            GameManager.inst.worldM.openCharlesRoom();
+        }
         
         // Set all variables
         npcCharacter = character;
