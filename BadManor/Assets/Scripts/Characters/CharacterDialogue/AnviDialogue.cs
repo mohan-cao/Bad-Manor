@@ -3,15 +3,25 @@ using System.Collections;
 using System.Collections.Generic;
 using Assets.Scripts;
 
+/// <summary>
+/// Character dialogue, is all of the random and story lines plus any conditions required to use them.</summary>
 public class AnviDialogue : CharacterDialogue
 {
-
+    /// <summary>
+    /// Name of the character.</summary>
     private string characterName;
+    /// <summary>
+    /// Story lines the NPC will say in conversation.</summary>
     private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
+    /// <summary>
+    /// Random lines the NPC will say in conversation.</summary>
     private List<string> randomLines = new List<string>();
-
+    /// <summary>
+    /// The singleton pattern instance of the character's dialogue to enforce it.</summary>
     private static AnviDialogue inst;
 
+    /// <summary>
+    /// Gets the singleton pattern instance.</summary>
     public static AnviDialogue getInstance()
     {
         if (inst == null)
@@ -20,11 +30,15 @@ public class AnviDialogue : CharacterDialogue
         return inst;
     }
     
+    /// <summary>
+    /// Gets the name of the character.</summary>
     public string getName()
     {
         return characterName;
     }
 
+    /// <summary>
+    /// Constructs the instance of the character and in the process loads all the lines and character line.</summary>
     private AnviDialogue()
     {
         characterName = "Anvi Davenport";
@@ -39,6 +53,8 @@ public class AnviDialogue : CharacterDialogue
         randomLines.Add("Sorry, not now. Charles is slacking off again and I need him to get a job.");
     }
 
+    /// <summary>
+    /// Returns all story lines the character says.</summary>
     public string[] getStoryLines(GameManager.GameState state)
     {
         string[] value = null;
@@ -49,6 +65,8 @@ public class AnviDialogue : CharacterDialogue
         return null;
     }
 
+    /// <summary>
+    /// Returns all random/general lines the character says.</summary>
     public string getRandomLine()
     {
         int index = (int) Random.Range(0f, randomLines.Count - 1);
