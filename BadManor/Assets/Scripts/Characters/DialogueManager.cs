@@ -35,11 +35,11 @@ public class DialogueManager : MonoBehaviour {
         npcCharacter = character;
         count = 0;
         dbm = FindObjectOfType<DialogueBoxManager>();
-        //GameManager.GameState gameState = GameManager.inst.currentState();
+        GameManager.GameState gameState = GameManager.inst.currentState();
 
         //This is hardcoded for debugging use the line above instead
-        GameManager.GameState gameState = GameManager.GameState.FIND_BERTHA;
-
+        //GameManager.GameState gameState = GameManager.GameState.FIND_BERTHA;
+        Debug.Log(GameManager.inst.currentState());
         storyLines = characterDialogues[npcCharacter].getStoryLines(gameState);
         dbm.StartConvo();
         

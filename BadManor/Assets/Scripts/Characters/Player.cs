@@ -59,6 +59,8 @@ namespace Assets.Scripts.Characters
 				if (Input.GetKeyUp (KeyCode.Space) && !isConvo) 
 				{
 					Debug.Log ("STARTING CONVO WITH " + other.gameObject.name);
+					Debug.Log("Hi" + GameManager.inst.currentState());
+
 					dMan.StartConvo(other.gameObject.name);
 					isConvo = true;
 				}

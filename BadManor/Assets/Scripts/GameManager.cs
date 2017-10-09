@@ -19,7 +19,7 @@ namespace Assets.Scripts
 		public Dictionary<string,object> parameters;
 		public Dictionary<string,object> dialogueLines;
 
-		private GameState gameState = GameState.INITIAL;
+		private GameState gameState = GameState.TUTORIAL_1;
 
 		[Serializable]
         public enum GameState

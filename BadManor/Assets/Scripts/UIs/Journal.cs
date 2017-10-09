@@ -5,20 +5,18 @@ using UnityEngine.UI;
 
 public class Journal : Interface {
 
-    public GameObject journal;
-    private bool isShowing;
-    public Button button;
+    public Transform journal;
+    private bool isShowing = false;
 	
-    void Start()
+    public void Start()
     {
-        Button btn = button.GetComponent<Button>();
-        btn.onClick.AddListener(toggleJournal);
+        journal.gameObject.SetActive(false);
     }
 
-	void toggleJournal()
+	public void toggleJournal()
     {
-      
-        journal.SetActive(isShowing);
+        Debug.Log("HIDE OR SHOW MOFO " + isShowing);
+        journal.gameObject.SetActive(!isShowing);
         isShowing = !isShowing;
     }
 }
