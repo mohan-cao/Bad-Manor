@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Characters
 {
-    abstract class Character : MonoBehaviour
+    public abstract class Character : MonoBehaviour
     {
     }
 }
