@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace Assets.Scripts
     public class ItemManager : MonoBehaviour
     {
 		public GameManager _gm;
+
+	    public List<GameObject> seen = new List<GameObject>();
+	    
 		public ItemManager(GameManager gm) {
 			_gm = gm;
 		}
@@ -28,5 +32,15 @@ namespace Assets.Scripts
 			}
 
 		}
+
+	    public void add(GameObject gameObject)
+	    {
+		    seen.Add(gameObject);
+		    Debug.Log("TAG OF SHIT THING HERE IS: " + gameObject.name);
+		    if (gameObject.name == "Bertha")
+		    {
+			    GameManager.inst.worldM.foundBertha();
+		    }
+	    }
     }
 }

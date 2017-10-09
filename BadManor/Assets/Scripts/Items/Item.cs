@@ -9,5 +9,15 @@ namespace Assets.Scripts.Items
     public abstract class Item : MonoBehaviour
     {
 		public string name;
+
+        public Item()
+        {
+            name = null;
+        }
+        
+        public Item(String _name)
+        {
+            name = _name;
+        }
     }
 }

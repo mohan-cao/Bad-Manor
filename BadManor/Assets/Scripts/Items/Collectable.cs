@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Assets.Scripts.Items
 {
-    class Collectable : Item
+    public class Collectable : Item
     {
     }
 }

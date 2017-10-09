@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Assets.Scripts.Items;
 using UnityEngine;
 
 namespace Assets.Scripts.Characters
@@ -80,10 +81,14 @@ namespace Assets.Scripts.Characters
 			isConvo = boo;
 		}
 
-		void OnTriggerEnter2D(Collider2D other){
-						if (other.gameObject.CompareTag ("ItemPickUp")) {
-								other.gameObject.SetActive (false);
-							}
-					}
+		void OnTriggerEnter2D(Collider2D other)
+		{
+			Debug.Log(other.gameObject.tag);
+			if (other.gameObject.tag == "ItemPickUp")
+			{
+				//other.gameObject.SetActive (false);
+				GameManager.inst.itemM.add(other.gameObject);
+			}
+		}
     }
 }

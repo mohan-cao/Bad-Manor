@@ -3,11 +3,14 @@ using System.Collections;
 using Assets.Scripts;
 using Assets.Scripts.Characters;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
 
     private Dictionary<string, CharacterDialogue> characterDialogues = new Dictionary<string, CharacterDialogue>();
+    
+    private int timesTalked = 0;
     
 	private int count = 0;
 
@@ -32,7 +35,26 @@ public class DialogueManager : MonoBehaviour {
     }
 
     public void StartConvo(string character){
-
+        switch (timesTalked)
+        {
+            case 0:
+            {
+                GameManager.inst.worldM.secondTutorial();
+                break;
+            }
+            case 1:
+            {
+                GameManager.inst.worldM.finalTutorial();
+                break;
+            }
+            case 2:
+            {
+                GameManager.inst.worldM.sampleItem();
+                break;
+            }
+        }
+        timesTalked++;
+        
         // Set all variables
         npcCharacter = character;
         count = 0;

@@ -96,6 +96,8 @@ namespace Assets.Scripts
 					scoreM.pause ();
 				}
 				gameState = nextState;
+				
+				Debug.Log("State is now: " + nextState);
 			}
         }
 
