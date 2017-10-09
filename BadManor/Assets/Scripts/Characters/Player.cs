@@ -30,26 +30,24 @@ namespace Assets.Scripts.Characters
 			isConvo = false;
 		}
 
-	    private void Update()
-	    {
-		    if (isConvo) 
-		    {
-			    if (Input.GetKeyUp (KeyCode.Space)) 
-			    {
-				    Debug.Log ("CONTINUING CONVO");
-				    isConvo = dMan.NextLine ();
-			    } else if (Input.GetKeyUp(KeyCode.Escape))
-			    {
-				    Debug.Log("END CONVO IN PLAYER");
-				    isConvo = false;
-				    dMan.EndConvo();
-			    }
-			    return;
-		    }
-	    }
 
 	    void FixedUpdate()
 		{
+			if (isConvo) 
+			{
+				if (Input.GetKeyUp (KeyCode.Space)) 
+				{
+					Debug.Log ("CONTINUING CONVO");
+					isConvo = dMan.NextLine ();
+				} else if (Input.GetKeyUp(KeyCode.Escape))
+				{
+					Debug.Log("END CONVO IN PLAYER");
+					isConvo = false;
+					dMan.EndConvo();
+				}
+				return;
+			}
+			
 			float moveHorizontal = Input.GetAxisRaw ("Horizontal");
 			float moveVertical = Input.GetAxisRaw ("Vertical");
 
@@ -58,6 +56,7 @@ namespace Assets.Scripts.Characters
 				Vector3 movement = new Vector3 (moveHorizontal, moveVertical, 0f);
 				transform.Translate (movement * moveTime);
 			}
+			
 		}
 
 		void OnTriggerStay2D(Collider2D other)

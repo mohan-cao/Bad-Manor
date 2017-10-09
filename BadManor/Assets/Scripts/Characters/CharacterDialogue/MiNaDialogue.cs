@@ -48,12 +48,6 @@ public class MiNaDialogue : CharacterDialogue
                     "Player", "You need a key to get in, Y-you can’t have it. Hurry up and find Bertha."
                     , characterName };
 
-
-        storyLines[GameManager.GameState.GET_SECURITY_KEY] = new string[] { "Do you know how I can get into the security room?",
-                    "Player", "You need a key to get in, Y-you can’t have it. Hurry up and find Bertha."
-                    , characterName };
-
-
         storyLines[GameManager.GameState.INVESTIGATE_EVIDENCE] = new string[] { "I found a belt with the initials C.F.D. on it in the security room. Do you know anything about this?",
                     "Player", "What? You aren’t supposed to go inside there."
                     , characterName
@@ -71,7 +65,6 @@ public class MiNaDialogue : CharacterDialogue
         randomLines.Add("Sam is so handsome, it’s no wonder the ladies are obsessed with him.");
         randomLines.Add("The way Iwo’s sushi is encapsulated in seaweed is so classy.");
         randomLines.Add("I’ve eaten so much of Iwo’s sushi tonight - my stomach is sushi all the way down!");
-        randomLines.Add("The security manager is small, but she really intimidates me.");
         randomLines.Add("I think Mr. Bernanke might be counting cards… he never seems to lose at Blackjack.");
         randomLines.Add("Look how lonely Maurice seems. If only he’d gotten over Bertha and found a wife.");
     }
