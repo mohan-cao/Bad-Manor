@@ -28,15 +28,15 @@ public class SamDialogue : CharacterDialogue
 
     private SamDialogue()
     {
-        storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "Hey, what's up",
+        storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "Hey, what's up?",
                     "Player", "Did you hear that Maurice used to be in love with Bertha? Apparently she rejected him because he was 40 years older than her. It’s a shame they didn’t marry, together they would have been the richest couple in the country!"
                     , characterName };
 
-        storyLines[GameManager.GameState.TUTORIAL_2] = new string[] { "Hey, what's up",
-                    "Player", "The debt collectors will surely be paying a visit to Sam soon. He’s been bleeding money for months at the blackjack table."
+        storyLines[GameManager.GameState.TUTORIAL_2] = new string[] { "Hey, what's up?",
+                    "Player", "The debt collectors will surely be paying a visit to me soon. I've been bleeding money for months at the blackjack table."
                     , characterName };
 
-        storyLines[GameManager.GameState.TUTORIAL_3] = new string[] { "Hey, what's up",
+        storyLines[GameManager.GameState.TUTORIAL_3] = new string[] { "Hey, what's up?",
                     "Player", "I heard a rumor that Charles has been left off of Bertha’s will. Maybe he is as lazy as Avni says."
                     , characterName };
 

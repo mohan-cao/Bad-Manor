@@ -45,6 +45,10 @@ namespace Assets.Scripts
 			    gameObject.SetActive(false);
 			    GameManager.inst.worldM.foundTapes();
 		    }
+		    else if (gameObject.name == "Niche" && GameManager.inst.currentState() == GameManager.GameState.TRY_TAPES)
+		    {
+			    GameManager.inst.worldM.wallNiche();
+		    }
 		    else if (gameObject.name == "PowerSource" && GameManager.inst.currentState() == GameManager.GameState.POWER_SOURCE)
 		    {
 			    collected.Add(gameObject);
