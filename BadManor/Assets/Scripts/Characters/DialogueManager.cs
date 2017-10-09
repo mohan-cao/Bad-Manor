@@ -35,26 +35,6 @@ public class DialogueManager : MonoBehaviour {
     }
 
     public void StartConvo(string character){
-        switch (timesTalked)
-        {
-            case 0:
-            {
-                GameManager.inst.worldM.secondTutorial();
-                break;
-            }
-            case 1:
-            {
-                GameManager.inst.worldM.finalTutorial();
-                break;
-            }
-            case 2:
-            {
-                GameManager.inst.worldM.sampleItem();
-                break;
-            }
-        }
-        timesTalked++;
-
         if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE && character == "Mi Na")
         {
             GameManager.inst.worldM.openCharlesRoom();
@@ -125,6 +105,26 @@ public class DialogueManager : MonoBehaviour {
         Debug.Log("END CONVO");
         dBox.SetActive (false);
         npcCharacter = null;
+        
+        switch (timesTalked)
+        {
+            case 0:
+            {
+                GameManager.inst.worldM.secondTutorial();
+                break;
+            }
+            case 1:
+            {
+                GameManager.inst.worldM.finalTutorial();
+                break;
+            }
+            case 2:
+            {
+                GameManager.inst.worldM.sampleItem();
+                break;
+            }
+        }
+        timesTalked++;
     }
 
 }
