@@ -38,7 +38,8 @@ namespace Assets.Scripts.Characters
 			    {
 				    Debug.Log ("CONTINUING CONVO");
 				    isConvo = dMan.NextLine ();
-			    } else if (Input.GetKeyUp(KeyCode.Escape))
+			    } 
+			    else if (Input.GetKeyUp(KeyCode.Escape))
 			    {
 				    Debug.Log("END CONVO IN PLAYER");
 				    isConvo = false;
@@ -50,17 +51,19 @@ namespace Assets.Scripts.Characters
 
 	    void FixedUpdate()
 		{
-			
-			
-			float moveHorizontal = Input.GetAxisRaw ("Horizontal");
-			float moveVertical = Input.GetAxisRaw ("Vertical");
 
-			if (moveVertical != 0 || moveHorizontal != 0) 
+			if (!isConvo)
 			{
-				Vector3 movement = new Vector3 (moveHorizontal, moveVertical, 0f);
-				transform.Translate (movement * moveTime);
+				float moveHorizontal = Input.GetAxisRaw("Horizontal");
+				float moveVertical = Input.GetAxisRaw("Vertical");
+
+				if (moveVertical != 0 || moveHorizontal != 0)
+				{
+					Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0f);
+					transform.Translate(movement * moveTime);
+				}
 			}
-			
+
 		}
 
 		void OnTriggerStay2D(Collider2D other)
@@ -82,6 +85,7 @@ namespace Assets.Scripts.Characters
 		void SetIsConvo(bool boo)
 		{
 			isConvo = boo;
+			dMan.EndConvo();
 		}
 
 		void OnTriggerEnter2D(Collider2D other)
@@ -89,8 +93,10 @@ namespace Assets.Scripts.Characters
 			Debug.Log(other.gameObject.tag);
 			if (other.gameObject.tag == "ItemPickUp")
 			{
+				
 				//other.gameObject.SetActive (false);
-				GameManager.inst.itemM.interactedWithItem(other.gameObject);
+				isConvo = GameManager.inst.itemM.interactedWithItem(other.gameObject);
+				Debug.Log("Trigger Collider with " + other.gameObject.name + " | returned " + isConvo);
 			}
 		}
     }

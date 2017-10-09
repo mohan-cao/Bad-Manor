@@ -18,6 +18,7 @@ public class DialogueManager : MonoBehaviour {
 
 	string npcCharacter;
 	bool needtoendconvo;
+    private bool isItem;
     
     public GameObject dBox;
     public Text dText;
@@ -41,6 +42,7 @@ public class DialogueManager : MonoBehaviour {
         // Set all variables
         npcCharacter = character;
         count = 0;
+        isItem = false;
         GameManager.GameState gameState = GameManager.inst.currentState();
 
         //This is hardcoded for debugging use the line above instead
@@ -54,6 +56,14 @@ public class DialogueManager : MonoBehaviour {
     // Returns true if convo is still going (a line was said)
     // Returns false if convo has ended (so dialogue box has now closed)
     public bool NextLine() {
+        
+        if (isItem)
+        {
+            Debug.Log("Ending dialogue with spacebar");
+            EndConvo();
+            return false;
+        }
+        
         Debug.Log("HELLO, THE COUNT FOR THE CONVO IS " + count);
         // if character has no story during this game state and has already said one random line
         if (storyLines == null && count == 1)
@@ -97,8 +107,24 @@ public class DialogueManager : MonoBehaviour {
 
 	}
 
+    public void ShowItemDialogue(string line)
+    {
+        Debug.Log("Showing Item Dialogue");
+        dBox.SetActive (true);
+        isItem = true;
+        dText.text = line;
+    }
+
     public void EndConvo()
     {
+
+        if (isItem)
+        {
+            dBox.SetActive(false);
+            isItem = false;
+            return;
+        }
+        
         
         if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE && npcCharacter.Equals("Mi Na"))
         {
