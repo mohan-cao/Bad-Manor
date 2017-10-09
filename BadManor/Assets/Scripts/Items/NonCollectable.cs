@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Assets.Scripts.Items
 {
+    /// <summary>
+    /// Not implemented for prototype.</summary>
     class NonCollectable : Item
     {
     }

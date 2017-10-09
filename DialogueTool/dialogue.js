@@ -1,5 +1,6 @@
 var globalConversationIDs = {
 };
+
 if(window.localStorage&&window.localStorage.hasOwnProperty("conversationIds")){
     globalConversationIDs = JSON.parse(localStorage.getItem("conversationIds"));
 }else{

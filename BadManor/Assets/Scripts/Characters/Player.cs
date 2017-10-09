@@ -1,102 +1,125 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Assets.Scripts.Items;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Characters
 {
+	/// <summary>
+	/// Player class represents the main character which is also the player. It is responsible for everything to do the
+	/// player interacting with the world; items, NPCs and collisions. Depends on DialogueManager.</summary>
     class Player : Character
     {
+	    /// <summary>
+	    /// Time the player moves for.</summary>
+		public const float MoveTime = 0.1f;
 
-		public float moveTime = 0.1f;
+	    /// <summary>
+	    /// Rigid body the player sprite.</summary>
+		private Rigidbody2D _rigidBody2D;
+	    /// <summary>
+	    /// Responsible for managing dialogue.</summary>
+		private DialogueManager _dialogueManager;
+	    /// <summary>
+	    /// Whether or not the player is currently engaged in a conversation.</summary>
+		private bool _inConversation;
 
-		private Rigidbody2D rb2d;
-		private DialogueManager dMan;
-
-
-		private bool isConvo;
-
+	    private bool spacePressed = false;
+	    private bool escapePressed = false;
+	    
+	    /// <summary>
+	    /// Initialises fields, this method is executed when the player is created in Unity.</summary>
 		void Start()
 		{
-			rb2d = GetComponent<Rigidbody2D> ();
-			dMan = FindObjectOfType<DialogueManager> ();
-
-
-            //HARD CODING RN
-
-			isConvo = false;
+			_rigidBody2D = GetComponent<Rigidbody2D> ();
+			_dialogueManager = FindObjectOfType<DialogueManager> ();
+			_inConversation = false;
 		}
 
+	    /// <summary>
+	    /// Method is run once per frame and checks how the player wants to proceed with conversation.</summary>
 	    private void Update()
 	    {
-		    if (isConvo) 
+		    if (_inConversation) 
 		    {
-			    if (Input.GetKeyUp (KeyCode.Space)) 
-			    {
-				    Debug.Log ("CONTINUING CONVO");
-				    isConvo = dMan.NextLine ();
-			    } 
-			    else if (Input.GetKeyUp(KeyCode.Escape))
-			    {
-				    Debug.Log("END CONVO IN PLAYER");
-				    isConvo = false;
-				    dMan.EndConvo();
-			    }
-			    return;
+			    CheckConversation();
 		    }
 	    }
 
+	    /// <summary>
+	    /// Method is run once per physics frame and updates the position of the player by multiplying the force vectors
+	    /// with move time. </summary>
 	    void FixedUpdate()
 		{
-
-			if (!isConvo)
+			if (_inConversation)
 			{
+				//CheckConversation();
+			}
+			else
+			{
+				// Get X and Y vectors
 				float moveHorizontal = Input.GetAxisRaw("Horizontal");
 				float moveVertical = Input.GetAxisRaw("Vertical");
-
+				// If vectors are non-zero
 				if (moveVertical != 0 || moveHorizontal != 0)
 				{
+					// then figure out the sum
 					Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0f);
-					transform.Translate(movement * moveTime);
+					// multiply by movement time and sum the old position with the change in position
+					transform.Translate(movement * MoveTime);
 				}
 			}
-
 		}
 
+	    /// <summary>
+	    /// If the player has pressed the escape button then the conversation is left. If the player has pressed the 
+	    /// space button then the conversation continues. </summary>
+	    private void CheckConversation()
+	    {
+		    if (Input.GetKeyUp(KeyCode.Space)) 
+		    {
+			    Debug.Log ("Player: Space was pressed; continuing conversation");
+			    _inConversation = _dialogueManager.NextLine ();
+		    } 
+		    else if (Input.GetKeyUp(KeyCode.Escape))
+		    {
+			    Debug.Log("Player: Esc was pressed; leaving conversation");
+			    _dialogueManager.EndConvo();
+			    _inConversation = false;
+		    }
+	    }
+
+	    
+	    /// <summary>
+	    /// Called every frame where another object is within the player's collider. This is used for interacting with 
+	    /// the NPCs. </summary>
 		void OnTriggerStay2D(Collider2D other)
 		{
-			//Debug.Log ("TRIGGER IN PLAYER");
-			if (other.gameObject.tag == "NPC") 
+			Debug.Log ("Player: OnTriggerStay2D");
+			if (other.gameObject.tag.Equals("NPC")) 
 			{
-				if (Input.GetKeyUp (KeyCode.Space) && !isConvo) 
+				// If the player wants to interact (space button is pressed) and they are not currently in a conversation
+				// then a new one is started.
+				if (Input.GetKeyUp (KeyCode.Space) && !_inConversation) 
 				{
-					Debug.Log ("STARTING CONVO WITH " + other.gameObject.name);
-					Debug.Log("Hi" + GameManager.inst.currentState());
-
-					dMan.StartConvo(other.gameObject.name);
-					isConvo = true;
+					Debug.Log ("Player: Starting conversation with: " + other.gameObject.name);
+					Debug.Log("Player: The current state is: " + GameManager.inst.currentState());
+					_dialogueManager.StartConvo(other.gameObject.name);
+					_inConversation = true;
 				}
 			}
 		}
 
-		void SetIsConvo(bool boo)
-		{
-			isConvo = boo;
-			dMan.EndConvo();
-		}
-
+	    /// <summary>
+	    /// Called every frame where another object enters the player's collider. This is used for interacting with the 
+	    /// items in the world. </summary>
 		void OnTriggerEnter2D(Collider2D other)
 		{
 			Debug.Log(other.gameObject.tag);
-			if (other.gameObject.tag == "ItemPickUp")
+			if (other.gameObject.tag.Equals("ItemPickUp"))
 			{
-				
-				//other.gameObject.SetActive (false);
-				isConvo = GameManager.inst.itemM.interactedWithItem(other.gameObject);
-				Debug.Log("Trigger Collider with " + other.gameObject.name + " | returned " + isConvo);
+				// Informs the ItemManageranager that the player has interacted with an item. True is returned if the 
+				// interaction leads to dialogue.
+				_inConversation = GameManager.inst.ItemManager.interactedWithItem(other.gameObject);
+				Debug.Log("Player: Trigger collider with " + other.gameObject.name
+				          + " | Dialogue triggered: " + _inConversation);
 			}
 		}
     }

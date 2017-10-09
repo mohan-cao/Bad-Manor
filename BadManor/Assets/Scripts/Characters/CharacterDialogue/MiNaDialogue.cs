@@ -3,20 +3,32 @@ using System.Collections;
 using Assets.Scripts;
 using System.Collections.Generic;
 
+/// <summary>
+/// Character dialogue, is all of the random and story lines plus any conditions required to use them.</summary>
 public class MiNaDialogue : CharacterDialogue
 {
-
+    /// <summary>
+    /// Name of the character.</summary>
     private string characterName = "Mi Na Kim";
+    /// <summary>
+    /// Story lines the NPC will say in conversation.</summary>
     private Dictionary<GameManager.GameState, string[]> storyLines = new Dictionary<GameManager.GameState, string[]>();
+    /// <summary>
+    /// Random lines the NPC will say in conversation.</summary>
     private List<string> randomLines = new List<string>();
-
+    /// <summary>
+    /// The singleton pattern instance of the character's dialogue to enforce it.</summary>
     private static MiNaDialogue inst;
     
+    /// <summary>
+    /// Gets the name of the character.</summary>
     public string getName()
     {
         return characterName;
     }
 
+    /// <summary>
+    /// Gets the singleton pattern instance.</summary>
     public static MiNaDialogue getInstance()
     {
         if (inst == null)
@@ -25,6 +37,8 @@ public class MiNaDialogue : CharacterDialogue
         return inst;
     }
 
+    /// <summary>
+    /// Constructs the instance of the character and in the process loads all the lines and character line.</summary>
     private MiNaDialogue()
     {
         storyLines[GameManager.GameState.TUTORIAL_1] = new string[] { "Hey, what's up",
@@ -69,6 +83,8 @@ public class MiNaDialogue : CharacterDialogue
         randomLines.Add("Look how lonely Maurice seems. If only he’d gotten over Bertha and found a wife.");
     }
 
+    /// <summary>
+    /// Returns all story lines the character says.</summary>
     public string[] getStoryLines(GameManager.GameState state)
     {
         string[] value = null;
@@ -83,6 +99,8 @@ public class MiNaDialogue : CharacterDialogue
         return null;
     }
 
+    /// <summary>
+    /// Returns all random/general lines the character says.</summary>
     public string getRandomLine()
     {
         int index = (int)Random.Range(0f, randomLines.Count - 1);

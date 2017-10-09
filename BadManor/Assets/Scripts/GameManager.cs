@@ -1,27 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
+	/// <summary>
+	/// GameManager is the state of the game; everything from the character positions to the sounds being played. It is
+	/// responsible for keeping track of all states by delegating to sub-managers which will in turn hold state and so 
+	/// on. It is also responsible for holding the state of the story which implies a lot about all other objet's state.
+	/// There is currently a dependency for Character, Item, Sound, Score, UI and World Managers only for the prototype,
+	/// this is subject to change as it will probably have greater responsibility later when saving is implemented.
+	/// </summary>
+	/// <remarks>
+	/// This implements a singleton pattern to ensure there is no double up of game state while playing.</remarks>
     public class GameManager : MonoBehaviour
     {
-        public CharacterManager characterM;
-        public ItemManager itemM;
-        public ScoreManager scoreM;
-        public SoundManager soundM;
-        public UIManager uiM;
-        public WorldManager worldM;
+	    /// <summary>
+	    /// Instance of the singleton patter.</summary>
+	    public static GameManager inst = null;
+	    
+	    /// <summary>
+	    /// Instances of each of the sub-managers.</summary>
+        public CharacterManager CharacterManager;
+        public ItemManager ItemManager;
+        public ScoreManager ScoreManager;
+        public SoundManager SoundManager;
+        public UIManager UIManager;
+        public WorldManager WorldManager;
 
-		public Dictionary<string,object> parameters;
-		public Dictionary<string,object> dialogueLines;
+	    /// <summary>
+	    /// A dictionary which stores all parameters to do with game state.</summary>
+		public Dictionary<string,object> Parameters;
+	    /// <summary>
+	    /// A dictionary not currently used in prototype as the dialogue system is bound to change.</summary>
+		public Dictionary<string,object> DialogueLines;
 
-		private GameState gameState = GameState.TUTORIAL_1;
+	    /// <summary>
+	    /// The story state of the game which starts on the first tutorial.</summary>
+		private GameState _gameState = GameState.TUTORIAL_1;
 
-		[Serializable]
+	    /// <summary>
+	    /// GameState is all possible story states.</summary>
         public enum GameState
         {
             INITIAL = 0,
@@ -42,24 +62,28 @@ namespace Assets.Scripts
             FINISHED = 15
         }
 
-        public static GameManager inst = null;
         
+	    /// <summary>
+	    /// Enforces the singleton pattern by ensuring only the most recent instantiation survives.</summary>
         public GameManager()
         {
             inst = inst ?? this;
             InitGame();
         }
 
+	    /// <summary>
+	    /// When a new instance is made the game must be initialised and this method does that. All sub-managers are 
+	    /// made, game map loaded, dialogue loaded, dictionaries initialised, score/timer starte, etc.</summary>
         void InitGame()
         {
-            characterM = new CharacterManager();
-            itemM = new ItemManager(this);
-            scoreM = new ScoreManager();
-            soundM = new SoundManager();
-            uiM = new UIManager();
-            worldM = new WorldManager();
-			dialogueLines = new Dictionary<string, object> ();
-			parameters = new Dictionary<string, object> ();
+            CharacterManager = new CharacterManager();
+            ItemManager = new ItemManager(this);
+            ScoreManager = new ScoreManager();
+            SoundManager = new SoundManager();
+            UIManager = new UIManager();
+            WorldManager = new WorldManager();
+			DialogueLines = new Dictionary<string, object> ();
+			Parameters = new Dictionary<string, object> ();
 
 			SceneManager.LoadScene ("GameMap");
 			TextAsset[] dialogueLoadedLines = Resources.LoadAll<TextAsset> ("");
@@ -68,10 +92,10 @@ namespace Assets.Scripts
 				JSONObject j = new JSONObject (t.text);
 				name = j.GetField ("name").str as String;
 				Dictionary<string,object> dictionary = (Dictionary<string,object>)accessData(j);
-				dialogueLines.Add (name, dictionary);
+				DialogueLines.Add (name, dictionary);
 			}
 	        
-	        scoreM.resume();
+	        ScoreManager.resume();
             // Start everything here
             // Load to main screen
             // Find save game
@@ -80,32 +104,40 @@ namespace Assets.Scripts
             // Get ready to start timing
         }
 
+	    /// <summary>
+	    /// Informs the current story state.</summary>
         public GameState currentState()
         {
-            return gameState;
+            return _gameState;
         }
 
+	    /// <summary>
+	    /// The next story state can be suggested but it wont be entered unless it's only moving the next consecutive 
+	    /// one. Anything that needs to be done on state change can occur here</summary>
         public void newState(GameState nextState)
         {
-			if (nextState == gameState + 1) {
-				//HOOK IN HERE TO MAKE CALLS
+			if (nextState == _gameState + 1) {
 				if (nextState == GameState.TUTORIAL_1) {
-					scoreM.resume ();
+					ScoreManager.resume ();
 				}
 				if (nextState == GameState.FINISHED) {
-					scoreM.pause ();
+					ScoreManager.pause ();
 				}
-				gameState = nextState;
-				
-				Debug.Log("State is now: " + nextState);
+				_gameState = nextState;
+				Debug.Log("GameManager: State is now: " + nextState);
 			}
         }
 
+	    /// <summary>
+	    /// Returns the time taken for the player to play the game thus far.</summary>
         public long timeSinceStart()
         {
-            return scoreM.timeSinceStart();
+            return ScoreManager.timeSinceStart();
         }
 
+	    /// <summary>
+	    /// A currently useless method to load dialogue as post-prototype the dialogue system will be overhauled.
+	    /// </summary>
 		private object accessData(JSONObject obj){
 			switch(obj.type){
 			case JSONObject.Type.OBJECT:
