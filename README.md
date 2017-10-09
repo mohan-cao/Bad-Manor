@@ -8,6 +8,7 @@
 
 # Execution instructions
 Run the .exe
+
 Press [space] to interact with NPCs via dialogue 
 
 # Setting up
