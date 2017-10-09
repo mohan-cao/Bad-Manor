@@ -87,7 +87,7 @@ namespace Assets.Scripts.Characters
 			if (other.gameObject.tag == "ItemPickUp")
 			{
 				//other.gameObject.SetActive (false);
-				GameManager.inst.itemM.add(other.gameObject);
+				GameManager.inst.itemM.interactedWithItem(other.gameObject);
 			}
 		}
     }
