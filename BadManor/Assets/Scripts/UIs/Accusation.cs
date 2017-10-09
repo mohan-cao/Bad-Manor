@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Scripts;
 using Assets.Scripts.UIs;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -11,6 +12,8 @@ public class Accusation : Interface {
 
     public ToggleGroup tg;
     string accusingName;
+    public Text AccuseBtnText;
+    public Button AccuseBtn;
     
 
     void Start()
@@ -20,6 +23,16 @@ public class Accusation : Interface {
 
     public void displayAccuse()
     {
+        if (GameManager.inst.currentState() >= GameManager.GameState.ACCUSE)
+        {
+            AccuseBtnText.text = "ACCUSE!";
+            AccuseBtn.enabled = true;
+        }
+        else
+        {
+            AccuseBtnText.text = "Need more evidence";
+            AccuseBtn.enabled = false;
+        }
         Debug.Log("ACCUSE HIM");
         UIPanel.gameObject.SetActive(true);
     }
@@ -36,26 +49,33 @@ public class Accusation : Interface {
 
     public void makeAccusation()
     {
-
-        // first get active toggle
-        foreach(Toggle t in tg.ActiveToggles())
+        if (GameManager.inst.currentState() >= GameManager.GameState.ACCUSE)
         {
-            Debug.Log(t.name);
-            accusingName = t.name;
-            break;
+
+            // first get active toggle
+            foreach (Toggle t in tg.ActiveToggles())
+            {
+                Debug.Log(t.name);
+                accusingName = t.name;
+                break;
+            }
+            if (accusingName == "AccuseSam")
+            {
+                Debug.Log("you win!");
+                hideAccusePanel();
+                SceneManager.LoadScene("EndScreenWin");
+
+            }
+            else
+            {
+                Debug.Log("you lose!");
+                hideAccusePanel();
+                SceneManager.LoadScene("EndScreenLose");
+            }
         }
-        if (accusingName == "AccuseSam")
-        {
-            Debug.Log("you win!");
-            hideAccusePanel();
-            SceneManager.LoadScene("EndScreenWin");
-
-        } 
         else
         {
-            Debug.Log("you lose!");
-            hideAccusePanel();
-            SceneManager.LoadScene("EndScreenLose");
+            Debug.Log("get some more evidence");
         }
     }
 }

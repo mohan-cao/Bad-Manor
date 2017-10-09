@@ -37,11 +37,6 @@ public class DialogueManager : MonoBehaviour {
     public void StartConvo(string character){
         Debug.Log(character);
         Debug.Log(GameManager.inst.currentState());
-        if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE && character.Equals("Mi Na"))
-        {
-            Debug.Log("WE'VE HIT THE END........SYKE");
-            GameManager.inst.worldM.openCharlesRoom();
-        }
         
         // Set all variables
         npcCharacter = character;
@@ -105,9 +100,17 @@ public class DialogueManager : MonoBehaviour {
 
     public void EndConvo()
     {
+        
+        if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE && npcCharacter.Equals("Mi Na"))
+        {
+            Debug.Log("WE'VE HIT THE END........SYKE");
+            GameManager.inst.worldM.openCharlesRoom();
+        }
+        
         Debug.Log("END CONVO");
         dBox.SetActive (false);
         npcCharacter = null;
+        
         
         switch (timesTalked)
         {
