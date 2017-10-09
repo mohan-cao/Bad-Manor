@@ -8,6 +8,7 @@
 
 # Execution instructions
 Run the .exe
+Press [space] to interact with NPCs via dialogue 
 
 # Setting up
 1. Set up Git LFS. https://git-lfs.github.com/
