@@ -286,7 +286,6 @@ GameObject:
   - 223: {fileID: 57191876}
   - 114: {fileID: 57191875}
   - 114: {fileID: 57191874}
-  - 114: {fileID: 57191878}
   m_Layer: 5
   m_Name: AccuseCanvas
   m_TagString: Untagged
@@ -379,19 +378,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &57191878
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 57191873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45b7afe761ae7b54a94b42db4b4678e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UIPanel: {fileID: 57191877}
-  tg: {fileID: 735250269}
 --- !u!1001 &67489317
 Prefab:
   m_ObjectHideFlags: 0
@@ -1789,7 +1775,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 57191878}
+      - m_Target: {fileID: 896759921}
         m_MethodName: notNow
         m_Mode: 1
         m_Arguments:
@@ -3931,7 +3917,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 57191878}
+      - m_Target: {fileID: 896759921}
         m_MethodName: makeAccusation
         m_Mode: 1
         m_Arguments:
@@ -4063,6 +4049,7 @@ GameObject:
   - 222: {fileID: 896759920}
   - 114: {fileID: 896759919}
   - 114: {fileID: 896759918}
+  - 114: {fileID: 896759921}
   m_Layer: 5
   m_Name: Accuse
   m_TagString: Untagged
@@ -4128,7 +4115,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 57191878}
+      - m_Target: {fileID: 896759921}
         m_MethodName: displayAccuse
         m_Mode: 1
         m_Arguments:
@@ -4174,6 +4161,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 896759916}
+--- !u!114 &896759921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 896759916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b7afe761ae7b54a94b42db4b4678e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIPanel: {fileID: 57191877}
+  tg: {fileID: 735250269}
 --- !u!1001 &896913089
 Prefab:
   m_ObjectHideFlags: 0

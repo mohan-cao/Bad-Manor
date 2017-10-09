@@ -20,6 +20,7 @@ public class Accusation : Interface {
 
     public void displayAccuse()
     {
+        Debug.Log("ACCUSE HIM");
         UIPanel.gameObject.SetActive(true);
     }
 

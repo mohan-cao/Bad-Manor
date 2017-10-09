@@ -70,6 +70,8 @@ namespace Assets.Scripts
 				Dictionary<string,object> dictionary = (Dictionary<string,object>)accessData(j);
 				dialogueLines.Add (name, dictionary);
 			}
+	        
+	        scoreM.resume();
             // Start everything here
             // Load to main screen
             // Find save game
