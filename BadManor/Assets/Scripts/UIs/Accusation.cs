@@ -13,6 +13,7 @@ public class Accusation : Interface {
 
     /// <summary>
     /// The parent of the interface.</summary>
+    [SerializeField]
     Transform UIPanel;
     /// <summary>
     /// Accusation options.</summary>
