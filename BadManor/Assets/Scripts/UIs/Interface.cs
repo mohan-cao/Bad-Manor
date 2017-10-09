@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.UIs
 {
-    abstract class Interface : MonoBehaviour
+    public abstract class Interface : MonoBehaviour
     {
     }
 }

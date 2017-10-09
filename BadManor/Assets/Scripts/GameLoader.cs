@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
     public class GameLoader : MonoBehaviour
     {
-        private GameManager gM;
+        private GameManager gameManager;
         public static GameLoader inst = null;
         
         private void Awake()
@@ -19,18 +20,21 @@ namespace Assets.Scripts
                 Destroy(gameObject);
             }
             DontDestroyOnLoad(gameObject);
-			UnityEngine.SceneManagement.SceneManager.LoadScene ("WelcomeScene");
+        }
+
+        public void newGame()
+        {
+            gameManager = new GameManager();
+        }
+
+        public void loadGame()
+        {
 			newGame ();
         }
 
-        private void newGame()
-        {
-            gM = new GameManager();
-        }
-
-        private void loadGame()
-        {
-            //TODO
-        }
+		public void quitGame()
+		{
+			Application.Quit ();
+		}
     }
 }

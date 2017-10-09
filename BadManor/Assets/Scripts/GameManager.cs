@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
@@ -18,7 +19,7 @@ namespace Assets.Scripts
 		public Dictionary<string,object> parameters;
 		public Dictionary<string,object> dialogueLines;
 
-		private GameState gameState = GameState.INITIAL;
+		private GameState gameState = GameState.TUTORIAL_1;
 
 		[Serializable]
         public enum GameState
@@ -59,6 +60,8 @@ namespace Assets.Scripts
             worldM = new WorldManager();
 			dialogueLines = new Dictionary<string, object> ();
 			parameters = new Dictionary<string, object> ();
+
+			SceneManager.LoadScene ("GameMap");
 			TextAsset[] dialogueLoadedLines = Resources.LoadAll<TextAsset> ("");
 			string name = null;
 			foreach (TextAsset t in dialogueLoadedLines) {
@@ -67,6 +70,8 @@ namespace Assets.Scripts
 				Dictionary<string,object> dictionary = (Dictionary<string,object>)accessData(j);
 				dialogueLines.Add (name, dictionary);
 			}
+	        
+	        scoreM.resume();
             // Start everything here
             // Load to main screen
             // Find save game
@@ -91,6 +96,8 @@ namespace Assets.Scripts
 					scoreM.pause ();
 				}
 				gameState = nextState;
+				
+				Debug.Log("State is now: " + nextState);
 			}
         }
 

@@ -9,6 +9,24 @@ namespace Assets.Scripts
 {
     public class WorldManager : MonoBehaviour
     {
+	    public bool canGoTo(RoomLocations.RoomsSpawns room)
+	    {
+		    if (room == RoomLocations.RoomsSpawns.BasementSecurity)
+		    {
+			    if (GameManager.inst.currentState() < GameManager.GameState.ENTER_SECURITY)
+			    {
+				    return false;
+			    }
+			    else
+			    {
+				    Debug.Log("ABLE TO GO THROUGH TO THE SECURITY ROOM");
+				    enteredSecurity();
+				    return true;
+			    }
+		    }
+		    return true;
+	    }
+	    
 		public void startTutorial()
 		{
 			GameManager.inst.newState (GameManager.GameState.TUTORIAL_1);
@@ -38,6 +56,11 @@ namespace Assets.Scripts
 		{
 			GameManager.inst.newState (GameManager.GameState.ENTER_SECURITY);
 		}
+
+	    public void enteredSecurity()
+	    {
+		    GameManager.inst.newState(GameManager.GameState.FIND_SEC_EVIDENCE);
+	    }
 
 		public void foundSecurityEvidence()
 		{

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Assets.Scripts.Items;
 using UnityEngine;
 
 namespace Assets.Scripts.Characters
@@ -29,29 +30,40 @@ namespace Assets.Scripts.Characters
 			isConvo = false;
 		}
 
-		void Update()
+	    private void Update()
+	    {
+		    if (isConvo) 
+		    {
+			    if (Input.GetKeyUp (KeyCode.Space)) 
+			    {
+				    Debug.Log ("CONTINUING CONVO");
+				    isConvo = dMan.NextLine ();
+			    } 
+			    else if (Input.GetKeyUp(KeyCode.Escape))
+			    {
+				    Debug.Log("END CONVO IN PLAYER");
+				    isConvo = false;
+				    dMan.EndConvo();
+			    }
+			    return;
+		    }
+	    }
+
+	    void FixedUpdate()
 		{
-			float moveHorizontal = Input.GetAxisRaw ("Horizontal");
-			float moveVertical = Input.GetAxisRaw ("Vertical");
 
-			if (isConvo) 
+			if (!isConvo)
 			{
-				if (Input.GetKeyUp (KeyCode.Space)) 
+				float moveHorizontal = Input.GetAxisRaw("Horizontal");
+				float moveVertical = Input.GetAxisRaw("Vertical");
+
+				if (moveVertical != 0 || moveHorizontal != 0)
 				{
-					Debug.Log ("CONTINUING CONVO");
-					isConvo = dMan.NextLine ();
-					if (!isConvo) {
-						dMan.EndConvo ();
-					}
+					Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0f);
+					transform.Translate(movement * moveTime);
 				}
-				return;
 			}
 
-			if (moveVertical != 0 || moveHorizontal != 0) 
-			{
-				Vector3 movement = new Vector3 (moveHorizontal, moveVertical, 0f);
-				transform.Translate (movement * moveTime);
-			}
 		}
 
 		void OnTriggerStay2D(Collider2D other)
@@ -61,8 +73,10 @@ namespace Assets.Scripts.Characters
 			{
 				if (Input.GetKeyUp (KeyCode.Space) && !isConvo) 
 				{
-					Debug.Log ("STARTING CONVO IN PLAYER");
-					dMan.StartConvo ();
+					Debug.Log ("STARTING CONVO WITH " + other.gameObject.name);
+					Debug.Log("Hi" + GameManager.inst.currentState());
+
+					dMan.StartConvo(other.gameObject.name);
 					isConvo = true;
 				}
 			}
@@ -71,7 +85,19 @@ namespace Assets.Scripts.Characters
 		void SetIsConvo(bool boo)
 		{
 			isConvo = boo;
+			dMan.EndConvo();
 		}
 
+		void OnTriggerEnter2D(Collider2D other)
+		{
+			Debug.Log(other.gameObject.tag);
+			if (other.gameObject.tag == "ItemPickUp")
+			{
+				
+				//other.gameObject.SetActive (false);
+				isConvo = GameManager.inst.itemM.interactedWithItem(other.gameObject);
+				Debug.Log("Trigger Collider with " + other.gameObject.name + " | returned " + isConvo);
+			}
+		}
     }
 }
