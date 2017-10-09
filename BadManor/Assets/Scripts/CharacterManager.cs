@@ -1,31 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Assets.Scripts.Characters;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts
 {
+	/// <summary>
+	/// CharacterManager manages all characters in the game. It currently has no respoonsibility for the prototype
+	/// but in the future it will manage movement, interaction and dialogue of them. It currently doesn't depend on any
+	/// other class at the moment but it will liekly depend on Character later.</summary>
 	public class CharacterManager : MonoBehaviour
     {
-
-		public float moveTime = 0.1f;		//Time to move character in seconds
-
-		private BoxCollider2D collide;		//Instance of BoxCollider2D attached to this character
-		private Rigidbody2D rb2d;			//Instance of RigidBody2D attached to this character
-
-		public virtual void Start()
-		{
-			//Initialise 'collide' with reference to BoxCollider2D
-			collide = GetComponent<BoxCollider2D> ();
-
-			//Initialise 'rb2d' with reference to RigidBody2D
-			rb2d = GetComponent<Rigidbody2D> ();
-		}
-
-		//public bool Move (int xDir, int yDir, 
-
+	    /// <summary>
+	    /// The time for which characters move in the game per phsyics frame.</summary>
+		public float moveTime = 0.1f;
     }
-
 }
