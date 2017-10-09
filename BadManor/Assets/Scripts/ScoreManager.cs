@@ -1,35 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using UnityEngine;
 
 namespace Assets.Scripts
 {
+    /// <summary>
+    /// State of the game score measured in how long it takes to finish the game.</summary>
     public class ScoreManager : MonoBehaviour
     {
+        /// <summary>
+        /// Store for the name property.</summary>
         [SerializeField]
-        private Stopwatch st;
+        private Stopwatch _stopwatch;
 
+        /// <summary>
+        /// Creates a new stopwatch in preparation to keep track of time elapsed.</summary>
         public ScoreManager()
         {
-            st = new Stopwatch();
+            _stopwatch = new Stopwatch();
         }
         
+        /// <summary>
+        /// Returns how long the player has been playing for.</summary>
         public long timeSinceStart()
         {
-            return st.ElapsedMilliseconds;
+            return _stopwatch.ElapsedMilliseconds;
         }
 
+        /// <summary>
+        /// Continues the timer or starts it if not previously started.</summary>
         public void resume()
         {
-            st.Start();
+            _stopwatch.Start();
         }
 
+        /// <summary>
+        /// Stops the timer until it is resumed.</summary>
         public void pause()
         {
-            st.Stop();
+            _stopwatch.Stop();
         }
     }
 }
