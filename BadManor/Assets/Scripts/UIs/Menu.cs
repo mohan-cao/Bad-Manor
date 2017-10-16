@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Assets.Scripts.UIs
 {
+    /// <summary>
+    /// Will handle the main menu interface for better cohesion in GameLoader.</summary>
     class Menu : Interface
     {
     }

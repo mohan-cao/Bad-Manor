@@ -5,6 +5,8 @@ using System.Text;
 
 namespace Assets.Scripts.Sounds
 {
+    /// <summary>
+    /// Not implemented for prototype.</summary>
     class Music : Sound
     {
     }

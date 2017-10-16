@@ -6,6 +6,8 @@ using UnityEngine;
 
 namespace Assets.Scripts.Sounds
 {
+    /// <summary>
+    /// Not implemented for prototype.</summary>
     abstract class Sound : MonoBehaviour
     {
     }

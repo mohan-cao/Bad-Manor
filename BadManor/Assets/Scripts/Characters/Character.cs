@@ -6,7 +6,9 @@ using UnityEngine;
 
 namespace Assets.Scripts.Characters
 {
-    abstract class Character : MonoBehaviour
+    /// <summary>
+    /// Not implemented for prototype.</summary>
+    public abstract class Character : MonoBehaviour
     {
     }
 }
