@@ -23,6 +23,10 @@ namespace Assets.Scripts.Characters
 
 	    private bool spacePressed = false;
 	    private bool escapePressed = false;
+
+		//<summary>
+		/// Private animator which assists with the animation when the player walks
+		private Animator _animator;
 	    
 	    /// <summary>
 	    /// Initialises fields, this method is executed when the player is created in Unity.</summary>
@@ -31,6 +35,8 @@ namespace Assets.Scripts.Characters
 			_rigidBody2D = GetComponent<Rigidbody2D> ();
 			_dialogueManager = FindObjectOfType<DialogueManager> ();
 			_inConversation = false;
+			_animator = GetComponent<Animator> ();
+
 		}
 
 	    /// <summary>
@@ -66,7 +72,10 @@ namespace Assets.Scripts.Characters
 					transform.Translate(movement * MoveTime);
 				}
 			}
-		}
+
+			//Configure the animation of the player
+			_animator.SetFloat("MoveX", Input.GetAxisRaw ("Horizontal"));
+			_animator.SetFloat("MoveY", Input.GetAxisRaw ("Vertical"));}
 
 	    /// <summary>
 	    /// If the player has pressed the escape button then the conversation is left. If the player has pressed the 
