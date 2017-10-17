@@ -23,7 +23,6 @@ namespace Tiled2Unity
             // Find the import behaviour that was waiting on this prefab to be imported
             string asset = Path.GetFileName(prefabPath);
             ImportBehaviour importComponent = ImportBehaviour.FindImportBehavior_ByWaitingPrefab(asset);
-
             if (importComponent != null)
             {
                 // The prefab has finished loading. Keep track of that status.
@@ -204,7 +203,6 @@ namespace Tiled2Unity
             int sortingOrder = ImportUtils.GetAttributeAsInt(xml, "sortingOrder");
 
             Renderer renderer = gameObject.GetComponent<Renderer>();
-
             if (renderer == null)
             {
                 importComponent.RecordWarning("Sorting Order '{0}' cannot be assigned on '{1}' without a RendererComponent", sortingOrder, gameObject.name);
@@ -217,12 +215,10 @@ namespace Tiled2Unity
         private void AssignSortingLayerNameTo(GameObject gameObject, XElement xml, ImportBehaviour importComponent)
         {
             string sortingLayer = ImportUtils.GetAttributeAsString(xml, "sortingLayerName", "");
-
             if (String.IsNullOrEmpty(sortingLayer))
                 return;
 
             Renderer renderer = gameObject.GetComponent<Renderer>();
-
             if (renderer == null)
             {
                 importComponent.RecordWarning("Sorting Layer '{0}' cannot be assigned on '{1}' without a RendererComponent", sortingLayer, gameObject.name);
@@ -241,7 +237,6 @@ namespace Tiled2Unity
         private void AssignOpacityTo(GameObject gameObject, XElement xml, ImportBehaviour importComponent)
         {
             float opacity = ImportUtils.GetAttributeAsFloat(xml, "opacity", 1.0f);
-
             if (opacity == 1.0f)
                 return;
 
@@ -255,12 +250,10 @@ namespace Tiled2Unity
         private void AssignLayerTo(GameObject gameObject, XElement xml, ImportBehaviour importComponent)
         {
             string layerName = ImportUtils.GetAttributeAsString(xml, "layer", "");
-
             if (String.IsNullOrEmpty(layerName))
                 return;
 
             int layerId = LayerMask.NameToLayer(layerName);
-
             if (layerId == -1)
             {
                 importComponent.RecordError("Layer '{0}' is not defined for '{1}'. Check project settings in Edit->Project Settings->Tags & Layers", layerName, GetFullGameObjectName(gameObject.transform));
@@ -294,7 +287,6 @@ namespace Tiled2Unity
         private void AssignTagTo(GameObject gameObject, XElement xml, ImportBehaviour importComponent)
         {
             string tag = ImportUtils.GetAttributeAsString(xml, "tag", "");
-
             if (String.IsNullOrEmpty(tag))
                 return;
 
@@ -313,7 +305,6 @@ namespace Tiled2Unity
         {
             if (xform == null)
                 return "";
-
             string parentName = GetFullGameObjectName(xform.parent);
 
             if (String.IsNullOrEmpty(parentName))
@@ -446,12 +437,10 @@ namespace Tiled2Unity
         {
             string meshAssetPath = GetMeshAssetPath(importComponent.MapName, meshName);
             UnityEngine.Object[] objects = AssetDatabase.LoadAllAssetsAtPath(meshAssetPath);
-
             foreach (var obj in objects)
             {
                 // Do we have a game object?
                 GameObject gameObj = obj as GameObject;
-
                 if (gameObj == null)
                     continue;
 
@@ -477,7 +466,6 @@ namespace Tiled2Unity
             // (In Unity terms, the Instantiated object is a copy)
             string objPath = GetMeshAssetPath(importComponent.MapName, importComponent.MapName);
             UnityEngine.Object[] objects = AssetDatabase.LoadAllAssetsAtPath(objPath);
-
             foreach (var obj in objects)
             {
                 if (obj.name != copyFromName)
@@ -485,7 +473,6 @@ namespace Tiled2Unity
 
                 // We have a match but is it a game object?
                 GameObject gameObj = GameObject.Instantiate(obj) as GameObject;
-
                 if (gameObj == null)
                     continue;
 
@@ -502,7 +489,6 @@ namespace Tiled2Unity
         private void AddTileLayerComponentsTo(GameObject gameObject, XElement goXml)
         {
             var xml = goXml.Element("TileLayer");
-
             if (xml != null)
             {
                 Tiled2Unity.TileLayer tileLayer = gameObject.AddComponent<Tiled2Unity.TileLayer>();
@@ -513,7 +499,6 @@ namespace Tiled2Unity
         private void AddObjectLayerComponentsTo(GameObject gameObject, XElement goXml)
         {
             var xml = goXml.Element("ObjectLayer");
-
             if (xml != null)
             {
                 Tiled2Unity.ObjectLayer objectLayer = gameObject.AddComponent<Tiled2Unity.ObjectLayer>();
@@ -525,7 +510,6 @@ namespace Tiled2Unity
         private void AddGroupLayerComponentsTo(GameObject gameObject, XElement goXml)
         {
             var xml = goXml.Element("GroupLayer");
-
             if (xml != null)
             {
                 Tiled2Unity.GroupLayer groupLayer = gameObject.AddComponent<Tiled2Unity.GroupLayer>();
@@ -541,7 +525,6 @@ namespace Tiled2Unity
         private void AddTmxObjectComponentsTo(GameObject gameObject, XElement goXml)
         {
             var xml = goXml.Element("TmxObjectComponent");
-
             if (xml != null)
             {
                 TmxObject tmxObject = gameObject.AddComponent<TmxObject>();
@@ -552,7 +535,6 @@ namespace Tiled2Unity
         private void AddRectangleObjectComponentsTo(GameObject gameObject, XElement goXml)
         {
             var xml = goXml.Element("RectangleObjectComponent");
-
             if (xml != null)
             {
                 RectangleObject tmxRectangle = gameObject.AddComponent<Tiled2Unity.RectangleObject>();
@@ -563,7 +545,6 @@ namespace Tiled2Unity
         private void AddCircleObjectComponentsTo(GameObject gameObject, XElement goXml)
         {
             var xml = goXml.Element("CircleObjectComponent");
-
             if (xml != null)
             {
                 CircleObject tmxCircle = gameObject.AddComponent<Tiled2Unity.CircleObject>();
@@ -574,7 +555,6 @@ namespace Tiled2Unity
         private void AddPolygonObjectComponentsTo(GameObject gameObject, XElement goXml)
         {
             var xml = goXml.Element("PolygonObjectComponent");
-
             if (xml != null)
             {
                 PolygonObject tmxPolygon = gameObject.AddComponent<Tiled2Unity.PolygonObject>();
@@ -585,7 +565,6 @@ namespace Tiled2Unity
         private void AddPolylineObjectComponentsTo(GameObject gameObject, XElement goXml)
         {
             var xml = goXml.Element("PolylineObjectComponent");
-
             if (xml != null)
             {
                 PolylineObject tmxPolyline = gameObject.AddComponent<Tiled2Unity.PolylineObject>();
@@ -596,7 +575,6 @@ namespace Tiled2Unity
         private void AddTileObjectComponentsTo(GameObject gameObject, XElement goXml)
         {
             var tileXml = goXml.Element("TileObjectComponent");
-
             if (tileXml != null)
             {
                 TileObject tileObject = gameObject.AddComponent<TileObject>();
@@ -624,7 +602,6 @@ namespace Tiled2Unity
         {
             // This object will only visible for a given moment of time within an animation
             var animXml = goXml.Element("TileAnimator");
-
             if (animXml != null)
             {
                 TileAnimator tileAnimator = gameObject.AddComponent<TileAnimator>();
@@ -638,7 +615,6 @@ namespace Tiled2Unity
         {
             // Add the TiledMap component
             TiledMap map = gameObject.AddComponent<TiledMap>();
-
             try
             {
                 map.Orientation = ImportUtils.GetAttributeAsEnum<TiledMap.MapOrientation>(goXml, "orientation");
@@ -670,7 +646,6 @@ namespace Tiled2Unity
             if (props.Count() > 0)
             {
                 var dictionary = props.OrderBy(p => p.Name).ToDictionary(p => p.Name, p => p.Value);
-
                 foreach (ICustomTiledImporter importer in importers)
                 {
                     importer.HandleCustomProperties(gameObject, dictionary);
@@ -695,7 +670,6 @@ namespace Tiled2Unity
                              where !t.IsAbstract
                              where System.Attribute.GetCustomAttribute(t, typeof(CustomTiledImporterAttribute)) == null
                              select t;
-
             foreach (var t in errorTypes)
             {
                 importComponent.RecordError("ICustomTiledImporter type '{0}' is missing CustomTiledImporterAttribute", t);

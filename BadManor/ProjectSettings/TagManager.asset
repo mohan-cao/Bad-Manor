@@ -8,6 +8,7 @@ TagManager:
   - Warp
   - Spawn
   - ItemPickUp
+  - Collide
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 
@@ -47,4 +48,13 @@ TagManager:
     locked: 0
   - name: Warp Pads
     uniqueID: 2363900395
+    locked: 0
+  - name: Background
+    uniqueID: 2596751585
+    locked: 0
+  - name: Player
+    uniqueID: 2387809973
+    locked: 0
+  - name: Foreground
+    uniqueID: 1926678975
     locked: 0
