@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 <a href="https://github.com/mohan-cao/306P2"><img style="display:inline-block;" src="./bmlogo.png" alt="Our logo WIP"></a>
 <br>
 <sup>Master branch is currently </sup><a href="https://travis-ci.com/mohan-cao/revilo"><img style="display:inline-block;" src="https://travis-ci.com/mohan-cao/306P2.svg?token=geujzTyWrzPD96doTGqK&branch=master" alt="Build status"></a>
@@ -15,7 +15,28 @@
 # Setting Up
 1. Set up Git LFS. https://git-lfs.github.com/
 2. Set up Unity for Git. 
+3. Set up automerging of scene files using Unity's YAMLMerge
+    - Append the following in the ~/.gitconfig configuration file, replacing the path to the YAML Merge tool with the merge tool location (generally follows a similar directory structure):
 
+For Windows:
+```
+[merge]
+	tool = unityyamlmerge
+
+[mergetool "unityyamlmerge"]
+	trustExitCode = false
+	cmd = 'C:\Program Files\Unity\Editor\Data\Tools\UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+```
+
+For Mac:
+```
+[merge]
+	tool = unityyamlmerge
+
+[mergetool "unityyamlmerge"]
+	trustExitCode = false
+	cmd = '/Applications/Unity/Unity.app/Contents/Tools/UnityYAMLMerge' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+```
 
 For versions of Unity 3D v4.3 and up:
 
