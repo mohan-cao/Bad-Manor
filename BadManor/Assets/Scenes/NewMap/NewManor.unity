@@ -85,20 +85,79 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &29745643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 922551774}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 29745646}
+  - 61: {fileID: 29745645}
+  - 114: {fileID: 29745644}
+  m_Layer: 0
+  m_Name: TP-RoofUncontrollableFall
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &29745644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 29745643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 300002
+  guide: {fileID: 1514750512}
+  destinationID: 700001
+--- !u!61 &29745645
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 922551774}
+  m_GameObject: {fileID: 29745643}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.03, y: 1}
+--- !u!4 &29745646
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 922551774}
+  m_GameObject: {fileID: 29745643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 83.47, y: -152.2, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
 --- !u!1001 &46914741
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 82.14
+      value: -10.491805
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -120.33
+      value: -11.35821
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -122,7 +181,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -130,7 +189,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 13
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -142,29 +201,151 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &63495898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 562102696}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 63495901}
+  - 61: {fileID: 63495900}
+  - 114: {fileID: 63495899}
+  m_Layer: 0
+  m_Name: TP-Chimney2-1
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &63495899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63495898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723ceb19b18088943892e5e357c5ddb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 700005
+  guide: {fileID: 1514750512}
+  destinationID: 700004
+--- !u!61 &63495900
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 562102696}
+  m_GameObject: {fileID: 63495898}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.03, y: 1}
+--- !u!4 &63495901
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 562102696}
+  m_GameObject: {fileID: 63495898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 89.25, y: -203.69, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
+--- !u!1 &78742007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 326606654}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 78742010}
+  - 61: {fileID: 78742009}
+  - 114: {fileID: 78742008}
+  m_Layer: 0
+  m_Name: TP-Chimney1-0
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &78742008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 78742007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723ceb19b18088943892e5e357c5ddb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 700003
+  guide: {fileID: 1514750512}
+  destinationID: 700002
+--- !u!61 &78742009
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 326606654}
+  m_GameObject: {fileID: 78742007}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.03, y: 1}
+--- !u!4 &78742010
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 326606654}
+  m_GameObject: {fileID: 78742007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.49, y: -208.79, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
 --- !u!1001 &80979431
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 84.73
+      value: -6.2458973
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -129.32
+      value: -24.776127
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -188,7 +369,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -196,7 +377,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 8
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -208,13 +389,88 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &93333334
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 109.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -207.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1514750512}
+    - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_Name
+      value: TP-BaseOfChimney
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: teleporterID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: destinationID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.x
       value: 0.61
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.67
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0691422
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &141184638
@@ -228,7 +484,7 @@ GameObject:
   - 61: {fileID: 141184640}
   - 114: {fileID: 141184639}
   m_Layer: 0
-  m_Name: TP-SecurityTile (7)
+  m_Name: TP-SecurityTile 7
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,12 +527,12 @@ Transform:
   m_PrefabInternal: {fileID: 941903239}
   m_GameObject: {fileID: 141184638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 84.73, y: -126.14, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -6.2458973, y: -20.029848, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 7
 --- !u!1 &157522372
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +592,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
 --- !u!1 &189548824
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +604,7 @@ GameObject:
   - 61: {fileID: 189548826}
   - 114: {fileID: 189548825}
   m_Layer: 0
-  m_Name: TP-SecurityTile (0)
+  m_Name: TP-SecurityTile 0
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,12 +647,12 @@ Transform:
   m_PrefabInternal: {fileID: 1219297320}
   m_GameObject: {fileID: 189548824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.19, y: -135.04, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -10.409833, y: -33.31342, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 0
 --- !u!1 &212676192
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +712,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!1 &212815555
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +724,7 @@ GameObject:
   - 61: {fileID: 212815557}
   - 114: {fileID: 212815556}
   m_Layer: 0
-  m_Name: TP-SecurityTile (3)
+  m_Name: TP-SecurityTile 3
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,26 +767,26 @@ Transform:
   m_PrefabInternal: {fileID: 1965569287}
   m_GameObject: {fileID: 212815555}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.83, y: -131.9, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: 2.1147556, y: -28.626854, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 3
 --- !u!1001 &233994228
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 88.6
+      value: 0.09835665
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -126.14
+      value: -20.029848
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -554,7 +810,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -562,7 +818,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 9
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -574,13 +830,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &250606039
@@ -653,6 +914,77 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &253104040
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 83.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -161.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1514750512}
+    - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_Name
+      value: TP-RoofAfterEscape
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: teleporterID
+      value: 300002
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: destinationID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0691422
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &289045433
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,7 +1044,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
 --- !u!1 &298806906
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +1104,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!1001 &302424188
 Prefab:
   m_ObjectHideFlags: 0
@@ -848,15 +1180,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 89.86
+      value: 2.1639338
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -120.37
+      value: -11.4179125
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -880,7 +1212,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -888,7 +1220,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 14
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -900,11 +1232,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -984,7 +1320,7 @@ Camera:
   m_PrefabParentObject: {fileID: 2076728, guid: 2816232c8f57a214dab0070e379abdd1,
     type: 2}
   m_PrefabInternal: {fileID: 1468820732}
---- !u!1001 &330326579
+--- !u!1001 &326606654
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -993,11 +1329,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 87.32
+      value: 99.49
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -117.79
+      value: -208.79
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1021,7 +1357,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -1029,7 +1365,78 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-Chimney1-0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: teleporterID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: destinationID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0691422
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &330326579
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1332013003}
+    m_Modifications:
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -7.5671635
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1514750512}
+    - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_Name
+      value: TP-SecurityTile 17
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -1041,11 +1448,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -1109,21 +1520,21 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1001 &387283913
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 82.18
+      value: -10.42623
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -123.55
+      value: -16.16418
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1147,7 +1558,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -1155,7 +1566,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 11
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -1167,11 +1578,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -1375,7 +1790,66 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
+--- !u!1 &487177916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 253104040}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 487177919}
+  - 61: {fileID: 487177918}
+  - 114: {fileID: 487177917}
+  m_Layer: 0
+  m_Name: TP-RoofAfterEscape
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &487177917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 487177916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 300003
+  guide: {fileID: 1514750512}
+  destinationID: 300003
+--- !u!61 &487177918
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 253104040}
+  m_GameObject: {fileID: 487177916}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.03, y: 1}
+--- !u!4 &487177919
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 253104040}
+  m_GameObject: {fileID: 487177916}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 83.47, y: -161.9, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
 --- !u!1 &490747587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1387,7 +1861,7 @@ GameObject:
   - 61: {fileID: 490747589}
   - 114: {fileID: 490747588}
   m_Layer: 0
-  m_Name: TP-SecurityTile (8)
+  m_Name: TP-SecurityTile 8
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1430,12 +1904,12 @@ Transform:
   m_PrefabInternal: {fileID: 80979431}
   m_GameObject: {fileID: 490747587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 84.73, y: -129.32, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -6.2458973, y: -24.776127, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 8
 --- !u!1 &508920645
 GameObject:
   m_ObjectHideFlags: 0
@@ -1495,7 +1969,78 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
+--- !u!1001 &562102696
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 89.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -203.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1514750512}
+    - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_Name
+      value: TP-Chimney2-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: teleporterID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: destinationID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0691422
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &569534503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,7 +2052,7 @@ GameObject:
   - 61: {fileID: 569534505}
   - 114: {fileID: 569534504}
   m_Layer: 0
-  m_Name: TP-SecurityTile (12)
+  m_Name: TP-SecurityTile 12
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1550,12 +2095,12 @@ Transform:
   m_PrefabInternal: {fileID: 1073138646}
   m_GameObject: {fileID: 569534503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.86, y: -123.59, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: 2.1639338, y: -16.223873, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 12
 --- !u!1 &571268422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,7 +2112,7 @@ GameObject:
   - 61: {fileID: 571268424}
   - 114: {fileID: 571268423}
   m_Layer: 0
-  m_Name: TP-SecurityTile (17)
+  m_Name: TP-SecurityTile 17
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1610,12 +2155,12 @@ Transform:
   m_PrefabInternal: {fileID: 330326579}
   m_GameObject: {fileID: 571268422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 87.32, y: -117.79, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -2, y: -7.5671635, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 17
 --- !u!1 &616951237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,7 +2172,7 @@ GameObject:
   - 61: {fileID: 616951239}
   - 114: {fileID: 616951238}
   m_Layer: 0
-  m_Name: TP-SecurityTile (19)
+  m_Name: TP-SecurityTile 19
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1670,12 +2215,12 @@ Transform:
   m_PrefabInternal: {fileID: 1184371086}
   m_GameObject: {fileID: 616951237}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.14, y: -112.66, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -10.491805, y: 0.089548595, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 19
 --- !u!1 &670766358 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 128342, guid: 75212b0ace1c15742a642864b043a77c, type: 2}
@@ -1821,7 +2366,78 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
+--- !u!1001 &740539997
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 99.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -205.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1514750512}
+    - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_Name
+      value: TP-Chimney1-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: teleporterID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: destinationID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0691422
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &748383623
 Prefab:
   m_ObjectHideFlags: 0
@@ -1892,6 +2508,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &753482262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 1725441156}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 753482265}
+  - 61: {fileID: 753482264}
+  - 114: {fileID: 753482263}
+  m_Layer: 0
+  m_Name: TP-Chimney2-Exit
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &753482263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 753482262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723ceb19b18088943892e5e357c5ddb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 700006
+  guide: {fileID: 1514750512}
+  destinationID: 300003
+--- !u!61 &753482264
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 1725441156}
+  m_GameObject: {fileID: 753482262}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.03, y: 1}
+--- !u!4 &753482265
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 1725441156}
+  m_GameObject: {fileID: 753482262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 89.19, y: -211.44, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
 --- !u!1 &783951733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,7 +2578,7 @@ GameObject:
   - 61: {fileID: 783951735}
   - 114: {fileID: 783951734}
   m_Layer: 0
-  m_Name: TP-SecurityTile (22)
+  m_Name: TP-SecurityTile 22
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1946,12 +2621,12 @@ Transform:
   m_PrefabInternal: {fileID: 814159962}
   m_GameObject: {fileID: 783951733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.54, y: -112.72, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 22
 --- !u!1 &799712233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,7 +2731,7 @@ GameObject:
   - 61: {fileID: 801230926}
   - 114: {fileID: 801230925}
   m_Layer: 0
-  m_Name: TP-SecurityTile (9)
+  m_Name: TP-SecurityTile 9
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2065,13 +2740,12 @@ GameObject:
 --- !u!114 &801230925
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846,
-    type: 2}
-  m_PrefabInternal: {fileID: 233994228}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 801230924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 723ceb19b18088943892e5e357c5ddb2, type: 3}
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teleporterID: 9
@@ -2099,26 +2773,26 @@ Transform:
   m_PrefabInternal: {fileID: 233994228}
   m_GameObject: {fileID: 801230924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.6, y: -126.14, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: 0.09835665, y: -20.029848, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 9
 --- !u!1001 &814159962
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 88.54
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -112.72
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2142,7 +2816,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -2150,7 +2824,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 22
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -2162,11 +2836,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -2182,7 +2860,7 @@ GameObject:
   - 61: {fileID: 865734384}
   - 114: {fileID: 865734383}
   m_Layer: 0
-  m_Name: TP-SecurityTile (10)
+  m_Name: TP-SecurityTile 10
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2225,12 +2903,12 @@ Transform:
   m_PrefabInternal: {fileID: 1367353093}
   m_GameObject: {fileID: 865734382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.54, y: -129.32, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: 0, y: -24.776127, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 10
 --- !u!1 &865938701
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,7 +2920,7 @@ GameObject:
   - 61: {fileID: 865938703}
   - 114: {fileID: 865938702}
   m_Layer: 0
-  m_Name: TP-SecurityTile (15)
+  m_Name: TP-SecurityTile 15
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2285,12 +2963,12 @@ Transform:
   m_PrefabInternal: {fileID: 1894454301}
   m_GameObject: {fileID: 865938701}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.19, y: -117.79, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -10.409833, y: -7.5671635, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 15
 --- !u!1 &872966825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2350,7 +3028,149 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
+--- !u!1001 &875324880
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 109.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -209.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1514750512}
+    - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_Name
+      value: TP-Chimney0To1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: teleporterID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: destinationID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0691422
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &922551774
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 83.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -152.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1514750512}
+    - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_Name
+      value: TP-RoofUncontrollableFall
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: teleporterID
+      value: 300002
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: destinationID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0691422
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &924836358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2362,7 +3182,7 @@ GameObject:
   - 61: {fileID: 924836360}
   - 114: {fileID: 924836359}
   m_Layer: 0
-  m_Name: TP-SecurityTile (14)
+  m_Name: TP-SecurityTile 14
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2405,26 +3225,26 @@ Transform:
   m_PrefabInternal: {fileID: 310019379}
   m_GameObject: {fileID: 924836358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.86, y: -120.37, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: 2.1639338, y: -11.4179125, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 14
 --- !u!1001 &941903239
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 84.73
+      value: -6.2458973
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -126.14
+      value: -20.029848
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2448,7 +3268,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -2456,7 +3276,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 7
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -2468,11 +3288,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -2488,7 +3312,7 @@ GameObject:
   - 61: {fileID: 943543308}
   - 114: {fileID: 943543307}
   m_Layer: 0
-  m_Name: TP-SecurityTile (16)
+  m_Name: TP-SecurityTile 16
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2531,12 +3355,12 @@ Transform:
   m_PrefabInternal: {fileID: 1996062509}
   m_GameObject: {fileID: 943543306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 84.73, y: -117.74, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -6.2458973, y: -7.4925323, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 16
 --- !u!1 &982462356
 GameObject:
   m_ObjectHideFlags: 0
@@ -2548,7 +3372,7 @@ GameObject:
   - 61: {fileID: 982462358}
   - 114: {fileID: 982462357}
   m_Layer: 0
-  m_Name: TP-SecurityTile (1)
+  m_Name: TP-SecurityTile 1
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2591,12 +3415,12 @@ Transform:
   m_PrefabInternal: {fileID: 2009110927}
   m_GameObject: {fileID: 982462356}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.17, y: -131.88, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -10.442627, y: -28.59702, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 1
 --- !u!1001 &1068086900
 Prefab:
   m_ObjectHideFlags: 0
@@ -2668,15 +3492,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 89.86
+      value: 2.1639338
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -123.59
+      value: -16.223873
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2700,7 +3524,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -2708,7 +3532,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 12
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -2720,11 +3544,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -2810,7 +3638,7 @@ GameObject:
   - 61: {fileID: 1105270899}
   - 114: {fileID: 1105270898}
   m_Layer: 0
-  m_Name: TP-SecurityTile (2)
+  m_Name: TP-SecurityTile 2
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2853,12 +3681,12 @@ Transform:
   m_PrefabInternal: {fileID: 2047291022}
   m_GameObject: {fileID: 1105270897}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 85.99, y: -132.53, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -4.1803327, y: -29.56716, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 2
 --- !u!1 &1114317819
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,7 +3746,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!1 &1129897202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2978,7 +3806,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
 --- !u!1 &1174052797 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 114594, guid: 75212b0ace1c15742a642864b043a77c, type: 2}
@@ -3002,15 +3830,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 82.14
+      value: -10.491805
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -112.66
+      value: 0.089548595
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3034,7 +3862,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -3042,7 +3870,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 19
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -3054,11 +3882,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -3068,15 +3900,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 82.19
+      value: -10.409833
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -135.04
+      value: -33.31342
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3100,7 +3932,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -3108,7 +3940,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile (0)
+      value: TP-SecurityTile 0
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -3120,11 +3952,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -3140,7 +3976,7 @@ GameObject:
   - 61: {fileID: 1241920117}
   - 114: {fileID: 1241920116}
   m_Layer: 0
-  m_Name: TP-SecurityTile (5)
+  m_Name: TP-SecurityTile 5
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3183,12 +4019,12 @@ Transform:
   m_PrefabInternal: {fileID: 1981770419}
   m_GameObject: {fileID: 1241920115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.16, y: -129.32, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -10.459012, y: -24.776127, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 5
 --- !u!1001 &1280724207
 Prefab:
   m_ObjectHideFlags: 0
@@ -3446,21 +4282,21 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1001 &1314227407
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 89.86
+      value: 2.1639338
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -117.79
+      value: -7.5671635
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3484,7 +4320,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -3492,7 +4328,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 18
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -3504,15 +4340,71 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1332013002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1332013003}
+  m_Layer: 0
+  m_Name: Security Tiles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1332013003
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332013002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 88.54, y: -112.72, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 189548827}
+  - {fileID: 982462359}
+  - {fileID: 1105270900}
+  - {fileID: 212815558}
+  - {fileID: 1458369505}
+  - {fileID: 1241920118}
+  - {fileID: 1801772262}
+  - {fileID: 141184641}
+  - {fileID: 490747590}
+  - {fileID: 801230927}
+  - {fileID: 865734385}
+  - {fileID: 2069744724}
+  - {fileID: 569534506}
+  - {fileID: 1933438801}
+  - {fileID: 924836361}
+  - {fileID: 865938704}
+  - {fileID: 943543309}
+  - {fileID: 571268425}
+  - {fileID: 1530652586}
+  - {fileID: 616951240}
+  - {fileID: 1767796414}
+  - {fileID: 1349859196}
+  - {fileID: 783951736}
+  - {fileID: 1548886176}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &1349859193
 GameObject:
   m_ObjectHideFlags: 0
@@ -3524,7 +4416,7 @@ GameObject:
   - 61: {fileID: 1349859195}
   - 114: {fileID: 1349859194}
   m_Layer: 0
-  m_Name: TP-SecurityTile (21)
+  m_Name: TP-SecurityTile 21
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3567,12 +4459,12 @@ Transform:
   m_PrefabInternal: {fileID: 1674043361}
   m_GameObject: {fileID: 1349859193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 86, y: -111.4, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -4.1639357, y: 1.9701487, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 21
 --- !u!1 &1355586070
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,7 +4524,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
 --- !u!1 &1362551625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3692,21 +4584,21 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
 --- !u!1001 &1367353093
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 88.54
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -129.32
+      value: -24.776127
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -3730,7 +4622,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -3738,7 +4630,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 10
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -3750,11 +4642,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -3876,7 +4772,66 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
+--- !u!1 &1411197334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 740539997}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1411197337}
+  - 61: {fileID: 1411197336}
+  - 114: {fileID: 1411197335}
+  m_Layer: 0
+  m_Name: TP-Chimney1-2
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1411197335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1411197334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723ceb19b18088943892e5e357c5ddb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 700004
+  guide: {fileID: 1514750512}
+  destinationID: 700005
+--- !u!61 &1411197336
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 740539997}
+  m_GameObject: {fileID: 1411197334}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.03, y: 1}
+--- !u!4 &1411197337
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 740539997}
+  m_GameObject: {fileID: 1411197334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.46, y: -205.56, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 31
 --- !u!1 &1455860221
 GameObject:
   m_ObjectHideFlags: 0
@@ -3936,7 +4891,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
 --- !u!1 &1458369502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3948,7 +4903,7 @@ GameObject:
   - 61: {fileID: 1458369504}
   - 114: {fileID: 1458369503}
   m_Layer: 0
-  m_Name: TP-SecurityTile (4)
+  m_Name: TP-SecurityTile 4
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3991,26 +4946,26 @@ Transform:
   m_PrefabInternal: {fileID: 1878656266}
   m_GameObject: {fileID: 1458369502}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.83, y: -135.08, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: 2.1147556, y: -33.373135, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 4
 --- !u!1001 &1458993995
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 83.3
+      value: -8.59016
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -112.66
+      value: 0.089548595
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4034,7 +4989,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -4042,7 +4997,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 20
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -4054,11 +5009,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -4147,7 +5106,7 @@ GameObject:
   - 61: {fileID: 1530652585}
   - 114: {fileID: 1530652584}
   m_Layer: 0
-  m_Name: TP-SecurityTile (18)
+  m_Name: TP-SecurityTile 18
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4190,12 +5149,12 @@ Transform:
   m_PrefabInternal: {fileID: 1314227407}
   m_GameObject: {fileID: 1530652583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.86, y: -117.79, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: 2.1639338, y: -7.5671635, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 18
 --- !u!1 &1548886173
 GameObject:
   m_ObjectHideFlags: 0
@@ -4207,7 +5166,7 @@ GameObject:
   - 61: {fileID: 1548886175}
   - 114: {fileID: 1548886174}
   m_Layer: 0
-  m_Name: TP-SecurityTile (23)
+  m_Name: TP-SecurityTile 23
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4250,26 +5209,85 @@ Transform:
   m_PrefabInternal: {fileID: 1699653141}
   m_GameObject: {fileID: 1548886173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.86, y: -112.72, z: 0}
+  m_LocalPosition: {x: 2.1639338, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 23
+--- !u!1 &1642935037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 875324880}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1642935040}
+  - 61: {fileID: 1642935039}
+  - 114: {fileID: 1642935038}
+  m_Layer: 0
+  m_Name: TP-Chimney0To1
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1642935038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1642935037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723ceb19b18088943892e5e357c5ddb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 700002
+  guide: {fileID: 1514750512}
+  destinationID: 700003
+--- !u!61 &1642935039
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 875324880}
+  m_GameObject: {fileID: 1642935037}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.03, y: 1}
+--- !u!4 &1642935040
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 875324880}
+  m_GameObject: {fileID: 1642935037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.67, y: -209.99, z: 0}
   m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 29
 --- !u!1001 &1674043361
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 86
+      value: -4.1639357
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -111.4
+      value: 1.9701487
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4293,7 +5311,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -4301,7 +5319,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 21
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -4313,11 +5331,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -4459,15 +5481,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 89.86
+      value: 2.1639338
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -112.72
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4491,7 +5513,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -4499,7 +5521,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 23
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -4511,11 +5533,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -4590,7 +5616,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &1758260617
+--- !u!1001 &1725441156
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4599,11 +5625,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 82.16
+      value: 89.19
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -126.14
+      value: -211.44
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4627,7 +5653,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -4635,7 +5661,78 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-Chimney2-Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: teleporterID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: destinationID
+      value: 700001
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0691422
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1758260617
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1332013003}
+    m_Modifications:
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -10.459012
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -20.029848
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: guide
+      value: 
+      objectReference: {fileID: 1514750512}
+    - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_Name
+      value: TP-SecurityTile 6
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -4647,11 +5744,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -4667,7 +5768,7 @@ GameObject:
   - 61: {fileID: 1767796413}
   - 114: {fileID: 1767796412}
   m_Layer: 0
-  m_Name: TP-SecurityTile (20)
+  m_Name: TP-SecurityTile 20
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4710,12 +5811,12 @@ Transform:
   m_PrefabInternal: {fileID: 1458993995}
   m_GameObject: {fileID: 1767796411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 83.3, y: -112.66, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -8.59016, y: 0.089548595, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 20
 --- !u!1 &1770756905
 GameObject:
   m_ObjectHideFlags: 0
@@ -4775,7 +5876,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
 --- !u!1 &1801772259
 GameObject:
   m_ObjectHideFlags: 0
@@ -4787,7 +5888,7 @@ GameObject:
   - 61: {fileID: 1801772261}
   - 114: {fileID: 1801772260}
   m_Layer: 0
-  m_Name: TP-SecurityTile (6)
+  m_Name: TP-SecurityTile 6
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4830,12 +5931,12 @@ Transform:
   m_PrefabInternal: {fileID: 1758260617}
   m_GameObject: {fileID: 1801772259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.16, y: -126.14, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -10.459012, y: -20.029848, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 6
 --- !u!1001 &1804699000
 Prefab:
   m_ObjectHideFlags: 0
@@ -5087,15 +6188,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 89.83
+      value: 2.1147556
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -135.08
+      value: -33.373135
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5119,7 +6220,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -5127,7 +6228,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 4
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -5139,11 +6240,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -5153,15 +6258,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 82.19
+      value: -10.409833
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -117.79
+      value: -7.5671635
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5185,7 +6290,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -5193,7 +6298,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 15
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -5205,11 +6310,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -5225,7 +6334,7 @@ GameObject:
   - 61: {fileID: 1933438800}
   - 114: {fileID: 1933438799}
   m_Layer: 0
-  m_Name: TP-SecurityTile (13)
+  m_Name: TP-SecurityTile 13
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5268,26 +6377,26 @@ Transform:
   m_PrefabInternal: {fileID: 46914741}
   m_GameObject: {fileID: 1933438798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.14, y: -120.33, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -10.491805, y: -11.35821, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 13
 --- !u!1001 &1965569287
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 89.83
+      value: 2.1147556
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -131.9
+      value: -28.626854
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5311,7 +6420,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -5319,7 +6428,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 3
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -5331,11 +6440,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -5428,20 +6541,79 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fafcc7dd86c7b0c46b6f93e4fa084dae, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1968676843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 93333334}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1968676846}
+  - 61: {fileID: 1968676845}
+  - 114: {fileID: 1968676844}
+  m_Layer: 0
+  m_Name: TP-BaseOfChimney
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1968676844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1968676843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 700001
+  guide: {fileID: 1514750512}
+  destinationID: 700001
+--- !u!61 &1968676845
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 93333334}
+  m_GameObject: {fileID: 1968676843}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.03, y: 1}
+--- !u!4 &1968676846
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 93333334}
+  m_GameObject: {fileID: 1968676843}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.72, y: -207.34, z: 0}
+  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
 --- !u!1001 &1981770419
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 82.16
+      value: -10.459012
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -129.32
+      value: -24.776127
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5465,7 +6637,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -5473,7 +6645,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 5
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -5485,11 +6657,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -5499,15 +6675,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 84.73
+      value: -6.2458973
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -117.74
+      value: -7.4925323
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5531,7 +6707,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -5539,7 +6715,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 16
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -5551,11 +6727,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -5619,7 +6799,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
 --- !u!1001 &2000418753
 Prefab:
   m_ObjectHideFlags: 0
@@ -5695,15 +6875,15 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 82.17
+      value: -10.442627
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -131.88
+      value: -28.59702
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5735,7 +6915,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 1
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -5747,11 +6927,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -5815,21 +6999,21 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
 --- !u!1001 &2047291022
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1332013003}
     m_Modifications:
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 85.99
+      value: -4.1803327
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -132.53
+      value: -29.56716
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalPosition.z
@@ -5853,7 +7037,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: guide
@@ -5861,7 +7045,7 @@ Prefab:
       objectReference: {fileID: 1514750512}
     - target: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_Name
-      value: TP-SecurityTile
+      value: TP-SecurityTile 2
       objectReference: {fileID: 0}
     - target: {fileID: 11422782, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: teleporterID
@@ -5873,11 +7057,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.61
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.67
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
@@ -5963,7 +7151,7 @@ GameObject:
   - 61: {fileID: 2069744723}
   - 114: {fileID: 2069744722}
   m_Layer: 0
-  m_Name: TP-SecurityTile (11)
+  m_Name: TP-SecurityTile 11
   m_TagString: Teleporter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6006,12 +7194,12 @@ Transform:
   m_PrefabInternal: {fileID: 387283913}
   m_GameObject: {fileID: 2069744721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 82.18, y: -123.55, z: 0}
-  m_LocalScale: {x: 0.61, y: 0.67, z: 1.0691422}
+  m_LocalPosition: {x: -10.42623, y: -16.16418, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_Father: {fileID: 1332013003}
+  m_RootOrder: 11
 --- !u!1 &2073543693
 GameObject:
   m_ObjectHideFlags: 0
@@ -6259,7 +7447,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
 --- !u!1001 &2117433279
 Prefab:
   m_ObjectHideFlags: 0

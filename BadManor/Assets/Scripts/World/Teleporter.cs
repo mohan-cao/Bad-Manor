@@ -10,8 +10,8 @@ namespace Assets.Scripts.World
         public int teleporterID;
         public Text guide;
         public int destinationID;
-        private bool inContact = false;
-        GameObject player;
+        protected bool inContact = false;
+        protected GameObject player;
 
         void OnTriggerEnter2D(Collider2D other)
         {
