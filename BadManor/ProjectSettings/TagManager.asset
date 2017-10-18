@@ -9,6 +9,7 @@ TagManager:
   - Spawn
   - ItemPickUp
   - Collide
+  - Teleporter
   layers:
   - Default
   - TransparentFX
