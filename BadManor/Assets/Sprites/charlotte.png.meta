@@ -1,0 +1,2685 @@
+fileFormatVersion: 2
+guid: e506ef63ac176184a8d0b3711775dadd
+timeCreated: 1508461018
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: charlotte_0
+    21300002: charlotte_1
+    21300004: charlotte_2
+    21300006: charlotte_3
+    21300008: charlotte_4
+    21300010: charlotte_5
+    21300012: charlotte_6
+    21300014: charlotte_7
+    21300016: charlotte_8
+    21300018: charlotte_9
+    21300020: charlotte_10
+    21300022: charlotte_11
+    21300024: charlotte_12
+    21300026: charlotte_13
+    21300028: charlotte_14
+    21300030: charlotte_15
+    21300032: charlotte_16
+    21300034: charlotte_17
+    21300036: charlotte_18
+    21300038: charlotte_19
+    21300040: charlotte_20
+    21300042: charlotte_21
+    21300044: charlotte_22
+    21300046: charlotte_23
+    21300048: charlotte_24
+    21300050: charlotte_25
+    21300052: charlotte_26
+    21300054: charlotte_27
+    21300056: charlotte_28
+    21300058: charlotte_29
+    21300060: charlotte_30
+    21300062: charlotte_31
+    21300064: charlotte_32
+    21300066: charlotte_33
+    21300068: charlotte_34
+    21300070: charlotte_35
+    21300072: charlotte_36
+    21300074: charlotte_37
+    21300076: charlotte_38
+    21300078: charlotte_39
+    21300080: charlotte_40
+    21300082: charlotte_41
+    21300084: charlotte_42
+    21300086: charlotte_43
+    21300088: charlotte_44
+    21300090: charlotte_45
+    21300092: charlotte_46
+    21300094: charlotte_47
+    21300096: charlotte_48
+    21300098: charlotte_49
+    21300100: charlotte_50
+    21300102: charlotte_51
+    21300104: charlotte_52
+    21300106: charlotte_53
+    21300108: charlotte_54
+    21300110: charlotte_55
+    21300112: charlotte_56
+    21300114: charlotte_57
+    21300116: charlotte_58
+    21300118: charlotte_59
+    21300120: charlotte_60
+    21300122: charlotte_61
+    21300124: charlotte_62
+    21300126: charlotte_63
+    21300128: charlotte_64
+    21300130: charlotte_65
+    21300132: charlotte_66
+    21300134: charlotte_67
+    21300136: charlotte_68
+    21300138: charlotte_69
+    21300140: charlotte_70
+    21300142: charlotte_71
+    21300144: charlotte_72
+    21300146: charlotte_73
+    21300148: charlotte_74
+    21300150: charlotte_75
+    21300152: charlotte_76
+    21300154: charlotte_77
+    21300156: charlotte_78
+    21300158: charlotte_79
+    21300160: charlotte_80
+    21300162: charlotte_81
+    21300164: charlotte_82
+    21300166: charlotte_83
+    21300168: charlotte_84
+    21300170: charlotte_85
+    21300172: charlotte_86
+    21300174: charlotte_87
+    21300176: charlotte_88
+    21300178: charlotte_89
+    21300180: charlotte_90
+    21300182: charlotte_91
+    21300184: charlotte_92
+    21300186: charlotte_93
+    21300188: charlotte_94
+    21300190: charlotte_95
+    21300192: charlotte_96
+    21300194: charlotte_97
+    21300196: charlotte_98
+    21300198: charlotte_99
+    21300200: charlotte_100
+    21300202: charlotte_101
+    21300204: charlotte_102
+    21300206: charlotte_103
+    21300208: charlotte_104
+    21300210: charlotte_105
+    21300212: charlotte_106
+    21300214: charlotte_107
+    21300216: charlotte_108
+    21300218: charlotte_109
+    21300220: charlotte_110
+    21300222: charlotte_111
+    21300224: charlotte_112
+    21300226: charlotte_113
+    21300228: charlotte_114
+    21300230: charlotte_115
+    21300232: charlotte_116
+    21300234: charlotte_117
+    21300236: charlotte_118
+    21300238: charlotte_119
+    21300240: charlotte_120
+    21300242: charlotte_121
+    21300244: charlotte_122
+    21300246: charlotte_123
+    21300248: charlotte_124
+    21300250: charlotte_125
+    21300252: charlotte_126
+    21300254: charlotte_127
+    21300256: charlotte_128
+    21300258: charlotte_129
+    21300260: charlotte_130
+    21300262: charlotte_131
+    21300264: charlotte_132
+    21300266: charlotte_133
+    21300268: charlotte_134
+    21300270: charlotte_135
+    21300272: charlotte_136
+    21300274: charlotte_137
+    21300276: charlotte_138
+    21300278: charlotte_139
+    21300280: charlotte_140
+    21300282: charlotte_141
+    21300284: charlotte_142
+    21300286: charlotte_143
+    21300288: charlotte_144
+    21300290: charlotte_145
+    21300292: charlotte_146
+    21300294: charlotte_147
+    21300296: charlotte_148
+    21300298: charlotte_149
+    21300300: charlotte_150
+    21300302: charlotte_151
+    21300304: charlotte_152
+    21300306: charlotte_153
+    21300308: charlotte_154
+    21300310: charlotte_155
+    21300312: charlotte_156
+    21300314: charlotte_157
+    21300316: charlotte_158
+    21300318: charlotte_159
+    21300320: charlotte_160
+    21300322: charlotte_161
+    21300324: charlotte_162
+    21300326: charlotte_163
+    21300328: charlotte_164
+    21300330: charlotte_165
+    21300332: charlotte_166
+    21300334: charlotte_167
+    21300336: charlotte_168
+    21300338: charlotte_169
+    21300340: charlotte_170
+    21300342: charlotte_171
+    21300344: charlotte_172
+    21300346: charlotte_173
+    21300348: charlotte_174
+    21300350: charlotte_175
+    21300352: charlotte_176
+    21300354: charlotte_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: charlotte_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1281
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1281
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1281
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 19}
+        - {x: 8, y: 25}
+        - {x: -6, y: 25}
+        - {x: -17, y: 20}
+        - {x: -19, y: 10}
+        - {x: -19, y: -13}
+        - {x: -11, y: -25}
+        - {x: 9, y: -25}
+        - {x: 12, y: -23}
+        - {x: 19, y: -6}
+        - {x: 19, y: 8}
+    - name: charlotte_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1281
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -22, y: 11}
+        - {x: -23, y: 9}
+        - {x: -23, y: -5}
+        - {x: -11, y: -25}
+        - {x: 11, y: -25}
+        - {x: 23, y: -11}
+        - {x: 23, y: 21}
+        - {x: 21, y: 25}
+    - name: charlotte_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1281
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 25}
+        - {x: -9, y: 25}
+        - {x: -20, y: 17}
+        - {x: -23, y: 15}
+        - {x: -23, y: -7}
+        - {x: -16, y: -25}
+        - {x: 17, y: -25}
+        - {x: 23, y: -10}
+        - {x: 23, y: 13}
+        - {x: 15, y: 21}
+    - name: charlotte_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 19}
+        - {x: 8, y: 25}
+        - {x: -6, y: 25}
+        - {x: -17, y: 20}
+        - {x: -19, y: 10}
+        - {x: -19, y: -13}
+        - {x: -11, y: -25}
+        - {x: 9, y: -25}
+        - {x: 12, y: -23}
+        - {x: 19, y: -6}
+        - {x: 19, y: 8}
+    - name: charlotte_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1217
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1217
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1217
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -8, y: 26}
+        - {x: -11, y: 24}
+        - {x: -17, y: 13}
+        - {x: -17, y: -25}
+        - {x: -12, y: -26}
+        - {x: 7, y: -26}
+        - {x: 9, y: -24}
+        - {x: 17, y: -12}
+        - {x: 17, y: 10}
+    - name: charlotte_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 26}
+        - {x: -12, y: 26}
+        - {x: -15, y: 24}
+        - {x: -17, y: 18}
+        - {x: -17, y: -14}
+        - {x: -13, y: -26}
+        - {x: 6, y: -26}
+        - {x: 8, y: -23}
+        - {x: 17, y: -7}
+        - {x: 17, y: 19}
+    - name: charlotte_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1153
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1153
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1153
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1153
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -26}
+        - {x: 13, y: -26}
+        - {x: 17, y: -18}
+        - {x: 17, y: 12}
+        - {x: 10, y: 26}
+    - name: charlotte_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1153
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -23, y: 14}
+        - {x: -23, y: -5}
+        - {x: -12, y: -26}
+        - {x: 14, y: -26}
+        - {x: 23, y: -4}
+        - {x: 23, y: 9}
+        - {x: 12, y: 26}
+    - name: charlotte_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1153
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 26}
+        - {x: -23, y: 20}
+        - {x: -23, y: -8}
+        - {x: -16, y: -26}
+        - {x: 14, y: -26}
+        - {x: 23, y: -1}
+        - {x: 23, y: 19}
+        - {x: 12, y: 26}
+    - name: charlotte_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1153
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -26}
+        - {x: 13, y: -26}
+        - {x: 17, y: -18}
+        - {x: 17, y: 12}
+        - {x: 10, y: 26}
+    - name: charlotte_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1089
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1089
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1089
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1089
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -17, y: 18}
+        - {x: -17, y: -10}
+        - {x: -7, y: -26}
+        - {x: 11, y: -26}
+        - {x: 16, y: -25}
+        - {x: 17, y: -21}
+        - {x: 17, y: 21}
+        - {x: 12, y: 26}
+    - name: charlotte_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1089
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 26}
+        - {x: -8, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -9}
+        - {x: -8, y: -26}
+        - {x: 8, y: -26}
+        - {x: 14, y: -24}
+        - {x: 17, y: -13}
+        - {x: 17, y: 18}
+        - {x: 16, y: 24}
+    - name: charlotte_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1089
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 16}
+        - {x: -16, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 11}
+        - {x: 12, y: 26}
+    - name: charlotte_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1023
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 961
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 961
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 961
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -16, y: 3}
+        - {x: -16, y: -15}
+        - {x: -8, y: -25}
+        - {x: -5, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 23}
+        - {x: 12, y: 26}
+    - name: charlotte_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 961
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 897
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_48
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_50
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 833
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 833
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 833
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 23}
+        - {x: -16, y: -22}
+        - {x: -14, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 26}
+    - name: charlotte_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 833
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 767
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_67
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 767
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 705
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 705
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 705
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 705
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_76
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 705
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 705
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 641
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 641
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 639
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 639
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 641
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 639
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 639
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 639
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 577
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 577
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 577
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 577
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 577
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 577
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 513
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 513
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 513
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_100
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 513
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -18, y: 17}
+        - {x: -18, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 26}
+    - name: charlotte_101
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 513
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 19}
+        - {x: 1, y: 26}
+        - {x: -8, y: 26}
+        - {x: -12, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -22}
+        - {x: -18, y: -26}
+        - {x: 3, y: -26}
+        - {x: 5, y: -24}
+        - {x: 19, y: -2}
+        - {x: 19, y: 10}
+    - name: charlotte_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 449
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 449
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 449
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 449
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -15}
+        - {x: -10, y: -26}
+        - {x: 15, y: -26}
+        - {x: 17, y: -24}
+        - {x: 17, y: 18}
+        - {x: 14, y: 26}
+    - name: charlotte_106
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 449
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 26}
+        - {x: -9, y: 22}
+        - {x: -18, y: 14}
+        - {x: -18, y: -19}
+        - {x: -16, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 23}
+        - {x: 13, y: 26}
+    - name: charlotte_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 449
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 26}
+        - {x: -6, y: 23}
+        - {x: -17, y: 13}
+        - {x: -17, y: -9}
+        - {x: -11, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 22}
+        - {x: 10, y: 26}
+    - name: charlotte_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 385
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 385
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_110
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 385
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 385
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 26}
+        - {x: -17, y: 23}
+        - {x: -17, y: -23}
+        - {x: -15, y: -26}
+        - {x: 11, y: -26}
+        - {x: 17, y: -21}
+        - {x: 17, y: 9}
+        - {x: 9, y: 26}
+    - name: charlotte_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 385
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -18, y: 26}
+        - {x: -18, y: -26}
+        - {x: 10, y: -26}
+        - {x: 18, y: -19}
+        - {x: 18, y: 25}
+    - name: charlotte_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 321
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_115
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 321
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 321
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 321
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 26}
+        - {x: -14, y: 26}
+        - {x: -17, y: 17}
+        - {x: -17, y: -22}
+        - {x: -13, y: -26}
+        - {x: 6, y: -26}
+        - {x: 11, y: -25}
+        - {x: 17, y: -18}
+        - {x: 17, y: 8}
+        - {x: 12, y: 24}
+    - name: charlotte_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -17, y: 14}
+        - {x: -18, y: 7}
+        - {x: -18, y: -18}
+        - {x: -15, y: -23}
+        - {x: -13, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 26}
+    - name: charlotte_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 26}
+        - {x: -16, y: 22}
+        - {x: -16, y: 14}
+        - {x: -17, y: 7}
+        - {x: -17, y: -18}
+        - {x: -14, y: -23}
+        - {x: -12, y: -26}
+        - {x: 5, y: -26}
+        - {x: 11, y: -25}
+        - {x: 17, y: -7}
+        - {x: 17, y: 13}
+        - {x: 4, y: 26}
+    - name: charlotte_120
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 257
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 17}
+        - {x: -16, y: -25}
+        - {x: -14, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 12}
+        - {x: 12, y: 26}
+    - name: charlotte_122
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 255
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_123
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_124
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 20}
+        - {x: 8, y: 26}
+        - {x: -13, y: 26}
+        - {x: -16, y: 18}
+        - {x: -16, y: 4}
+        - {x: -15, y: -1}
+        - {x: -12, y: -11}
+        - {x: -10, y: -17}
+        - {x: -6, y: -24}
+        - {x: -4, y: -26}
+        - {x: 7, y: -26}
+        - {x: 12, y: -20}
+        - {x: 16, y: -8}
+        - {x: 16, y: 3}
+    - name: charlotte_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_126
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_127
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 26}
+        - {x: -16, y: 26}
+        - {x: -16, y: -18}
+        - {x: -8, y: -26}
+        - {x: 11, y: -26}
+        - {x: 16, y: -15}
+        - {x: 16, y: 13}
+        - {x: 13, y: 21}
+    - name: charlotte_128
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -16, y: 19}
+        - {x: -16, y: 3}
+        - {x: -12, y: -12}
+        - {x: -10, y: -17}
+        - {x: -6, y: -25}
+        - {x: -5, y: -26}
+        - {x: 12, y: -26}
+        - {x: 16, y: -19}
+        - {x: 16, y: 14}
+        - {x: 8, y: 26}
+    - name: charlotte_129
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -13, y: 26}
+        - {x: -16, y: 18}
+        - {x: -16, y: 4}
+        - {x: -15, y: -1}
+        - {x: -12, y: -11}
+        - {x: -10, y: -17}
+        - {x: -6, y: -24}
+        - {x: -4, y: -26}
+        - {x: 12, y: -26}
+        - {x: 16, y: -19}
+        - {x: 16, y: 12}
+        - {x: 15, y: 16}
+    - name: charlotte_130
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_131
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_132
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_133
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 193
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 193
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 26}
+        - {x: -7, y: 24}
+        - {x: -17, y: 4}
+        - {x: -17, y: -21}
+        - {x: -9, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 17}
+        - {x: 13, y: 26}
+    - name: charlotte_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -3, y: 25}
+        - {x: -13, y: 16}
+        - {x: -19, y: 8}
+        - {x: -19, y: -17}
+        - {x: -13, y: -25}
+        - {x: 12, y: -25}
+        - {x: 19, y: -13}
+        - {x: 19, y: 11}
+        - {x: 18, y: 15}
+    - name: charlotte_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 26}
+        - {x: -2, y: 26}
+        - {x: -11, y: 23}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -26}
+        - {x: 14, y: -26}
+        - {x: 19, y: -8}
+        - {x: 19, y: 9}
+        - {x: 14, y: 21}
+    - name: charlotte_138
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 193
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 26}
+        - {x: -18, y: 16}
+        - {x: -18, y: -11}
+        - {x: -8, y: -26}
+        - {x: 15, y: -26}
+        - {x: 18, y: -24}
+        - {x: 18, y: 25}
+        - {x: 17, y: 26}
+    - name: charlotte_139
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 26}
+        - {x: -19, y: 13}
+        - {x: -19, y: -10}
+        - {x: -7, y: -26}
+        - {x: 19, y: -26}
+        - {x: 19, y: 21}
+        - {x: 18, y: 22}
+        - {x: 13, y: 26}
+    - name: charlotte_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 26}
+        - {x: -11, y: 24}
+        - {x: -19, y: 15}
+        - {x: -19, y: -17}
+        - {x: -11, y: -26}
+        - {x: 19, y: -26}
+        - {x: 19, y: 26}
+    - name: charlotte_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 193
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -3, y: 26}
+        - {x: -12, y: 23}
+        - {x: -20, y: 16}
+        - {x: -20, y: -12}
+        - {x: -14, y: -26}
+        - {x: 17, y: -26}
+        - {x: 20, y: -20}
+        - {x: 20, y: 13}
+        - {x: 13, y: 21}
+    - name: charlotte_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 26}
+        - {x: -11, y: 23}
+        - {x: -19, y: 14}
+        - {x: -19, y: -12}
+        - {x: -13, y: -26}
+        - {x: 13, y: -26}
+        - {x: 17, y: -25}
+        - {x: 19, y: -18}
+        - {x: 19, y: 12}
+        - {x: 12, y: 26}
+    - name: charlotte_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 193
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 26}
+        - {x: -10, y: 23}
+        - {x: -18, y: 14}
+        - {x: -18, y: -12}
+        - {x: -12, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 26}
+    - name: charlotte_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 26}
+        - {x: -2, y: 26}
+        - {x: -11, y: 23}
+        - {x: -19, y: 15}
+        - {x: -19, y: -16}
+        - {x: -15, y: -26}
+        - {x: 16, y: -26}
+        - {x: 19, y: -20}
+        - {x: 19, y: 15}
+        - {x: 15, y: 22}
+    - name: charlotte_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 193
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 26}
+        - {x: -11, y: 24}
+        - {x: -18, y: 8}
+        - {x: -18, y: -11}
+        - {x: -9, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 18}
+        - {x: 14, y: 26}
+    - name: charlotte_146
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_147
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 127
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_148
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_149
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_150
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_151
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_152
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_153
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_154
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_155
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_156
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_157
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_158
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 26}
+        - {x: -10, y: 26}
+        - {x: -18, y: 22}
+        - {x: -18, y: -26}
+        - {x: 11, y: -26}
+        - {x: 18, y: -14}
+        - {x: 18, y: 10}
+        - {x: 12, y: 24}
+    - name: charlotte_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -25}
+        - {x: 14, y: -25}
+        - {x: 19, y: -19}
+        - {x: 19, y: 7}
+        - {x: 13, y: 25}
+    - name: charlotte_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -13, y: 26}
+        - {x: -16, y: 22}
+        - {x: -19, y: 13}
+        - {x: -19, y: -15}
+        - {x: -14, y: -26}
+        - {x: 3, y: -26}
+        - {x: 9, y: -24}
+        - {x: 19, y: -5}
+        - {x: 19, y: 3}
+    - name: charlotte_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 65
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 21}
+        - {x: -18, y: 14}
+        - {x: -17, y: 2}
+        - {x: -17, y: -24}
+        - {x: -15, y: -26}
+        - {x: 16, y: -26}
+        - {x: 18, y: -15}
+        - {x: 18, y: 20}
+        - {x: 9, y: 26}
+    - name: charlotte_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -16, y: 26}
+        - {x: -18, y: 23}
+        - {x: -18, y: -24}
+        - {x: -16, y: -26}
+        - {x: 6, y: -26}
+        - {x: 18, y: -8}
+        - {x: 18, y: 20}
+        - {x: 17, y: 25}
+    - name: charlotte_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 26}
+        - {x: -20, y: 25}
+        - {x: -20, y: -24}
+        - {x: -16, y: -26}
+        - {x: 9, y: -26}
+        - {x: 20, y: -3}
+        - {x: 20, y: 19}
+        - {x: 8, y: 26}
+    - name: charlotte_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 65
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -21, y: 14}
+        - {x: -21, y: -26}
+        - {x: 11, y: -26}
+        - {x: 21, y: -13}
+        - {x: 21, y: 18}
+        - {x: 11, y: 26}
+    - name: charlotte_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -13, y: 26}
+        - {x: -16, y: 22}
+        - {x: -19, y: 13}
+        - {x: -19, y: -15}
+        - {x: -14, y: -26}
+        - {x: 3, y: -26}
+        - {x: 9, y: -24}
+        - {x: 19, y: -5}
+        - {x: 19, y: 3}
+    - name: charlotte_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 26}
+        - {x: -12, y: 26}
+        - {x: -19, y: 22}
+        - {x: -19, y: -26}
+        - {x: 8, y: -26}
+        - {x: 10, y: -25}
+        - {x: 19, y: -12}
+        - {x: 19, y: 7}
+        - {x: 11, y: 24}
+    - name: charlotte_170
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 26}
+        - {x: -19, y: -26}
+        - {x: 11, y: -26}
+        - {x: 19, y: -8}
+        - {x: 19, y: 14}
+        - {x: 9, y: 26}
+    - name: charlotte_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 26}
+        - {x: -19, y: 24}
+        - {x: -19, y: -26}
+        - {x: 4, y: -26}
+        - {x: 10, y: -25}
+        - {x: 19, y: -7}
+        - {x: 19, y: 13}
+        - {x: 7, y: 26}
+    - name: charlotte_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: charlotte_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 25}
+        - {x: -4, y: 25}
+        - {x: -9, y: 24}
+        - {x: -16, y: 19}
+        - {x: -16, y: -18}
+        - {x: -9, y: -25}
+        - {x: 10, y: -25}
+        - {x: 16, y: -17}
+        - {x: 16, y: 6}
+        - {x: 14, y: 18}
+    - name: charlotte_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 21}
+        - {x: -16, y: 14}
+        - {x: -16, y: 6}
+        - {x: -15, y: -18}
+        - {x: -13, y: -21}
+        - {x: 10, y: -21}
+        - {x: 16, y: -16}
+        - {x: 16, y: 17}
+        - {x: 8, y: 21}
+    - name: charlotte_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 19}
+        - {x: -16, y: -19}
+        - {x: 16, y: -19}
+        - {x: 16, y: 10}
+        - {x: 11, y: 19}
+    - name: charlotte_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 12}
+        - {x: 8, y: 16}
+        - {x: -12, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+    - name: charlotte_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18.5}
+        - {x: -18, y: 17.5}
+        - {x: -17, y: 9.5}
+        - {x: -19, y: 0.5}
+        - {x: -19, y: -18.5}
+        - {x: 17, y: -18.5}
+        - {x: 19, y: -16.5}
+        - {x: 19, y: 18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
