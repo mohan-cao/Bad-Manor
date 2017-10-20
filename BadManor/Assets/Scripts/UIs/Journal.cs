@@ -10,20 +10,59 @@ public class Journal : Interface {
     /// The parent of the whole interface.</summary>
     public Transform journal;
     private bool isShowing = false;
+
+	public GameObject gameMenuPanel;
+	public GameObject inventoryPanel;
+	public GameObject profilesPanel;
+	public GameObject notesPanel;
+
+	private GameObject currentPanel;
+
+	public enum MenuPanel {
+		GameMenu,
+		Inventory,
+		Profiles,
+		Notes
+	}
 	
     /// <summary>
     /// When GameMap is loaded the Journal interface is hidden.</summary>
     public void Start()
     {
-        journal.gameObject.SetActive(false);
+        //journal.gameObject.SetActive(false);
+		currentPanel = gameMenuPanel;
     }
+
+	public void OpenJournal() {
+		journal.gameObject.SetActive(true);
+		SwitchPanel (0);
+	}
 
     /// <summary>
     /// Show/hide journal from player.</summary>
-	public void toggleJournal()
+	public void CloseJournal()
     {
-        Debug.Log("Journal: Is showing: " + isShowing);
-        journal.gameObject.SetActive(!isShowing);
-        isShowing = !isShowing;
+        journal.gameObject.SetActive(false);
     }
+
+	public void SwitchPanel(int panel) {
+		currentPanel.SetActive (false);
+		switch (panel) 
+		{
+			case 0:
+				currentPanel = gameMenuPanel;
+				break;
+			case 1:
+				currentPanel = inventoryPanel;
+				break;
+			case 2:
+				currentPanel = notesPanel;
+				break;
+			case 3:
+				currentPanel = profilesPanel;
+				break;
+		}
+		currentPanel.SetActive (true);
+	}
+
 }
