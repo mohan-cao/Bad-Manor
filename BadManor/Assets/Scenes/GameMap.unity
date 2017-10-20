@@ -8249,6 +8249,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2001665070}
   - 212: {fileID: 2001665069}
+  - 95: {fileID: 2001665072}
+  - 114: {fileID: 2001665071}
   m_Layer: 0
   m_Name: TestSprite
   m_TagString: Untagged
@@ -8299,6 +8301,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 61
+--- !u!114 &2001665071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2001665068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d922c0481d43bda4ab77e938bf7c6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &2001665072
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2001665068}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 247db3661347607479dd9075e7ced067, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2027458892
 GameObject:
   m_ObjectHideFlags: 0
