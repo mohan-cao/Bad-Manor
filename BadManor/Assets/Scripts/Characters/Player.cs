@@ -101,7 +101,7 @@ namespace Assets.Scripts.Characters
 	    /// the NPCs. </summary>
 		void OnTriggerStay2D(Collider2D other)
 		{
-			Debug.Log ("Player: OnTriggerStay2D");
+			//Debug.Log ("Player: OnTriggerStay2D");
 			if (other.gameObject.tag.Equals("NPC")) 
 			{
 				// If the player wants to interact (space button is pressed) and they are not currently in a conversation
@@ -113,7 +113,10 @@ namespace Assets.Scripts.Characters
 					_dialogueManager.StartConvo(other.gameObject.name);
 					_inConversation = true;
 				}
-			}
+			} else if (other.gameObject.tag.Equals("Collide"))
+            {
+                Debug.Log("we're in collision!");
+            }
 		}
 
 	    /// <summary>

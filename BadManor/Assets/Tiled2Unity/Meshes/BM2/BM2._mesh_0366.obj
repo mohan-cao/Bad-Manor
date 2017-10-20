@@ -1,0 +1,31 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'BM2._mesh_0366.obj'
+
+# Vertices (Count = 8)
+v -3.2 -0.64 0
+v -3.84 -0.64 0
+v -3.84 0 0
+v -3.2 0 0
+v -3.84 -0.64 0
+v -4.48 -0.64 0
+v -4.48 0 0
+v -3.84 0 0
+
+# Texture cooridinates (Count = 6)
+vt 0.1666667 0.4333333
+vt 0.2083333 0.4333333
+vt 0.2083333 0.4666666
+vt 0.1666667 0.4666666
+vt 0.25 0.4333333
+vt 0.25 0.4666666
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g BM2._mesh_0366
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+f 5/2/1 6/5/1 7/6/1 8/3/1
+
