@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1382199002}
+  selectedFlowchart: {fileID: 382111154}
 --- !u!4 &149182716
 Transform:
   m_ObjectHideFlags: 1
@@ -414,8 +414,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlock: {fileID: 382111155}
-  selectedCommands:
-  - {fileID: 382111156}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -443,7 +442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 120
+    width: 196
     height: 40
   itemId: 0
   blockName: New Block
@@ -484,11 +483,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 382111153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 382111155}
-  waitForFrames: 1
+  draggableObject: {fileID: 582392660}
+  targetObject: {fileID: 24472414}
 --- !u!4 &382111159
 Transform:
   m_ObjectHideFlags: 0
@@ -556,6 +556,12 @@ Prefab:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 4d55f86cf3b124c8fb1158da26ffa96d, type: 2}
   m_PrefabInternal: {fileID: 60436026}
+--- !u!114 &582392660 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400000, guid: 4d55f86cf3b124c8fb1158da26ffa96d,
+    type: 2}
+  m_PrefabInternal: {fileID: 60436026}
+  m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
 --- !u!114 &582392665
 MonoBehaviour:
   m_ObjectHideFlags: 0
