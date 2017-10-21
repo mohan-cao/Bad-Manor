@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+
+using UnityEngine;
 
 namespace Assets.Scripts.Characters
 {
