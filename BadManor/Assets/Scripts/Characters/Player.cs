@@ -127,12 +127,12 @@ namespace Assets.Scripts.Characters
 			Debug.Log(other.gameObject.tag);
 			if (other.gameObject.tag.Equals("ItemPickUp"))
 			{
-				// Informs the ItemManageranager that the player has interacted with an item. True is returned if the 
-				// interaction leads to dialogue.
-				_inConversation = GameManager.inst.ItemManager.interactedWithItem(other.gameObject);
+                // Informs the ItemManageranager that the player has interacted with an item. True is returned if the 
+                // interaction leads to dialogue.
+                other.gameObject.SetActive(false);
+                _inConversation = GameManager.inst.ItemManager.interactedWithItem(other.gameObject);
 				Debug.Log("Player: Trigger collider with " + other.gameObject.name
 				          + " | Dialogue triggered: " + _inConversation);
 			}
 		}
-    }
 }

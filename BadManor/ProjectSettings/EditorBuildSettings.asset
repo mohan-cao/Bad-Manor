@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu/WelcomeScene.unity
+    path: Assets/Scenes/WelcomeScene.unity
   - enabled: 1
     path: Assets/Scenes/GameMap.unity
   - enabled: 1
@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/EndScreenLose.unity
   - enabled: 1
     path: Assets/Scenes/EndScreenWin.unity
+  - enabled: 1
+    path: Assets/Scenes/NewManor.unity

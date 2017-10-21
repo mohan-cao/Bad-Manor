@@ -85,7 +85,7 @@ namespace Assets.Scripts
 			DialogueLines = new Dictionary<string, object> ();
 			Parameters = new Dictionary<string, object> ();
 
-			SceneManager.LoadScene ("GameMap");
+			SceneManager.LoadScene ("NewManor");
 			TextAsset[] dialogueLoadedLines = Resources.LoadAll<TextAsset> ("");
 			string name = null;
 			foreach (TextAsset t in dialogueLoadedLines) {
