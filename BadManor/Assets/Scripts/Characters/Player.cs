@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+using UnityEngine;
+using CnControls;
+using UnityEngine.EventSystems;
 
 namespace Assets.Scripts.Characters
 {
@@ -23,6 +25,8 @@ namespace Assets.Scripts.Characters
 
 	    private bool spacePressed = false;
 	    private bool escapePressed = false;
+
+	    private SimpleJoystick js;
 	    
 	    /// <summary>
 	    /// Initialises fields, this method is executed when the player is created in Unity.</summary>
@@ -55,8 +59,8 @@ namespace Assets.Scripts.Characters
 			else
 			{
 				// Get X and Y vectors
-				float moveHorizontal = Input.GetAxisRaw("Horizontal");
-				float moveVertical = Input.GetAxisRaw("Vertical");
+				float moveHorizontal = Input.GetAxisRaw("Horizontal") + CnInputManager.GetAxis("H");
+				float moveVertical = Input.GetAxisRaw("Vertical") + CnInputManager.GetAxis("V");
 				// If vectors are non-zero
 				if (moveVertical != 0 || moveHorizontal != 0)
 				{
@@ -68,17 +72,28 @@ namespace Assets.Scripts.Characters
 			}
 		}
 
+	    public void movearound(float v, float h)
+	    {
+		    if (v != 0 || h != 0)
+		    {
+			    // then figure out the sum
+			    Vector3 movement = new Vector3(h, v, 0f);
+			    // multiply by movement time and sum the old position with the change in position
+			    transform.Translate(movement * MoveTime);
+		    }
+	    }
+
 	    /// <summary>
 	    /// If the player has pressed the escape button then the conversation is left. If the player has pressed the 
 	    /// space button then the conversation continues. </summary>
 	    private void CheckConversation()
 	    {
-		    if (Input.GetKeyUp(KeyCode.Space)) 
+		    if (Input.GetKeyUp(KeyCode.Space) || CnInputManager.GetButtonDown("Space")) 
 		    {
 			    Debug.Log ("Player: Space was pressed; continuing conversation");
 			    _inConversation = _dialogueManager.NextLine ();
 		    } 
-		    else if (Input.GetKeyUp(KeyCode.Escape))
+		    else if (Input.GetKeyUp(KeyCode.Escape) || CnInputManager.GetButtonDown("Esc"))
 		    {
 			    Debug.Log("Player: Esc was pressed; leaving conversation");
 			    _dialogueManager.EndConvo();
@@ -97,7 +112,7 @@ namespace Assets.Scripts.Characters
 			{
 				// If the player wants to interact (space button is pressed) and they are not currently in a conversation
 				// then a new one is started.
-				if (Input.GetKeyUp (KeyCode.Space) && !_inConversation) 
+				if ((Input.GetKeyUp (KeyCode.Space) || CnInputManager.GetButtonDown("Space"))&& !_inConversation) 
 				{
 					Debug.Log ("Player: Starting conversation with: " + other.gameObject.name);
 					Debug.Log("Player: The current state is: " + GameManager.inst.currentState());
