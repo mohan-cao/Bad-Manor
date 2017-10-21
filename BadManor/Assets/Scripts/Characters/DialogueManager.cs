@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using Assets.Scripts;
 using Assets.Scripts.Characters;
@@ -8,6 +9,7 @@ using UnityEngine.UI;
 
 /// <summary>
 /// Manages the dialogue from interacting with items and NPCs, responsible for iniating and continuing.</summary>
+[Serializable()]
 public class DialogueManager : MonoBehaviour {
 
     /// <summary>

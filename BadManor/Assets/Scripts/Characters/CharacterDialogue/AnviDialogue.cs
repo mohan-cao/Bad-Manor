@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using Assets.Scripts;
+using Random = UnityEngine.Random;
 
 /// <summary>
 /// Character dialogue, is all of the random and story lines plus any conditions required to use them.</summary>
+[Serializable()]
 public class AnviDialogue : CharacterDialogue
 {
     /// <summary>

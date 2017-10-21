@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Assets.Scripts.UIs;
 
 /// <summary>
 /// Journal user interface for recording notes, for prototype only hides/shows and stores the player's notes. Future 
 /// plans include showing collected items and pre-wirtten notes.</summary>
+[Serializable()]
 public class Journal : Interface {
 
     /// <summary>

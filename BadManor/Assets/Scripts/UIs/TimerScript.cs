@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
 /// TimerScript is what handles the ticking timer in the game.</summary>
+[Serializable()]  
 public class TimerScript : MonoBehaviour
 {
 

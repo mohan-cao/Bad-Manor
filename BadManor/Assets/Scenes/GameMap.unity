@@ -449,6 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 25
+  guide: {fileID: 0}
 --- !u!1 &96598751
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 30
+  guide: {fileID: 0}
 --- !u!1 &174964154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,6 +1010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 16
+  guide: {fileID: 0}
 --- !u!1001 &297589323
 Prefab:
   m_ObjectHideFlags: 0
@@ -1213,6 +1216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 29
+  guide: {fileID: 0}
 --- !u!1001 &368353874
 Prefab:
   m_ObjectHideFlags: 0
@@ -1520,6 +1524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 10
+  guide: {fileID: 0}
 --- !u!1 &419877795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,6 +1643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 27
+  guide: {fileID: 0}
 --- !u!1001 &439834437
 Prefab:
   m_ObjectHideFlags: 0
@@ -1697,6 +1703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 3
+  guide: {fileID: 0}
 --- !u!1 &444860172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2214,6 +2221,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 5
+  guide: {fileID: 0}
 --- !u!1001 &541638996
 Prefab:
   m_ObjectHideFlags: 0
@@ -2285,6 +2293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 17
+  guide: {fileID: 0}
 --- !u!1 &544164819
 GameObject:
   m_ObjectHideFlags: 0
@@ -2904,6 +2913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 14
+  guide: {fileID: 0}
 --- !u!1 &628295082
 GameObject:
   m_ObjectHideFlags: 0
@@ -3049,6 +3059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 9
+  guide: {fileID: 0}
 --- !u!1 &671667991
 GameObject:
   m_ObjectHideFlags: 0
@@ -3080,6 +3091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 20
+  guide: {fileID: 0}
 --- !u!212 &671667994
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3839,6 +3851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 24
+  guide: {fileID: 0}
 --- !u!1001 &797383439
 Prefab:
   m_ObjectHideFlags: 0
@@ -4358,6 +4371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 22
+  guide: {fileID: 0}
 --- !u!1 &896759916
 GameObject:
   m_ObjectHideFlags: 0
@@ -4687,6 +4701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 21
+  guide: {fileID: 0}
 --- !u!1 &933771636
 GameObject:
   m_ObjectHideFlags: 0
@@ -5043,6 +5058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 1
+  guide: {fileID: 0}
 --- !u!1 &1128377105
 GameObject:
   m_ObjectHideFlags: 0
@@ -5188,6 +5204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 7
+  guide: {fileID: 0}
 --- !u!1001 &1140208245
 Prefab:
   m_ObjectHideFlags: 0
@@ -5406,6 +5423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 6
+  guide: {fileID: 0}
 --- !u!1001 &1187122770
 Prefab:
   m_ObjectHideFlags: 0
@@ -5481,6 +5499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 4
+  guide: {fileID: 0}
 --- !u!1 &1203997481
 GameObject:
   m_ObjectHideFlags: 0
@@ -5630,6 +5649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 23
+  guide: {fileID: 0}
 --- !u!1001 &1279325565
 Prefab:
   m_ObjectHideFlags: 0
@@ -6020,6 +6040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 28
+  guide: {fileID: 0}
 --- !u!1001 &1432446295
 Prefab:
   m_ObjectHideFlags: 0
@@ -6095,6 +6116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 12
+  guide: {fileID: 0}
 --- !u!1001 &1440969478
 Prefab:
   m_ObjectHideFlags: 0
@@ -6300,6 +6322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 8
+  guide: {fileID: 0}
 --- !u!1001 &1474946889
 Prefab:
   m_ObjectHideFlags: 0
@@ -6371,6 +6394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 26
+  guide: {fileID: 0}
 --- !u!1 &1489424361
 GameObject:
   m_ObjectHideFlags: 0
@@ -7503,6 +7527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 11
+  guide: {fileID: 0}
 --- !u!1001 &1767864893
 Prefab:
   m_ObjectHideFlags: 0
@@ -7574,6 +7599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 13
+  guide: {fileID: 0}
 --- !u!1001 &1778973230
 Prefab:
   m_ObjectHideFlags: 0
@@ -7649,6 +7675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 19
+  guide: {fileID: 0}
 --- !u!1 &1785345667
 GameObject:
   m_ObjectHideFlags: 0
@@ -7933,6 +7960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 2
+  guide: {fileID: 0}
 --- !u!1 &1873125887
 GameObject:
   m_ObjectHideFlags: 0
@@ -8217,6 +8245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 15
+  guide: {fileID: 0}
 --- !u!1001 &1929219328
 Prefab:
   m_ObjectHideFlags: 0
@@ -8517,6 +8546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomToGoTo: 18
+  guide: {fileID: 0}
 --- !u!224 &2044547883 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22450750, guid: 943b21e331e945146beb63726ff855df,

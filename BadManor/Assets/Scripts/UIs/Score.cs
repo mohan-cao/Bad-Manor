@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.UIs
@@ -6,6 +7,7 @@ namespace Assets.Scripts.UIs
     /// <summary>
     /// Win/Lose Interface handler. It shows the player's score (time taken) and quits for them when they're ready
     /// .</summary>
+    [Serializable()]
     class Score : Interface
     {
         /// <summary>

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using CnControls;
 using UnityEngine.EventSystems;
@@ -7,7 +8,8 @@ namespace Assets.Scripts.Characters
 	/// <summary>
 	/// Player class represents the main character which is also the player. It is responsible for everything to do the
 	/// player interacting with the world; items, NPCs and collisions. Depends on DialogueManager.</summary>
-    class Player : Character
+	[Serializable()]
+	class Player : Character
     {
 	    /// <summary>
 	    /// Time the player moves for.</summary>
