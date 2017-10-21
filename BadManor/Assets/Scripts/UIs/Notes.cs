@@ -33,7 +33,7 @@ public class Notes : MonoBehaviour {
 		noteObj.transform.SetParent (viewPort.transform);
 		noteObj.SetActive (true);
 
-		noteObj.transform.position = new Vector3(292.5f, 313.5f - ((notes.Count - 1) * 85f)	, 0f);
+		noteObj.transform.localPosition = new Vector3(0f, 0f - ((notes.Count - 1) * 85f)	, 0f);
 	}
 
 	void ScaleContent() {
@@ -54,5 +54,10 @@ public class Notes : MonoBehaviour {
 	void Start () {
 		contentPos = viewPort.GetComponent<RectTransform> ();
 		contentPos.sizeDelta = new Vector2 (contentPos.sizeDelta.x, 0f);
+
+		AddNote (new TimeSpan (1, 1, 1), "TEST");
+		AddNote (new TimeSpan (1, 1, 1), "TEST");
+		AddNote (new TimeSpan (1, 1, 1), "TEST");
+		AddNote (new TimeSpan (1, 1, 1), "Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! ");
 	}
 }

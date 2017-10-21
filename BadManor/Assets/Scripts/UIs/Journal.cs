@@ -31,6 +31,7 @@ public class Journal : Interface {
     {
         //journal.gameObject.SetActive(false);
 		currentPanel = gameMenuPanel;
+		SwitchPanel (0);
     }
 
 	public void OpenJournal() {
