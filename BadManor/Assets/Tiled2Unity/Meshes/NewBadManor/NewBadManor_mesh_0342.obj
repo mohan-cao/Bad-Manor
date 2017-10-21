@@ -1,0 +1,24 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'NewBadManor_mesh_0342.obj'
+
+# Vertices (Count = 4)
+v 0 -0.32 -0.005780347
+v -0.32 -0.32 -0.005780347
+v -0.32 0 -0.005780347
+v 0 0 -0.005780347
+
+# Texture cooridinates (Count = 4)
+vt 0.59375 0.46875
+vt 0.625 0.46875
+vt 0.625 0.5
+vt 0.59375 0.5
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g NewBadManor_mesh_0342
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+
