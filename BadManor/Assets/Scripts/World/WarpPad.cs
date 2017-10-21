@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace Assets.Scripts.World
 {
@@ -14,6 +15,7 @@ namespace Assets.Scripts.World
         /// <summary>
         /// Room the player wishes to access.</summary>   
         public RoomLocations.RoomsSpawns roomToGoTo;
+        public Text guide;
 
         /// <summary>
         /// When the user attempts to change rooms, the WorldManager is check to see if this is allowed. If so then the
@@ -26,6 +28,25 @@ namespace Assets.Scripts.World
                 {
                     other.transform.position = RoomLocations.getRoomCoords(roomToGoTo);   
                 }
+            }
+        }
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                Debug.Log("wew");
+                guide.text = "Press [X] to enter.";
+            }
+        }
+
+        void OnTriggerExit2D(Collider2D other)
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                Debug.Log("wew");
+
+                guide.text = "";
             }
         }
     }
