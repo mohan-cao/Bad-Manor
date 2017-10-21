@@ -54,6 +54,7 @@ public class Journal : Interface {
 				break;
 			case 1:
 				currentPanel = inventoryPanel;
+				//Inventory.UpdateItems ();
 				break;
 			case 2:
 				currentPanel = notesPanel;
