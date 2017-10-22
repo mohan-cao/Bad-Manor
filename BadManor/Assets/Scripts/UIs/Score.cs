@@ -64,56 +64,11 @@ namespace Assets.Scripts.UIs
                 _scores = (List<ScoreEntry>)deserializer.Deserialize(scoFileStream);  
                 scoFileStream.Close();
             }
-            //_scores.Sort();
-            content.text = "Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.Your flawed reasoning allowed Sam to enjoy the rest of the party. On the very " +
-                           "next day, he left the mansion with a large sum of money -- which he promptly " +
-                           "lost within a week in the casino. Whether he won in the long run cannot be " +
-                           "accurately determined. Who you thought was the suspect took Sam's place in " +
-                           "prison for the next twelve years.";
+            _scores.Sort();
+            foreach (ScoreEntry s in _scores)
+            {
+                content.text += s.Name + ": " + s.score + "\n";
+            }
             RectTransform rt = content.GetComponent<RectTransform>();
             float height = rt.sizeDelta.y;
             rt.localPosition = new Vector3(rt.localPosition.x, 0f,  0f);
