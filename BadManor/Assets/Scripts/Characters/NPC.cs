@@ -82,22 +82,25 @@ namespace Assets.Scripts.Characters
 						waitCounter = waitTime;
 
 					}
-					_animator.SetBool("WalkRight",false);
+		/*			_animator.SetBool("WalkRight",false);
 					_animator.SetBool("Idle",false);
 					_animator.SetBool("WalkDown",false);
 					_animator.SetBool("WalkUp",true);
 					_animator.SetBool("WalkLeft",false);
-					_animator.SetBool("IdleUp",false);
+					_animator.SetBool("IdleUp",false);*/
+					updateanimator ("WalkUp");
 
 					break;
 				case 1:
 					Debug.Log ("Should be animated for right");
-					_animator.SetBool("WalkRight",true);
+				/*	_animator.SetBool("WalkRight",true);
 					_animator.SetBool("Idle",false);
 					_animator.SetBool("WalkDown",false);
 					_animator.SetBool("WalkUp",false);
 					_animator.SetBool("WalkLeft",false);
-					_animator.SetBool("IdleUp",false);
+					_animator.SetBool("IdleUp",false);*/
+
+					updateanimator ("WalkRight");
 
 
 		/*			foreach (AnimatorControllerParameter p in _animator) {
@@ -118,13 +121,14 @@ namespace Assets.Scripts.Characters
 				case 2:
 					myRigidbody.velocity = new Vector2 (0, -moveSpeed);
 
-					_animator.SetBool ("Idle", false);
+					/*_animator.SetBool ("Idle", false);
 					_animator.SetBool ("IdleUp", false);
 					_animator.SetBool ("WalkUp", false);
 					_animator.SetBool ("WalkLeft", false);
 					_animator.SetBool ("WalkDown", true);
 					_animator.SetBool ("WalkRight", false);
-
+*/
+					updateanimator ("WalkDown");
 					if (transform.position.y < minwalkpoint.y) {
 						isWalking = false;
 						waitCounter = waitTime;
@@ -134,12 +138,14 @@ namespace Assets.Scripts.Characters
 					break;
 				case 3:
 
-					_animator.SetBool ("Idle", false);
+				/*	_animator.SetBool ("Idle", false);
 					_animator.SetBool ("IdleUp", false);
 					_animator.SetBool ("WalkUp", false);
 					_animator.SetBool ("WalkLeft", true);
 					_animator.SetBool ("WalkDown", false);
-					_animator.SetBool ("WalkRight", false);
+					_animator.SetBool ("WalkRight", false);*/
+
+					updateanimator ("WalkLeft");
 					myRigidbody.velocity = new Vector2 (-moveSpeed,0 );
 
 					if (transform.position.x < minwalkpoint.x) {
@@ -154,13 +160,13 @@ namespace Assets.Scripts.Characters
 				if (walkCounter < 0) {
 					isWalking = false;
 					waitCounter = waitTime;
-				//	setidleanimation ();
+				//	updateanimator ();
 
 
 				}
 			} else {
 
-				setidleanimation ();
+				updateanimator("Idle");
 				waitCounter = waitCounter - Time.deltaTime;
 				myRigidbody.velocity = Vector2.zero;
 
@@ -197,25 +203,34 @@ namespace Assets.Scripts.Characters
 		}*/
 
 
-		void setidleanimation(){
-			if (_animator.GetBool("WalkUp")) {
-				_animator.SetBool ("Idle", false);
-				_animator.SetBool ("IdleUp", true);
-				_animator.SetBool ("WalkUp", false);
-				_animator.SetBool ("WalkLeft", false);
-				_animator.SetBool ("WalkDown", false);
-				_animator.SetBool ("WalkRight", false);
 
-			} else {
-				_animator.SetBool ("Idle", true);
-				_animator.SetBool ("IdleUp", false);
+
+
+		void updateanimator(String state){
+			if (_animator.GetBool ("WalkUp")) {
+				_animator.SetBool ("Idle", false);
+
 				_animator.SetBool ("WalkUp", false);
 				_animator.SetBool ("WalkLeft", false);
 				_animator.SetBool ("WalkDown", false);
 				_animator.SetBool ("WalkRight", false);
-			}
+				_animator.SetBool ("IdleUp", true);
+			}else {
+
+
+			_animator.SetBool ("Idle", false);
+			_animator.SetBool ("IdleUp", false);
+			_animator.SetBool ("WalkUp", false);
+			_animator.SetBool ("WalkLeft", false);
+			_animator.SetBool ("WalkDown", false);
+			_animator.SetBool ("WalkRight", false);
+
+			_animator.SetBool (state, true);
 
 		}
 
+
+
 	}
+}
 }
