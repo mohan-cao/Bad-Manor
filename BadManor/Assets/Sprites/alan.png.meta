@@ -1,0 +1,2860 @@
+fileFormatVersion: 2
+guid: 81f7a8c32fbb2db4c9594599c52529da
+timeCreated: 1508460647
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: alan_0
+    21300002: alan_1
+    21300004: alan_2
+    21300006: alan_3
+    21300008: alan_4
+    21300010: alan_5
+    21300012: alan_6
+    21300014: alan_7
+    21300016: alan_8
+    21300018: alan_9
+    21300020: alan_10
+    21300022: alan_11
+    21300024: alan_12
+    21300026: alan_13
+    21300028: alan_14
+    21300030: alan_15
+    21300032: alan_16
+    21300034: alan_17
+    21300036: alan_18
+    21300038: alan_19
+    21300040: alan_20
+    21300042: alan_21
+    21300044: alan_22
+    21300046: alan_23
+    21300048: alan_24
+    21300050: alan_25
+    21300052: alan_26
+    21300054: alan_27
+    21300056: alan_28
+    21300058: alan_29
+    21300060: alan_30
+    21300062: alan_31
+    21300064: alan_32
+    21300066: alan_33
+    21300068: alan_34
+    21300070: alan_35
+    21300072: alan_36
+    21300074: alan_37
+    21300076: alan_38
+    21300078: alan_39
+    21300080: alan_40
+    21300082: alan_41
+    21300084: alan_42
+    21300086: alan_43
+    21300088: alan_44
+    21300090: alan_45
+    21300092: alan_46
+    21300094: alan_47
+    21300096: alan_48
+    21300098: alan_49
+    21300100: alan_50
+    21300102: alan_51
+    21300104: alan_52
+    21300106: alan_53
+    21300108: alan_54
+    21300110: alan_55
+    21300112: alan_56
+    21300114: alan_57
+    21300116: alan_58
+    21300118: alan_59
+    21300120: alan_60
+    21300122: alan_61
+    21300124: alan_62
+    21300126: alan_63
+    21300128: alan_64
+    21300130: alan_65
+    21300132: alan_66
+    21300134: alan_67
+    21300136: alan_68
+    21300138: alan_69
+    21300140: alan_70
+    21300142: alan_71
+    21300144: alan_72
+    21300146: alan_73
+    21300148: alan_74
+    21300150: alan_75
+    21300152: alan_76
+    21300154: alan_77
+    21300156: alan_78
+    21300158: alan_79
+    21300160: alan_80
+    21300162: alan_81
+    21300164: alan_82
+    21300166: alan_83
+    21300168: alan_84
+    21300170: alan_85
+    21300172: alan_86
+    21300174: alan_87
+    21300176: alan_88
+    21300178: alan_89
+    21300180: alan_90
+    21300182: alan_91
+    21300184: alan_92
+    21300186: alan_93
+    21300188: alan_94
+    21300190: alan_95
+    21300192: alan_96
+    21300194: alan_97
+    21300196: alan_98
+    21300198: alan_99
+    21300200: alan_100
+    21300202: alan_101
+    21300204: alan_102
+    21300206: alan_103
+    21300208: alan_104
+    21300210: alan_105
+    21300212: alan_106
+    21300214: alan_107
+    21300216: alan_108
+    21300218: alan_109
+    21300220: alan_110
+    21300222: alan_111
+    21300224: alan_112
+    21300226: alan_113
+    21300228: alan_114
+    21300230: alan_115
+    21300232: alan_116
+    21300234: alan_117
+    21300236: alan_118
+    21300238: alan_119
+    21300240: alan_120
+    21300242: alan_121
+    21300244: alan_122
+    21300246: alan_123
+    21300248: alan_124
+    21300250: alan_125
+    21300252: alan_126
+    21300254: alan_127
+    21300256: alan_128
+    21300258: alan_129
+    21300260: alan_130
+    21300262: alan_131
+    21300264: alan_132
+    21300266: alan_133
+    21300268: alan_134
+    21300270: alan_135
+    21300272: alan_136
+    21300274: alan_137
+    21300276: alan_138
+    21300278: alan_139
+    21300280: alan_140
+    21300282: alan_141
+    21300284: alan_142
+    21300286: alan_143
+    21300288: alan_144
+    21300290: alan_145
+    21300292: alan_146
+    21300294: alan_147
+    21300296: alan_148
+    21300298: alan_149
+    21300300: alan_150
+    21300302: alan_151
+    21300304: alan_152
+    21300306: alan_153
+    21300308: alan_154
+    21300310: alan_155
+    21300312: alan_156
+    21300314: alan_157
+    21300316: alan_158
+    21300318: alan_159
+    21300320: alan_160
+    21300322: alan_161
+    21300324: alan_162
+    21300326: alan_163
+    21300328: alan_164
+    21300330: alan_165
+    21300332: alan_166
+    21300334: alan_167
+    21300336: alan_168
+    21300338: alan_169
+    21300340: alan_170
+    21300342: alan_171
+    21300344: alan_172
+    21300346: alan_173
+    21300348: alan_174
+    21300350: alan_175
+    21300352: alan_176
+    21300354: alan_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: alan_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1281
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -9, y: 25}
+        - {x: -16, y: 18}
+        - {x: -17, y: 3}
+        - {x: -17, y: -15}
+        - {x: -13, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -24}
+        - {x: 17, y: 15}
+    - name: alan_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1281
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1281
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -12, y: 25}
+        - {x: -19, y: 16}
+        - {x: -19, y: -22}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -19}
+        - {x: 19, y: 16}
+        - {x: 15, y: 22}
+    - name: alan_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1281
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 25}
+        - {x: -21, y: 25}
+        - {x: -27, y: 17}
+        - {x: -27, y: -20}
+        - {x: -24, y: -25}
+        - {x: 14, y: -25}
+        - {x: 15, y: -23}
+        - {x: 27, y: -3}
+        - {x: 27, y: 17}
+    - name: alan_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1281
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -25, y: 24}
+        - {x: -25, y: -7}
+        - {x: -21, y: -25}
+        - {x: 15, y: -25}
+        - {x: 15, y: -23}
+        - {x: 25, y: -2}
+        - {x: 25, y: 25}
+    - name: alan_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -12, y: 25}
+        - {x: -19, y: 16}
+        - {x: -19, y: -22}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -19}
+        - {x: 19, y: 16}
+        - {x: 15, y: 22}
+    - name: alan_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1217
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -17, y: 26}
+        - {x: -18, y: 25}
+        - {x: -18, y: -21}
+        - {x: -15, y: -26}
+        - {x: 9, y: -26}
+        - {x: 18, y: -11}
+        - {x: 18, y: 15}
+        - {x: 16, y: 22}
+    - name: alan_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -18, y: 18}
+        - {x: -18, y: -17}
+        - {x: -15, y: -24}
+        - {x: -12, y: -26}
+        - {x: 6, y: -26}
+        - {x: 9, y: -24}
+        - {x: 18, y: -1}
+        - {x: 18, y: 17}
+        - {x: 6, y: 26}
+    - name: alan_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1153
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -22}
+        - {x: -16, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 18}
+        - {x: 12, y: 26}
+    - name: alan_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1153
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -17, y: 23}
+        - {x: -17, y: -24}
+        - {x: -15, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 7}
+        - {x: 15, y: 26}
+    - name: alan_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1153
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1153
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 24}
+        - {x: 9, y: 26}
+        - {x: -14, y: 26}
+        - {x: -19, y: 21}
+        - {x: -19, y: -22}
+        - {x: -15, y: -26}
+        - {x: 13, y: -26}
+        - {x: 19, y: -14}
+        - {x: 19, y: 3}
+    - name: alan_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1153
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 14}
+        - {x: 17, y: 26}
+        - {x: -24, y: 26}
+        - {x: -27, y: 17}
+        - {x: -27, y: -15}
+        - {x: -15, y: -26}
+        - {x: 14, y: -26}
+        - {x: 16, y: -25}
+        - {x: 27, y: -12}
+    - name: alan_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1153
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -25, y: 17}
+        - {x: -25, y: 4}
+        - {x: -17, y: -26}
+        - {x: 25, y: -26}
+        - {x: 25, y: 26}
+    - name: alan_20
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1153
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 26}
+        - {x: -19, y: -1}
+        - {x: -19, y: -26}
+        - {x: 19, y: -26}
+        - {x: 19, y: 26}
+    - name: alan_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1089
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1089
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1089
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1089
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -18, y: 8}
+        - {x: -18, y: -10}
+        - {x: -6, y: -26}
+        - {x: 12, y: -26}
+        - {x: 17, y: -25}
+        - {x: 18, y: -23}
+        - {x: 18, y: 14}
+        - {x: 13, y: 26}
+    - name: alan_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1089
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 26}
+        - {x: -18, y: -26}
+        - {x: 13, y: -26}
+        - {x: 17, y: -25}
+        - {x: 18, y: -23}
+        - {x: 18, y: 20}
+        - {x: 15, y: 26}
+    - name: alan_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1089
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -17, y: 17}
+        - {x: -17, y: -24}
+        - {x: -16, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 24}
+        - {x: 14, y: 25}
+    - name: alan_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1023
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1023
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 961
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 961
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_39
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 19}
+        - {x: -16, y: -20}
+        - {x: -10, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 23}
+        - {x: 11, y: 26}
+    - name: alan_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_43
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 961
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 897
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -26}
+        - {x: 15, y: -26}
+        - {x: 17, y: -21}
+        - {x: 17, y: 20}
+        - {x: 9, y: 26}
+        - {x: -13, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -22}
+        - {x: -16, y: -26}
+        - {x: -2, y: -26}
+        - {x: -1, y: -23}
+        - {x: -1, y: -19}
+        - {x: 1, y: -23}
+    - name: alan_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_48
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_50
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 833
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 833
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 833
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -26}
+        - {x: 16, y: -25}
+        - {x: 16, y: 14}
+        - {x: 7, y: 26}
+        - {x: -16, y: 26}
+        - {x: -16, y: -26}
+    - name: alan_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 833
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 22}
+        - {x: 3, y: 26}
+        - {x: -9, y: 26}
+        - {x: -17, y: 19}
+        - {x: -17, y: -26}
+        - {x: 14, y: -26}
+        - {x: 17, y: -20}
+        - {x: 17, y: 9}
+    - name: alan_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -17, y: 17}
+        - {x: -17, y: -24}
+        - {x: -15, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 24}
+        - {x: 12, y: 26}
+    - name: alan_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26}
+        - {x: -16, y: 18}
+        - {x: -17, y: 13}
+        - {x: -17, y: -16}
+        - {x: -15, y: -25}
+        - {x: -9, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 26}
+    - name: alan_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -16, y: 7}
+        - {x: -16, y: -16}
+        - {x: -7, y: -26}
+        - {x: 12, y: -26}
+        - {x: 16, y: -25}
+        - {x: 16, y: 17}
+        - {x: 12, y: 26}
+    - name: alan_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26}
+        - {x: -13, y: 25}
+        - {x: -17, y: 11}
+        - {x: -17, y: -19}
+        - {x: -9, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 26}
+    - name: alan_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 26}
+        - {x: -10, y: 26}
+        - {x: -17, y: 21}
+        - {x: -17, y: -26}
+        - {x: 11, y: -26}
+        - {x: 17, y: -20}
+        - {x: 17, y: 13}
+        - {x: 15, y: 23}
+    - name: alan_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 26}
+        - {x: -14, y: 26}
+        - {x: -17, y: 24}
+        - {x: -17, y: -26}
+        - {x: 11, y: -26}
+        - {x: 17, y: -22}
+        - {x: 17, y: 21}
+        - {x: 16, y: 24}
+    - name: alan_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 767
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -16, y: 20}
+        - {x: -16, y: -18}
+        - {x: -12, y: -26}
+        - {x: 7, y: -26}
+        - {x: 9, y: -25}
+        - {x: 16, y: -22}
+        - {x: 16, y: 25}
+        - {x: 15, y: 26}
+    - name: alan_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 26}
+        - {x: -9, y: 26}
+        - {x: -15, y: 18}
+        - {x: -17, y: 3}
+        - {x: -17, y: -13}
+        - {x: -11, y: -26}
+        - {x: 12, y: -26}
+        - {x: 17, y: -18}
+        - {x: 17, y: 4}
+        - {x: 14, y: 22}
+    - name: alan_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 705
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 705
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 705
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 705
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 705
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 705
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_77
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 705
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_78
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 641
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -26}
+        - {x: 15, y: -26}
+        - {x: 17, y: -21}
+        - {x: 17, y: 20}
+        - {x: 9, y: 26}
+        - {x: -13, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -22}
+        - {x: -16, y: -26}
+        - {x: -2, y: -26}
+        - {x: -1, y: -23}
+        - {x: -1, y: -19}
+        - {x: 1, y: -23}
+    - name: alan_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 641
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 26}
+        - {x: -13, y: 26}
+        - {x: -17, y: 10}
+        - {x: -17, y: -24}
+        - {x: -16, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 10}
+        - {x: 14, y: 25}
+    - name: alan_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 639
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 15}
+        - {x: -17, y: -26}
+        - {x: -16, y: -27}
+        - {x: 15, y: -27}
+        - {x: 17, y: -23}
+        - {x: 17, y: 20}
+        - {x: 9, y: 27}
+        - {x: -12, y: 27}
+    - name: alan_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 27}
+        - {x: -16, y: 18}
+        - {x: -16, y: -23}
+        - {x: -13, y: -27}
+        - {x: 16, y: -27}
+        - {x: 16, y: 22}
+        - {x: 9, y: 27}
+    - name: alan_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 639
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 27}
+        - {x: -14, y: 27}
+        - {x: -17, y: 10}
+        - {x: -17, y: -19}
+        - {x: -11, y: -27}
+        - {x: 12, y: -27}
+        - {x: 17, y: -14}
+        - {x: 17, y: 21}
+    - name: alan_83
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 641
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 26}
+        - {x: -17, y: 20}
+        - {x: -17, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 22}
+        - {x: 10, y: 26}
+    - name: alan_84
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 639
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 27}
+        - {x: -12, y: 27}
+        - {x: -17, y: 24}
+        - {x: -17, y: -20}
+        - {x: -15, y: -25}
+        - {x: -13, y: -27}
+        - {x: 9, y: -27}
+        - {x: 17, y: -21}
+        - {x: 17, y: 16}
+        - {x: 14, y: 26}
+    - name: alan_85
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 639
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 24}
+        - {x: 6, y: 27}
+        - {x: -12, y: 27}
+        - {x: -16, y: 8}
+        - {x: -16, y: -19}
+        - {x: -13, y: -25}
+        - {x: -8, y: -27}
+        - {x: 6, y: -27}
+        - {x: 11, y: -25}
+        - {x: 16, y: -19}
+        - {x: 16, y: 9}
+    - name: alan_86
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 639
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 27}
+        - {x: -13, y: 27}
+        - {x: -17, y: 9}
+        - {x: -17, y: -20}
+        - {x: -14, y: -25}
+        - {x: -12, y: -27}
+        - {x: 11, y: -27}
+        - {x: 17, y: -22}
+        - {x: 17, y: 21}
+    - name: alan_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 577
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 577
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 577
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 577
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 577
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 577
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 513
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -9, y: 25}
+        - {x: -16, y: 18}
+        - {x: -17, y: 3}
+        - {x: -17, y: -15}
+        - {x: -13, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -24}
+        - {x: 17, y: 15}
+    - name: alan_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 511
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 511
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 511
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 511
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -17, y: 19}
+        - {x: -19, y: 10}
+        - {x: -19, y: -26}
+        - {x: 14, y: -26}
+        - {x: 19, y: -7}
+        - {x: 19, y: 15}
+        - {x: 8, y: 26}
+    - name: alan_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 511
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 26}
+        - {x: -21, y: -26}
+        - {x: 12, y: -26}
+        - {x: 21, y: -5}
+        - {x: 21, y: 11}
+        - {x: 7, y: 26}
+    - name: alan_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 449
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 449
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_104
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 449
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_105
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 449
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -19, y: 5}
+        - {x: -19, y: -16}
+        - {x: -12, y: -26}
+        - {x: 19, y: -26}
+        - {x: 19, y: 24}
+        - {x: 14, y: 26}
+    - name: alan_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 449
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 26}
+        - {x: -12, y: 18}
+        - {x: -19, y: 11}
+        - {x: -19, y: -3}
+        - {x: -9, y: -26}
+        - {x: 19, y: -26}
+        - {x: 19, y: 10}
+        - {x: 13, y: 26}
+    - name: alan_107
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 449
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -16, y: 20}
+        - {x: -18, y: 7}
+        - {x: -18, y: -1}
+        - {x: -10, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 23}
+        - {x: 12, y: 26}
+    - name: alan_108
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 385
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -26}
+        - {x: 15, y: -26}
+        - {x: 17, y: -21}
+        - {x: 17, y: 20}
+        - {x: 9, y: 26}
+        - {x: -13, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -22}
+        - {x: -16, y: -26}
+        - {x: -2, y: -26}
+        - {x: -1, y: -23}
+        - {x: -1, y: -19}
+        - {x: 1, y: -23}
+    - name: alan_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 385
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 385
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 385
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -15, y: 26}
+        - {x: -19, y: 20}
+        - {x: -19, y: -26}
+        - {x: 12, y: -26}
+        - {x: 19, y: -17}
+        - {x: 19, y: 16}
+        - {x: 11, y: 25}
+    - name: alan_113
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 385
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 26}
+        - {x: -13, y: 26}
+        - {x: -19, y: 12}
+        - {x: -21, y: 0}
+        - {x: -21, y: -26}
+        - {x: 10, y: -26}
+        - {x: 12, y: -25}
+        - {x: 21, y: -17}
+        - {x: 21, y: 19}
+    - name: alan_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 321
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 321
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 321
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_117
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 321
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -12, y: 26}
+        - {x: -15, y: 22}
+        - {x: -19, y: 7}
+        - {x: -19, y: -21}
+        - {x: -15, y: -26}
+        - {x: 8, y: -26}
+        - {x: 12, y: -25}
+        - {x: 19, y: -11}
+        - {x: 19, y: 14}
+        - {x: 18, y: 22}
+    - name: alan_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -18, y: 23}
+        - {x: -19, y: 17}
+        - {x: -19, y: -22}
+        - {x: -17, y: -26}
+        - {x: 10, y: -26}
+        - {x: 19, y: -13}
+        - {x: 19, y: 12}
+        - {x: 10, y: 26}
+    - name: alan_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 26}
+        - {x: -17, y: 23}
+        - {x: -18, y: 21}
+        - {x: -18, y: -25}
+        - {x: -17, y: -26}
+        - {x: 11, y: -26}
+        - {x: 18, y: -17}
+        - {x: 18, y: 10}
+        - {x: 8, y: 26}
+    - name: alan_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 257
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -12, y: 25}
+        - {x: -16, y: 17}
+        - {x: -16, y: -25}
+        - {x: 13, y: -25}
+        - {x: 16, y: -22}
+        - {x: 16, y: 16}
+        - {x: 14, y: 22}
+    - name: alan_121
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_122
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 255
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 255
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_129
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 255
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_131
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 255
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_132
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 255
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_133
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 193
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 193
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -18, y: 7}
+        - {x: -18, y: -16}
+        - {x: -13, y: -26}
+        - {x: 13, y: -26}
+        - {x: 18, y: -17}
+        - {x: 18, y: 21}
+        - {x: 9, y: 26}
+    - name: alan_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 26}
+        - {x: -13, y: 24}
+        - {x: -19, y: 6}
+        - {x: -19, y: -17}
+        - {x: -13, y: -26}
+        - {x: 19, y: -26}
+        - {x: 19, y: 24}
+        - {x: 17, y: 26}
+    - name: alan_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -19, y: 10}
+        - {x: -19, y: -1}
+        - {x: -16, y: -4}
+        - {x: -7, y: -26}
+        - {x: 16, y: -26}
+        - {x: 19, y: -20}
+        - {x: 19, y: 16}
+        - {x: 14, y: 26}
+    - name: alan_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 193
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -17, y: 24}
+        - {x: -17, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 26}
+    - name: alan_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 193
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 26}
+        - {x: -18, y: 21}
+        - {x: -18, y: -20}
+        - {x: -16, y: -26}
+        - {x: 17, y: -26}
+        - {x: 18, y: -25}
+        - {x: 18, y: 23}
+        - {x: 12, y: 26}
+    - name: alan_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 26}
+        - {x: -20, y: 26}
+        - {x: -20, y: -26}
+        - {x: 18, y: -26}
+        - {x: 20, y: -20}
+        - {x: 20, y: 16}
+        - {x: 18, y: 20}
+    - name: alan_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 193
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26}
+        - {x: -21, y: 11}
+        - {x: -21, y: -6}
+        - {x: -14, y: -25}
+        - {x: -9, y: -26}
+        - {x: 14, y: -26}
+        - {x: 21, y: -10}
+        - {x: 21, y: 8}
+        - {x: 12, y: 26}
+    - name: alan_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -19, y: 10}
+        - {x: -19, y: -1}
+        - {x: -16, y: -4}
+        - {x: -7, y: -26}
+        - {x: 16, y: -26}
+        - {x: 19, y: -20}
+        - {x: 19, y: 16}
+        - {x: 14, y: 26}
+    - name: alan_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 26}
+        - {x: -4, y: 26}
+        - {x: -13, y: 24}
+        - {x: -19, y: 3}
+        - {x: -19, y: -1}
+        - {x: -16, y: -4}
+        - {x: -7, y: -26}
+        - {x: 16, y: -26}
+        - {x: 19, y: -17}
+        - {x: 19, y: 16}
+        - {x: 18, y: 19}
+    - name: alan_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 193
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -4}
+        - {x: -5, y: -26}
+        - {x: 16, y: -26}
+        - {x: 17, y: -25}
+        - {x: 17, y: 24}
+        - {x: 13, y: 26}
+    - name: alan_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 193
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 26}
+        - {x: -4, y: 26}
+        - {x: -13, y: 24}
+        - {x: -19, y: 3}
+        - {x: -19, y: -1}
+        - {x: -16, y: -4}
+        - {x: -7, y: -26}
+        - {x: 16, y: -26}
+        - {x: 19, y: -17}
+        - {x: 19, y: 16}
+        - {x: 18, y: 19}
+    - name: alan_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 19}
+        - {x: 12, y: 26}
+        - {x: -13, y: 26}
+        - {x: -16, y: 15}
+        - {x: -16, y: -26}
+        - {x: -2, y: -26}
+        - {x: -1, y: -23}
+        - {x: -1, y: -19}
+        - {x: 1, y: -23}
+    - name: alan_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 129
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 129
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 65
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: alan_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -18, y: 23}
+        - {x: -18, y: -21}
+        - {x: -13, y: -26}
+        - {x: 8, y: -26}
+        - {x: 12, y: -25}
+        - {x: 18, y: -15}
+        - {x: 18, y: 9}
+        - {x: 8, y: 26}
+    - name: alan_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 20}
+        - {x: 8, y: 26}
+        - {x: -10, y: 26}
+        - {x: -19, y: 23}
+        - {x: -19, y: -19}
+        - {x: -17, y: -26}
+        - {x: 6, y: -26}
+        - {x: 10, y: -24}
+        - {x: 19, y: -16}
+        - {x: 19, y: 9}
+    - name: alan_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -19, y: 26}
+        - {x: -19, y: -19}
+        - {x: -16, y: -26}
+        - {x: 7, y: -26}
+        - {x: 11, y: -25}
+        - {x: 19, y: -6}
+        - {x: 19, y: 17}
+        - {x: 17, y: 24}
+    - name: alan_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 65
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 13}
+        - {x: 5, y: 26}
+        - {x: -14, y: 26}
+        - {x: -17, y: 25}
+        - {x: -17, y: -26}
+        - {x: -1, y: -26}
+        - {x: 4, y: -25}
+        - {x: 8, y: -24}
+        - {x: 17, y: -5}
+    - name: alan_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 26}
+        - {x: -18, y: 25}
+        - {x: -18, y: -26}
+        - {x: 6, y: -26}
+        - {x: 18, y: -1}
+        - {x: 18, y: 14}
+        - {x: 8, y: 26}
+    - name: alan_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 26}
+        - {x: -20, y: 26}
+        - {x: -20, y: -25}
+        - {x: -18, y: -26}
+        - {x: 2, y: -26}
+        - {x: 11, y: -24}
+        - {x: 20, y: -10}
+        - {x: 20, y: 11}
+    - name: alan_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 65
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 26}
+        - {x: -21, y: 9}
+        - {x: -21, y: -4}
+        - {x: -20, y: -7}
+        - {x: -13, y: -26}
+        - {x: 14, y: -26}
+        - {x: 21, y: 0}
+        - {x: 21, y: 7}
+        - {x: 7, y: 26}
+    - name: alan_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -19, y: 26}
+        - {x: -19, y: -19}
+        - {x: -16, y: -26}
+        - {x: 7, y: -26}
+        - {x: 11, y: -25}
+        - {x: 19, y: -6}
+        - {x: 19, y: 17}
+        - {x: 17, y: 24}
+    - name: alan_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 26}
+        - {x: -19, y: -26}
+        - {x: 4, y: -26}
+        - {x: 11, y: -25}
+        - {x: 19, y: -10}
+        - {x: 19, y: 26}
+    - name: alan_170
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 65
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 26}
+        - {x: -12, y: 26}
+        - {x: -17, y: 24}
+        - {x: -17, y: -26}
+        - {x: 2, y: -26}
+        - {x: 9, y: -25}
+        - {x: 17, y: -8}
+        - {x: 17, y: 3}
+        - {x: 15, y: 9}
+    - name: alan_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 65
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 26}
+        - {x: -19, y: -26}
+        - {x: 4, y: -26}
+        - {x: 11, y: -25}
+        - {x: 19, y: -10}
+        - {x: 19, y: 26}
+    - name: alan_172
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -26}
+        - {x: 15, y: -26}
+        - {x: 17, y: -21}
+        - {x: 17, y: 20}
+        - {x: 9, y: 26}
+        - {x: -13, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -22}
+        - {x: -16, y: -26}
+        - {x: -2, y: -26}
+        - {x: -1, y: -23}
+        - {x: -1, y: -19}
+        - {x: 1, y: -23}
+    - name: alan_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -13, y: 26}
+        - {x: -17, y: 9}
+        - {x: -17, y: -22}
+        - {x: -9, y: -26}
+        - {x: 14, y: -26}
+        - {x: 17, y: -20}
+        - {x: 17, y: 3}
+        - {x: 14, y: 24}
+    - name: alan_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 23}
+        - {x: -13, y: 23}
+        - {x: -17, y: 4}
+        - {x: -17, y: -22}
+        - {x: -16, y: -23}
+        - {x: 12, y: -23}
+        - {x: 17, y: -18}
+        - {x: 17, y: -4}
+        - {x: 12, y: 20}
+    - name: alan_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 21}
+        - {x: -11, y: 21}
+        - {x: -17, y: 13}
+        - {x: -17, y: -21}
+        - {x: 15, y: -21}
+        - {x: 17, y: -19}
+        - {x: 17, y: 4}
+        - {x: 15, y: 20}
+    - name: alan_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18.5}
+        - {x: -17, y: 8.5}
+        - {x: -17, y: -18.5}
+        - {x: 15, y: -18.5}
+        - {x: 17, y: -17.5}
+        - {x: 17, y: 18.5}
+    - name: alan_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 18.5}
+        - {x: -14, y: 18.5}
+        - {x: -18, y: 13.5}
+        - {x: -18, y: -18.5}
+        - {x: 18, y: -18.5}
+        - {x: 18, y: 12.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

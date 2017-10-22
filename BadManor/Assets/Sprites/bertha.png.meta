@@ -1,0 +1,2696 @@
+fileFormatVersion: 2
+guid: 8c9689045ee89cd4f8a5ade54785855d
+timeCreated: 1508195277
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bertha_0
+    21300002: bertha_1
+    21300004: bertha_2
+    21300006: bertha_3
+    21300008: bertha_4
+    21300010: bertha_5
+    21300012: bertha_6
+    21300014: bertha_7
+    21300016: bertha_8
+    21300018: bertha_9
+    21300020: bertha_10
+    21300022: bertha_11
+    21300024: bertha_12
+    21300026: bertha_13
+    21300028: bertha_14
+    21300030: bertha_15
+    21300032: bertha_16
+    21300034: bertha_17
+    21300036: bertha_18
+    21300038: bertha_19
+    21300040: bertha_20
+    21300042: bertha_21
+    21300044: bertha_22
+    21300046: bertha_23
+    21300048: bertha_24
+    21300050: bertha_25
+    21300052: bertha_26
+    21300054: bertha_27
+    21300056: bertha_28
+    21300058: bertha_29
+    21300060: bertha_30
+    21300062: bertha_31
+    21300064: bertha_32
+    21300066: bertha_33
+    21300068: bertha_34
+    21300070: bertha_35
+    21300072: bertha_36
+    21300074: bertha_37
+    21300076: bertha_38
+    21300078: bertha_39
+    21300080: bertha_40
+    21300082: bertha_41
+    21300084: bertha_42
+    21300086: bertha_43
+    21300088: bertha_44
+    21300090: bertha_45
+    21300092: bertha_46
+    21300094: bertha_47
+    21300096: bertha_48
+    21300098: bertha_49
+    21300100: bertha_50
+    21300102: bertha_51
+    21300104: bertha_52
+    21300106: bertha_53
+    21300108: bertha_54
+    21300110: bertha_55
+    21300112: bertha_56
+    21300114: bertha_57
+    21300116: bertha_58
+    21300118: bertha_59
+    21300120: bertha_60
+    21300122: bertha_61
+    21300124: bertha_62
+    21300126: bertha_63
+    21300128: bertha_64
+    21300130: bertha_65
+    21300132: bertha_66
+    21300134: bertha_67
+    21300136: bertha_68
+    21300138: bertha_69
+    21300140: bertha_70
+    21300142: bertha_71
+    21300144: bertha_72
+    21300146: bertha_73
+    21300148: bertha_74
+    21300150: bertha_75
+    21300152: bertha_76
+    21300154: bertha_77
+    21300156: bertha_78
+    21300158: bertha_79
+    21300160: bertha_80
+    21300162: bertha_81
+    21300164: bertha_82
+    21300166: bertha_83
+    21300168: bertha_84
+    21300170: bertha_85
+    21300172: bertha_86
+    21300174: bertha_87
+    21300176: bertha_88
+    21300178: bertha_89
+    21300180: bertha_90
+    21300182: bertha_91
+    21300184: bertha_92
+    21300186: bertha_93
+    21300188: bertha_94
+    21300190: bertha_95
+    21300192: bertha_96
+    21300194: bertha_97
+    21300196: bertha_98
+    21300198: bertha_99
+    21300200: bertha_100
+    21300202: bertha_101
+    21300204: bertha_102
+    21300206: bertha_103
+    21300208: bertha_104
+    21300210: bertha_105
+    21300212: bertha_106
+    21300214: bertha_107
+    21300216: bertha_108
+    21300218: bertha_109
+    21300220: bertha_110
+    21300222: bertha_111
+    21300224: bertha_112
+    21300226: bertha_113
+    21300228: bertha_114
+    21300230: bertha_115
+    21300232: bertha_116
+    21300234: bertha_117
+    21300236: bertha_118
+    21300238: bertha_119
+    21300240: bertha_120
+    21300242: bertha_121
+    21300244: bertha_122
+    21300246: bertha_123
+    21300248: bertha_124
+    21300250: bertha_125
+    21300252: bertha_126
+    21300254: bertha_127
+    21300256: bertha_128
+    21300258: bertha_129
+    21300260: bertha_130
+    21300262: bertha_131
+    21300264: bertha_132
+    21300266: bertha_133
+    21300268: bertha_134
+    21300270: bertha_135
+    21300272: bertha_136
+    21300274: bertha_137
+    21300276: bertha_138
+    21300278: bertha_139
+    21300280: bertha_140
+    21300282: bertha_141
+    21300284: bertha_142
+    21300286: bertha_143
+    21300288: bertha_144
+    21300290: bertha_145
+    21300292: bertha_146
+    21300294: bertha_147
+    21300296: bertha_148
+    21300298: bertha_149
+    21300300: bertha_150
+    21300302: bertha_151
+    21300304: bertha_152
+    21300306: bertha_153
+    21300308: bertha_154
+    21300310: bertha_155
+    21300312: bertha_156
+    21300314: bertha_157
+    21300316: bertha_158
+    21300318: bertha_159
+    21300320: bertha_160
+    21300322: bertha_161
+    21300324: bertha_162
+    21300326: bertha_163
+    21300328: bertha_164
+    21300330: bertha_165
+    21300332: bertha_166
+    21300334: bertha_167
+    21300336: bertha_168
+    21300338: bertha_169
+    21300340: bertha_170
+    21300342: bertha_171
+    21300344: bertha_172
+    21300346: bertha_173
+    21300348: bertha_174
+    21300350: bertha_175
+    21300352: bertha_176
+    21300354: bertha_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bertha_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1279
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1279
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1279
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1279
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 26}
+        - {x: -8, y: 26}
+        - {x: -19, y: 13}
+        - {x: -19, y: -14}
+        - {x: -13, y: -26}
+        - {x: 12, y: -26}
+        - {x: 19, y: -12}
+        - {x: 19, y: 10}
+        - {x: 16, y: 23}
+    - name: bertha_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1279
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -19, y: 23}
+        - {x: -23, y: 15}
+        - {x: -23, y: -3}
+        - {x: -16, y: -6}
+        - {x: -15, y: -19}
+        - {x: -9, y: -26}
+        - {x: 19, y: -26}
+        - {x: 23, y: -9}
+        - {x: 23, y: 20}
+        - {x: 15, y: 26}
+    - name: bertha_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1279
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26}
+        - {x: -23, y: 23}
+        - {x: -23, y: -25}
+        - {x: -17, y: -26}
+        - {x: 18, y: -26}
+        - {x: 23, y: -14}
+        - {x: 23, y: 19}
+        - {x: 11, y: 26}
+    - name: bertha_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1279
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 26}
+        - {x: -8, y: 26}
+        - {x: -19, y: 13}
+        - {x: -19, y: -14}
+        - {x: -13, y: -26}
+        - {x: 12, y: -26}
+        - {x: 19, y: -12}
+        - {x: 19, y: 10}
+        - {x: 16, y: 23}
+    - name: bertha_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1215
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1215
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1215
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1215
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1215
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 25}
+        - {x: -17, y: 20}
+        - {x: -17, y: -26}
+        - {x: 13, y: -26}
+        - {x: 17, y: -25}
+        - {x: 17, y: 15}
+        - {x: 9, y: 26}
+    - name: bertha_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1215
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -17, y: 26}
+        - {x: -17, y: -24}
+        - {x: -14, y: -26}
+        - {x: 7, y: -26}
+        - {x: 14, y: -24}
+        - {x: 17, y: -15}
+        - {x: 17, y: 16}
+    - name: bertha_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1215
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1151
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -17, y: 24}
+        - {x: -17, y: -21}
+        - {x: -16, y: -23}
+        - {x: -14, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 26}
+    - name: bertha_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1151
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 26}
+        - {x: -10, y: 26}
+        - {x: -23, y: 10}
+        - {x: -23, y: -15}
+        - {x: -19, y: -26}
+        - {x: 12, y: -26}
+        - {x: 23, y: -5}
+        - {x: 23, y: 17}
+        - {x: 16, y: 25}
+    - name: bertha_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1151
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 26}
+        - {x: -13, y: 26}
+        - {x: -23, y: 17}
+        - {x: -23, y: -19}
+        - {x: -21, y: -24}
+        - {x: -13, y: -26}
+        - {x: 13, y: -26}
+        - {x: 17, y: -20}
+        - {x: 23, y: 3}
+        - {x: 23, y: 18}
+    - name: bertha_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1151
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -17, y: 24}
+        - {x: -17, y: -21}
+        - {x: -16, y: -23}
+        - {x: -14, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 26}
+    - name: bertha_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1087
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1087
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1087
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1087
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1087
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -23}
+        - {x: -7, y: -26}
+        - {x: 16, y: -26}
+        - {x: 17, y: -25}
+        - {x: 17, y: 20}
+        - {x: 9, y: 26}
+    - name: bertha_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1087
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -17, y: 21}
+        - {x: -17, y: -23}
+        - {x: -7, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 26}
+    - name: bertha_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1087
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1023
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1023
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -16, y: 12}
+        - {x: -16, y: -20}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 16, y: -22}
+        - {x: 16, y: 16}
+        - {x: 10, y: 25}
+    - name: bertha_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1021
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1021
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1021
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_33
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1021
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1021
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1021
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 959
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 959
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 959
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_39
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 959
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 26}
+        - {x: -12, y: 26}
+        - {x: -16, y: 16}
+        - {x: -16, y: -22}
+        - {x: -9, y: -26}
+        - {x: 11, y: -26}
+        - {x: 16, y: -12}
+        - {x: 16, y: 13}
+        - {x: 13, y: 24}
+    - name: bertha_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 959
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 959
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 26}
+        - {x: -16, y: 12}
+        - {x: -16, y: -23}
+        - {x: -15, y: -25}
+        - {x: -12, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 24}
+        - {x: 14, y: 26}
+    - name: bertha_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 959
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_43
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 959
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 26}
+        - {x: -9, y: 26}
+        - {x: -16, y: 18}
+        - {x: -16, y: -25}
+        - {x: -12, y: -26}
+        - {x: 12, y: -26}
+        - {x: 16, y: -15}
+        - {x: 16, y: 12}
+        - {x: 12, y: 23}
+    - name: bertha_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 895
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 895
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 895
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 895
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_48
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 895
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 895
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_50
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 895
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 895
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 831
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 831
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 831
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 831
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -15, y: 21}
+        - {x: -16, y: 17}
+        - {x: -16, y: -18}
+        - {x: -14, y: -25}
+        - {x: -11, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 25}
+        - {x: 15, y: 26}
+    - name: bertha_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 831
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 831
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -16, y: 26}
+        - {x: -16, y: -21}
+        - {x: -12, y: -26}
+        - {x: 7, y: -26}
+        - {x: 14, y: -20}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+    - name: bertha_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 831
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 831
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -15, y: 21}
+        - {x: -16, y: 18}
+        - {x: -16, y: -17}
+        - {x: -14, y: -25}
+        - {x: -7, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 20}
+        - {x: 14, y: 26}
+    - name: bertha_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 765
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 765
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_69
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 703
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 703
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 703
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 703
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 703
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 703
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 703
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_77
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 703
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 575
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 575
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 575
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 575
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 575
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 575
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 575
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 575
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 511
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 511
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_98
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 511
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 511
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_100
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 511
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 26}
+        - {x: -15, y: 26}
+        - {x: -18, y: 25}
+        - {x: -18, y: -24}
+        - {x: -10, y: -26}
+        - {x: 15, y: -26}
+        - {x: 18, y: -21}
+        - {x: 18, y: 17}
+        - {x: 13, y: 24}
+    - name: bertha_101
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 511
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 24}
+        - {x: 8, y: 26}
+        - {x: -15, y: 26}
+        - {x: -19, y: 18}
+        - {x: -19, y: -25}
+        - {x: -13, y: -26}
+        - {x: 11, y: -26}
+        - {x: 19, y: -6}
+        - {x: 19, y: 8}
+        - {x: 18, y: 11}
+    - name: bertha_102
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 447
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 447
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_104
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 447
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 447
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 15}
+        - {x: 13, y: 26}
+    - name: bertha_106
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 447
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -18, y: 10}
+        - {x: -18, y: -10}
+        - {x: -10, y: -26}
+        - {x: 15, y: -26}
+        - {x: 18, y: -21}
+        - {x: 18, y: 12}
+        - {x: 14, y: 26}
+    - name: bertha_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 447
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -17, y: 15}
+        - {x: -17, y: -16}
+        - {x: -12, y: -26}
+        - {x: 14, y: -26}
+        - {x: 17, y: -22}
+        - {x: 17, y: 15}
+        - {x: 13, y: 26}
+    - name: bertha_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 383
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 383
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_110
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 383
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 383
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 383
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 26}
+        - {x: -17, y: 22}
+        - {x: -17, y: -26}
+        - {x: 9, y: -26}
+        - {x: 17, y: -23}
+        - {x: 17, y: 20}
+        - {x: 16, y: 26}
+    - name: bertha_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 383
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 26}
+        - {x: -14, y: 26}
+        - {x: -18, y: 22}
+        - {x: -18, y: -26}
+        - {x: 7, y: -26}
+        - {x: 15, y: -24}
+        - {x: 18, y: -17}
+        - {x: 18, y: 4}
+        - {x: 12, y: 24}
+    - name: bertha_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 319
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_115
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 319
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 319
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 319
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 26}
+        - {x: -16, y: 26}
+        - {x: -17, y: 25}
+        - {x: -17, y: -26}
+        - {x: 9, y: -26}
+        - {x: 16, y: -24}
+        - {x: 17, y: -19}
+        - {x: 17, y: 7}
+        - {x: 11, y: 24}
+    - name: bertha_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 319
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 26}
+        - {x: -18, y: -26}
+        - {x: 10, y: -26}
+        - {x: 18, y: -21}
+        - {x: 18, y: 21}
+        - {x: 8, y: 26}
+    - name: bertha_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 319
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 26}
+        - {x: -17, y: 24}
+        - {x: -17, y: -26}
+        - {x: 14, y: -26}
+        - {x: 17, y: -18}
+        - {x: 17, y: 20}
+        - {x: 8, y: 26}
+    - name: bertha_120
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26}
+        - {x: -16, y: 23}
+        - {x: -16, y: -14}
+        - {x: -15, y: -23}
+        - {x: -13, y: -26}
+        - {x: 13, y: -26}
+        - {x: 16, y: -25}
+        - {x: 16, y: 16}
+        - {x: 12, y: 26}
+    - name: bertha_122
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 253
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_123
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 253
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_124
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 253
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 27}
+        - {x: -16, y: 21}
+        - {x: -16, y: -23}
+        - {x: -10, y: -26}
+        - {x: -6, y: -27}
+        - {x: 7, y: -27}
+        - {x: 16, y: -15}
+        - {x: 16, y: 20}
+        - {x: 13, y: 27}
+    - name: bertha_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 253
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_126
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 253
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_127
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 253
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 27}
+        - {x: -16, y: 25}
+        - {x: -16, y: -24}
+        - {x: -9, y: -27}
+        - {x: 10, y: -27}
+        - {x: 16, y: -17}
+        - {x: 16, y: 18}
+        - {x: 10, y: 27}
+    - name: bertha_128
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 253
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 27}
+        - {x: -16, y: 24}
+        - {x: -16, y: -25}
+        - {x: -15, y: -27}
+        - {x: 9, y: -27}
+        - {x: 13, y: -26}
+        - {x: 16, y: -23}
+        - {x: 16, y: 19}
+        - {x: 12, y: 27}
+    - name: bertha_129
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 253
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 27}
+        - {x: -13, y: 27}
+        - {x: -16, y: 25}
+        - {x: -16, y: -22}
+        - {x: -9, y: -27}
+        - {x: 5, y: -27}
+        - {x: 11, y: -25}
+        - {x: 16, y: -10}
+        - {x: 16, y: 12}
+        - {x: 14, y: 24}
+    - name: bertha_130
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 253
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_131
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 253
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_132
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 253
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_133
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 191
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 191
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 191
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -17, y: 17}
+        - {x: -17, y: -25}
+        - {x: -10, y: -26}
+        - {x: 14, y: -26}
+        - {x: 17, y: -23}
+        - {x: 17, y: 22}
+        - {x: 12, y: 26}
+    - name: bertha_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 191
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -19, y: 15}
+        - {x: -19, y: -15}
+        - {x: -12, y: -25}
+        - {x: 12, y: -25}
+        - {x: 19, y: -16}
+        - {x: 19, y: 10}
+        - {x: 13, y: 25}
+    - name: bertha_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 191
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26}
+        - {x: -19, y: 16}
+        - {x: -19, y: -26}
+        - {x: 19, y: -26}
+        - {x: 19, y: 22}
+        - {x: 11, y: 26}
+    - name: bertha_138
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 191
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -18, y: 11}
+        - {x: -18, y: -14}
+        - {x: -14, y: -24}
+        - {x: -7, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 21}
+        - {x: 16, y: 26}
+    - name: bertha_139
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 191
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -19, y: 23}
+        - {x: -19, y: -23}
+        - {x: -8, y: -26}
+        - {x: 17, y: -26}
+        - {x: 19, y: -19}
+        - {x: 19, y: 16}
+        - {x: 15, y: 26}
+    - name: bertha_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 191
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 26}
+        - {x: -19, y: 17}
+        - {x: -19, y: -15}
+        - {x: -16, y: -26}
+        - {x: 18, y: -26}
+        - {x: 19, y: -23}
+        - {x: 19, y: 20}
+        - {x: 11, y: 26}
+    - name: bertha_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 191
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -20, y: 18}
+        - {x: -20, y: -24}
+        - {x: -11, y: -26}
+        - {x: 13, y: -26}
+        - {x: 20, y: -4}
+        - {x: 20, y: 12}
+        - {x: 9, y: 26}
+    - name: bertha_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 191
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 26}
+        - {x: -19, y: 16}
+        - {x: -19, y: -26}
+        - {x: 19, y: -26}
+        - {x: 19, y: 22}
+        - {x: 11, y: 26}
+    - name: bertha_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 191
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 26}
+        - {x: -17, y: 11}
+        - {x: -18, y: 8}
+        - {x: -18, y: -9}
+        - {x: -14, y: -19}
+        - {x: -12, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 26}
+    - name: bertha_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 191
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 26}
+        - {x: -12, y: 24}
+        - {x: -18, y: 11}
+        - {x: -19, y: 8}
+        - {x: -19, y: -9}
+        - {x: -15, y: -19}
+        - {x: -10, y: -26}
+        - {x: 15, y: -26}
+        - {x: 19, y: -17}
+        - {x: 19, y: 17}
+        - {x: 12, y: 26}
+    - name: bertha_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 191
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 26}
+        - {x: -17, y: 11}
+        - {x: -18, y: 8}
+        - {x: -18, y: -9}
+        - {x: -14, y: -19}
+        - {x: -12, y: -26}
+        - {x: 18, y: -26}
+        - {x: 18, y: 26}
+    - name: bertha_146
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_147
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_148
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_149
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_150
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_151
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_152
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_153
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_154
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_155
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_156
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_157
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_158
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 63
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 63
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 63
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -18, y: 21}
+        - {x: -18, y: -14}
+        - {x: -11, y: -26}
+        - {x: 10, y: -26}
+        - {x: 18, y: -24}
+        - {x: 18, y: 23}
+        - {x: 13, y: 26}
+    - name: bertha_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 63
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 25}
+        - {x: -10, y: 25}
+        - {x: -16, y: 18}
+        - {x: -19, y: 3}
+        - {x: -19, y: -25}
+        - {x: 13, y: -25}
+        - {x: 19, y: -8}
+        - {x: 19, y: 3}
+        - {x: 13, y: 15}
+    - name: bertha_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 63
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -19, y: 21}
+        - {x: -19, y: -1}
+        - {x: -16, y: -3}
+        - {x: -15, y: -22}
+        - {x: -12, y: -26}
+        - {x: 15, y: -26}
+        - {x: 19, y: -18}
+        - {x: 19, y: 11}
+        - {x: 7, y: 26}
+    - name: bertha_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 63
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -18, y: 16}
+        - {x: -18, y: -26}
+        - {x: 17, y: -26}
+        - {x: 18, y: -24}
+        - {x: 18, y: 19}
+        - {x: 12, y: 26}
+    - name: bertha_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 63
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -18, y: 23}
+        - {x: -18, y: -25}
+        - {x: -16, y: -26}
+        - {x: 12, y: -26}
+        - {x: 18, y: -13}
+        - {x: 18, y: 21}
+        - {x: 10, y: 26}
+    - name: bertha_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 63
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 26}
+        - {x: -11, y: 26}
+        - {x: -20, y: 14}
+        - {x: -20, y: -5}
+        - {x: -16, y: -23}
+        - {x: -12, y: -26}
+        - {x: 10, y: -26}
+        - {x: 15, y: -20}
+        - {x: 20, y: -2}
+        - {x: 20, y: 12}
+    - name: bertha_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 63
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 26}
+        - {x: -12, y: 26}
+        - {x: -21, y: 17}
+        - {x: -21, y: -12}
+        - {x: -14, y: -26}
+        - {x: 18, y: -26}
+        - {x: 21, y: -18}
+        - {x: 21, y: 18}
+        - {x: 12, y: 25}
+    - name: bertha_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 63
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -19, y: 21}
+        - {x: -19, y: -1}
+        - {x: -16, y: -3}
+        - {x: -15, y: -22}
+        - {x: -12, y: -26}
+        - {x: 15, y: -26}
+        - {x: 19, y: -18}
+        - {x: 19, y: 11}
+        - {x: 7, y: 26}
+    - name: bertha_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 63
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 11}
+        - {x: 5, y: 26}
+        - {x: -19, y: 26}
+        - {x: -19, y: -26}
+        - {x: 11, y: -26}
+        - {x: 15, y: -20}
+        - {x: 19, y: -8}
+        - {x: 19, y: 7}
+    - name: bertha_170
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 63
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -19, y: 21}
+        - {x: -19, y: -8}
+        - {x: -16, y: -23}
+        - {x: -12, y: -26}
+        - {x: 15, y: -26}
+        - {x: 19, y: -18}
+        - {x: 19, y: 11}
+        - {x: 7, y: 26}
+    - name: bertha_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 63
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 11}
+        - {x: 5, y: 26}
+        - {x: -19, y: 26}
+        - {x: -19, y: -26}
+        - {x: 11, y: -26}
+        - {x: 15, y: -20}
+        - {x: 19, y: -8}
+        - {x: 19, y: 7}
+    - name: bertha_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bertha_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25.5}
+        - {x: -10, y: 25.5}
+        - {x: -16, y: 11.5}
+        - {x: -16, y: -15.5}
+        - {x: -15, y: -21.5}
+        - {x: -6, y: -25.5}
+        - {x: 12, y: -25.5}
+        - {x: 16, y: -18.5}
+        - {x: 16, y: 7.5}
+        - {x: 14, y: 21.5}
+    - name: bertha_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 21.5}
+        - {x: -9, y: 21.5}
+        - {x: -16, y: 16.5}
+        - {x: -16, y: -19.5}
+        - {x: -11, y: -21.5}
+        - {x: 11, y: -21.5}
+        - {x: 14, y: -18.5}
+        - {x: 16, y: -15.5}
+        - {x: 16, y: 12.5}
+    - name: bertha_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19.5}
+        - {x: -16, y: 15.5}
+        - {x: -16, y: -19.5}
+        - {x: 16, y: -19.5}
+        - {x: 16, y: 4.5}
+        - {x: 11, y: 19.5}
+    - name: bertha_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -17, y: 12}
+        - {x: -17, y: -16}
+        - {x: 17, y: -16}
+        - {x: 17, y: 5}
+        - {x: 11, y: 16}
+    - name: bertha_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 18.5}
+        - {x: -19, y: -15.5}
+        - {x: -15, y: -18.5}
+        - {x: 18, y: -18.5}
+        - {x: 19, y: -16.5}
+        - {x: 19, y: 18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

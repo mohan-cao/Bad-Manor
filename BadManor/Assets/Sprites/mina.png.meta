@@ -1,0 +1,2663 @@
+fileFormatVersion: 2
+guid: 00297130a29b25e4e91f8bffc211ddd2
+timeCreated: 1508197626
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mina_0
+    21300002: mina_1
+    21300004: mina_2
+    21300006: mina_3
+    21300008: mina_4
+    21300010: mina_5
+    21300012: mina_6
+    21300014: mina_7
+    21300016: mina_8
+    21300018: mina_9
+    21300020: mina_10
+    21300022: mina_11
+    21300024: mina_12
+    21300026: mina_13
+    21300028: mina_14
+    21300030: mina_15
+    21300032: mina_16
+    21300034: mina_17
+    21300036: mina_18
+    21300038: mina_19
+    21300040: mina_20
+    21300042: mina_21
+    21300044: mina_22
+    21300046: mina_23
+    21300048: mina_24
+    21300050: mina_25
+    21300052: mina_26
+    21300054: mina_27
+    21300056: mina_28
+    21300058: mina_29
+    21300060: mina_30
+    21300062: mina_31
+    21300064: mina_32
+    21300066: mina_33
+    21300068: mina_34
+    21300070: mina_35
+    21300072: mina_36
+    21300074: mina_37
+    21300076: mina_38
+    21300078: mina_39
+    21300080: mina_40
+    21300082: mina_41
+    21300084: mina_42
+    21300086: mina_43
+    21300088: mina_44
+    21300090: mina_45
+    21300092: mina_46
+    21300094: mina_47
+    21300096: mina_48
+    21300098: mina_49
+    21300100: mina_50
+    21300102: mina_51
+    21300104: mina_52
+    21300106: mina_53
+    21300108: mina_54
+    21300110: mina_55
+    21300112: mina_56
+    21300114: mina_57
+    21300116: mina_58
+    21300118: mina_59
+    21300120: mina_60
+    21300122: mina_61
+    21300124: mina_62
+    21300126: mina_63
+    21300128: mina_64
+    21300130: mina_65
+    21300132: mina_66
+    21300134: mina_67
+    21300136: mina_68
+    21300138: mina_69
+    21300140: mina_70
+    21300142: mina_71
+    21300144: mina_72
+    21300146: mina_73
+    21300148: mina_74
+    21300150: mina_75
+    21300152: mina_76
+    21300154: mina_77
+    21300156: mina_78
+    21300158: mina_79
+    21300160: mina_80
+    21300162: mina_81
+    21300164: mina_82
+    21300166: mina_83
+    21300168: mina_84
+    21300170: mina_85
+    21300172: mina_86
+    21300174: mina_87
+    21300176: mina_88
+    21300178: mina_89
+    21300180: mina_90
+    21300182: mina_91
+    21300184: mina_92
+    21300186: mina_93
+    21300188: mina_94
+    21300190: mina_95
+    21300192: mina_96
+    21300194: mina_97
+    21300196: mina_98
+    21300198: mina_99
+    21300200: mina_100
+    21300202: mina_101
+    21300204: mina_102
+    21300206: mina_103
+    21300208: mina_104
+    21300210: mina_105
+    21300212: mina_106
+    21300214: mina_107
+    21300216: mina_108
+    21300218: mina_109
+    21300220: mina_110
+    21300222: mina_111
+    21300224: mina_112
+    21300226: mina_113
+    21300228: mina_114
+    21300230: mina_115
+    21300232: mina_116
+    21300234: mina_117
+    21300236: mina_118
+    21300238: mina_119
+    21300240: mina_120
+    21300242: mina_121
+    21300244: mina_122
+    21300246: mina_123
+    21300248: mina_124
+    21300250: mina_125
+    21300252: mina_126
+    21300254: mina_127
+    21300256: mina_128
+    21300258: mina_129
+    21300260: mina_130
+    21300262: mina_131
+    21300264: mina_132
+    21300266: mina_133
+    21300268: mina_134
+    21300270: mina_135
+    21300272: mina_136
+    21300274: mina_137
+    21300276: mina_138
+    21300278: mina_139
+    21300280: mina_140
+    21300282: mina_141
+    21300284: mina_142
+    21300286: mina_143
+    21300288: mina_144
+    21300290: mina_145
+    21300292: mina_146
+    21300294: mina_147
+    21300296: mina_148
+    21300298: mina_149
+    21300300: mina_150
+    21300302: mina_151
+    21300304: mina_152
+    21300306: mina_153
+    21300308: mina_154
+    21300310: mina_155
+    21300312: mina_156
+    21300314: mina_157
+    21300316: mina_158
+    21300318: mina_159
+    21300320: mina_160
+    21300322: mina_161
+    21300324: mina_162
+    21300326: mina_163
+    21300328: mina_164
+    21300330: mina_165
+    21300332: mina_166
+    21300334: mina_167
+    21300336: mina_168
+    21300338: mina_169
+    21300340: mina_170
+    21300342: mina_171
+    21300344: mina_172
+    21300346: mina_173
+    21300348: mina_174
+    21300350: mina_175
+    21300352: mina_176
+    21300354: mina_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mina_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1281
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1281
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1281
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -9, y: 25}
+        - {x: -19, y: 10}
+        - {x: -19, y: -13}
+        - {x: -14, y: -24}
+        - {x: -13, y: -25}
+        - {x: 11, y: -25}
+        - {x: 19, y: -13}
+        - {x: 19, y: 16}
+        - {x: 16, y: 22}
+    - name: mina_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1281
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -23, y: 22}
+        - {x: -23, y: -18}
+        - {x: -15, y: -25}
+        - {x: 14, y: -25}
+        - {x: 23, y: -11}
+        - {x: 23, y: 16}
+        - {x: 18, y: 25}
+    - name: mina_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1281
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 14}
+        - {x: 10, y: 25}
+        - {x: -13, y: 25}
+        - {x: -23, y: 15}
+        - {x: -23, y: -6}
+        - {x: -11, y: -25}
+        - {x: 9, y: -25}
+        - {x: 12, y: -23}
+        - {x: 23, y: 1}
+    - name: mina_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -9, y: 25}
+        - {x: -19, y: 10}
+        - {x: -19, y: -13}
+        - {x: -14, y: -24}
+        - {x: -13, y: -25}
+        - {x: 11, y: -25}
+        - {x: 19, y: -13}
+        - {x: 19, y: 16}
+        - {x: 16, y: 22}
+    - name: mina_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 18}
+        - {x: -17, y: -22}
+        - {x: -16, y: -25}
+        - {x: 8, y: -25}
+        - {x: 17, y: -13}
+        - {x: 17, y: 12}
+        - {x: 9, y: 25}
+    - name: mina_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -17, y: 16}
+        - {x: -17, y: -9}
+        - {x: -12, y: -25}
+        - {x: 10, y: -25}
+        - {x: 17, y: -12}
+        - {x: 17, y: 15}
+        - {x: 10, y: 25}
+    - name: mina_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 13}
+        - {x: -17, y: -15}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -21}
+        - {x: 17, y: 25}
+    - name: mina_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1153
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -23, y: 8}
+        - {x: -23, y: -1}
+        - {x: -22, y: -3}
+        - {x: -19, y: -6}
+        - {x: -11, y: -25}
+        - {x: 16, y: -25}
+        - {x: 23, y: -16}
+        - {x: 23, y: 18}
+        - {x: 17, y: 25}
+    - name: mina_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1153
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 25}
+        - {x: -23, y: -10}
+        - {x: -17, y: -25}
+        - {x: 19, y: -25}
+        - {x: 23, y: -21}
+        - {x: 23, y: 20}
+        - {x: 20, y: 25}
+    - name: mina_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 13}
+        - {x: -17, y: -15}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -21}
+        - {x: 17, y: 25}
+    - name: mina_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1089
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 24}
+        - {x: 11, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 12}
+        - {x: -17, y: -8}
+        - {x: -12, y: -25}
+        - {x: 11, y: -25}
+        - {x: 15, y: -23}
+        - {x: 17, y: -13}
+        - {x: 17, y: 19}
+    - name: mina_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1089
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -6, y: 25}
+        - {x: -11, y: 23}
+        - {x: -17, y: 18}
+        - {x: -17, y: -11}
+        - {x: -13, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -17}
+        - {x: 17, y: 17}
+        - {x: 14, y: 22}
+    - name: mina_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1023
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1023
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -16, y: 25}
+        - {x: -16, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 23}
+    - name: mina_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1023
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_33
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1023
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1023
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 961
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_39
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -11, y: 23}
+        - {x: -16, y: 8}
+        - {x: -16, y: -11}
+        - {x: -7, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 25}
+    - name: mina_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_43
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_48
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_50
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 833
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -16, y: 18}
+        - {x: -16, y: -23}
+        - {x: -14, y: -25}
+        - {x: 10, y: -25}
+        - {x: 16, y: -19}
+        - {x: 16, y: 15}
+        - {x: 12, y: 25}
+    - name: mina_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 767
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 767
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_77
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_90
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_98
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_100
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 513
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -15, y: 25}
+        - {x: -18, y: 12}
+        - {x: -18, y: -20}
+        - {x: -15, y: -25}
+        - {x: 5, y: -25}
+        - {x: 7, y: -23}
+        - {x: 18, y: -1}
+        - {x: 18, y: 15}
+    - name: mina_101
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 513
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -19, y: 23}
+        - {x: -19, y: -16}
+        - {x: -15, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -16}
+        - {x: 19, y: 23}
+        - {x: 16, y: 25}
+    - name: mina_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 449
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 447
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 449
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 449
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -13, y: 24}
+        - {x: -17, y: 4}
+        - {x: -17, y: -13}
+        - {x: -10, y: -24}
+        - {x: -4, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -20}
+        - {x: 17, y: 11}
+        - {x: 13, y: 25}
+    - name: mina_106
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 449
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -9, y: 25}
+        - {x: -18, y: 20}
+        - {x: -18, y: -9}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 18, y: -17}
+        - {x: 18, y: 11}
+        - {x: 16, y: 22}
+    - name: mina_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 449
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -17, y: 13}
+        - {x: -17, y: -2}
+        - {x: -8, y: -23}
+        - {x: -5, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -24}
+        - {x: 17, y: 21}
+        - {x: 10, y: 25}
+    - name: mina_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 383
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_110
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 385
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 14}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 21}
+        - {x: 11, y: 25}
+    - name: mina_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 385
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -18, y: 22}
+        - {x: -18, y: -25}
+        - {x: 15, y: -25}
+        - {x: 18, y: -23}
+        - {x: 18, y: 21}
+        - {x: 16, y: 25}
+    - name: mina_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 321
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_115
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 319
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 321
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 321
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -17, y: 24}
+        - {x: -17, y: -25}
+        - {x: 9, y: -25}
+        - {x: 17, y: -19}
+        - {x: 17, y: 10}
+        - {x: 9, y: 25}
+    - name: mina_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: 4, y: -25}
+        - {x: 10, y: -24}
+        - {x: 18, y: -11}
+        - {x: 18, y: 11}
+        - {x: 10, y: 25}
+    - name: mina_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -12, y: 25}
+        - {x: -15, y: 19}
+        - {x: -17, y: 14}
+        - {x: -17, y: -22}
+        - {x: -16, y: -25}
+        - {x: 9, y: -25}
+        - {x: 17, y: -1}
+        - {x: 17, y: 13}
+        - {x: 11, y: 24}
+    - name: mina_120
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 257
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 26}
+        - {x: -9, y: 26}
+        - {x: -15, y: 20}
+        - {x: -16, y: 11}
+        - {x: -16, y: -14}
+        - {x: -9, y: -26}
+        - {x: 13, y: -26}
+        - {x: 16, y: -25}
+        - {x: 16, y: 23}
+    - name: mina_122
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_123
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_124
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 26}
+        - {x: -12, y: 26}
+        - {x: -16, y: 24}
+        - {x: -16, y: -7}
+        - {x: -8, y: -26}
+        - {x: 8, y: -26}
+        - {x: 16, y: -13}
+        - {x: 16, y: 9}
+        - {x: 14, y: 22}
+    - name: mina_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_126
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_127
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -16, y: 21}
+        - {x: -16, y: -23}
+        - {x: -9, y: -26}
+        - {x: 11, y: -26}
+        - {x: 16, y: -14}
+        - {x: 16, y: 13}
+        - {x: 12, y: 26}
+    - name: mina_128
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 26}
+        - {x: -12, y: 26}
+        - {x: -16, y: 24}
+        - {x: -16, y: -7}
+        - {x: -8, y: -26}
+        - {x: 14, y: -26}
+        - {x: 16, y: -24}
+        - {x: 16, y: 17}
+        - {x: 13, y: 22}
+    - name: mina_129
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 24}
+        - {x: -16, y: -21}
+        - {x: -9, y: -26}
+        - {x: 15, y: -26}
+        - {x: 16, y: -25}
+        - {x: 16, y: 17}
+        - {x: 10, y: 26}
+    - name: mina_130
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_131
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_132
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_133
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 193
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 193
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -12, y: 23}
+        - {x: -17, y: 12}
+        - {x: -17, y: -18}
+        - {x: -14, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -20}
+        - {x: 17, y: 14}
+        - {x: 13, y: 25}
+    - name: mina_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 24}
+        - {x: -6, y: 24}
+        - {x: -19, y: 8}
+        - {x: -19, y: -17}
+        - {x: -15, y: -24}
+        - {x: 16, y: -24}
+        - {x: 19, y: -20}
+        - {x: 19, y: 13}
+        - {x: 16, y: 22}
+    - name: mina_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -19, y: 12}
+        - {x: -19, y: -17}
+        - {x: -10, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -24}
+        - {x: 19, y: -17}
+        - {x: 19, y: 10}
+        - {x: 12, y: 25}
+    - name: mina_138
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -18, y: 10}
+        - {x: -18, y: -11}
+        - {x: -4, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 18}
+        - {x: 15, y: 25}
+    - name: mina_139
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 25}
+        - {x: -19, y: 15}
+        - {x: -19, y: -8}
+        - {x: -12, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -19}
+        - {x: 19, y: 18}
+        - {x: 15, y: 25}
+    - name: mina_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -10}
+        - {x: -11, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -18}
+        - {x: 19, y: 19}
+        - {x: 11, y: 25}
+    - name: mina_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 193
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -15}
+        - {x: -16, y: -25}
+        - {x: 15, y: -25}
+        - {x: 20, y: -18}
+        - {x: 20, y: 21}
+        - {x: 12, y: 25}
+        - {x: -10, y: 25}
+        - {x: -20, y: 17}
+    - name: mina_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -19, y: 12}
+        - {x: -19, y: -17}
+        - {x: -10, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -24}
+        - {x: 19, y: -17}
+        - {x: 19, y: 10}
+        - {x: 12, y: 25}
+    - name: mina_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -18, y: 19}
+        - {x: -18, y: -18}
+        - {x: -8, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 22}
+        - {x: 15, y: 25}
+    - name: mina_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -19, y: 12}
+        - {x: -19, y: -2}
+        - {x: -17, y: -3}
+        - {x: -9, y: -23}
+        - {x: -5, y: -25}
+        - {x: 13, y: -25}
+        - {x: 16, y: -23}
+        - {x: 19, y: -13}
+        - {x: 19, y: 11}
+        - {x: 11, y: 25}
+    - name: mina_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 25}
+        - {x: -18, y: 12}
+        - {x: -18, y: -17}
+        - {x: -8, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 16}
+        - {x: 14, y: 25}
+    - name: mina_146
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_147
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_148
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_149
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_150
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_151
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_152
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_153
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_154
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_155
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_156
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_157
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_158
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -18, y: 17}
+        - {x: -18, y: -12}
+        - {x: -15, y: -25}
+        - {x: 10, y: -25}
+        - {x: 18, y: -12}
+        - {x: 18, y: 11}
+        - {x: 13, y: 25}
+    - name: mina_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 24}
+        - {x: -14, y: 24}
+        - {x: -19, y: 8}
+        - {x: -19, y: -10}
+        - {x: -14, y: -21}
+        - {x: -12, y: -24}
+        - {x: 8, y: -24}
+        - {x: 11, y: -23}
+        - {x: 19, y: -9}
+        - {x: 19, y: 7}
+    - name: mina_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -17, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -25}
+        - {x: 8, y: -25}
+        - {x: 19, y: -1}
+        - {x: 19, y: 11}
+        - {x: 11, y: 24}
+    - name: mina_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -25}
+        - {x: 7, y: -25}
+        - {x: 18, y: -17}
+        - {x: 18, y: 18}
+        - {x: 10, y: 25}
+        - {x: -14, y: 25}
+        - {x: -18, y: 22}
+    - name: mina_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 25}
+        - {x: -13, y: 25}
+        - {x: -18, y: 22}
+        - {x: -18, y: -20}
+        - {x: -15, y: -25}
+        - {x: 7, y: -25}
+        - {x: 14, y: -12}
+        - {x: 18, y: -3}
+        - {x: 18, y: 16}
+    - name: mina_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 25}
+        - {x: -11, y: 25}
+        - {x: -20, y: 13}
+        - {x: -20, y: -3}
+        - {x: -16, y: -19}
+        - {x: -12, y: -25}
+        - {x: 2, y: -25}
+        - {x: 10, y: -23}
+        - {x: 20, y: 1}
+        - {x: 20, y: 11}
+    - name: mina_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 65
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 25}
+        - {x: -10, y: 25}
+        - {x: -21, y: 14}
+        - {x: -21, y: -8}
+        - {x: -15, y: -25}
+        - {x: 10, y: -25}
+        - {x: 12, y: -24}
+        - {x: 21, y: 1}
+        - {x: 21, y: 9}
+        - {x: 10, y: 22}
+    - name: mina_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -17, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -25}
+        - {x: 8, y: -25}
+        - {x: 19, y: -1}
+        - {x: 19, y: 11}
+        - {x: 11, y: 24}
+    - name: mina_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -16, y: 25}
+        - {x: -19, y: 23}
+        - {x: -19, y: -25}
+        - {x: 8, y: -25}
+        - {x: 19, y: -1}
+        - {x: 19, y: 11}
+        - {x: 11, y: 24}
+    - name: mina_170
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -17}
+        - {x: 19, y: 21}
+        - {x: 17, y: 25}
+    - name: mina_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -16, y: 25}
+        - {x: -19, y: 23}
+        - {x: -19, y: -25}
+        - {x: 8, y: -25}
+        - {x: 19, y: -6}
+        - {x: 19, y: 15}
+        - {x: 11, y: 24}
+    - name: mina_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mina_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -16, y: 15}
+        - {x: -16, y: -13}
+        - {x: -12, y: -25}
+        - {x: 10, y: -25}
+        - {x: 16, y: -20}
+        - {x: 16, y: 15}
+        - {x: 8, y: 25}
+    - name: mina_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 21}
+        - {x: -16, y: 16}
+        - {x: -16, y: -20}
+        - {x: -14, y: -21}
+        - {x: 11, y: -21}
+        - {x: 16, y: -18}
+        - {x: 16, y: 20}
+        - {x: 12, y: 21}
+    - name: mina_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 19}
+        - {x: -16, y: 9}
+        - {x: -16, y: -19}
+        - {x: 16, y: -19}
+        - {x: 16, y: 8}
+        - {x: 11, y: 19}
+    - name: mina_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 14}
+        - {x: 7, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 6}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 4}
+    - name: mina_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 19.5}
+        - {x: -19, y: 17.5}
+        - {x: -19, y: -19.5}
+        - {x: 16, y: -19.5}
+        - {x: 19, y: -16.5}
+        - {x: 19, y: 19.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

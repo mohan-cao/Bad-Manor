@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-    
+
 namespace CnControls
 {
     [Flags]
@@ -34,12 +34,12 @@ namespace CnControls
         /// <summary>
         /// The name of the horizontal axis for this joystick to update
         /// </summary>
-        public string HorizontalAxisName = "H";
+        public string HorizontalAxisName = "Horizontal";
 
         /// <summary>
         /// The name of the vertical axis for this joystick to update
         /// </summary>
-        public string VerticalAxisName = "V";
+        public string VerticalAxisName = "Vertical";
 
         /// <summary>
         /// Should the joystick be hidden when the user releases the finger?

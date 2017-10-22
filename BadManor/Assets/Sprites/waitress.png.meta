@@ -1,0 +1,2669 @@
+fileFormatVersion: 2
+guid: 5d8e9bc3cb9f4544fa77851eabf1cc13
+timeCreated: 1508461845
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: waitress_0
+    21300002: waitress_1
+    21300004: waitress_2
+    21300006: waitress_3
+    21300008: waitress_4
+    21300010: waitress_5
+    21300012: waitress_6
+    21300014: waitress_7
+    21300016: waitress_8
+    21300018: waitress_9
+    21300020: waitress_10
+    21300022: waitress_11
+    21300024: waitress_12
+    21300026: waitress_13
+    21300028: waitress_14
+    21300030: waitress_15
+    21300032: waitress_16
+    21300034: waitress_17
+    21300036: waitress_18
+    21300038: waitress_19
+    21300040: waitress_20
+    21300042: waitress_21
+    21300044: waitress_22
+    21300046: waitress_23
+    21300048: waitress_24
+    21300050: waitress_25
+    21300052: waitress_26
+    21300054: waitress_27
+    21300056: waitress_28
+    21300058: waitress_29
+    21300060: waitress_30
+    21300062: waitress_31
+    21300064: waitress_32
+    21300066: waitress_33
+    21300068: waitress_34
+    21300070: waitress_35
+    21300072: waitress_36
+    21300074: waitress_37
+    21300076: waitress_38
+    21300078: waitress_39
+    21300080: waitress_40
+    21300082: waitress_41
+    21300084: waitress_42
+    21300086: waitress_43
+    21300088: waitress_44
+    21300090: waitress_45
+    21300092: waitress_46
+    21300094: waitress_47
+    21300096: waitress_48
+    21300098: waitress_49
+    21300100: waitress_50
+    21300102: waitress_51
+    21300104: waitress_52
+    21300106: waitress_53
+    21300108: waitress_54
+    21300110: waitress_55
+    21300112: waitress_56
+    21300114: waitress_57
+    21300116: waitress_58
+    21300118: waitress_59
+    21300120: waitress_60
+    21300122: waitress_61
+    21300124: waitress_62
+    21300126: waitress_63
+    21300128: waitress_64
+    21300130: waitress_65
+    21300132: waitress_66
+    21300134: waitress_67
+    21300136: waitress_68
+    21300138: waitress_69
+    21300140: waitress_70
+    21300142: waitress_71
+    21300144: waitress_72
+    21300146: waitress_73
+    21300148: waitress_74
+    21300150: waitress_75
+    21300152: waitress_76
+    21300154: waitress_77
+    21300156: waitress_78
+    21300158: waitress_79
+    21300160: waitress_80
+    21300162: waitress_81
+    21300164: waitress_82
+    21300166: waitress_83
+    21300168: waitress_84
+    21300170: waitress_85
+    21300172: waitress_86
+    21300174: waitress_87
+    21300176: waitress_88
+    21300178: waitress_89
+    21300180: waitress_90
+    21300182: waitress_91
+    21300184: waitress_92
+    21300186: waitress_93
+    21300188: waitress_94
+    21300190: waitress_95
+    21300192: waitress_96
+    21300194: waitress_97
+    21300196: waitress_98
+    21300198: waitress_99
+    21300200: waitress_100
+    21300202: waitress_101
+    21300204: waitress_102
+    21300206: waitress_103
+    21300208: waitress_104
+    21300210: waitress_105
+    21300212: waitress_106
+    21300214: waitress_107
+    21300216: waitress_108
+    21300218: waitress_109
+    21300220: waitress_110
+    21300222: waitress_111
+    21300224: waitress_112
+    21300226: waitress_113
+    21300228: waitress_114
+    21300230: waitress_115
+    21300232: waitress_116
+    21300234: waitress_117
+    21300236: waitress_118
+    21300238: waitress_119
+    21300240: waitress_120
+    21300242: waitress_121
+    21300244: waitress_122
+    21300246: waitress_123
+    21300248: waitress_124
+    21300250: waitress_125
+    21300252: waitress_126
+    21300254: waitress_127
+    21300256: waitress_128
+    21300258: waitress_129
+    21300260: waitress_130
+    21300262: waitress_131
+    21300264: waitress_132
+    21300266: waitress_133
+    21300268: waitress_134
+    21300270: waitress_135
+    21300272: waitress_136
+    21300274: waitress_137
+    21300276: waitress_138
+    21300278: waitress_139
+    21300280: waitress_140
+    21300282: waitress_141
+    21300284: waitress_142
+    21300286: waitress_143
+    21300288: waitress_144
+    21300290: waitress_145
+    21300292: waitress_146
+    21300294: waitress_147
+    21300296: waitress_148
+    21300298: waitress_149
+    21300300: waitress_150
+    21300302: waitress_151
+    21300304: waitress_152
+    21300306: waitress_153
+    21300308: waitress_154
+    21300310: waitress_155
+    21300312: waitress_156
+    21300314: waitress_157
+    21300316: waitress_158
+    21300318: waitress_159
+    21300320: waitress_160
+    21300322: waitress_161
+    21300324: waitress_162
+    21300326: waitress_163
+    21300328: waitress_164
+    21300330: waitress_165
+    21300332: waitress_166
+    21300334: waitress_167
+    21300336: waitress_168
+    21300338: waitress_169
+    21300340: waitress_170
+    21300342: waitress_171
+    21300344: waitress_172
+    21300346: waitress_173
+    21300348: waitress_174
+    21300350: waitress_175
+    21300352: waitress_176
+    21300354: waitress_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: waitress_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1281
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1281
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1281
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -19, y: 23}
+        - {x: -19, y: -25}
+        - {x: 11, y: -25}
+        - {x: 19, y: -17}
+        - {x: 19, y: 18}
+        - {x: 10, y: 25}
+    - name: waitress_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1281
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 21}
+        - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -23, y: 16}
+        - {x: -23, y: -20}
+        - {x: -16, y: -25}
+        - {x: 14, y: -25}
+        - {x: 15, y: -24}
+        - {x: 23, y: -6}
+        - {x: 23, y: 14}
+    - name: waitress_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1281
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -23, y: 15}
+        - {x: -23, y: -3}
+        - {x: -11, y: -25}
+        - {x: 13, y: -25}
+        - {x: 23, y: -11}
+        - {x: 23, y: 22}
+        - {x: 18, y: 25}
+    - name: waitress_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -19, y: 23}
+        - {x: -19, y: -25}
+        - {x: 11, y: -25}
+        - {x: 19, y: -17}
+        - {x: 19, y: 18}
+        - {x: 10, y: 25}
+    - name: waitress_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 11, y: -25}
+        - {x: 17, y: -16}
+        - {x: 17, y: 20}
+        - {x: 10, y: 25}
+    - name: waitress_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -12, y: 25}
+        - {x: -17, y: 23}
+        - {x: -17, y: -24}
+        - {x: -14, y: -25}
+        - {x: 8, y: -25}
+        - {x: 9, y: -23}
+        - {x: 17, y: 0}
+        - {x: 17, y: 16}
+    - name: waitress_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -17, y: 19}
+        - {x: -17, y: -18}
+        - {x: -13, y: -25}
+        - {x: 11, y: -25}
+        - {x: 17, y: -17}
+        - {x: 17, y: 16}
+        - {x: 12, y: 25}
+    - name: waitress_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1153
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -23, y: 9}
+        - {x: -23, y: -4}
+        - {x: -20, y: -7}
+        - {x: -11, y: -25}
+        - {x: 11, y: -25}
+        - {x: 23, y: -10}
+        - {x: 23, y: 12}
+        - {x: 12, y: 25}
+    - name: waitress_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1153
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -15, y: 23}
+        - {x: -14, y: 13}
+        - {x: -14, y: 12}
+        - {x: -14, y: 14}
+        - {x: -16, y: 16}
+        - {x: -20, y: 18}
+        - {x: -23, y: 12}
+        - {x: -23, y: 0}
+        - {x: -12, y: -25}
+        - {x: 13, y: -25}
+        - {x: 23, y: 1}
+        - {x: 23, y: 14}
+        - {x: 13, y: 25}
+    - name: waitress_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -17, y: 19}
+        - {x: -17, y: -18}
+        - {x: -13, y: -25}
+        - {x: 11, y: -25}
+        - {x: 17, y: -17}
+        - {x: 17, y: 16}
+        - {x: 12, y: 25}
+    - name: waitress_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1089
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -14, y: 25}
+        - {x: -17, y: 23}
+        - {x: -17, y: -17}
+        - {x: -11, y: -24}
+        - {x: -8, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -19}
+        - {x: 17, y: 20}
+    - name: waitress_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1089
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -17, y: 19}
+        - {x: -17, y: -4}
+        - {x: -9, y: -23}
+        - {x: -7, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -15}
+        - {x: 17, y: 21}
+        - {x: 14, y: 25}
+    - name: waitress_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1023
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1023
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -16, y: 12}
+        - {x: -16, y: -20}
+        - {x: -11, y: -25}
+        - {x: 13, y: -25}
+        - {x: 16, y: -20}
+        - {x: 16, y: 24}
+        - {x: 14, y: 25}
+    - name: waitress_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_39
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -16, y: 15}
+        - {x: -16, y: -21}
+        - {x: -13, y: -25}
+        - {x: 15, y: -25}
+        - {x: 16, y: -24}
+        - {x: 16, y: 23}
+        - {x: 14, y: 25}
+    - name: waitress_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 9}
+        - {x: -17, y: -18}
+        - {x: -13, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 17}
+        - {x: 14, y: 21}
+    - name: waitress_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -16, y: 15}
+        - {x: -16, y: -21}
+        - {x: -13, y: -25}
+        - {x: 15, y: -25}
+        - {x: 16, y: -24}
+        - {x: 16, y: 23}
+        - {x: 14, y: 25}
+    - name: waitress_43
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_52
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 833
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -24}
+        - {x: -15, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 20}
+        - {x: 11, y: 25}
+    - name: waitress_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 833
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -15, y: 25}
+        - {x: -17, y: 24}
+        - {x: -17, y: -24}
+        - {x: -16, y: -25}
+        - {x: 2, y: -25}
+        - {x: 10, y: -23}
+        - {x: 17, y: -15}
+        - {x: 17, y: 15}
+    - name: waitress_58
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 833
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -24}
+        - {x: -15, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 20}
+        - {x: 11, y: 25}
+    - name: waitress_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 767
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_67
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 767
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_77
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_87
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_95
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 513
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_100
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 513
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -17, y: 23}
+        - {x: -18, y: 15}
+        - {x: -18, y: -17}
+        - {x: -14, y: -25}
+        - {x: 8, y: -25}
+        - {x: 18, y: -5}
+        - {x: 18, y: 17}
+        - {x: 8, y: 25}
+    - name: waitress_101
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 513
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -18, y: 23}
+        - {x: -19, y: 15}
+        - {x: -19, y: -17}
+        - {x: -15, y: -25}
+        - {x: 4, y: -25}
+        - {x: 19, y: -11}
+        - {x: 19, y: 13}
+        - {x: 11, y: 25}
+    - name: waitress_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 449
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 449
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_104
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 449
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 449
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -14, y: 16}
+        - {x: -17, y: 8}
+        - {x: -17, y: -16}
+        - {x: -9, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -21}
+        - {x: 17, y: 21}
+        - {x: 10, y: 25}
+    - name: waitress_106
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 449
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -25}
+        - {x: 17, y: -25}
+        - {x: 18, y: -24}
+        - {x: 18, y: 13}
+        - {x: 12, y: 25}
+        - {x: -8, y: 25}
+        - {x: -18, y: 20}
+    - name: waitress_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 449
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 23}
+        - {x: 9, y: 25}
+        - {x: -6, y: 25}
+        - {x: -17, y: 17}
+        - {x: -17, y: -14}
+        - {x: -12, y: -25}
+        - {x: 12, y: -25}
+        - {x: 15, y: -23}
+        - {x: 17, y: -18}
+        - {x: 17, y: 12}
+    - name: waitress_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_109
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 385
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 385
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 25}
+        - {x: -10, y: 25}
+        - {x: -17, y: 16}
+        - {x: -17, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -14}
+        - {x: 17, y: -2}
+        - {x: 11, y: 22}
+    - name: waitress_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 385
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -14, y: 25}
+        - {x: -18, y: 20}
+        - {x: -18, y: -25}
+        - {x: 9, y: -25}
+        - {x: 18, y: -14}
+        - {x: 18, y: 4}
+        - {x: 12, y: 24}
+    - name: waitress_114
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 321
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_115
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 321
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 321
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 321
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 25}
+        - {x: -13, y: 25}
+        - {x: -17, y: 15}
+        - {x: -17, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -23}
+        - {x: 17, y: 5}
+        - {x: 13, y: 15}
+    - name: waitress_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 1}
+        - {x: 18, y: 8}
+        - {x: 6, y: 25}
+        - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: 6, y: -25}
+        - {x: 7, y: -22}
+        - {x: 7, y: -19}
+        - {x: 17, y: -4}
+    - name: waitress_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -17, y: 18}
+        - {x: -17, y: -19}
+        - {x: -16, y: -23}
+        - {x: -14, y: -25}
+        - {x: 8, y: -25}
+        - {x: 17, y: -3}
+        - {x: 17, y: 15}
+        - {x: 8, y: 25}
+    - name: waitress_120
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 257
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 12}
+        - {x: -16, y: -20}
+        - {x: -10, y: -26}
+        - {x: 12, y: -26}
+        - {x: 16, y: -20}
+        - {x: 16, y: 24}
+        - {x: 12, y: 26}
+    - name: waitress_122
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_123
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_124
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 21}
+        - {x: -16, y: -6}
+        - {x: -10, y: -26}
+        - {x: 12, y: -26}
+        - {x: 16, y: -22}
+        - {x: 16, y: 16}
+        - {x: 11, y: 26}
+    - name: waitress_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_126
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_127
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -14, y: 26}
+        - {x: -16, y: 23}
+        - {x: -16, y: -15}
+        - {x: -7, y: -26}
+        - {x: 7, y: -26}
+        - {x: 11, y: -20}
+        - {x: 16, y: -10}
+        - {x: 16, y: 12}
+    - name: waitress_128
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 26}
+        - {x: -16, y: 26}
+        - {x: -16, y: -16}
+        - {x: -13, y: -26}
+        - {x: 13, y: -26}
+        - {x: 16, y: -21}
+        - {x: 16, y: 20}
+        - {x: 15, y: 21}
+    - name: waitress_129
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 21}
+        - {x: -16, y: -6}
+        - {x: -10, y: -26}
+        - {x: 12, y: -26}
+        - {x: 16, y: -22}
+        - {x: 16, y: 16}
+        - {x: 11, y: 26}
+    - name: waitress_130
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_131
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_132
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_133
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 193
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 193
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -17, y: 16}
+        - {x: -17, y: -21}
+        - {x: -12, y: -24}
+        - {x: -9, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -20}
+        - {x: 17, y: 14}
+        - {x: 13, y: 25}
+    - name: waitress_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 24}
+        - {x: -19, y: 9}
+        - {x: -19, y: -18}
+        - {x: -16, y: -24}
+        - {x: 15, y: -24}
+        - {x: 19, y: -17}
+        - {x: 19, y: 19}
+        - {x: 11, y: 24}
+    - name: waitress_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -10}
+        - {x: -12, y: -25}
+        - {x: 18, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: 16}
+        - {x: 14, y: 25}
+    - name: waitress_138
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -19, y: 15}
+        - {x: -19, y: -1}
+        - {x: -17, y: -3}
+        - {x: -8, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 15}
+        - {x: 13, y: 25}
+    - name: waitress_139
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -19, y: 10}
+        - {x: -19, y: -6}
+        - {x: -7, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -24}
+        - {x: 19, y: 25}
+    - name: waitress_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -19, y: 13}
+        - {x: -19, y: -16}
+        - {x: -7, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 19}
+        - {x: 15, y: 25}
+    - name: waitress_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 193
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 25}
+        - {x: -11, y: 25}
+        - {x: -20, y: 16}
+        - {x: -20, y: -9}
+        - {x: -13, y: -25}
+        - {x: 11, y: -25}
+        - {x: 15, y: -19}
+        - {x: 20, y: -9}
+        - {x: 20, y: 16}
+    - name: waitress_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -10}
+        - {x: -12, y: -25}
+        - {x: 18, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: 16}
+        - {x: 14, y: 25}
+    - name: waitress_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -18, y: 10}
+        - {x: -18, y: -6}
+        - {x: -6, y: -25}
+        - {x: 15, y: -25}
+        - {x: 18, y: -21}
+        - {x: 18, y: 16}
+        - {x: 14, y: 25}
+    - name: waitress_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -7}
+        - {x: -10, y: -25}
+        - {x: 18, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: 18}
+        - {x: 13, y: 25}
+        - {x: -6, y: 25}
+        - {x: -19, y: 12}
+    - name: waitress_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -18, y: 15}
+        - {x: -18, y: -17}
+        - {x: -15, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 24}
+        - {x: 16, y: 25}
+    - name: waitress_146
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 127
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -18, y: 22}
+        - {x: -18, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 23}
+        - {x: 10, y: 25}
+    - name: waitress_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 24}
+        - {x: -13, y: 24}
+        - {x: -19, y: 17}
+        - {x: -19, y: -17}
+        - {x: -16, y: -24}
+        - {x: 8, y: -24}
+        - {x: 19, y: -12}
+        - {x: 19, y: 6}
+        - {x: 16, y: 18}
+    - name: waitress_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 25}
+        - {x: -18, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -14}
+        - {x: -14, y: -25}
+        - {x: 3, y: -25}
+        - {x: 9, y: -23}
+        - {x: 19, y: -7}
+        - {x: 19, y: 15}
+        - {x: 16, y: 19}
+    - name: waitress_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: 9, y: -25}
+        - {x: 18, y: -10}
+        - {x: 18, y: 12}
+        - {x: 8, y: 25}
+    - name: waitress_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -18, y: 13}
+        - {x: -18, y: -5}
+        - {x: -16, y: -22}
+        - {x: -14, y: -25}
+        - {x: 8, y: -25}
+        - {x: 17, y: -24}
+        - {x: 18, y: -16}
+        - {x: 18, y: 23}
+        - {x: 10, y: 25}
+    - name: waitress_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -20, y: 10}
+        - {x: -20, y: -5}
+        - {x: -13, y: -25}
+        - {x: 9, y: -25}
+        - {x: 20, y: -4}
+        - {x: 20, y: 14}
+        - {x: 4, y: 25}
+    - name: waitress_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 65
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -21, y: 14}
+        - {x: -21, y: -7}
+        - {x: -12, y: -25}
+        - {x: 11, y: -25}
+        - {x: 21, y: -12}
+        - {x: 21, y: 21}
+        - {x: 16, y: 25}
+    - name: waitress_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 25}
+        - {x: -18, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -14}
+        - {x: -14, y: -25}
+        - {x: 3, y: -25}
+        - {x: 9, y: -23}
+        - {x: 19, y: -7}
+        - {x: 19, y: 15}
+        - {x: 16, y: 19}
+    - name: waitress_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 25}
+        - {x: -19, y: -25}
+        - {x: 4, y: -25}
+        - {x: 10, y: -24}
+        - {x: 19, y: -8}
+        - {x: 19, y: 15}
+        - {x: 9, y: 25}
+    - name: waitress_170
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 25}
+        - {x: -15, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -24}
+        - {x: -18, y: -25}
+        - {x: 2, y: -25}
+        - {x: 9, y: -23}
+        - {x: 19, y: -11}
+        - {x: 19, y: 18}
+        - {x: 18, y: 21}
+    - name: waitress_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -19, y: 8}
+        - {x: -19, y: -15}
+        - {x: -15, y: -25}
+        - {x: 6, y: -25}
+        - {x: 10, y: -24}
+        - {x: 19, y: -4}
+        - {x: 19, y: 10}
+        - {x: 8, y: 25}
+    - name: waitress_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_173
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_174
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_175
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waitress_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 9}
+        - {x: 7, y: 16}
+        - {x: -8, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+    - name: waitress_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 18.5}
+        - {x: -19, y: -18.5}
+        - {x: 19, y: -18.5}
+        - {x: 19, y: 9.5}
+        - {x: 16, y: 18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

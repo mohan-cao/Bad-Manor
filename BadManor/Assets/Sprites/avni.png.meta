@@ -1,0 +1,2617 @@
+fileFormatVersion: 2
+guid: 225345e07fee1d842aece68359ba967a
+timeCreated: 1508197238
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: avni_0
+    21300002: avni_1
+    21300004: avni_2
+    21300006: avni_3
+    21300008: avni_4
+    21300010: avni_5
+    21300012: avni_6
+    21300014: avni_7
+    21300016: avni_8
+    21300018: avni_9
+    21300020: avni_10
+    21300022: avni_11
+    21300024: avni_12
+    21300026: avni_13
+    21300028: avni_14
+    21300030: avni_15
+    21300032: avni_16
+    21300034: avni_17
+    21300036: avni_18
+    21300038: avni_19
+    21300040: avni_20
+    21300042: avni_21
+    21300044: avni_22
+    21300046: avni_23
+    21300048: avni_24
+    21300050: avni_25
+    21300052: avni_26
+    21300054: avni_27
+    21300056: avni_28
+    21300058: avni_29
+    21300060: avni_30
+    21300062: avni_31
+    21300064: avni_32
+    21300066: avni_33
+    21300068: avni_34
+    21300070: avni_35
+    21300072: avni_36
+    21300074: avni_37
+    21300076: avni_38
+    21300078: avni_39
+    21300080: avni_40
+    21300082: avni_41
+    21300084: avni_42
+    21300086: avni_43
+    21300088: avni_44
+    21300090: avni_45
+    21300092: avni_46
+    21300094: avni_47
+    21300096: avni_48
+    21300098: avni_49
+    21300100: avni_50
+    21300102: avni_51
+    21300104: avni_52
+    21300106: avni_53
+    21300108: avni_54
+    21300110: avni_55
+    21300112: avni_56
+    21300114: avni_57
+    21300116: avni_58
+    21300118: avni_59
+    21300120: avni_60
+    21300122: avni_61
+    21300124: avni_62
+    21300126: avni_63
+    21300128: avni_64
+    21300130: avni_65
+    21300132: avni_66
+    21300134: avni_67
+    21300136: avni_68
+    21300138: avni_69
+    21300140: avni_70
+    21300142: avni_71
+    21300144: avni_72
+    21300146: avni_73
+    21300148: avni_74
+    21300150: avni_75
+    21300152: avni_76
+    21300154: avni_77
+    21300156: avni_78
+    21300158: avni_79
+    21300160: avni_80
+    21300162: avni_81
+    21300164: avni_82
+    21300166: avni_83
+    21300168: avni_84
+    21300170: avni_85
+    21300172: avni_86
+    21300174: avni_87
+    21300176: avni_88
+    21300178: avni_89
+    21300180: avni_90
+    21300182: avni_91
+    21300184: avni_92
+    21300186: avni_93
+    21300188: avni_94
+    21300190: avni_95
+    21300192: avni_96
+    21300194: avni_97
+    21300196: avni_98
+    21300198: avni_99
+    21300200: avni_100
+    21300202: avni_101
+    21300204: avni_102
+    21300206: avni_103
+    21300208: avni_104
+    21300210: avni_105
+    21300212: avni_106
+    21300214: avni_107
+    21300216: avni_108
+    21300218: avni_109
+    21300220: avni_110
+    21300222: avni_111
+    21300224: avni_112
+    21300226: avni_113
+    21300228: avni_114
+    21300230: avni_115
+    21300232: avni_116
+    21300234: avni_117
+    21300236: avni_118
+    21300238: avni_119
+    21300240: avni_120
+    21300242: avni_121
+    21300244: avni_122
+    21300246: avni_123
+    21300248: avni_124
+    21300250: avni_125
+    21300252: avni_126
+    21300254: avni_127
+    21300256: avni_128
+    21300258: avni_129
+    21300260: avni_130
+    21300262: avni_131
+    21300264: avni_132
+    21300266: avni_133
+    21300268: avni_134
+    21300270: avni_135
+    21300272: avni_136
+    21300274: avni_137
+    21300276: avni_138
+    21300278: avni_139
+    21300280: avni_140
+    21300282: avni_141
+    21300284: avni_142
+    21300286: avni_143
+    21300288: avni_144
+    21300290: avni_145
+    21300292: avni_146
+    21300294: avni_147
+    21300296: avni_148
+    21300298: avni_149
+    21300300: avni_150
+    21300302: avni_151
+    21300304: avni_152
+    21300306: avni_153
+    21300308: avni_154
+    21300310: avni_155
+    21300312: avni_156
+    21300314: avni_157
+    21300316: avni_158
+    21300318: avni_159
+    21300320: avni_160
+    21300322: avni_161
+    21300324: avni_162
+    21300326: avni_163
+    21300328: avni_164
+    21300330: avni_165
+    21300332: avni_166
+    21300334: avni_167
+    21300336: avni_168
+    21300338: avni_169
+    21300340: avni_170
+    21300342: avni_171
+    21300344: avni_172
+    21300346: avni_173
+    21300348: avni_174
+    21300350: avni_175
+    21300352: avni_176
+    21300354: avni_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: avni_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1281
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1281
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1281
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -7}
+        - {x: -10, y: -25}
+        - {x: 11, y: -25}
+        - {x: 19, y: -17}
+        - {x: 19, y: 17}
+        - {x: 16, y: 25}
+    - name: avni_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1281
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -23, y: 10}
+        - {x: -23, y: -20}
+        - {x: -17, y: -25}
+        - {x: 15, y: -25}
+        - {x: 23, y: -12}
+        - {x: 23, y: 14}
+        - {x: 16, y: 25}
+    - name: avni_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1281
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -23, y: 22}
+        - {x: -23, y: -4}
+        - {x: -13, y: -25}
+        - {x: 17, y: -25}
+        - {x: 23, y: -18}
+        - {x: 23, y: 25}
+    - name: avni_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -7}
+        - {x: -10, y: -25}
+        - {x: 11, y: -25}
+        - {x: 19, y: -17}
+        - {x: 19, y: 17}
+        - {x: 16, y: 25}
+    - name: avni_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -17, y: 18}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 18}
+        - {x: 8, y: 25}
+    - name: avni_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -17, y: 19}
+        - {x: -17, y: -10}
+        - {x: -15, y: -23}
+        - {x: -11, y: -25}
+        - {x: 7, y: -25}
+        - {x: 11, y: -24}
+        - {x: 17, y: 1}
+        - {x: 17, y: 18}
+        - {x: 14, y: 25}
+    - name: avni_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -17}
+        - {x: -13, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -17}
+        - {x: 17, y: 24}
+        - {x: 15, y: 25}
+    - name: avni_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1153
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -23, y: 16}
+        - {x: -23, y: -20}
+        - {x: -15, y: -25}
+        - {x: 22, y: -25}
+        - {x: 23, y: -21}
+        - {x: 23, y: 12}
+        - {x: 15, y: 25}
+    - name: avni_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1153
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -23, y: 21}
+        - {x: -23, y: -17}
+        - {x: -21, y: -25}
+        - {x: 17, y: -25}
+        - {x: 23, y: -10}
+        - {x: 23, y: 23}
+        - {x: 18, y: 25}
+    - name: avni_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -17}
+        - {x: -13, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -17}
+        - {x: 17, y: 24}
+        - {x: 15, y: 25}
+    - name: avni_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1089
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: avni_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1089
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -17, y: 14}
+        - {x: -17, y: -20}
+        - {x: -9, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -20}
+        - {x: 17, y: 25}
+    - name: avni_27
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1023
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_29
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1023
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -8, y: 25}
+        - {x: -16, y: 21}
+        - {x: -16, y: -13}
+        - {x: -9, y: -25}
+        - {x: 12, y: -25}
+        - {x: 16, y: -20}
+        - {x: 16, y: 10}
+        - {x: 14, y: 19}
+    - name: avni_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1023
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 961
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 25}
+        - {x: -9, y: 25}
+        - {x: -16, y: 0}
+        - {x: -16, y: -12}
+        - {x: -8, y: -25}
+        - {x: 11, y: -25}
+        - {x: 14, y: -23}
+        - {x: 16, y: -17}
+        - {x: 16, y: 18}
+    - name: avni_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -17, y: 9}
+        - {x: -17, y: -20}
+        - {x: -9, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 17}
+        - {x: 12, y: 25}
+    - name: avni_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 25}
+        - {x: -9, y: 25}
+        - {x: -16, y: 0}
+        - {x: -16, y: -12}
+        - {x: -8, y: -25}
+        - {x: 11, y: -25}
+        - {x: 14, y: -23}
+        - {x: 16, y: -17}
+        - {x: 16, y: 18}
+    - name: avni_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 897
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_52
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 833
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 833
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -16}
+        - {x: -13, y: -25}
+        - {x: 9, y: -25}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 11, y: 25}
+    - name: avni_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 833
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 25}
+        - {x: -12, y: 25}
+        - {x: -15, y: 22}
+        - {x: -17, y: 16}
+        - {x: -17, y: -24}
+        - {x: -16, y: -25}
+        - {x: 10, y: -25}
+        - {x: 17, y: -18}
+        - {x: 17, y: 16}
+        - {x: 14, y: 21}
+    - name: avni_58
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 833
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -16}
+        - {x: -13, y: -25}
+        - {x: 9, y: -25}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 11, y: 25}
+    - name: avni_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_60
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_61
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_63
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 767
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_64
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_65
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 769
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_67
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 767
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 767
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_76
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_81
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 639
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 641
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 639
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 639
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_87
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_95
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 513
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 513
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 513
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 513
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_100
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 513
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: 10, y: -25}
+        - {x: 18, y: -9}
+        - {x: 18, y: 18}
+        - {x: 10, y: 25}
+    - name: avni_101
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 513
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -19, y: 8}
+        - {x: -19, y: -16}
+        - {x: -16, y: -25}
+        - {x: 5, y: -25}
+        - {x: 19, y: -7}
+        - {x: 19, y: 18}
+        - {x: 17, y: 25}
+    - name: avni_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 449
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 447
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 449
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 449
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 22}
+        - {x: 10, y: 25}
+        - {x: -4, y: 25}
+        - {x: -12, y: 19}
+        - {x: -17, y: 9}
+        - {x: -17, y: -13}
+        - {x: -10, y: -25}
+        - {x: 12, y: -25}
+        - {x: 14, y: -22}
+        - {x: 17, y: -17}
+        - {x: 17, y: 11}
+    - name: avni_106
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 449
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -18, y: 8}
+        - {x: -18, y: -11}
+        - {x: -8, y: -25}
+        - {x: 16, y: -25}
+        - {x: 18, y: -23}
+        - {x: 18, y: 18}
+        - {x: 15, y: 25}
+    - name: avni_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 449
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -17, y: 14}
+        - {x: -17, y: -6}
+        - {x: -8, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 16}
+        - {x: 12, y: 25}
+    - name: avni_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_109
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 383
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_110
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 385
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 385
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 385
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -16, y: 25}
+        - {x: -17, y: 19}
+        - {x: -17, y: -23}
+        - {x: -16, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -18}
+        - {x: 17, y: 15}
+        - {x: 15, y: 21}
+    - name: avni_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 385
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -18, y: 20}
+        - {x: -18, y: -25}
+        - {x: 9, y: -25}
+        - {x: 18, y: -16}
+        - {x: 18, y: 4}
+        - {x: 9, y: 25}
+    - name: avni_114
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 321
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_115
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 319
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 321
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 321
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -14, y: 25}
+        - {x: -17, y: 18}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -22}
+        - {x: 17, y: 10}
+        - {x: 14, y: 21}
+    - name: avni_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 25}
+        - {x: -15, y: 25}
+        - {x: -18, y: 17}
+        - {x: -18, y: -23}
+        - {x: -16, y: -25}
+        - {x: 11, y: -25}
+        - {x: 18, y: -7}
+        - {x: 18, y: 14}
+        - {x: 13, y: 21}
+    - name: avni_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 5, y: -25}
+        - {x: 9, y: -23}
+        - {x: 17, y: -2}
+        - {x: 17, y: 15}
+    - name: avni_120
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 257
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_121
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: -11, y: -26}
+        - {x: 16, y: -26}
+        - {x: 16, y: 10}
+        - {x: 11, y: 26}
+    - name: avni_122
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 255
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 255
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 255
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_129
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 255
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 255
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_131
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 255
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_132
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 255
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_133
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 193
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_134
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 193
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 25}
+        - {x: -10, y: 19}
+        - {x: -17, y: 8}
+        - {x: -17, y: -17}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -21}
+        - {x: 17, y: 17}
+        - {x: 13, y: 25}
+    - name: avni_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 24}
+        - {x: -19, y: 7}
+        - {x: -19, y: -15}
+        - {x: -16, y: -24}
+        - {x: 19, y: -24}
+        - {x: 19, y: 24}
+    - name: avni_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -9}
+        - {x: -11, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 25}
+        - {x: -6, y: 25}
+        - {x: -19, y: 14}
+    - name: avni_138
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -3}
+        - {x: -9, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 20}
+        - {x: 16, y: 25}
+    - name: avni_139
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 25}
+        - {x: -3, y: 25}
+        - {x: -19, y: 16}
+        - {x: -19, y: -2}
+        - {x: -6, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -23}
+        - {x: 19, y: -14}
+        - {x: 19, y: 24}
+    - name: avni_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -19, y: 16}
+        - {x: -19, y: -20}
+        - {x: -17, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 16}
+        - {x: 13, y: 25}
+    - name: avni_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 193
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -20, y: 15}
+        - {x: -20, y: -17}
+        - {x: -11, y: -25}
+        - {x: 15, y: -25}
+        - {x: 16, y: -24}
+        - {x: 20, y: -14}
+        - {x: 20, y: 18}
+        - {x: 18, y: 25}
+    - name: avni_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: -9}
+        - {x: -11, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 25}
+        - {x: -6, y: 25}
+        - {x: -19, y: 14}
+    - name: avni_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -18, y: 10}
+        - {x: -18, y: -7}
+        - {x: -8, y: -23}
+        - {x: -3, y: -25}
+        - {x: 16, y: -25}
+        - {x: 18, y: -21}
+        - {x: 18, y: 22}
+        - {x: 12, y: 25}
+    - name: avni_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -6}
+        - {x: -7, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 25}
+    - name: avni_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -11, y: 20}
+        - {x: -18, y: 10}
+        - {x: -18, y: -2}
+        - {x: -6, y: -25}
+        - {x: 16, y: -25}
+        - {x: 18, y: -21}
+        - {x: 18, y: 21}
+        - {x: 12, y: 25}
+    - name: avni_146
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 129
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 127
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_157
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 129
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -18, y: 20}
+        - {x: -18, y: -19}
+        - {x: -13, y: -25}
+        - {x: 5, y: -25}
+        - {x: 11, y: -24}
+        - {x: 18, y: -9}
+        - {x: 18, y: 0}
+        - {x: 9, y: 25}
+    - name: avni_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 24}
+        - {x: -19, y: 24}
+        - {x: -19, y: -24}
+        - {x: 8, y: -24}
+        - {x: 19, y: -11}
+        - {x: 19, y: 0}
+        - {x: 13, y: 20}
+    - name: avni_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 25}
+        - {x: -9, y: 25}
+        - {x: -14, y: 21}
+        - {x: -19, y: 14}
+        - {x: -19, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -3}
+        - {x: 19, y: 10}
+    - name: avni_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -18, y: 22}
+        - {x: -18, y: -22}
+        - {x: -16, y: -25}
+        - {x: 10, y: -25}
+        - {x: 18, y: -6}
+        - {x: 18, y: 17}
+        - {x: 6, y: 25}
+    - name: avni_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 25}
+        - {x: -14, y: 25}
+        - {x: -18, y: 19}
+        - {x: -18, y: -24}
+        - {x: -16, y: -25}
+        - {x: 10, y: -25}
+        - {x: 18, y: -4}
+        - {x: 18, y: 15}
+    - name: avni_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -20, y: 23}
+        - {x: -20, y: -15}
+        - {x: -16, y: -25}
+        - {x: 10, y: -25}
+        - {x: 12, y: -24}
+        - {x: 20, y: -4}
+        - {x: 20, y: 16}
+        - {x: 12, y: 25}
+    - name: avni_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 65
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -21, y: 10}
+        - {x: -21, y: -6}
+        - {x: -17, y: -24}
+        - {x: -16, y: -25}
+        - {x: 9, y: -25}
+        - {x: 21, y: -15}
+        - {x: 21, y: 13}
+        - {x: 5, y: 25}
+    - name: avni_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 25}
+        - {x: -9, y: 25}
+        - {x: -14, y: 21}
+        - {x: -19, y: 14}
+        - {x: -19, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -3}
+        - {x: 19, y: 10}
+    - name: avni_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -18, y: 17}
+        - {x: -19, y: 8}
+        - {x: -19, y: -10}
+        - {x: -17, y: -20}
+        - {x: -13, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -8}
+        - {x: 19, y: 14}
+        - {x: 6, y: 25}
+    - name: avni_170
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 25}
+        - {x: -13, y: 25}
+        - {x: -19, y: 21}
+        - {x: -19, y: -25}
+        - {x: 5, y: -25}
+        - {x: 9, y: -23}
+        - {x: 19, y: -14}
+        - {x: 19, y: 13}
+    - name: avni_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 25}
+        - {x: -11, y: 25}
+        - {x: -18, y: 17}
+        - {x: -19, y: 8}
+        - {x: -19, y: -10}
+        - {x: -17, y: -20}
+        - {x: -13, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -7}
+        - {x: 19, y: 14}
+        - {x: 4, y: 24}
+    - name: avni_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_173
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_174
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_175
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: avni_176
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 10}
+        - {x: 7, y: 16}
+    - name: avni_177
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 19.5}
+        - {x: -19, y: 14.5}
+        - {x: -19, y: -18.5}
+        - {x: -18, y: -19.5}
+        - {x: 19, y: -19.5}
+        - {x: 19, y: 19.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

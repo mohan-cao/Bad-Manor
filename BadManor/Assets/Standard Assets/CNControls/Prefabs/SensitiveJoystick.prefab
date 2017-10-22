@@ -64,8 +64,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementRange: 50
-  HorizontalAxisName: 486f72697a6f6e74616c
-  VerticalAxisName: 566572746963616c
+  HorizontalAxisName: Horizontal
+  VerticalAxisName: Vertical
   HideOnRelease: 0
   MoveBase: 1
   SnapsToFinger: 1
@@ -74,6 +74,7 @@ MonoBehaviour:
   Stick: {fileID: 11400002}
   TouchZone: {fileID: 22400004}
   SensitivityCurve:
+    serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0
@@ -154,11 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
 --- !u!222 &22200000
 CanvasRenderer:
