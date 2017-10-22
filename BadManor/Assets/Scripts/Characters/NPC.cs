@@ -170,7 +170,7 @@ namespace Assets.Scripts.Characters
 				}
 			
 			}
-			Debug.Log (Input.GetAxisRaw ("Horizontal"));
+		//	Debug.Log (Input.GetAxisRaw ("Horizontal"));
 	//		_animator.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
 //			_animator.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
 		
