@@ -17,7 +17,7 @@ GameObject:
   - 114: {fileID: 11491586}
   - 114: {fileID: 11466334}
   m_Layer: 0
-  m_Name: Sam 1
+  m_Name: Sam_1
   m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,10 +110,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
+  myRigidbody: {fileID: 0}
   isWalking: 0
   walkTime: 2
   waitTime: 1
+  walkCounter: 0
+  waitCounter: 0
+  walkDirection: 0
+  _animator: {fileID: 0}
   walkzone: {fileID: 0}
+  minwalkpoint: {x: 0, y: 0}
+  maxwalkpoint: {x: 0, y: 0}
   dialogueFlowchart: {fileID: 0}
 --- !u!114 &11488866
 MonoBehaviour:
@@ -126,13 +133,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Sam
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameText: 53616d
+  nameColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   soundEffect: {fileID: 0}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+  <ProfileSprite>k__BackingField: {fileID: 0}
 --- !u!114 &11491586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,6 +162,10 @@ MonoBehaviour:
   returnDuration: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
+  startingPosition: {x: 0, y: 0, z: 0}
+  updatePosition: 0
+  newPosition: {x: 0, y: 0, z: 0}
+  delta: {x: 0, y: 0, z: 0}
 --- !u!212 &21235158
 SpriteRenderer:
   m_ObjectHideFlags: 1
