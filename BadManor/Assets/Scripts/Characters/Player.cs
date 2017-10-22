@@ -13,6 +13,19 @@ namespace Assets.Scripts.Characters
         /// Time the player moves for.</summary>
         public const float MoveTime = 0.1f;
 
+	    /// <summary>
+	    /// Rigid body the player sprite.</summary>
+		private Rigidbody2D _rigidBody2D;
+
+	    /// <summary>
+	    /// Responsible for managing dialogue.</summary>
+	    private DialogueManager _dialogueManager;
+	    private SoundManager _soundManager;
+
+	    public AudioClip _walkingSound;
+	    /// <summary>
+	    /// Whether or not the player is currently engaged in a conversation.</summary>
+		private bool _inConversation;
         /// <summary>
         /// Rigid body the player sprite.</summary>
         private Rigidbody2D _rigidBody2D;
@@ -27,6 +40,17 @@ namespace Assets.Scripts.Characters
         private bool escapePressed = false;
 
         public Flowchart dialogueFlowchart;
+	    private SimpleJoystick js;
+	    
+	    /// <summary>
+	    /// Initialises fields, this method is executed when the player is created in Unity.</summary>
+		void Start()
+		{
+			_rigidBody2D = GetComponent<Rigidbody2D> ();
+			_dialogueManager = FindObjectOfType<DialogueManager> ();
+			_soundManager = FindObjectOfType<SoundManager>();
+			_inConversation = false;
+		}
 
         //<summary>
         /// Private animator which assists with the animation when the player walks
@@ -40,6 +64,31 @@ namespace Assets.Scripts.Characters
             _dialogueManager = FindObjectOfType<DialogueManager>();
             _inConversation = false;
             _animator = GetComponent<Animator>();
+	    /// <summary>
+	    /// Method is run once per physics frame and updates the position of the player by multiplying the force vectors
+	    /// with move time. </summary>
+	    void FixedUpdate()
+		{
+			if (_inConversation)
+			{
+				//CheckConversation();
+			}
+			else
+			{
+				// Get X and Y vectors
+				float moveHorizontal = Input.GetAxisRaw("Horizontal") + CnInputManager.GetAxis("H");
+				float moveVertical = Input.GetAxisRaw("Vertical") + CnInputManager.GetAxis("V");
+				// If vectors are non-zero
+				if (moveVertical != 0 || moveHorizontal != 0)
+				{
+					// then figure out the sum
+					Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0f);
+					// multiply by movement time and sum the old position with the change in position
+					transform.Translate(movement * MoveTime);
+					_soundManager.PlaySound(_walkingSound);
+				}
+			}
+		}
 
         }
 
