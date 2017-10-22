@@ -61,6 +61,9 @@ namespace Assets.Scripts.Characters
             if (inConversation)
             {
                 //CheckConversation();
+                //Configure the animation of the player
+                _animator.SetFloat("MoveX", 0f);
+                _animator.SetFloat("MoveY", 0f);
             }
             else
             {
