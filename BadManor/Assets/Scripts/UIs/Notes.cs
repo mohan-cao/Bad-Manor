@@ -33,7 +33,13 @@ public class Notes : MonoBehaviour {
 		noteObj.transform.SetParent (viewPort.transform);
 		noteObj.SetActive (true);
 
-		noteObj.transform.localPosition = new Vector3(0f, 0f - ((notes.Count - 1) * 85f)	, 0f);
+		AspectRatioFitter aspect;
+
+		RectTransform rt = noteObj.GetComponent<RectTransform> ();
+		rt.localScale = new Vector3 (1, 1, 1);
+		//rt.localPosition = new Vector3(203f, 60f - ((notes.Count ) * 86f)	, 0f);
+		//rt.sizeDelta = new Vector2(contentPos.sizeDelta.x - 100f, rt.sizeDelta.y);
+		//noteObj.transform.localPosition = new Vector3(0f, 0f - ((notes.Count - 1) * 85f)	, 0f);
 	}
 
 	void ScaleContent() {
