@@ -53,10 +53,7 @@ namespace Fungus
 
         protected virtual void OnTriggerEnter2D(Collider2D other) 
         {
-            if (!dragEnabled)
-            {
-                return;
-            }
+           
 
             var dragEnteredHandlers = GetHandlers<DragEntered>();
             for (int i = 0; i < dragEnteredHandlers.Length; i++)
@@ -75,10 +72,7 @@ namespace Fungus
 
         protected virtual void OnTriggerExit2D(Collider2D other) 
         {
-            if (!dragEnabled)
-            {
-                return;
-            }
+            
 
             var dragExitedHandlers = GetHandlers<DragExited>();
             for (int i = 0; i < dragExitedHandlers.Length; i++)
