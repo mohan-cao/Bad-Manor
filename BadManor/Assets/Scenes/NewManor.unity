@@ -545,6 +545,7 @@ GameObject:
   - 114: {fileID: 80081951}
   - 114: {fileID: 80081950}
   - 114: {fileID: 80081949}
+  - 114: {fileID: 80081945}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -644,6 +645,7 @@ MonoBehaviour:
   selectedCommands: []
   variables:
   - {fileID: 80081962}
+  - {fileID: 80081945}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -795,6 +797,20 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: TUT1
+--- !u!114 &80081945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80081934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: IN_CONVERSATION
+  value: 0
 --- !u!114 &80081946
 MonoBehaviour:
   m_ObjectHideFlags: 2

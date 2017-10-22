@@ -1,4 +1,5 @@
 
+using Fungus;
 using UnityEngine;
 
 namespace Assets.Scripts.Characters
@@ -25,6 +26,8 @@ namespace Assets.Scripts.Characters
         private bool spacePressed = false;
         private bool escapePressed = false;
 
+        public Flowchart dialogueFlowchart;
+
         //<summary>
         /// Private animator which assists with the animation when the player walks
         private Animator _animator;
@@ -46,7 +49,6 @@ namespace Assets.Scripts.Characters
         {
             if (_inConversation)
             {
-                CheckConversation();
             }
         }
 
@@ -55,7 +57,8 @@ namespace Assets.Scripts.Characters
         /// with move time. </summary>
         void FixedUpdate()
         {
-            if (_inConversation)
+            bool inConversation = dialogueFlowchart.GetBooleanVariable("IN_CONVERSATION");
+            if (inConversation)
             {
                 //CheckConversation();
             }
@@ -72,30 +75,17 @@ namespace Assets.Scripts.Characters
                     // multiply by movement time and sum the old position with the change in position
                     transform.Translate(movement * MoveTime);
                 }
+                
+                //Configure the animation of the player
+                _animator.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+                _animator.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
             }
-
-            //Configure the animation of the player
-            _animator.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-            _animator.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
         }
 
         /// <summary>
         /// If the player has pressed the escape button then the conversation is left. If the player has pressed the 
         /// space button then the conversation continues. </summary>
-        private void CheckConversation()
-        {
-            if (Input.GetKeyUp(KeyCode.Space))
-            {
-                Debug.Log("Player: Space was pressed; continuing conversation");
-                _inConversation = _dialogueManager.NextLine();
-            }
-            else if (Input.GetKeyUp(KeyCode.Escape))
-            {
-                Debug.Log("Player: Esc was pressed; leaving conversation");
-                _dialogueManager.EndConvo();
-                _inConversation = false;
-            }
-        }
+        
 
 
         /// <summary>
