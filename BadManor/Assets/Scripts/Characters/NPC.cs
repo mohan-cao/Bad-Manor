@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Fungus;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -35,6 +36,7 @@ namespace Assets.Scripts.Characters
 		/// </summary>
 		private Vector2 minwalkpoint;
 		private Vector2 maxwalkpoint;
+		public Flowchart dialogueFlowchart;
 
 
 
@@ -51,10 +53,17 @@ namespace Assets.Scripts.Characters
 		}
 
 	//	void Update(){
-		void FixedUpdate(){
-				
+		void FixedUpdate()
+		{
 
-		if (isWalking) {
+			bool inConversation = dialogueFlowchart.GetBooleanVariable("IN_CONVERSATION");
+			if (inConversation)
+			{
+				isWalking = false;
+			}
+
+
+		 if (isWalking) {
 				Debug.Log ("Is walking");
 
 				walkCounter = walkCounter - Time.deltaTime;

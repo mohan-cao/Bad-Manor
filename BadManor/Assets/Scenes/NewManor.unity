@@ -546,6 +546,8 @@ GameObject:
   - 114: {fileID: 80081950}
   - 114: {fileID: 80081949}
   - 114: {fileID: 80081945}
+  - 114: {fileID: 80081965}
+  - 114: {fileID: 80081964}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -615,7 +617,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 80081935}
   commandList:
+  - {fileID: 80081965}
   - {fileID: 80081936}
+  - {fileID: 80081964}
   - {fileID: 80081943}
 --- !u!114 &80081938
 MonoBehaviour:
@@ -799,7 +803,7 @@ MonoBehaviour:
     stringVal: TUT1
 --- !u!114 &80081945
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 80081934}
@@ -808,7 +812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scope: 0
+  scope: 1
   key: IN_CONVERSATION
   value: 0
 --- !u!114 &80081946
@@ -1265,6 +1269,60 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: FINDSECURITYEVIDENCE
+--- !u!114 &80081964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80081934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  variable: {fileID: 80081945}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &80081965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 80081934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  variable: {fileID: 80081945}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!1 &80373072
 GameObject:
   m_ObjectHideFlags: 0
@@ -4699,6 +4757,10 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: -15
       objectReference: {fileID: 0}
+    - target: {fileID: 11447398, guid: 4bd90f2f8655e2c4e97924657bd8d446, type: 2}
+      propertyPath: dialogueFlowchart
+      value: 
+      objectReference: {fileID: 80081938}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4bd90f2f8655e2c4e97924657bd8d446, type: 2}
   m_IsPrefabParent: 0
@@ -12160,6 +12222,7 @@ MonoBehaviour:
   walkTime: 1
   waitTime: 2
   walkzone: {fileID: 801070607}
+  dialogueFlowchart: {fileID: 80081938}
 --- !u!95 &1781011018
 Animator:
   serializedVersion: 3
