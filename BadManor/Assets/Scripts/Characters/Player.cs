@@ -16,9 +16,13 @@ namespace Assets.Scripts.Characters
 	    /// <summary>
 	    /// Rigid body the player sprite.</summary>
 		private Rigidbody2D _rigidBody2D;
+
 	    /// <summary>
 	    /// Responsible for managing dialogue.</summary>
-		private DialogueManager _dialogueManager;
+	    private DialogueManager _dialogueManager;
+	    private SoundManager _soundManager;
+
+	    public AudioClip _walkingSound;
 	    /// <summary>
 	    /// Whether or not the player is currently engaged in a conversation.</summary>
 		private bool _inConversation;
@@ -34,6 +38,7 @@ namespace Assets.Scripts.Characters
 		{
 			_rigidBody2D = GetComponent<Rigidbody2D> ();
 			_dialogueManager = FindObjectOfType<DialogueManager> ();
+			_soundManager = FindObjectOfType<SoundManager>();
 			_inConversation = false;
 		}
 
@@ -68,6 +73,7 @@ namespace Assets.Scripts.Characters
 					Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0f);
 					// multiply by movement time and sum the old position with the change in position
 					transform.Translate(movement * MoveTime);
+					_soundManager.PlaySound(_walkingSound);
 				}
 			}
 		}

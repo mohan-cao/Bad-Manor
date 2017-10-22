@@ -13,11 +13,11 @@ public class SoundMgrTest {
 
 		// Init a sound manager
 		SoundManager smgr = gameObject.AddComponent<SoundManager>();
-		smgr.musicSource = new AudioSource ();
+		smgr.MusicSource = new AudioSource ();
 		smgr.ExecAwakeStartUpdate ();
 
 		// Make an audio clip
-		AudioClip a = (AudioClip) EditorGUIUtility.Load("Assets/Resources/piano2.wav");
+		AudioClip a = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Resources/piano2.wav");
 
 		//Play audio clip
 		string key = smgr.PlaySound (a);
@@ -32,11 +32,11 @@ public class SoundMgrTest {
 
 		// Init a sound manager
 		SoundManager smgr = gameObject.AddComponent<SoundManager>();
-		smgr.musicSource = new AudioSource ();
+		smgr.MusicSource = new AudioSource ();
 		smgr.ExecAwakeStartUpdate ();
 
 		// Make an audio clip
-		AudioClip a = (AudioClip) EditorGUIUtility.Load("Assets/Resources/piano2.wav");
+		AudioClip a = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/Resources/piano2.wav");
 
 		//Play audio clip
 		string key = smgr.PlaySound (a);
