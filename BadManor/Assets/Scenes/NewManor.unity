@@ -13534,11 +13534,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
-      value: 72
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
-      value: 66
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 11441012, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
@@ -13591,7 +13591,7 @@ Prefab:
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 855691202}
+      objectReference: {fileID: 1177341865}
     - target: {fileID: 11460834, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: targetObject
       value: 
@@ -15583,39 +15583,39 @@ Prefab:
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[57]
       value: 
-      objectReference: {fileID: 1177341389}
+      objectReference: {fileID: 1177341790}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[58]
       value: 
-      objectReference: {fileID: 1177341237}
+      objectReference: {fileID: 1177341389}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[59]
       value: 
-      objectReference: {fileID: 1177341388}
+      objectReference: {fileID: 1177341237}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[60]
       value: 
-      objectReference: {fileID: 1177341238}
+      objectReference: {fileID: 1177341388}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[61]
       value: 
-      objectReference: {fileID: 1177341387}
+      objectReference: {fileID: 1177341238}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[62]
       value: 
-      objectReference: {fileID: 1177341239}
+      objectReference: {fileID: 1177341387}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[63]
       value: 
-      objectReference: {fileID: 1177341386}
+      objectReference: {fileID: 1177341239}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[64]
       value: 
-      objectReference: {fileID: 1177341385}
+      objectReference: {fileID: 1177341386}
     - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[65]
       value: 
-      objectReference: {fileID: 1177341384}
+      objectReference: {fileID: 1177341385}
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedCommands.Array.data[7]
       value: 
@@ -15651,63 +15651,63 @@ Prefab:
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[57]
       value: 
-      objectReference: {fileID: 1177341427}
+      objectReference: {fileID: 1177341661}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[58]
       value: 
-      objectReference: {fileID: 1177341182}
+      objectReference: {fileID: 1177341427}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[59]
       value: 
-      objectReference: {fileID: 1177341426}
+      objectReference: {fileID: 1177341182}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[60]
       value: 
-      objectReference: {fileID: 1177341181}
+      objectReference: {fileID: 1177341426}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[61]
       value: 
-      objectReference: {fileID: 1177341425}
+      objectReference: {fileID: 1177341181}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[62]
       value: 
-      objectReference: {fileID: 1177341179}
+      objectReference: {fileID: 1177341425}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[63]
       value: 
-      objectReference: {fileID: 1177341424}
+      objectReference: {fileID: 1177341179}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[64]
       value: 
-      objectReference: {fileID: 1177341178}
+      objectReference: {fileID: 1177341424}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[65]
       value: 
-      objectReference: {fileID: 1177341423}
+      objectReference: {fileID: 1177341178}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[66]
       value: 
-      objectReference: {fileID: 1177341177}
+      objectReference: {fileID: 1177341423}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[67]
       value: 
-      objectReference: {fileID: 1177341422}
+      objectReference: {fileID: 1177341177}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[68]
       value: 
-      objectReference: {fileID: 1177341176}
+      objectReference: {fileID: 1177341422}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[69]
       value: 
-      objectReference: {fileID: 1177341421}
+      objectReference: {fileID: 1177341176}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[70]
       value: 
-      objectReference: {fileID: 1177341420}
+      objectReference: {fileID: 1177341421}
     - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[71]
       value: 
-      objectReference: {fileID: 1177341419}
+      objectReference: {fileID: 1177341420}
     - target: {fileID: 11494942, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[42]
       value: 
@@ -16408,6 +16408,18 @@ Prefab:
       propertyPath: commandList.Array.data[120]
       value: 
       objectReference: {fileID: 1177341291}
+    - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
+      propertyPath: zoom
+      value: 0.7290215
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499358, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
+      propertyPath: commandList.Array.data[66]
+      value: 
+      objectReference: {fileID: 1177341384}
+    - target: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
+      propertyPath: commandList.Array.data[72]
+      value: 
+      objectReference: {fileID: 1177341419}
     m_RemovedComponents:
     - {fileID: 11479262, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
     - {fileID: 11443272, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
@@ -16463,12 +16475,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 855691200}
   m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
---- !u!114 &855691202 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11441012, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
-    type: 2}
-  m_PrefabInternal: {fileID: 855691200}
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &855691203 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11498704, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
@@ -27859,7 +27865,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341466
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -27876,7 +27882,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341467
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -27936,7 +27942,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341470
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -27953,7 +27959,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341471
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28013,7 +28019,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341474
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28056,7 +28062,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1177341476
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28200,7 +28206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
 --- !u!114 &1177341493
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28229,7 +28235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
 --- !u!114 &1177341496
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28301,7 +28307,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341501
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28318,7 +28324,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341502
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28335,7 +28341,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341503
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28436,7 +28442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
 --- !u!114 &1177341518
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28465,7 +28471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
 --- !u!114 &1177341521
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28494,7 +28500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
 --- !u!114 &1177341524
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28511,7 +28517,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341525
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28528,7 +28534,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341526
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28545,7 +28551,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341527
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28562,7 +28568,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341528
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28579,7 +28585,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341529
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28596,7 +28602,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341530
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28619,7 +28625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
 --- !u!114 &1177341532
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -28636,7 +28642,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1177341533
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -29296,6 +29302,100 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
+--- !u!114 &1177341661
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177341134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 969
+  indentLevel: 1
+  targetObject: {fileID: 1685754441}
+  targetComponentAssemblyName: Assets.Scripts.SoundManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SoundManager
+  targetMethod: PlaySound
+  targetMethodText: 'PlaySound (AudioClip, Boolean, Single, Single): String'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: 874ba658d27e98f408983cf822fbb526, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: -1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
 --- !u!114 &1177341671
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -31482,6 +31582,106 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
+--- !u!114 &1177341790
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177341134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 968
+  indentLevel: 1
+  targetObject: {fileID: 1685754441}
+  targetComponentAssemblyName: Assets.Scripts.SoundManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SoundManager
+  targetMethod: PlaySound
+  targetMethodText: 'PlaySound (AudioClip, Boolean, Single, Single): String'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: 874ba658d27e98f408983cf822fbb526, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: -1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1177341865 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
+    type: 2}
+  m_PrefabInternal: {fileID: 855691200}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!1001 &1184371086
 Prefab:
   m_ObjectHideFlags: 0
@@ -37967,7 +38167,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.size
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.size
@@ -37975,11 +38175,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11436326, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.size
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 11419036, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 11462942, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.size
@@ -37992,6 +38192,10 @@ Prefab:
     - target: {fileID: 11492968, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.size
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11434272, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.size
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: selectedCommands.Array.size
@@ -38036,7 +38240,7 @@ Prefab:
     - target: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1852669305}
+      objectReference: {fileID: 1852669311}
     - target: {fileID: 11463130, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: variable
       value: 
@@ -38524,19 +38728,19 @@ Prefab:
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1852669153}
+      objectReference: {fileID: 1852669194}
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1610499355}
+      objectReference: {fileID: 1852669153}
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1610499354}
+      objectReference: {fileID: 1610499355}
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 1610499353}
+      objectReference: {fileID: 1610499354}
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[4]
       value: 
@@ -38544,7 +38748,7 @@ Prefab:
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 1852669176}
+      objectReference: {fileID: 1610499353}
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: nodeRect.x
       value: 119.86362
@@ -38592,19 +38796,19 @@ Prefab:
     - target: {fileID: 11436326, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[11]
       value: 
-      objectReference: {fileID: 1852669180}
+      objectReference: {fileID: 1852669197}
     - target: {fileID: 11436326, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[12]
       value: 
-      objectReference: {fileID: 1852669179}
+      objectReference: {fileID: 1852669180}
     - target: {fileID: 11436326, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[13]
       value: 
-      objectReference: {fileID: 1852669325}
+      objectReference: {fileID: 1852669179}
     - target: {fileID: 11436326, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[14]
       value: 
-      objectReference: {fileID: 1852669228}
+      objectReference: {fileID: 1852669325}
     - target: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: scrollViewRect.x
       value: -527.5007
@@ -38620,7 +38824,7 @@ Prefab:
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[11]
       value: 
-      objectReference: {fileID: 1610499352}
+      objectReference: {fileID: 1852669176}
     - target: {fileID: 11419036, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[3]
       value: 
@@ -38640,7 +38844,7 @@ Prefab:
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[12]
       value: 
-      objectReference: {fileID: 1610499351}
+      objectReference: {fileID: 1610499352}
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[10]
       value: 
@@ -38737,7 +38941,7 @@ Prefab:
     - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[13]
       value: 
-      objectReference: {fileID: 1852669152}
+      objectReference: {fileID: 1610499351}
     - target: {fileID: 11404110, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[7]
       value: 
@@ -38754,6 +38958,30 @@ Prefab:
       propertyPath: commandList.Array.data[4]
       value: 
       objectReference: {fileID: 1852669184}
+    - target: {fileID: 11436326, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[15]
+      value: 
+      objectReference: {fileID: 1852669228}
+    - target: {fileID: 11419036, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1852669195}
+    - target: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[14]
+      value: 
+      objectReference: {fileID: 1852669152}
+    - target: {fileID: 11434272, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 1852669193}
+    - target: {fileID: 11434272, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[7]
+      value: 
+      objectReference: {fileID: 1852669280}
+    - target: {fileID: 11434272, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[8]
+      value: 
+      objectReference: {fileID: 1852669282}
     m_RemovedComponents:
     - {fileID: 11490398, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
     - {fileID: 11428946, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
@@ -42586,6 +42814,7 @@ MonoBehaviour:
   - {fileID: 1852669148}
   - {fileID: 1852669147}
   - {fileID: 1852669182}
+  - {fileID: 1852669196}
 --- !u!114 &1852669152
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -42843,6 +43072,7 @@ MonoBehaviour:
   - {fileID: 1852669172}
   - {fileID: 1852669168}
   - {fileID: 1852669165}
+  - {fileID: 1852669192}
 --- !u!114 &1852669163
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -43567,6 +43797,570 @@ MonoBehaviour:
   - {fileID: 1852669189}
   - {fileID: 1852669188}
   - {fileID: 1852669185}
+--- !u!114 &1852669192
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852669145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 733
+  indentLevel: 0
+  targetObject: {fileID: 1685754441}
+  targetComponentAssemblyName: Assets.Scripts.SoundManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SoundManager
+  targetMethod: PlaySound
+  targetMethodText: 'PlaySound (AudioClip, Boolean, Single, Single): String'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: 874ba658d27e98f408983cf822fbb526, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: -1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1852669193
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852669145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 732
+  indentLevel: 1
+  targetObject: {fileID: 1685754441}
+  targetComponentAssemblyName: Assets.Scripts.SoundManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SoundManager
+  targetMethod: PlaySound
+  targetMethodText: 'PlaySound (AudioClip, Boolean, Single, Single): String'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: 874ba658d27e98f408983cf822fbb526, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: -1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1852669194
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852669145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 731
+  indentLevel: 0
+  targetObject: {fileID: 1685754441}
+  targetComponentAssemblyName: Assets.Scripts.SoundManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SoundManager
+  targetMethod: PlaySound
+  targetMethodText: 'PlaySound (AudioClip, Boolean, Single, Single): String'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: 874ba658d27e98f408983cf822fbb526, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: -1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1852669195
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852669145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 730
+  indentLevel: 0
+  targetObject: {fileID: 1685754441}
+  targetComponentAssemblyName: Assets.Scripts.SoundManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SoundManager
+  targetMethod: PlaySound
+  targetMethodText: 'PlaySound (AudioClip, Boolean, Single, Single): String'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: 874ba658d27e98f408983cf822fbb526, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: -1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1852669196
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852669145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 729
+  indentLevel: 0
+  targetObject: {fileID: 1685754441}
+  targetComponentAssemblyName: Assets.Scripts.SoundManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SoundManager
+  targetMethod: PlaySound
+  targetMethodText: 'PlaySound (AudioClip, Boolean, Single, Single): String'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: 874ba658d27e98f408983cf822fbb526, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: -1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1852669197
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852669145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 728
+  indentLevel: 1
+  targetObject: {fileID: 1685754441}
+  targetComponentAssemblyName: Assets.Scripts.SoundManager, Assembly-CSharp, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SoundManager
+  targetMethod: PlaySound
+  targetMethodText: 'PlaySound (AudioClip, Boolean, Single, Single): String'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: UnityEngine.AudioClip, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      typeFullname: UnityEngine.AudioClip
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 8300000, guid: 874ba658d27e98f408983cf822fbb526, type: 3}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Boolean
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  - objValue:
+      typeAssemblyname: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Single
+      intValue: 0
+      boolValue: 0
+      floatValue: -1
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.String
+  showInherited: 0
+  callMode: 0
 --- !u!114 &1852669228 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11476638, guid: a7de1d1445a553145ab9acedf63745af,
@@ -43651,12 +44445,24 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+--- !u!114 &1852669280 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11494650, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
 --- !u!114 &1852669281 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11462690, guid: a7de1d1445a553145ab9acedf63745af,
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+--- !u!114 &1852669282 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11488772, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
 --- !u!114 &1852669286 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11487096, guid: a7de1d1445a553145ab9acedf63745af,
@@ -43681,12 +44487,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
---- !u!114 &1852669305 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1610499350}
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &1852669308 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11489898, guid: a7de1d1445a553145ab9acedf63745af,
@@ -43705,6 +44505,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+--- !u!114 &1852669311 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11405400, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &1852669317 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11446246, guid: a7de1d1445a553145ab9acedf63745af,
