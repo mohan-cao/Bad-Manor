@@ -42,11 +42,7 @@ public class Journal : Interface {
 
 	public void OpenJournal() {
 		journal.gameObject.SetActive(true);
-        if (!isShowing)
-        {
-            isShowing = true;
-            achScript.AddAchievement("journal");
-        }
+        
 		SwitchPanel (0);
 	}
 
