@@ -143,6 +143,124 @@ Transform:
   - {fileID: 487177919}
   m_Father: {fileID: 0}
   m_RootOrder: 23
+--- !u!1 &13708894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 13708897}
+  - 61: {fileID: 13708896}
+  - 114: {fileID: 13708895}
+  m_Layer: 0
+  m_Name: SkyTile (64)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &13708895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13708894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20062
+  guide: {fileID: 0}
+  destinationID: 30062
+--- !u!61 &13708896
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13708894}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &13708897
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13708894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.19, y: -211.27, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 118
+--- !u!1 &16841703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 16841706}
+  - 61: {fileID: 16841705}
+  - 114: {fileID: 16841704}
+  m_Layer: 0
+  m_Name: SkyTile (51)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &16841704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16841703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20099
+  guide: {fileID: 0}
+  destinationID: 30099
+--- !u!61 &16841705
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16841703}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &16841706
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16841703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.17, y: -208.76, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 105
 --- !u!1 &29745643
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +816,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &82927487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 82927490}
+  - 61: {fileID: 82927489}
+  - 114: {fileID: 82927488}
+  m_Layer: 0
+  m_Name: SkyTile (32)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &82927488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 82927487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20005
+  guide: {fileID: 0}
+  destinationID: 30005
+--- !u!61 &82927489
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 82927487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &82927490
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 82927487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.12, y: -207.55, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 86
 --- !u!1001 &83667681
 Prefab:
   m_ObjectHideFlags: 0
@@ -889,6 +1066,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 103061557}
   m_Mesh: {fileID: 4300000, guid: cbe85480d0fa5c34caaceaab808ee4f6, type: 3}
+--- !u!1 &115207510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 115207513}
+  - 61: {fileID: 115207512}
+  - 114: {fileID: 115207511}
+  m_Layer: 0
+  m_Name: SkyTile (65)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &115207511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115207510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20063
+  guide: {fileID: 0}
+  destinationID: 30063
+--- !u!61 &115207512
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115207510}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &115207513
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115207510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.35, y: -211.32, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 119
 --- !u!1 &123565265
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +1203,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 123565265}
   m_Mesh: {fileID: 4300000, guid: 1c7219319248b014f8b8feb6ccbccfca, type: 3}
+--- !u!1 &125586139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 125586142}
+  - 61: {fileID: 125586141}
+  - 114: {fileID: 125586140}
+  m_Layer: 0
+  m_Name: SkyTile (54)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &125586140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 125586139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30097
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &125586141
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 125586139}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &125586142
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 125586139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 107.57, y: -204.86, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 108
 --- !u!1 &141184638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1358,6 +1653,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 32
+--- !u!1 &175450137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 175450140}
+  - 61: {fileID: 175450139}
+  - 114: {fileID: 175450138}
+  m_Layer: 0
+  m_Name: SkyTile (10)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &175450138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 175450137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10010
+  guide: {fileID: 0}
+  destinationID: 20010
+--- !u!61 &175450139
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 175450137}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &175450140
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 175450137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 87.92, y: -204.99, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 64
 --- !u!1 &175613220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,6 +1975,124 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1332013003}
   m_RootOrder: 0
+--- !u!1 &200958160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 200958163}
+  - 61: {fileID: 200958162}
+  - 114: {fileID: 200958161}
+  m_Layer: 0
+  m_Name: SkyTile (41)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &200958161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200958160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30013
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &200958162
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200958160}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &200958163
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200958160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.53, y: -206.14, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 95
+--- !u!1 &206420507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 206420510}
+  - 61: {fileID: 206420509}
+  - 114: {fileID: 206420508}
+  m_Layer: 0
+  m_Name: SkyTile
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &206420508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 206420507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10000
+  guide: {fileID: 0}
+  destinationID: 20000
+--- !u!61 &206420509
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 206420507}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &206420510
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 206420507}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 85.41, y: -210.07, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 54
 --- !u!1 &211119924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1945,6 +2417,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 215701116}
   m_Mesh: {fileID: 4300000, guid: 979eec1e32c27cc498e33edefde12dd2, type: 3}
+--- !u!1 &228149951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 228149954}
+  - 61: {fileID: 228149953}
+  - 114: {fileID: 228149952}
+  m_Layer: 0
+  m_Name: SkyTile (66)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &228149952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228149951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20064
+  guide: {fileID: 0}
+  destinationID: 30064
+--- !u!61 &228149953
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228149951}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &228149954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 228149951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100.74, y: -211.41, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 120
 --- !u!1 &233967877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2208,6 +2739,65 @@ Prefab:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &262540965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 262540968}
+  - 61: {fileID: 262540967}
+  - 114: {fileID: 262540966}
+  m_Layer: 0
+  m_Name: SkyTile (58)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &262540966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262540965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20056
+  guide: {fileID: 0}
+  destinationID: 30056
+--- !u!61 &262540967
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262540965}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &262540968
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262540965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.71, y: -204.86, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 112
 --- !u!1 &275953776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,6 +3125,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 299384342}
   m_Mesh: {fileID: 4300000, guid: 9aa8ef14c79a68f4f9b3c5ab1383cf94, type: 3}
+--- !u!1 &302227419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 302227422}
+  - 61: {fileID: 302227421}
+  - 114: {fileID: 302227420}
+  m_Layer: 0
+  m_Name: SkyTile (29)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &302227420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 302227419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20018
+  guide: {fileID: 0}
+  destinationID: 30018
+--- !u!61 &302227421
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 302227419}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &302227422
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 302227419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 101.9, y: -207.52, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 83
 --- !u!1001 &302424188
 Prefab:
   m_ObjectHideFlags: 0
@@ -2605,6 +3254,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &306350346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 306350349}
+  - 61: {fileID: 306350348}
+  - 114: {fileID: 306350347}
+  m_Layer: 0
+  m_Name: SkyTile (68)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &306350347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 306350346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30065
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &306350348
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 306350346}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &306350349
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 306350346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 112.34, y: -211.34, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 122
 --- !u!1001 &310019379
 Prefab:
   m_ObjectHideFlags: 0
@@ -2745,6 +3453,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &317958042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 317958045}
+  - 61: {fileID: 317958044}
+  - 114: {fileID: 317958043}
+  m_Layer: 0
+  m_Name: SkyTile (34)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &317958043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317958042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20003
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &317958044
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317958042}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &317958045
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 317958042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100.65, y: -210.09, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 88
 --- !u!1 &319316178
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,6 +3784,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 333570007}
   m_Mesh: {fileID: 4300000, guid: db45ce62823b93f409ef134500a042d8, type: 3}
+--- !u!1 &334845323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 334845326}
+  - 61: {fileID: 334845325}
+  - 114: {fileID: 334845324}
+  m_Layer: 0
+  m_Name: SkyTile (60)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &334845324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 334845323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20058
+  guide: {fileID: 0}
+  destinationID: 30058
+--- !u!61 &334845325
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 334845323}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &334845326
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 334845323}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.63, y: -207.36, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 114
 --- !u!1 &343248893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3077,6 +3903,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6238962}
   m_RootOrder: 7
+--- !u!1 &345306275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 345306278}
+  - 61: {fileID: 345306277}
+  - 114: {fileID: 345306276}
+  m_Layer: 0
+  m_Name: SkyTile (20)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &345306276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 345306275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20017
+  guide: {fileID: 0}
+  destinationID: 30017
+--- !u!61 &345306277
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 345306275}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &345306278
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 345306275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.42, y: -211.3, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 74
 --- !u!1 &354459541
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,6 +4023,183 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 30
+--- !u!1 &358374137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 358374140}
+  - 61: {fileID: 358374139}
+  - 114: {fileID: 358374138}
+  m_Layer: 0
+  m_Name: SkyTile (12)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &358374138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 358374137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10012
+  guide: {fileID: 0}
+  destinationID: 20012
+--- !u!61 &358374139
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 358374137}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &358374140
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 358374137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.19, y: -204.9, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 66
+--- !u!1 &362050798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 362050801}
+  - 61: {fileID: 362050800}
+  - 114: {fileID: 362050799}
+  m_Layer: 0
+  m_Name: SkyTile (74)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &362050799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 362050798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30059
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &362050800
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 362050798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &362050801
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 362050798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105.94, y: -208.71, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 128
+--- !u!1 &363775494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 363775497}
+  - 61: {fileID: 363775496}
+  - 114: {fileID: 363775495}
+  m_Layer: 0
+  m_Name: SkyTile (9)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &363775495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 363775494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10009
+  guide: {fileID: 0}
+  destinationID: 20009
+--- !u!61 &363775496
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 363775494}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &363775497
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 363775494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 88.01, y: -203.66, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 63
 --- !u!1001 &367177683
 Prefab:
   m_ObjectHideFlags: 0
@@ -3234,6 +4296,65 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 376744876}
   m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
+--- !u!1 &381313283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 381313286}
+  - 61: {fileID: 381313285}
+  - 114: {fileID: 381313284}
+  m_Layer: 0
+  m_Name: SkyTile (26)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &381313284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 381313283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20011
+  guide: {fileID: 0}
+  destinationID: 30011
+--- !u!61 &381313285
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 381313283}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &381313286
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 381313283}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.39, y: -203.65, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 80
 --- !u!1001 &387283913
 Prefab:
   m_ObjectHideFlags: 0
@@ -3374,6 +4495,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &415881544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 415881547}
+  - 61: {fileID: 415881546}
+  - 114: {fileID: 415881545}
+  m_Layer: 0
+  m_Name: SkyTile (25)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &415881545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 415881544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20012
+  guide: {fileID: 0}
+  destinationID: 30012
+--- !u!61 &415881546
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 415881544}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &415881547
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 415881544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.36, y: -204.95, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 79
 --- !u!1 &417049028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3452,6 +4632,124 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 417049028}
   m_Mesh: {fileID: 4300000, guid: 43748cafae2937e449376c11570ca5bc, type: 3}
+--- !u!1 &418476484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 418476487}
+  - 61: {fileID: 418476486}
+  - 114: {fileID: 418476485}
+  m_Layer: 0
+  m_Name: SkyTile (7)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &418476485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 418476484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10007
+  guide: {fileID: 0}
+  destinationID: 20007
+--- !u!61 &418476486
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 418476484}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &418476487
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 418476484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.58, y: -207.5, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 61
+--- !u!1 &420931369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 420931372}
+  - 61: {fileID: 420931371}
+  - 114: {fileID: 420931370}
+  m_Layer: 0
+  m_Name: SkyTile (37)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &420931370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420931369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20000
+  guide: {fileID: 0}
+  destinationID: 30000
+--- !u!61 &420931371
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420931369}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &420931372
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420931369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.58, y: -210.12, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 91
 --- !u!1 &426743421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3500,6 +4798,124 @@ MonoBehaviour:
 GameObject:
   m_PrefabParentObject: {fileID: 125932, guid: dca75686976fdf64e856cba5d6007d63, type: 2}
   m_PrefabInternal: {fileID: 1991354800}
+--- !u!1 &442448704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 442448707}
+  - 61: {fileID: 442448706}
+  - 114: {fileID: 442448705}
+  m_Layer: 0
+  m_Name: SkyTile (61)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &442448705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442448704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20059
+  guide: {fileID: 0}
+  destinationID: 30059
+--- !u!61 &442448706
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442448704}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &442448707
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442448704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.61, y: -208.71, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 115
+--- !u!1 &443210729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 443210732}
+  - 61: {fileID: 443210731}
+  - 114: {fileID: 443210730}
+  m_Layer: 0
+  m_Name: SkyTile (27)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &443210730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443210729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20010
+  guide: {fileID: 0}
+  destinationID: 30010
+--- !u!61 &443210731
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443210729}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &443210732
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 443210729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.09, y: -205.04, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 81
 --- !u!1 &443219527
 GameObject:
   m_ObjectHideFlags: 0
@@ -3551,6 +4967,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0}
+--- !u!1 &445088038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445088041}
+  - 61: {fileID: 445088040}
+  - 114: {fileID: 445088039}
+  m_Layer: 0
+  m_Name: SkyTile (48)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &445088039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 445088038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30007
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &445088040
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 445088038}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &445088041
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 445088038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 110.97, y: -207.65, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 102
 --- !u!1 &452076194
 GameObject:
   m_ObjectHideFlags: 0
@@ -3699,6 +5174,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &478617667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 478617670}
+  - 61: {fileID: 478617669}
+  - 114: {fileID: 478617668}
+  m_Layer: 0
+  m_Name: SkyTile (28)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &478617668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 478617667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20009
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &478617669
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 478617667}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &478617670
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 478617667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.18, y: -203.71, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 82
 --- !u!1 &480699110
 GameObject:
   m_ObjectHideFlags: 0
@@ -4000,6 +5534,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1332013003}
   m_RootOrder: 8
+--- !u!1 &495824197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495824200}
+  - 61: {fileID: 495824199}
+  - 114: {fileID: 495824198}
+  m_Layer: 0
+  m_Name: SkyTile (17)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &495824198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495824197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10017
+  guide: {fileID: 0}
+  destinationID: 20017
+--- !u!61 &495824199
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495824197}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &495824200
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495824197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.25, y: -211.25, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 71
 --- !u!1 &504801820
 GameObject:
   m_ObjectHideFlags: 0
@@ -4816,6 +6409,65 @@ MonoBehaviour:
   returnDuration: 1
   hoverCursor: {fileID: 0}
   useEventSystem: 0
+--- !u!1 &629237108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 629237111}
+  - 61: {fileID: 629237110}
+  - 114: {fileID: 629237109}
+  m_Layer: 0
+  m_Name: SkyTile (72)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &629237109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 629237108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30061
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &629237110
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 629237108}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &629237111
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 629237108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 107.23, y: -211.38, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 126
 --- !u!1001 &653888652
 Prefab:
   m_ObjectHideFlags: 0
@@ -5497,6 +7149,65 @@ Prefab:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &743633513
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 743633516}
+  - 61: {fileID: 743633515}
+  - 114: {fileID: 743633514}
+  m_Layer: 0
+  m_Name: SkyTile (4)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &743633514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743633513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10004
+  guide: {fileID: 0}
+  destinationID: 20004
+--- !u!61 &743633515
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743633513}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &743633516
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743633513}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 86.78, y: -207.47, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 58
 --- !u!1001 &748383623
 Prefab:
   m_ObjectHideFlags: 0
@@ -5782,6 +7493,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 773185312}
   m_Mesh: {fileID: 4300000, guid: c56cff1cbe5a3f341a379b5df279da9c, type: 3}
+--- !u!1 &781153211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 781153214}
+  - 61: {fileID: 781153213}
+  - 114: {fileID: 781153212}
+  m_Layer: 0
+  m_Name: SkyTile (16)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &781153212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 781153211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10016
+  guide: {fileID: 0}
+  destinationID: 20016
+--- !u!61 &781153213
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 781153211}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &781153214
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 781153211}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.25, y: -210.01, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 70
 --- !u!1 &783951733
 GameObject:
   m_ObjectHideFlags: 0
@@ -6254,6 +8024,124 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &814518075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 814518078}
+  - 61: {fileID: 814518077}
+  - 114: {fileID: 814518076}
+  m_Layer: 0
+  m_Name: SkyTile (14)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &814518076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 814518075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10014
+  guide: {fileID: 0}
+  destinationID: 20014
+--- !u!61 &814518077
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 814518075}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &814518078
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 814518075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.06, y: -207.5, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 68
+--- !u!1 &817290153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 817290156}
+  - 61: {fileID: 817290155}
+  - 114: {fileID: 817290154}
+  m_Layer: 0
+  m_Name: SkyTile (31)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &817290154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817290153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20006
+  guide: {fileID: 0}
+  destinationID: 30006
+--- !u!61 &817290155
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817290153}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &817290156
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 817290153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99.36, y: -207.55, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 85
 --- !u!1 &844498822
 GameObject:
   m_ObjectHideFlags: 0
@@ -6378,6 +8266,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0}
+--- !u!1 &854116337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 854116340}
+  - 61: {fileID: 854116339}
+  - 114: {fileID: 854116338}
+  m_Layer: 0
+  m_Name: SkyTile (73)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &854116338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854116337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30060
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &854116339
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854116337}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &854116340
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854116337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105.94, y: -211.35, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 127
 --- !u!1001 &855691200
 Prefab:
   m_ObjectHideFlags: 0
@@ -8473,6 +10420,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6238962}
   m_RootOrder: 20
+--- !u!1 &875184716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 875184719}
+  - 61: {fileID: 875184718}
+  - 114: {fileID: 875184717}
+  m_Layer: 0
+  m_Name: SkyTile (40)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &875184717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 875184716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30012
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &875184718
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 875184716}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &875184719
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 875184716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.53, y: -204.9, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 94
 --- !u!1001 &875324880
 Prefab:
   m_ObjectHideFlags: 0
@@ -8544,6 +10550,65 @@ Prefab:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &879199141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 879199144}
+  - 61: {fileID: 879199143}
+  - 114: {fileID: 879199142}
+  m_Layer: 0
+  m_Name: SkyTile (22)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &879199142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 879199141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20015
+  guide: {fileID: 0}
+  destinationID: 30015
+--- !u!61 &879199143
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 879199141}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &879199144
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 879199141}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.33, y: -208.69, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 76
 --- !u!1001 &880200320
 Prefab:
   m_ObjectHideFlags: 0
@@ -8654,6 +10719,124 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 943b21e331e945146beb63726ff855df, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &881506215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 881506218}
+  - 61: {fileID: 881506217}
+  - 114: {fileID: 881506216}
+  m_Layer: 0
+  m_Name: SkyTile (63)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &881506216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 881506215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20061
+  guide: {fileID: 0}
+  destinationID: 30061
+--- !u!61 &881506217
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 881506215}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &881506218
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 881506215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 96.9, y: -211.38, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 117
+--- !u!1 &883745889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 883745892}
+  - 61: {fileID: 883745891}
+  - 114: {fileID: 883745890}
+  m_Layer: 0
+  m_Name: SkyTile (47)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &883745890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883745889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30006
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &883745891
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883745889}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &883745892
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 883745889}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.58, y: -207.65, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 101
 --- !u!1001 &922551774
 Prefab:
   m_ObjectHideFlags: 0
@@ -8790,6 +10973,65 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22450750, guid: 943b21e331e945146beb63726ff855df,
     type: 2}
   m_PrefabInternal: {fileID: 880200320}
+--- !u!1 &934790974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 934790977}
+  - 61: {fileID: 934790976}
+  - 114: {fileID: 934790975}
+  m_Layer: 0
+  m_Name: SkyTile (1)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &934790975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 934790974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10001
+  guide: {fileID: 0}
+  destinationID: 20001
+--- !u!61 &934790976
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 934790974}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &934790977
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 934790974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 86.68, y: -210.04, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 55
 --- !u!1001 &941903239
 Prefab:
   m_ObjectHideFlags: 0
@@ -8998,6 +11240,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 943607258}
   m_Mesh: {fileID: 4300000, guid: f9ec7819ef8263940b8bed3b418a460d, type: 3}
+--- !u!1 &949004362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 949004365}
+  - 61: {fileID: 949004364}
+  - 114: {fileID: 949004363}
+  m_Layer: 0
+  m_Name: SkyTile (55)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &949004363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949004362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30098
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &949004364
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949004362}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &949004365
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949004362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 107.57, y: -206.12, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 109
 --- !u!1 &949317197
 GameObject:
   m_ObjectHideFlags: 0
@@ -9145,12 +11446,130 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 0.25, y: 0.22}
+--- !u!1 &966187643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 966187646}
+  - 61: {fileID: 966187645}
+  - 114: {fileID: 966187644}
+  m_Layer: 0
+  m_Name: SkyTile (43)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &966187644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 966187643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30015
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &966187645
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 966187643}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &966187646
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 966187643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.5, y: -208.64, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 97
 --- !u!114 &968742797 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11499758, guid: a9ad7917062b66443a75d833a8f4cd4d,
     type: 2}
   m_PrefabInternal: {fileID: 49805949}
   m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
+--- !u!1 &971386653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 971386656}
+  - 61: {fileID: 971386655}
+  - 114: {fileID: 971386654}
+  m_Layer: 0
+  m_Name: SkyTile (2)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &971386654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 971386653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10002
+  guide: {fileID: 0}
+  destinationID: 20002
+--- !u!61 &971386655
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 971386653}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &971386656
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 971386653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 87.85, y: -210.07, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 56
 --- !u!1 &980972056
 GameObject:
   m_ObjectHideFlags: 0
@@ -9443,6 +11862,124 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 989963005}
   m_Mesh: {fileID: 4300000, guid: 36bfae493d38f15469c0ecf348afca4a, type: 3}
+--- !u!1 &996148144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 996148147}
+  - 61: {fileID: 996148146}
+  - 114: {fileID: 996148145}
+  m_Layer: 0
+  m_Name: SkyTile (39)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &996148145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 996148144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30011
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &996148146
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 996148144}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &996148147
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 996148144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.56, y: -203.6, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 93
+--- !u!1 &1005041443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1005041446}
+  - 61: {fileID: 1005041445}
+  - 114: {fileID: 1005041444}
+  m_Layer: 0
+  m_Name: SkyTile (6)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1005041444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1005041443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10006
+  guide: {fileID: 0}
+  destinationID: 20006
+--- !u!61 &1005041445
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1005041443}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1005041446
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1005041443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 89.19, y: -207.5, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 60
 --- !u!1001 &1005505775
 Prefab:
   m_ObjectHideFlags: 0
@@ -9491,6 +12028,65 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1005505775}
   m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
+--- !u!1 &1011282227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1011282230}
+  - 61: {fileID: 1011282229}
+  - 114: {fileID: 1011282228}
+  m_Layer: 0
+  m_Name: SkyTile (69)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1011282228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011282227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30064
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1011282229
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011282227}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1011282230
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011282227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 111.07, y: -211.41, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 123
 --- !u!1 &1011602053
 GameObject:
   m_ObjectHideFlags: 0
@@ -9569,6 +12165,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 1011602053}
   m_Mesh: {fileID: 4300000, guid: 0ef59b656ca53b046aeaf611a7739e98, type: 3}
+--- !u!1 &1014117698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1014117701}
+  - 61: {fileID: 1014117700}
+  - 114: {fileID: 1014117699}
+  m_Layer: 0
+  m_Name: SkyTile (33)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1014117699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014117698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20004
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1014117700
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014117698}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1014117701
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014117698}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 96.95, y: -207.52, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 87
 --- !u!1001 &1015776534
 Prefab:
   m_ObjectHideFlags: 0
@@ -9611,6 +12266,124 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65bc4019a80ada24d9a748ffd7c8dbdd, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1022346952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1022346955}
+  - 61: {fileID: 1022346954}
+  - 114: {fileID: 1022346953}
+  m_Layer: 0
+  m_Name: SkyTile (52)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1022346953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1022346952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20098
+  guide: {fileID: 0}
+  destinationID: 30098
+--- !u!61 &1022346954
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1022346952}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1022346955
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1022346952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.22, y: -206.17, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 106
+--- !u!1 &1030321962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1030321965}
+  - 61: {fileID: 1030321964}
+  - 114: {fileID: 1030321963}
+  m_Layer: 0
+  m_Name: SkyTile (24)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1030321963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030321962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20013
+  guide: {fileID: 0}
+  destinationID: 30013
+--- !u!61 &1030321964
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030321962}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1030321965
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1030321962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.36, y: -206.19, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 78
 --- !u!1 &1031609538
 GameObject:
   m_ObjectHideFlags: 0
@@ -9828,6 +12601,124 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 1050908896}
   m_Mesh: {fileID: 4300000, guid: fcd6d492b72621b4090b8824cbe54b6a, type: 3}
+--- !u!1 &1061079414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1061079417}
+  - 61: {fileID: 1061079416}
+  - 114: {fileID: 1061079415}
+  m_Layer: 0
+  m_Name: SkyTile (3)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1061079415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1061079414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10003
+  guide: {fileID: 0}
+  destinationID: 20003
+--- !u!61 &1061079416
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1061079414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1061079417
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1061079414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.48, y: -210.04, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 57
+--- !u!1 &1064723794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1064723797}
+  - 61: {fileID: 1064723796}
+  - 114: {fileID: 1064723795}
+  m_Layer: 0
+  m_Name: SkyTile (30)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1064723795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1064723794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20007
+  guide: {fileID: 0}
+  destinationID: 30007
+--- !u!61 &1064723796
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1064723794}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1064723797
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1064723794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100.75, y: -207.55, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 84
 --- !u!1001 &1065297406
 Prefab:
   m_ObjectHideFlags: 0
@@ -10124,6 +13015,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1075571690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1075571693}
+  - 61: {fileID: 1075571692}
+  - 114: {fileID: 1075571691}
+  m_Layer: 0
+  m_Name: SkyTile (13)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1075571691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1075571690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10013
+  guide: {fileID: 0}
+  destinationID: 20013
+--- !u!61 &1075571692
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1075571690}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1075571693
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1075571690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.19, y: -206.14, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 67
 --- !u!1 &1084890464 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 173316, guid: 60c792e36724b5042b13935cb55a01aa, type: 2}
@@ -10350,6 +13300,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 1098075796}
   m_Mesh: {fileID: 4300000, guid: 4e3fa7e5cdfbe044bb1609c70c51bae9, type: 3}
+--- !u!1 &1102246703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1102246706}
+  - 61: {fileID: 1102246705}
+  - 114: {fileID: 1102246704}
+  m_Layer: 0
+  m_Name: SkyTile (38)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1102246704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1102246703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30018
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1102246705
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1102246703}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1102246706
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1102246703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 111.02, y: -204.77, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 92
 --- !u!1 &1105270897
 GameObject:
   m_ObjectHideFlags: 0
@@ -10608,6 +13617,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6238962}
   m_RootOrder: 11
+--- !u!1 &1141772223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1141772226}
+  - 61: {fileID: 1141772225}
+  - 114: {fileID: 1141772224}
+  m_Layer: 0
+  m_Name: SkyTile (35)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1141772224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1141772223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20002
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1141772225
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1141772223}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1141772226
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1141772223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.02, y: -210.12, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 89
 --- !u!1 &1174052797
 GameObject:
   m_ObjectHideFlags: 0
@@ -10949,6 +14017,65 @@ BoxCollider2D:
   m_Offset: {x: 23.7, y: -73.79}
   serializedVersion: 2
   m_Size: {x: 2.8, y: 1}
+--- !u!1 &1176537824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1176537827}
+  - 61: {fileID: 1176537826}
+  - 114: {fileID: 1176537825}
+  m_Layer: 0
+  m_Name: SkyTile (78)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1176537825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1176537824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30055
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1176537826
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1176537824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1176537827
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1176537824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105.91, y: -203.54, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 132
 --- !u!1 &1177341134 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 199956, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
@@ -14877,6 +18004,65 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 534509004}
   m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
+--- !u!1 &1214603393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1214603396}
+  - 61: {fileID: 1214603395}
+  - 114: {fileID: 1214603394}
+  m_Layer: 0
+  m_Name: SkyTile (70)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1214603394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1214603393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30063
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1214603395
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1214603393}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1214603396
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1214603393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.68, y: -211.32, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 124
 --- !u!1001 &1216138195
 Prefab:
   m_ObjectHideFlags: 0
@@ -15174,6 +18360,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 1248818537}
   m_Mesh: {fileID: 4300000, guid: cb306411b7495ef4896c9e0769a895a0, type: 3}
+--- !u!1 &1255158391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1255158394}
+  - 61: {fileID: 1255158393}
+  - 114: {fileID: 1255158392}
+  m_Layer: 0
+  m_Name: SkyTile (15)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1255158392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255158391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10015
+  guide: {fileID: 0}
+  destinationID: 20015
+--- !u!61 &1255158393
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255158391}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1255158394
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1255158391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.16, y: -208.64, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 69
 --- !u!1 &1258672623
 GameObject:
   m_ObjectHideFlags: 0
@@ -15318,6 +18563,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1281528484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1281528487}
+  - 61: {fileID: 1281528486}
+  - 114: {fileID: 1281528485}
+  m_Layer: 0
+  m_Name: SkyTile (45)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1281528485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281528484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30017
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1281528486
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281528484}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1281528487
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281528484}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.59, y: -211.25, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 99
 --- !u!1 &1285890002
 GameObject:
   m_ObjectHideFlags: 0
@@ -15470,6 +18774,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 1290724062}
   m_Mesh: {fileID: 4300000, guid: bfbebc6e1bce21b4d8e8adad1933bf75, type: 3}
+--- !u!1 &1291250336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1291250339}
+  - 61: {fileID: 1291250338}
+  - 114: {fileID: 1291250337}
+  m_Layer: 0
+  m_Name: SkyTile (50)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1291250337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291250336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30000
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1291250338
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291250336}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1291250339
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291250336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105.88, y: -210.17, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 104
 --- !u!1 &1305273291
 GameObject:
   m_ObjectHideFlags: 0
@@ -16199,6 +19562,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 1332943337}
   m_Mesh: {fileID: 4300000, guid: 08d65db096df3ae46b656c921e8c0ff2, type: 3}
+--- !u!1 &1341434814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1341434817}
+  - 61: {fileID: 1341434816}
+  - 114: {fileID: 1341434815}
+  m_Layer: 0
+  m_Name: SkyTile (46)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1341434815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1341434814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30005
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1341434816
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1341434814}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1341434817
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1341434814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 108.34, y: -207.65, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 100
 --- !u!1 &1349375722
 GameObject:
   m_ObjectHideFlags: 0
@@ -16962,6 +20384,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6238962}
   m_RootOrder: 4
+--- !u!1 &1398095788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1398095791}
+  - 61: {fileID: 1398095790}
+  - 114: {fileID: 1398095789}
+  m_Layer: 0
+  m_Name: SkyTile (42)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1398095789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1398095788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30014
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1398095790
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1398095788}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1398095791
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1398095788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.4, y: -207.5, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 96
 --- !u!1 &1411197334
 GameObject:
   m_ObjectHideFlags: 0
@@ -17157,6 +20638,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 46
+--- !u!1 &1428219940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1428219943}
+  - 61: {fileID: 1428219942}
+  - 114: {fileID: 1428219941}
+  m_Layer: 0
+  m_Name: SkyTile (56)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1428219941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1428219940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30099
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1428219942
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1428219940}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1428219943
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1428219940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 107.52, y: -208.71, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 110
 --- !u!1 &1455860221
 GameObject:
   m_ObjectHideFlags: 0
@@ -17353,6 +20893,124 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2082387910}
   m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
+--- !u!1 &1470206832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1470206835}
+  - 61: {fileID: 1470206834}
+  - 114: {fileID: 1470206833}
+  m_Layer: 0
+  m_Name: SkyTile (75)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1470206833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1470206832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30058
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1470206834
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1470206832}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1470206835
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1470206832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105.96, y: -207.36, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 129
+--- !u!1 &1478150319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1478150322}
+  - 61: {fileID: 1478150321}
+  - 114: {fileID: 1478150320}
+  m_Layer: 0
+  m_Name: SkyTile (5)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1478150320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478150319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10005
+  guide: {fileID: 0}
+  destinationID: 20005
+--- !u!61 &1478150321
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478150319}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1478150322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478150319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 87.95, y: -207.5, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 59
 --- !u!1 &1501277686
 GameObject:
   m_ObjectHideFlags: 0
@@ -18010,6 +21668,124 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 599437488}
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+--- !u!1 &1590989231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1590989234}
+  - 61: {fileID: 1590989233}
+  - 114: {fileID: 1590989232}
+  m_Layer: 0
+  m_Name: SkyTile (11)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1590989232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1590989231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10011
+  guide: {fileID: 0}
+  destinationID: 20011
+--- !u!61 &1590989233
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1590989231}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1590989234
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1590989231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.22, y: -203.6, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 65
+--- !u!1 &1593556433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1593556436}
+  - 61: {fileID: 1593556435}
+  - 114: {fileID: 1593556434}
+  m_Layer: 0
+  m_Name: SkyTile (49)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1593556434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593556433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30018
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1593556435
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593556433}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1593556436
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593556433}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 112.12, y: -207.62, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 103
 --- !u!1001 &1610499350
 Prefab:
   m_ObjectHideFlags: 0
@@ -18953,6 +22729,124 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6238962}
   m_RootOrder: 24
+--- !u!1 &1655836664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1655836667}
+  - 61: {fileID: 1655836666}
+  - 114: {fileID: 1655836665}
+  m_Layer: 0
+  m_Name: SkyTile (21)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1655836665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1655836664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20016
+  guide: {fileID: 0}
+  destinationID: 30016
+--- !u!61 &1655836666
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1655836664}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1655836667
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1655836664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.42, y: -210.06, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 75
+--- !u!1 &1657986520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1657986523}
+  - 61: {fileID: 1657986522}
+  - 114: {fileID: 1657986521}
+  m_Layer: 0
+  m_Name: SkyTile (8)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1657986521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657986520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10008
+  guide: {fileID: 0}
+  destinationID: 20008
+--- !u!61 &1657986522
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657986520}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1657986523
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657986520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 91.73, y: -207.47, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 62
 --- !u!1 &1662551683
 GameObject:
   m_ObjectHideFlags: 0
@@ -19471,6 +23365,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1705925138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1705925141}
+  - 61: {fileID: 1705925140}
+  - 114: {fileID: 1705925139}
+  m_Layer: 0
+  m_Name: SkyTile (76)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1705925139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705925138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30057
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1705925140
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705925138}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1705925141
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705925138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 105.96, y: -206.2, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 130
 --- !u!1001 &1707843720
 Prefab:
   m_ObjectHideFlags: 0
@@ -19662,6 +23615,65 @@ Prefab:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1732276066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1732276069}
+  - 61: {fileID: 1732276068}
+  - 114: {fileID: 1732276067}
+  m_Layer: 0
+  m_Name: SkyTile (19)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1732276067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732276066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20018
+  guide: {fileID: 0}
+  destinationID: 30018
+--- !u!61 &1732276068
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732276066}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1732276069
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1732276066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 100.75, y: -204.98, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 73
 --- !u!1 &1754748882
 GameObject:
   m_ObjectHideFlags: 0
@@ -20164,6 +24176,65 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!1 &1783276735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1783276738}
+  - 61: {fileID: 1783276737}
+  - 114: {fileID: 1783276736}
+  m_Layer: 0
+  m_Name: SkyTile (44)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1783276736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1783276735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30016
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1783276737
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1783276735}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1783276738
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1783276735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 113.59, y: -210.01, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 98
 --- !u!1 &1795497430
 GameObject:
   m_ObjectHideFlags: 0
@@ -20429,6 +24500,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1816178986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1816178989}
+  - 61: {fileID: 1816178988}
+  - 114: {fileID: 1816178987}
+  m_Layer: 0
+  m_Name: SkyTile (57)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1816178987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1816178986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20055
+  guide: {fileID: 0}
+  destinationID: 30055
+--- !u!61 &1816178988
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1816178986}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1816178989
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1816178986}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.58, y: -203.54, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 111
 --- !u!1001 &1826269453
 Prefab:
   m_ObjectHideFlags: 0
@@ -20573,6 +24703,65 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 1830489157}
   m_Mesh: {fileID: 4300000, guid: 0edf2214ef5f8a94eb12f3475d805dfa, type: 3}
+--- !u!1 &1833517655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1833517658}
+  - 61: {fileID: 1833517657}
+  - 114: {fileID: 1833517656}
+  m_Layer: 0
+  m_Name: SkyTile (77)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1833517656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1833517655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30056
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &1833517657
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1833517655}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1833517658
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1833517655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 106.04, y: -204.86, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 131
 --- !u!1 &1839448968
 GameObject:
   m_ObjectHideFlags: 0
@@ -21017,6 +25206,183 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6238962}
   m_RootOrder: 0
+--- !u!1 &1855671941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1855671944}
+  - 61: {fileID: 1855671943}
+  - 114: {fileID: 1855671942}
+  m_Layer: 0
+  m_Name: SkyTile (67)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1855671942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1855671941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20065
+  guide: {fileID: 0}
+  destinationID: 30065
+--- !u!61 &1855671943
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1855671941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1855671944
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1855671941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.01, y: -211.34, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 121
+--- !u!1 &1859941119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1859941122}
+  - 61: {fileID: 1859941121}
+  - 114: {fileID: 1859941120}
+  m_Layer: 0
+  m_Name: SkyTile (53)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1859941120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859941119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20097
+  guide: {fileID: 0}
+  destinationID: 30097
+--- !u!61 &1859941121
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859941119}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1859941122
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1859941119}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.22, y: -204.91, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 107
+--- !u!1 &1873982084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1873982087}
+  - 61: {fileID: 1873982086}
+  - 114: {fileID: 1873982085}
+  m_Layer: 0
+  m_Name: SkyTile (18)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1873982085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1873982084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 10018
+  guide: {fileID: 0}
+  destinationID: 20018
+--- !u!61 &1873982086
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1873982084}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1873982087
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1873982084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.58, y: -204.93, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 72
 --- !u!1001 &1878656266
 Prefab:
   m_ObjectHideFlags: 0
@@ -21235,6 +25601,65 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1896892157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1896892160}
+  - 61: {fileID: 1896892159}
+  - 114: {fileID: 1896892158}
+  m_Layer: 0
+  m_Name: SkyTile (23)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1896892158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1896892157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20014
+  guide: {fileID: 0}
+  destinationID: 30014
+--- !u!61 &1896892159
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1896892157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1896892160
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1896892157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 103.23, y: -207.55, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 77
 --- !u!1 &1897233444
 GameObject:
   m_ObjectHideFlags: 0
@@ -21358,6 +25783,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0}
+--- !u!1 &1923350493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1923350496}
+  - 61: {fileID: 1923350495}
+  - 114: {fileID: 1923350494}
+  m_Layer: 0
+  m_Name: SkyTile (59)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1923350494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923350493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20057
+  guide: {fileID: 0}
+  destinationID: 30057
+--- !u!61 &1923350495
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923350493}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1923350496
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1923350493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.63, y: -206.2, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 113
 --- !u!1 &1933438798
 GameObject:
   m_ObjectHideFlags: 0
@@ -21418,6 +25902,65 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1332013003}
   m_RootOrder: 13
+--- !u!1 &1937887035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1937887038}
+  - 61: {fileID: 1937887037}
+  - 114: {fileID: 1937887036}
+  m_Layer: 0
+  m_Name: SkyTile (62)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1937887036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937887035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0429a5d4349e4c4398837bf92fb4a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20060
+  guide: {fileID: 0}
+  destinationID: 30060
+--- !u!61 &1937887037
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937887035}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &1937887038
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937887035}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.61, y: -211.35, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 116
 --- !u!1 &1945085042
 GameObject:
   m_ObjectHideFlags: 0
@@ -23407,6 +27950,124 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2117433279}
   m_GameObject: {fileID: 2118918578}
   m_Mesh: {fileID: 4300000, guid: 7e958c426b0a6274a91fea73cdb2135d, type: 3}
+--- !u!1 &2120243367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2120243370}
+  - 61: {fileID: 2120243369}
+  - 114: {fileID: 2120243368}
+  m_Layer: 0
+  m_Name: SkyTile (71)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2120243368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120243367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 30062
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &2120243369
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120243367}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &2120243370
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120243367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 108.52, y: -211.27, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 125
+--- !u!1 &2135490149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140910, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2135490152}
+  - 61: {fileID: 2135490151}
+  - 114: {fileID: 2135490150}
+  m_Layer: 0
+  m_Name: SkyTile (36)
+  m_TagString: Teleporter
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2135490150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2135490149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39bca5cd67148af4a87a656d6b468901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teleporterID: 20001
+  guide: {fileID: 0}
+  destinationID: 0
+--- !u!61 &2135490151
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6116150, guid: c7d063d689b0888468fdb1ed8d9d2846,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2135490149}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.93, y: 1.2}
+--- !u!4 &2135490152
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 457180, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2135490149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 96.85, y: -210.09, z: 0}
+  m_LocalScale: {x: 0.63, y: 0.73, z: 1.0691422}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 90
 --- !u!1001 &2140967201
 Prefab:
   m_ObjectHideFlags: 0
