@@ -469,6 +469,10 @@ Prefab:
       propertyPath: m_Offset.y
       value: -0.09
       objectReference: {fileID: 0}
+    - target: {fileID: 5044066, guid: a9ad7917062b66443a75d833a8f4cd4d, type: 2}
+      propertyPath: m_Mass
+      value: 1000000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9ad7917062b66443a75d833a8f4cd4d, type: 2}
   m_IsPrefabParent: 0
@@ -5793,6 +5797,14 @@ Prefab:
       propertyPath: nameColor.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5025334, guid: 5052922dc8bec704490c7c7a3d3463fb, type: 2}
+      propertyPath: m_Mass
+      value: 1000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5025334, guid: 5052922dc8bec704490c7c7a3d3463fb, type: 2}
+      propertyPath: m_LinearDrag
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5052922dc8bec704490c7c7a3d3463fb, type: 2}
   m_IsPrefabParent: 0
@@ -6128,6 +6140,14 @@ Prefab:
       propertyPath: _walkingSound
       value: 
       objectReference: {fileID: 8300000, guid: ad436d13cd05943ecadb3df6f78e1f33, type: 3}
+    - target: {fileID: 5081286, guid: 4bd90f2f8655e2c4e97924657bd8d446, type: 2}
+      propertyPath: m_Mass
+      value: 1000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5081286, guid: 4bd90f2f8655e2c4e97924657bd8d446, type: 2}
+      propertyPath: m_LinearDrag
+      value: 1000000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4bd90f2f8655e2c4e97924657bd8d446, type: 2}
   m_IsPrefabParent: 0
@@ -8485,7 +8505,7 @@ Prefab:
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1177341273}
+      objectReference: {fileID: 1177341634}
     - target: {fileID: 11460834, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: targetObject
       value: 
@@ -12909,6 +12929,10 @@ Prefab:
       propertyPath: nameColor.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5069820, guid: 6144aea333b7911458ea7219d7274b07, type: 2}
+      propertyPath: m_Mass
+      value: 1000000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6144aea333b7911458ea7219d7274b07, type: 2}
   m_IsPrefabParent: 0
@@ -13220,7 +13244,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1084890464}
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -15424,33 +15448,6 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
---- !u!114 &1177341184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1177341134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 708
-  indentLevel: 0
-  variable: {fileID: 855691203}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &1177341185 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11473932, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
@@ -16157,33 +16154,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 855691200}
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
---- !u!114 &1177341224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1177341134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 707
-  indentLevel: 0
-  variable: {fileID: 855691203}
-  setOperator: 0
-  booleanData:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  integerData:
-    integerRef: {fileID: 0}
-    integerVal: 0
-  floatData:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  stringData:
-    stringRef: {fileID: 0}
-    stringVal: 
 --- !u!114 &1177341225
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16997,9 +16967,9 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
---- !u!114 &1177341263
+--- !u!114 &1177341272
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -17026,7 +16996,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1177341273
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -17046,7 +17016,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1177341263}
+  - {fileID: 1177341272}
 --- !u!114 &1177341299 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11431720, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
@@ -18082,7 +18052,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &1177341634
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -18102,7 +18072,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1177341224}
+  - {fileID: 1177341642}
 --- !u!114 &1177341635
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18124,6 +18094,33 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   setMenuDialog: {fileID: 0}
+--- !u!114 &1177341636
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177341134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 708
+  indentLevel: 0
+  variable: {fileID: 855691203}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!114 &1177341637
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -18226,7 +18223,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1177341641
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
@@ -18246,7 +18243,34 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1177341184}
+  - {fileID: 1177341636}
+--- !u!114 &1177341642
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177341134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 707
+  indentLevel: 0
+  variable: {fileID: 855691203}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
 --- !u!1001 &1184371086
 Prefab:
   m_ObjectHideFlags: 0
@@ -23738,6 +23762,10 @@ Prefab:
       propertyPath: m_Offset.y
       value: -0.12
       objectReference: {fileID: 0}
+    - target: {fileID: 5036082, guid: cf6bf46f35a5cd44ba49d8290257ff90, type: 2}
+      propertyPath: m_Mass
+      value: 1000000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf6bf46f35a5cd44ba49d8290257ff90, type: 2}
   m_IsPrefabParent: 0
@@ -24803,7 +24831,7 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1781011016}
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1000000
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -28495,6 +28523,10 @@ Prefab:
     - target: {fileID: 6164810, guid: fb0da7c5123cad143832054fe281ea62, type: 2}
       propertyPath: m_Offset.y
       value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036216, guid: fb0da7c5123cad143832054fe281ea62, type: 2}
+      propertyPath: m_Mass
+      value: 1000000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb0da7c5123cad143832054fe281ea62, type: 2}
