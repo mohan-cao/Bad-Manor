@@ -2,11 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-using System;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,7 +29,7 @@ namespace Assets.Scripts.UIs
         private void Start()
         {
             playerScore = GameManager.inst.timeSinceStart() / 1000 + GameManager.inst.ScoreManager.currentScore();
-            scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart()/1000 + " seconds, Total Score: " + playerScore;
+            scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart()/1000 + " seconds,\nTotal Score: " + playerScore;
             if (GameManager.inst.won())
             {
                 finalMessage.text = "Sam was swiftly arrested once Brange recovered from fainting. Despite losing " +

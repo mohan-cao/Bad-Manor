@@ -9518,6 +9518,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 578203040}
   - 114: {fileID: 578203039}
+  - 114: {fileID: 578203041}
   m_Layer: 0
   m_Name: Journalizer
   m_TagString: Untagged
@@ -9549,6 +9550,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 142
+--- !u!114 &578203041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578203038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76baf086f0b4263408cbe6626973bc9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterManager: {fileID: 0}
+  ItemManager: {fileID: 0}
+  ScoreManager:
+    offset: 0
+    _score: 0
+  SoundManager: {fileID: 0}
+  UIManager: {fileID: 0}
+  WorldManager: {fileID: 0}
 --- !u!1 &586595086
 GameObject:
   m_ObjectHideFlags: 0
@@ -13591,7 +13611,7 @@ Prefab:
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1177341865}
+      objectReference: {fileID: 855691202}
     - target: {fileID: 11460834, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: targetObject
       value: 
@@ -16420,6 +16440,10 @@ Prefab:
       propertyPath: commandList.Array.data[72]
       value: 
       objectReference: {fileID: 1177341419}
+    - target: {fileID: 11407526, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
+      propertyPath: indentLevel
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11479262, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
     - {fileID: 11443272, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
@@ -16475,6 +16499,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 855691200}
   m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+--- !u!114 &855691202 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11441012, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
+    type: 2}
+  m_PrefabInternal: {fileID: 855691200}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &855691203 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11498704, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
@@ -31676,12 +31706,6 @@ MonoBehaviour:
   returnValueType: System.String
   showInherited: 0
   callMode: 0
---- !u!114 &1177341865 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11451268, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
-    type: 2}
-  m_PrefabInternal: {fileID: 855691200}
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!1001 &1184371086
 Prefab:
   m_ObjectHideFlags: 0

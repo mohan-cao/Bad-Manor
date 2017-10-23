@@ -120,6 +120,10 @@ namespace Assets.Scripts
 
 	    private void OnLevelWasLoaded(int level)
 	    {
+            if (_saveGame == null)
+            {
+                return;
+            }
 		    Flowchart characFlowchart = null;
 		    Flowchart itemFlowchart = null;
 		    GameObject c1 = GameObject.Find("Char-Flowcharts");
