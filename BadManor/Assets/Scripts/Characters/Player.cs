@@ -90,6 +90,7 @@ namespace Assets.Scripts.Characters
                     var movement = new Vector3(moveHorizontal, moveVertical, 0f);
                     // multiply by movement time and sum the old position with the change in position
                     transform.Translate(movement * MoveTime);
+                    _soundManager.PlaySound(_walkingSound);
                 }
 
                 //Configure the animation of the player
