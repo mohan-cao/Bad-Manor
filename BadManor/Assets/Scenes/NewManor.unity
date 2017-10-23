@@ -6550,7 +6550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1475542897}
+  selectedFlowchart: {fileID: 80081938}
 --- !u!4 &949803200
 Transform:
   m_ObjectHideFlags: 1
@@ -13025,6 +13025,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1970266812}
   m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
+--- !u!114 &1084141663 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11487190, guid: b07c271709334584c8bb04ddbd6fca41,
+    type: 2}
+  m_PrefabInternal: {fileID: 1970266812}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &1084141664 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11474650, guid: b07c271709334584c8bb04ddbd6fca41,
@@ -13181,12 +13187,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1970266812}
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
---- !u!114 &1084141697 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11422364, guid: b07c271709334584c8bb04ddbd6fca41,
-    type: 2}
-  m_PrefabInternal: {fileID: 1970266812}
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!1 &1084890464 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 173316, guid: 60c792e36724b5042b13935cb55a01aa, type: 2}
@@ -17384,7 +17384,7 @@ MonoBehaviour:
   - {fileID: 1475542825}
 --- !u!114 &1475542829
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17397,7 +17397,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1475542830
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17410,7 +17410,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &1475542831
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17437,7 +17437,7 @@ MonoBehaviour:
     stringVal: INVESTIGATE
 --- !u!114 &1475542832
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17464,7 +17464,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1475542833
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17491,7 +17491,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1475542834
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17504,7 +17504,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &1475542835
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17517,7 +17517,7 @@ MonoBehaviour:
   indentLevel: 2
 --- !u!114 &1475542836
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17544,7 +17544,7 @@ MonoBehaviour:
     stringVal: INVESTIGATE
 --- !u!114 &1475542837
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17571,7 +17571,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1475542838
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17732,12 +17732,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1587506604}
   m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
---- !u!114 &1475542897 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11419074, guid: c913766290c61754391fe0a838da1d5f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1587506604}
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
 --- !u!114 &1475542899
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22306,7 +22300,7 @@ Prefab:
     - target: {fileID: 11470428, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1084141697}
+      objectReference: {fileID: 1084141663}
     - target: {fileID: 11446292, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
       propertyPath: nodeRect.width
       value: 162
@@ -23166,6 +23160,18 @@ Prefab:
         affair. The Davenports could not know about this so I left the tapes in Charles\u2019
         room.\r\nPlayer: I still need to find Bertha, so I\u2019m going to need the
         keys.\r\nMi Na: Leave me alone. Here are the keys.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11424906, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
+      propertyPath: conversationText.stringVal
+      value: "Player: Hey there Maurice. Anything new?\nMaurice: You know what Sam
+        just told me? He claims he\u2019ll be paying off his debts after tonight.
+        How is that possible? He never wins; tonight will be no different.\r\nPlayer:
+        Hm. What\u2019s that's you've been carrying around?\r\nMaurice: Ah, this is
+        universal power cord. I grabbed it because I wanted to take some photos of
+        Bertha on the rooftop. I had to charge my camera last night.\r\nPlayer: Can
+        I see these photos?\r\nMaurice: Sure. Doesn\u2019t she look beautiful in these?\r\nPlayer:
+        Can I borrow that cable for a bit?\r\nMaurice: Yea, of course. I don\u2019t
+        need it anymore.\r"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11423788, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
