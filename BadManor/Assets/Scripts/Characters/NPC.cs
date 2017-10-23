@@ -64,7 +64,7 @@ namespace Assets.Scripts.Characters
 
 
 		 if (isWalking) {
-				Debug.Log ("Is walking");
+			//	Debug.Log ("Is walking");
 
 				walkCounter = walkCounter - Time.deltaTime;
 				if (walkCounter < 0) {
@@ -92,7 +92,7 @@ namespace Assets.Scripts.Characters
 
 					break;
 				case 1:
-					Debug.Log ("Should be animated for right");
+				//	Debug.Log ("Should be animated for right");
 				/*	_animator.SetBool("WalkRight",true);
 					_animator.SetBool("Idle",false);
 					_animator.SetBool("WalkDown",false);
@@ -189,7 +189,7 @@ namespace Assets.Scripts.Characters
 
 		public void chooseDirection ()
 		{
-			Debug.Log ("Choosing Direction");
+			//Debug.Log ("Choosing Direction");
 		
 			walkDirection = Random.Range (0, 4);
 		

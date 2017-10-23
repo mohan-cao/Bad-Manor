@@ -11,8 +11,10 @@ namespace Assets.Scripts
     {
         /// <summary>
         /// Store for the name property.</summary>
-        [SerializeField]
-        private Stopwatch _stopwatch;
+        [field: NonSerialized]
+        public Stopwatch _stopwatch;
+        [SerializeField] public long offset; 
+        
 
         [SerializeField] 
         private long _score;
@@ -22,13 +24,14 @@ namespace Assets.Scripts
         public ScoreManager()
         {
             _stopwatch = new Stopwatch();
+            offset = 0;
         }
         
         /// <summary>
         /// Returns how long the player has been playing for.</summary>
         public long timeSinceStart()
         {
-            return _stopwatch.ElapsedMilliseconds;
+            return _stopwatch.ElapsedMilliseconds + offset;
         }
 
         /// <summary>

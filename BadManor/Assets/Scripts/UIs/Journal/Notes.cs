@@ -9,6 +9,7 @@ public class Notes : MonoBehaviour {
 	public GameObject evenNote;
 	public GameObject oddNote;
 	public GameObject viewPort;
+    public Journalizer jnr;
 
 	private HashSet<string[]> notes = new HashSet<string[]> ();
 	private float NOTE_HEIGHT = 85f;
@@ -57,5 +58,15 @@ public class Notes : MonoBehaviour {
 	void Start () {
 		contentPos = viewPort.GetComponent<RectTransform> ();
 		contentPos.sizeDelta = new Vector2 (contentPos.sizeDelta.x, 0f);
+        updateNotes();
 	}
+
+    public void updateNotes()
+    {
+        Debug.Log("adding");
+        foreach (string str in jnr.getNotesList()) {
+            Debug.Log(str);
+            AddNote("NOTE", str);
+        }
+    }
 }

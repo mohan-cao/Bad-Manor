@@ -1,7 +1,8 @@
-﻿using UnityEngine;
-using System.IO;  
-using System.Collections;
+﻿using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using Fungus;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
@@ -10,7 +11,7 @@ namespace Assets.Scripts
     /// currently only depends on GameManager for prototype but this is assumed to change</summary>
     public class GameLoader : MonoBehaviour
     {
-        string filename = Application.persistentDataPath + "savegame";
+        string filename = "savegame";
         
         /// <summary>
         /// Singleton pattern instance to ensure there's only one GameLoader and state on the same PC.</summary>
@@ -36,23 +37,29 @@ namespace Assets.Scripts
         /// Creates a new game state.</summary>
         public void newGame()
         {
-            _gameManager = new GameManager();
+            _gameManager = gameObject.AddComponent<GameManager>();
         }
 
         /// <summary>
         /// Will load a saved game state but for prototype will create a new one.</summary>
         public void loadGame()
         {
-            if (File.Exists(filename))  
-            {  
-                Stream serialiseStream = File.OpenRead(filename);  
-                BinaryFormatter deserializer = new BinaryFormatter();  
-                _gameManager = (GameManager)deserializer.Deserialize(serialiseStream);  
-                serialiseStream.Close();  
+            newGame();
+            if (File.Exists(filename))
+            {
+                Debug.LogWarning("TAKE ON UNITY");
+                Stream serialiseStream = File.OpenRead(filename);
+                Debug.LogWarning("TAKE ON UNITY");
+                BinaryFormatter deserializer = new BinaryFormatter();
+                Debug.LogWarning("TAKE ON UNITY");
+                SaveGame saveGame = deserializer.Deserialize(serialiseStream) as SaveGame;
+                Debug.LogWarning("TAKE ON UNITY");
+                serialiseStream.Close();
+                _gameManager.InitGameFromSave(saveGame);
             }
             else
             {
-                newGame ();   
+                newGame();   
             }
         }
 
@@ -66,9 +73,20 @@ namespace Assets.Scripts
 
         public void saveGame()
         {
+            _gameManager.ScoreManager.pause();
+            _gameManager.ScoreManager.offset += _gameManager.ScoreManager.timeSinceStart();
+            SaveGame saveGame;
+            Flowchart characFlowchart = GameObject.Find("/Char-Flowcharts").GetComponent<Flowchart>();
+            Flowchart itemFlowchart = GameObject.Find("/Item-Flowchart").GetComponent<Flowchart>();
+            saveGame = new SaveGame(itemFlowchart.GetBooleanVariable("IsPluggedIn"),
+                itemFlowchart.GetBooleanVariable("IsBelt"),
+                itemFlowchart.GetBooleanVariable("IsMachine"),
+                characFlowchart.GetStringVariable("CURRENT_STATE"),
+                characFlowchart.GetIntegerVariable("RNG"),
+                _gameManager.ScoreManager);
             Stream serialiseStream = File.Create(filename);
             BinaryFormatter serializer = new BinaryFormatter();
-            serializer.Serialize(serialiseStream, _gameManager);
+            serializer.Serialize(serialiseStream, saveGame);
             serialiseStream.Close();
         }
     }
