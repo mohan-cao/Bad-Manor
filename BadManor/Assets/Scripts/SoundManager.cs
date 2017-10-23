@@ -9,6 +9,7 @@ namespace Assets.Scripts
     /// <inheritdoc />
     /// <summary>
     /// SoundManager will manage sound effects and music but for prototype this does nothing.</summary>
+heig[Serializable()]
 	public class SoundManager : MonoBehaviour 
 	{
 		private Dictionary<string,AudioSource> _efxSource = new Dictionary<string,AudioSource>();                   //Drag a reference to the audio source which will play the sound effects.

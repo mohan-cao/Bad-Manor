@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,6 +11,7 @@ namespace Assets.Scripts.UIs
     /// <summary>
     /// Win/Lose Interface handler. It shows the player's score (time taken) and quits for them when they're ready
     /// .</summary>
+    [Serializable()]
     class Score : Interface
     {
         /// <summary>

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -9,6 +10,7 @@ namespace Assets.Scripts.World
     /// a teleporter.
     /// TODO: Make Teleporter a Derived Class of this.
     /// </summary>
+    [Serializable()]
     public class ArrivalTeleporter : Teleporter
     {
 

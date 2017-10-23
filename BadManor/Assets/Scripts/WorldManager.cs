@@ -11,7 +11,8 @@ namespace Assets.Scripts
 	/// WorldManager is what manages the world the player interacts with; movement between rooms, where rooms are, 
 	/// where to spawn players, suggesting the next state and how warppards work. It's responsibility is store the state
 	/// of the world. It only depends on classes in its World directory and GameManager.</summary>
-    public class WorldManager : MonoBehaviour
+	[Serializable()] 
+	public class WorldManager : MonoBehaviour
     {
 	    /// <summary>
 	    /// Determines if the player is allowed to go to enter another room.</summary>
