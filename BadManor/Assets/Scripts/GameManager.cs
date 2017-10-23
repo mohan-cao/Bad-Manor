@@ -95,7 +95,7 @@ namespace Assets.Scripts
 
 			SceneManager.LoadScene ("NewManor");
 	        
-	        StartCoroutine(WaitTilSceneLoaded("NewManor"));
+	        //StartCoroutine(WaitTilSceneLoaded("NewManor"));
 	        Debug.LogWarning(SceneManager.GetActiveScene().name);
 	        ScoreManager.resume();
             // Start everything here
@@ -120,6 +120,10 @@ namespace Assets.Scripts
 
 	    private void OnLevelWasLoaded(int level)
 	    {
+            if (_saveGame == null)
+            {
+                return;
+            }
 		    Flowchart characFlowchart = null;
 		    Flowchart itemFlowchart = null;
 		    GameObject c1 = GameObject.Find("Char-Flowcharts");
@@ -157,6 +161,7 @@ namespace Assets.Scripts
 		    // Load options picked
 		    // Get ready to start timing
 	    }
+
 
 	    /// <summary>
 	    /// Informs the current story state.</summary>

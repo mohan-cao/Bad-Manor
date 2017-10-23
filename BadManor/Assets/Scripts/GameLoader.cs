@@ -37,6 +37,7 @@ namespace Assets.Scripts
         /// Creates a new game state.</summary>
         public void newGame()
         {
+           // _gameManager = new GameManager();
             _gameManager = gameObject.AddComponent<GameManager>();
         }
 
@@ -67,7 +68,8 @@ namespace Assets.Scripts
         /// Only leaves the game for the prototype but should soon save too.</summary>
 		public void quitGame()
         {
-            saveGame();
+            if (_gameManager != null) { 
+                saveGame(); }
             Application.Quit ();
         }
 

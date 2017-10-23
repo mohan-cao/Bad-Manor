@@ -45,6 +45,7 @@ namespace Assets.Scripts.Characters
         public Flowchart dialogueFlowchart;
         private bool escapePressed = false;
         private SimpleJoystick js;
+        public static bool journalopen;
 
         private bool spacePressed = false;
 
@@ -74,10 +75,14 @@ namespace Assets.Scripts.Characters
                 _animator.SetFloat("MoveX", 0f);
                 _animator.SetFloat("MoveY", 0f);
             }
+            else if (_Journal.gameObject.activeSelf)
+            {
+                //do nothing
+            }
             else
             {
-	            if (CnInputManager.GetButtonDown("Esc"))
-	            {
+	            if (CnInputManager.GetButtonDown("Esc") || Input.GetKeyUp(KeyCode.Escape))
+                {
 		            _Journal.GetComponent<Journal>().OpenJournal();
 	            }
                 // Get X and Y vectors
