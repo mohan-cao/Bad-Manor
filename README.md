@@ -5,12 +5,12 @@
 </div>
 
 # Execution Instructions
-* Run the .exe with "Fantastic" option selected under Graphics Quality.
+* Run the .exe with "Fantastic" option selected under Graphics Quality. (Else buttons eg Journal may not be sensitive due to Unity issues)
 * Use directional arrow keys to move player
 * Walk into a character or item to interact
 * Press [Space] to interact with NPCs via dialogue
-* Talk to NPCs until they finish speaking what you think is relevant, then leave the conversation, or NPCs could continue through randomly generated dialogue
-* To go back down stairs, walk around to the other side of the stairs (like escalators)
+* Press [x] to move between rooms
+
 
 # Setting Up
 1. Set up Git LFS. https://git-lfs.github.com/
