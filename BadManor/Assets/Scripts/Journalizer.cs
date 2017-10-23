@@ -50,5 +50,10 @@ public class Journalizer : MonoBehaviour {
 
     }
 
+    public void newItemGet()
+    {
+
+    }
+
 
 }
