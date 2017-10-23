@@ -6060,12 +6060,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1970266812}
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
---- !u!114 &938893404 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11426900, guid: b07c271709334584c8bb04ddbd6fca41,
-    type: 2}
-  m_PrefabInternal: {fileID: 1970266812}
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!1001 &941903239
 Prefab:
   m_ObjectHideFlags: 0
@@ -7328,6 +7322,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c7d063d689b0888468fdb1ed8d9d2846, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1084141508 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11495372, guid: b07c271709334584c8bb04ddbd6fca41,
+    type: 2}
+  m_PrefabInternal: {fileID: 1970266812}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!1 &1084890464 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 173316, guid: 60c792e36724b5042b13935cb55a01aa, type: 2}
@@ -10353,6 +10353,156 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 2082387910}
   m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
+--- !u!1 &1475542784 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 137758, guid: c913766290c61754391fe0a838da1d5f, type: 2}
+  m_PrefabInternal: {fileID: 1587506604}
+--- !u!114 &1475542899
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475542784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  indentLevel: 0
+  storyText: There's also a report on how to track vehicles all around the country.
+    There are several diagrams on this report.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1475542900
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475542784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed081ad4ebea41c580e1cdd6fe65ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1475542904}
+  draggableObject: {fileID: 1796309189}
+  targetObject: {fileID: 278972485}
+--- !u!114 &1475542901
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475542784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 107
+  indentLevel: 0
+  variable: {fileID: 80081945}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1475542902
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475542784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  indentLevel: 0
+  storyText: A bookshelf with many programming books. There is a book on software
+    architecture by Bass, Clements, and Kazman.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1475542903
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475542784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 103
+  indentLevel: 0
+  variable: {fileID: 80081945}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+--- !u!114 &1475542904
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1475542784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 242.67102
+    y: 608.1201
+    width: 191
+    height: 40
+  itemId: 102
+  blockName: Bookshelf
+  description: 
+  eventHandler: {fileID: 1475542900}
+  commandList:
+  - {fileID: 1475542903}
+  - {fileID: 1475542902}
+  - {fileID: 1475542899}
+  - {fileID: 1475542901}
 --- !u!1 &1508642730
 GameObject:
   m_ObjectHideFlags: 0
@@ -11311,6 +11461,14 @@ Prefab:
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 278972485}
+    - target: {fileID: 11419074, guid: c913766290c61754391fe0a838da1d5f, type: 2}
+      propertyPath: selectedBlock
+      value: 
+      objectReference: {fileID: 1475542904}
+    - target: {fileID: 11419074, guid: c913766290c61754391fe0a838da1d5f, type: 2}
+      propertyPath: selectedCommands.Array.data[0]
+      value: 
+      objectReference: {fileID: 1475542901}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c913766290c61754391fe0a838da1d5f, type: 2}
   m_IsPrefabParent: 0
@@ -12813,6 +12971,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 0}
+--- !u!1 &1796309188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1796309191}
+  - 61: {fileID: 1796309190}
+  - 114: {fileID: 1796309189}
+  m_Layer: 0
+  m_Name: Collide-Book
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1796309189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796309188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a0e492e94664ec0ac44d252c40e3a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragEnabled: 1
+  returnOnCancelled: 1
+  returnOnCompleted: 1
+  returnDuration: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
+--- !u!61 &1796309190
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796309188}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.18, y: 1}
+--- !u!4 &1796309191
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796309188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 107.16, y: -189.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 32
 --- !u!1001 &1798669637
 Prefab:
   m_ObjectHideFlags: 0
@@ -14188,7 +14407,7 @@ Prefab:
     - target: {fileID: 11470428, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 938893404}
+      objectReference: {fileID: 1084141508}
     - target: {fileID: 11446292, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
       propertyPath: nodeRect.width
       value: 162
@@ -14216,6 +14435,26 @@ Prefab:
     - target: {fileID: 11470428, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
       propertyPath: blockViewHeight
       value: 436
+      objectReference: {fileID: 0}
+    - target: {fileID: 11433992, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
+      propertyPath: conversationText.stringVal
+      value: "Player: Nice to meet you.\r\nAvni: Nice to meet you too, I\u2019m Avni.\r\nPlayer:
+        Hi Avni. This party seems pretty interesting, no?\r\nAvni: Definitely. I was
+        just talking to Maurice before. He\u2019s the director. \nAvni: I heard that
+        he was in love with Bertha years ago, but was rejected because he was way
+        too old. 40 years older, to be exact; they even shared the same birthday.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11475652, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
+      propertyPath: conversationText.stringVal
+      value: "Player: Hey, what\u2019s up?\r\nAvni: I just heard what\u2019s going
+        on with Sam. \nAvni: He\u2019s not that great at blackjack and has been losing
+        money -- to the point that the debt collectors are going to see him soon.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472134, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
+      propertyPath: conversationText.stringVal
+      value: "Player: Hey, what\u2019s going on tonight?\r\nAvni: I think my complaints
+        to the Davenports have succeeded. I heard Charles has been left off their
+        will. \nAvni: Maybe that\u2019ll prompt him to find a job.\r\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
