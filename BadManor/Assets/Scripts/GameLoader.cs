@@ -37,7 +37,8 @@ namespace Assets.Scripts
         /// Creates a new game state.</summary>
         public void newGame()
         {
-            _gameManager = gameObject.AddComponent<GameManager>();
+            _gameManager = new GameManager();
+           // _gameManager = gameObject.AddComponent<GameManager>();
         }
 
         /// <summary>
