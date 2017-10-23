@@ -27,8 +27,8 @@ public class TimerScript : MonoBehaviour
 	/// Every frame the text field in the game interface is updated with time take.</summary>
 	void Update ()
 	{
-		minutes = (int) (GameManager.inst.ScoreManager.timeSinceStart() / 60f);
-		seconds= (int)(GameManager.inst.ScoreManager.timeSinceStart() % 60f);
+		minutes = (int) (GameManager.inst.ScoreManager.time() / 60f);
+		seconds= (int)(GameManager.inst.ScoreManager.time() % 60f);
 		counterText.text = "Playing for : " + minutes.ToString("00") + ":" + seconds.ToString("00");
 	}
 }
