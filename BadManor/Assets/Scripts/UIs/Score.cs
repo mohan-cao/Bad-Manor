@@ -20,7 +20,7 @@ namespace Assets.Scripts.UIs
         public Text content;
         public Text playerName;
         public List<ScoreEntry> _scores;
-        public long playerScore;
+        public long playerScore = 0;
         
         string FileName = "scores";  
         
@@ -28,8 +28,8 @@ namespace Assets.Scripts.UIs
         /// Take the time taken by the player and place in the text field.</summary>
         private void Start()
         {
-            playerScore = GameManager.inst.timeSinceStart() / 1000 + GameManager.inst.ScoreManager.currentScore();
-            scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart()/1000 + " seconds,\nTotal Score: " + playerScore;
+            playerScore = GameManager.inst.timeSinceStart() / 1000;
+            scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart()/1000 + " seconds";
             if (GameManager.inst.won())
             {
                 finalMessage.text = "Sam was swiftly arrested once Brange recovered from fainting. Despite losing " +
@@ -53,7 +53,7 @@ namespace Assets.Scripts.UIs
         /// Quits the game for the user.</summary>
         public void Quit()
         {
-            _scores.Add(new ScoreEntry(playerName.text, playerScore));
+            _scores.Add(new ScoreEntry("", playerScore));
             saveScores();
             Application.Quit();
         }
@@ -61,16 +61,23 @@ namespace Assets.Scripts.UIs
         private void loadScores()
         {
             if (File.Exists(FileName))  
-            {  
-                Stream scoFileStream = File.OpenRead(FileName);  
-                BinaryFormatter deserializer = new BinaryFormatter();  
-                _scores = (List<ScoreEntry>)deserializer.Deserialize(scoFileStream);  
+            {
+                Debug.Log("I H8 UNITY");
+                Stream scoFileStream = File.OpenRead(FileName);
+                Debug.Log("I H8 UNITY");
+                BinaryFormatter deserializer = new BinaryFormatter();
+                Debug.Log("I H8 UNITY");
+                _scores = (List<ScoreEntry>)deserializer.Deserialize(scoFileStream);
+                Debug.Log("I H8 UNITY");
                 scoFileStream.Close();
+                Debug.Log("I H8 UNITY");
             }
+            Debug.Log(_scores);
             _scores.Sort();
             foreach (ScoreEntry s in _scores)
             {
-                content.text += s.Name + ": " + s.score + "\n";
+                Debug.Log(s);
+                content.text += "Previous time: " + s.score + " seconds \n";
             }
             RectTransform rt = content.GetComponent<RectTransform>();
             float height = rt.sizeDelta.y;
@@ -89,12 +96,10 @@ namespace Assets.Scripts.UIs
     [Serializable()] 
     public class ScoreEntry : IComparable<ScoreEntry>
     {
-        public String Name;
         public long score;
 
         public ScoreEntry(String namge, long score)
         {
-            Name = namge;
             this.score = score;
         }
 
