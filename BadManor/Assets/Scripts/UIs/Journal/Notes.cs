@@ -37,9 +37,6 @@ public class Notes : MonoBehaviour {
 
 		RectTransform rt = noteObj.GetComponent<RectTransform> ();
 		rt.localScale = new Vector3 (1, 1, 1);
-		//rt.localPosition = new Vector3(203f, 60f - ((notes.Count ) * 86f)	, 0f);
-		//rt.sizeDelta = new Vector2(contentPos.sizeDelta.x - 100f, rt.sizeDelta.y);
-		//noteObj.transform.localPosition = new Vector3(0f, 0f - ((notes.Count - 1) * 85f)	, 0f);
 	}
 
 	void ScaleContent() {
@@ -60,10 +57,5 @@ public class Notes : MonoBehaviour {
 	void Start () {
 		contentPos = viewPort.GetComponent<RectTransform> ();
 		contentPos.sizeDelta = new Vector2 (contentPos.sizeDelta.x, 0f);
-
-		AddNote (new TimeSpan (1, 1, 1), "TEST");
-		AddNote (new TimeSpan (1, 1, 1), "TEST");
-		AddNote (new TimeSpan (1, 1, 1), "TEST");
-		AddNote (new TimeSpan (1, 1, 1), "Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! Omg I am testing!!! ");
 	}
 }

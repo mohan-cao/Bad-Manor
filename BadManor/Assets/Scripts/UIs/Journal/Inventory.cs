@@ -10,16 +10,7 @@ public class Inventory : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//items.Add (testItem);
+		
 	}
-	
-//	public void UpdateItems() {
-//		int count = 0;
-//		foreach (GameObject item in items) {
-//			Vector3 pos = slots [count].transform.position;
-//			item.transform.position = pos;
-//			item.SetActive (true);
-//			count++;
-//		}
-//	}
+
 }
