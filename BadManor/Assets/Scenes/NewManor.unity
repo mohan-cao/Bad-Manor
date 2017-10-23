@@ -22859,7 +22859,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 11436326, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.size
@@ -22912,7 +22912,7 @@ Prefab:
     - target: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1852669285}
+      objectReference: {fileID: 1852669299}
     - target: {fileID: 11463130, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: variable
       value: 
@@ -23224,7 +23224,7 @@ Prefab:
     - target: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1852669256}
     - target: {fileID: 11495304, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: targetObject
       value: 
@@ -23432,23 +23432,23 @@ Prefab:
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1852669160}
+      objectReference: {fileID: 1852669158}
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1852669158}
+      objectReference: {fileID: 1852669159}
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1852669159}
+      objectReference: {fileID: 1852669175}
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1852669230}
+      objectReference: {fileID: 1852669174}
     - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 1852669231}
+      objectReference: {fileID: 1852669230}
     - target: {fileID: 11436326, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: commandList.Array.data[7]
       value: 
@@ -23517,8 +23517,38 @@ Prefab:
       propertyPath: commandList.Array.data[12]
       value: 
       objectReference: {fileID: 1852669152}
+    - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[10]
+      value: 
+      objectReference: {fileID: 1852669231}
+    - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[11]
+      value: 
+      objectReference: {fileID: 1852669231}
+    - target: {fileID: 11458248, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: storyText
+      value: The Davenports' safe is open. This might provide me useful evidence.
+        Let's have a look. The safe is not entirely empty.
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1852669256}
+    - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 1852669296}
+    - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 1852669295}
+    - target: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+      propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 1852669160}
     m_RemovedComponents:
     - {fileID: 11490398, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
+    - {fileID: 11428946, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
   m_IsPrefabParent: 0
 --- !u!114 &1610499351 stripped
@@ -26849,6 +26879,44 @@ MonoBehaviour:
     gameObjectRef: {fileID: 0}
     gameObjectVal: {fileID: 1328393716}
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1852669174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852669145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 717
+  indentLevel: 1
+  storyText: The Davenports' safe is open. Probably not a good idea to snoop.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852669175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1852669145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa968f01a7f9496bb50e13dfe16760d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 716
+  indentLevel: 0
 --- !u!114 &1852669179 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11437802, guid: a7de1d1445a553145ab9acedf63745af,
@@ -26885,18 +26953,18 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+--- !u!114 &1852669256 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11491752, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
 --- !u!114 &1852669272 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11499686, guid: a7de1d1445a553145ab9acedf63745af,
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
---- !u!114 &1852669285 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11419346, guid: a7de1d1445a553145ab9acedf63745af,
-    type: 2}
-  m_PrefabInternal: {fileID: 1610499350}
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &1852669286 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11487096, guid: a7de1d1445a553145ab9acedf63745af,
@@ -26909,6 +26977,24 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+--- !u!114 &1852669295 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11479768, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+--- !u!114 &1852669296 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11458248, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+--- !u!114 &1852669299 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11467916, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &1852669317 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11446246, guid: a7de1d1445a553145ab9acedf63745af,
