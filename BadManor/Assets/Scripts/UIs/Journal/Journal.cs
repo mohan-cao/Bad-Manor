@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts;
+using UnityEngine;
 using Assets.Scripts.UIs;
 
 /// <summary>
@@ -15,7 +16,6 @@ public class Journal : Interface {
 	public GameObject inventoryPanel;
 	public GameObject profilesPanel;
 	public GameObject notesPanel;
-
 	private GameObject currentPanel;
 
 	public enum MenuPanel {
@@ -67,4 +67,13 @@ public class Journal : Interface {
 		currentPanel.SetActive (true);
 	}
 
+	public void save()
+	{
+		GameLoader.Inst.saveGame();
+	}
+	
+	public void quit()
+	{
+		GameLoader.Inst.quitGame();
+	}
 }

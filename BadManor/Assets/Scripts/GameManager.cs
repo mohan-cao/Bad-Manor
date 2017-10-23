@@ -32,7 +32,7 @@ namespace Assets.Scripts
 
 	    private Boolean _won = false;
 
-	    /// <summary>
+	    /// <summary> 
 	    /// A dictionary which stores all parameters to do with game state.</summary>
 		public Dictionary<string,object> Parameters;
 	    /// <summary>
