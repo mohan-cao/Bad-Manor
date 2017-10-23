@@ -2,6 +2,8 @@
 using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
+using Assets.Scripts.Sounds;
+using Fungus;
 using Random = UnityEngine.Random;
 
 namespace Assets.Scripts
@@ -72,6 +74,11 @@ namespace Assets.Scripts
 		}
 
 		public void SetBgm(AudioClip clip){
+			if (MusicSource != null)
+			{
+				Destroy(MusicSource);
+			}
+			MusicSource = gameObject.AddComponent<AudioSource>();
 			MusicSource.clip = clip;
 			MusicSource.loop = true;
 			MusicSource.Play ();
@@ -97,6 +104,7 @@ namespace Assets.Scripts
 		public bool StopAudioIfPlaying(string clip){
 			if (!_efxSource.ContainsKey(clip)) return false;
 			_efxSource [clip].Stop ();
+			Destroy(_efxSource[clip]);
 			_efxSource.Remove (clip);
 			return true;
 		}
@@ -116,6 +124,19 @@ namespace Assets.Scripts
 			audioSource.Play();
 			yield return new WaitForSeconds(audioSource.clip.length);
 			yield return loopSound(audioSource, start, end);
+		}
+
+		public void setBgmVolume(float volume)
+		{
+			MusicSource.volume = volume;
+		}
+
+		public void setSoundVolume(float volume)
+		{
+			foreach(AudioSource audio in _efxSource.Values)
+			{
+				audio.volume = volume;
+			}
 		}
 	}
 }

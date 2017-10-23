@@ -25,7 +25,8 @@ namespace Assets.Scripts.UIs
         public Text content;
         public List<ScoreEntry> _scores;
         public long playerScore;
-        const string FileName = "scores";  
+        
+        string FileName = Application.persistentDataPath + "scores";  
         
         /// <summary>
         /// Take the time taken by the player and place in the text field.</summary>
