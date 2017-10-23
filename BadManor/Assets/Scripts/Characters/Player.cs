@@ -78,7 +78,6 @@ namespace Assets.Scripts.Characters
             {
 	            if (CnInputManager.GetButtonDown("Esc"))
 	            {
-		            Debug.Log("FDSKJ");
 		            _Journal.GetComponent<Journal>().OpenJournal();
 	            }
                 // Get X and Y vectors
