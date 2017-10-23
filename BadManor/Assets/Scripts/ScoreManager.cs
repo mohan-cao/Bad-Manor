@@ -34,6 +34,11 @@ namespace Assets.Scripts
             return _stopwatch.ElapsedMilliseconds + offset;
         }
 
+        public long time()
+        {
+            return timeSinceStart() / 1000;
+        }
+        
         /// <summary>
         /// Continues the timer or starts it if not previously started.</summary>
         public void resume()
