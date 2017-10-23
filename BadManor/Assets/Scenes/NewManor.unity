@@ -13550,7 +13550,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 441704, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: m_LocalPosition.x
@@ -13591,7 +13591,7 @@ Prefab:
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1177341600}
+      objectReference: {fileID: 1177341641}
     - target: {fileID: 11460834, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: targetObject
       value: 
@@ -13852,7 +13852,7 @@ Prefab:
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 1177341768}
+      objectReference: {fileID: 0}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[39]
       value: 
@@ -24425,6 +24425,58 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &1177341263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177341134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 834
+  indentLevel: 0
+  targetObject: {fileID: 578203038}
+  targetComponentAssemblyName: Journalizer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Journalizer
+  targetMethod: winGame
+  targetMethodText: 'winGame (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &1177341264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177341134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 835
+  indentLevel: 0
+  targetObject: {fileID: 578203038}
+  targetComponentAssemblyName: Journalizer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Journalizer
+  targetMethod: loseGame
+  targetMethodText: 'loseGame (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &1177341265
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26014,12 +26066,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 855691200}
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
---- !u!114 &1177341600 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11478664, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
-    type: 2}
-  m_PrefabInternal: {fileID: 855691200}
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &1177341602 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11470422, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
@@ -26203,6 +26249,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1177341642}
   - {fileID: 1177341265}
+  - {fileID: 1177341263}
 --- !u!114 &1177341635
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -26374,6 +26421,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1177341636}
+  - {fileID: 1177341264}
 --- !u!114 &1177341642
 MonoBehaviour:
   m_ObjectHideFlags: 2
