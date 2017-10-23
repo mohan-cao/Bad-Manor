@@ -23,6 +23,7 @@ namespace Assets.Scripts.UIs
         public Text scoretext;
         public Text finalMessage;
         public Text content;
+        public Text playerName;
         public List<ScoreEntry> _scores;
         public long playerScore;
         
@@ -32,8 +33,8 @@ namespace Assets.Scripts.UIs
         /// Take the time taken by the player and place in the text field.</summary>
         private void Start()
         {
-            playerScore = GameManager.inst.timeSinceStart() / 1000;
-            scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart()/1000 + " seconds";
+            playerScore = GameManager.inst.timeSinceStart() / 1000 + GameManager.inst.ScoreManager.currentScore();
+            scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart()/1000 + " seconds, Total Score: " + playerScore;
             if (GameManager.inst.won())
             {
                 finalMessage.text = "Sam was swiftly arrested once Brange recovered from fainting. Despite losing " +
@@ -57,7 +58,7 @@ namespace Assets.Scripts.UIs
         /// Quits the game for the user.</summary>
         public void Quit()
         {
-            _scores.Add(new ScoreEntry(name, playerScore));
+            _scores.Add(new ScoreEntry(playerName.text, playerScore));
             saveScores();
             Application.Quit();
         }
