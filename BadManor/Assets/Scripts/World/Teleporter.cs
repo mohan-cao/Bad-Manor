@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts.World
 {
-
+    [Serializable()]
     public class Teleporter : MonoBehaviour
     {
         public int teleporterID;

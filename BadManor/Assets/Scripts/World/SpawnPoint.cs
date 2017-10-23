@@ -6,6 +6,7 @@ namespace Assets.Scripts.World
 {
     /// <summary>
     /// SpawnPoint represents where the player can be placed on the map.</summary>
+    [Serializable()]
     public class SpawnPoint : MonoBehaviour
     {
 

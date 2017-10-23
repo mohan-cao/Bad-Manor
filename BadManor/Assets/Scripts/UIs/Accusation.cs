@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Assets.Scripts;
 using Assets.Scripts.UIs;
 using UnityEngine.UI;
@@ -9,6 +10,7 @@ using UnityEngine.SceneManagement;
 /// evidence. It's respoonsibility is to keep track of which character is accused, prevent accusations before a minimum
 /// amonut of evidence is collected, check if the accusation is correct, show and hide itself. It depends only on 
 /// GameManager.</summary>
+[Serializable()]
 public class Accusation : Interface {
 
     /// <summary>
@@ -80,16 +82,17 @@ public class Accusation : Interface {
             
             if (accusingName == "AccuseSam")
             {
+                GameManager.inst.correctAnswer();
                 Debug.Log("Accusation: Won");
                 hideAccusePanel();
-                SceneManager.LoadScene("EndScreenWin");
+                SceneManager.LoadScene("EndScreen");
 
             }
             else
             {
                 Debug.Log("Accusation: Lost");
                 hideAccusePanel();
-                SceneManager.LoadScene("EndScreenLose");
+                SceneManager.LoadScene("EndScreen");
             }
         }
         else
