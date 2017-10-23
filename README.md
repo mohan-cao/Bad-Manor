@@ -5,10 +5,10 @@
 </div>
 
 # Execution Instructions
-* Run the .exe
-* Use arrow keys to move player
+* Run the .exe with "Fantastic" option selected under Graphics Quality.
+* Use directional arrow keys to move player
 * Walk into a character or item to interact
-* Press [space] to interact with NPCs via dialogue
+* Press [Space] to interact with NPCs via dialogue
 * Talk to NPCs until they finish speaking what you think is relevant, then leave the conversation, or NPCs could continue through randomly generated dialogue
 * To go back down stairs, walk around to the other side of the stairs (like escalators)
 
