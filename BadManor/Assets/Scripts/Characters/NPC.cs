@@ -53,7 +53,7 @@ namespace Assets.Scripts.Characters
 		}
 
 	//	void Update(){
-		void FixedUpdate()
+		void Update()
 		{
 
 			bool inConversation = dialogueFlowchart.GetBooleanVariable("IN_CONVERSATION");
