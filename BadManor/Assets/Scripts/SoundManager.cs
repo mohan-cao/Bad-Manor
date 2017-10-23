@@ -20,6 +20,10 @@ namespace Assets.Scripts
 		public float BgmStop;
 		private static SoundManager _instance = null;     //Allows other scripts to call functions from SoundManager.
 		private static int _counter = 0;
+        [Range(0f,1f)]
+        public float BgmVolume = 0.05f;
+        [Range(0f,1f)]
+        public float SoundVolume = 1;
 
 		private void Awake ()
 		{
@@ -28,6 +32,7 @@ namespace Assets.Scripts
 			{
 				//if not, set it to this.
 				_instance = this;
+                MusicSource.volume = BgmVolume;
 				StartCoroutine(loopSoundFromBeginningThenTheTwoPoints(MusicSource, BgmStart, BgmStop));
 			}
 			//If instance already exists:
@@ -52,6 +57,7 @@ namespace Assets.Scripts
 			if (_efxSource.ContainsKey(n))
 			{
 				if (_efxSource[n].isPlaying) return n;
+                _efxSource[n].volume = SoundVolume;
 				_efxSource[n].Stop();
 				_efxSource[n].Play();
 				return n;
@@ -59,6 +65,7 @@ namespace Assets.Scripts
 			var a = gameObject.AddComponent<AudioSource>();
 			if (clip.loadState != AudioDataLoadState.Loaded)
 				return null;
+            a.volume = SoundVolume;
 			a.clip = clip;
 			a.loop = loop;
 			if (!loop)
@@ -79,6 +86,7 @@ namespace Assets.Scripts
 				Destroy(MusicSource);
 			}
 			MusicSource = gameObject.AddComponent<AudioSource>();
+            MusicSource.volume = BgmVolume;
 			MusicSource.clip = clip;
 			MusicSource.loop = true;
 			MusicSource.Play ();
@@ -128,11 +136,13 @@ namespace Assets.Scripts
 
 		public void setBgmVolume(float volume)
 		{
+            BgmVolume = volume;
 			MusicSource.volume = volume;
 		}
 
 		public void setSoundVolume(float volume)
 		{
+            SoundVolume = volume;
 			foreach(AudioSource audio in _efxSource.Values)
 			{
 				audio.volume = volume;

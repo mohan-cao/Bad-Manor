@@ -15,7 +15,7 @@ public class Notes : MonoBehaviour {
 
 	private RectTransform contentPos;
 
-	public void AddNote(TimeSpan time, string note) {
+	public void AddNote(string time, string note) {
 		notes.Add (new string[] { time.ToString (), note });
 		ScaleContent ();
 
