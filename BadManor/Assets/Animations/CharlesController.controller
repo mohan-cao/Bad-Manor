@@ -687,7 +687,7 @@ AnimatorState:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DetectiveIdleFront
+  m_Name: NPCIdleFront
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -714,7 +714,7 @@ AnimatorState:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DetectiveMoveRight
+  m_Name: NPCMoveRight
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -741,7 +741,7 @@ AnimatorState:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DetectiveIdleBack
+  m_Name: NPCIdleUp
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -768,7 +768,7 @@ AnimatorState:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DetectiveMoveUp
+  m_Name: NPCMoveUp
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -795,7 +795,7 @@ AnimatorState:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DetectiveMoveLeft
+  m_Name: NPCLeft
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -870,7 +870,7 @@ AnimatorState:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DetectiveMoveDown
+  m_Name: NPCMoveDown
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

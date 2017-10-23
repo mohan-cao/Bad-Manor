@@ -165,8 +165,11 @@ namespace Assets.Scripts.Characters
 
 				}
 			} else {
-
-				updateanimator("Idle");
+				if (_animator.GetBool ("WalkUp")) {
+					updateanimator ("IdleUp");
+				} else {
+					updateanimator ("Idle");
+				}
 				waitCounter = waitCounter - Time.deltaTime;
 				myRigidbody.velocity = Vector2.zero;
 
@@ -207,7 +210,7 @@ namespace Assets.Scripts.Characters
 
 
 		void updateanimator(String state){
-			if (_animator.GetBool ("WalkUp")) {
+		/*	if (_animator.GetBool ("WalkUp")) {
 				_animator.SetBool ("Idle", false);
 
 				_animator.SetBool ("WalkUp", false);
@@ -216,7 +219,7 @@ namespace Assets.Scripts.Characters
 				_animator.SetBool ("WalkRight", false);
 				_animator.SetBool ("IdleUp", true);
 			}else {
-
+*/
 
 			_animator.SetBool ("Idle", false);
 			_animator.SetBool ("IdleUp", false);
@@ -232,5 +235,4 @@ namespace Assets.Scripts.Characters
 
 
 	}
-}
 }
