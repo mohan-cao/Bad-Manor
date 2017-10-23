@@ -6053,6 +6053,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1332013003}
   m_RootOrder: 17
+--- !u!1 &578203038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 578203040}
+  - 114: {fileID: 578203039}
+  m_Layer: 0
+  m_Name: Journalizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &578203039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578203038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e462a14b9da4d854eb08b7c536618cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notesPanel: {fileID: 1086574317}
+  notes: {fileID: 0}
+--- !u!4 &578203040
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 578203038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.985504, y: -220.16827, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 138
 --- !u!1001 &599437488
 Prefab:
   m_ObjectHideFlags: 0
@@ -8440,7 +8482,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 11459962, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
@@ -8448,7 +8490,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
-      value: 58
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 11494942, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
@@ -8505,7 +8547,7 @@ Prefab:
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1177341626}
+      objectReference: {fileID: 1177341616}
     - target: {fileID: 11460834, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: targetObject
       value: 
@@ -8626,123 +8668,123 @@ Prefab:
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1177341142}
+      objectReference: {fileID: 1177341554}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1177341554}
+      objectReference: {fileID: 1177341556}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1177341556}
+      objectReference: {fileID: 1177341145}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 1177341145}
+      objectReference: {fileID: 1177341144}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 1177341144}
+      objectReference: {fileID: 1177341552}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[11]
       value: 
-      objectReference: {fileID: 1177341552}
+      objectReference: {fileID: 1177341555}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[12]
       value: 
-      objectReference: {fileID: 1177341555}
+      objectReference: {fileID: 1177341143}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[13]
       value: 
-      objectReference: {fileID: 1177341143}
+      objectReference: {fileID: 1177341475}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[14]
       value: 
-      objectReference: {fileID: 1177341475}
+      objectReference: {fileID: 1177341361}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[15]
       value: 
-      objectReference: {fileID: 1177341361}
+      objectReference: {fileID: 1177341377}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[16]
       value: 
-      objectReference: {fileID: 1177341377}
+      objectReference: {fileID: 1177341550}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[17]
       value: 
-      objectReference: {fileID: 1177341550}
+      objectReference: {fileID: 1177341549}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[18]
       value: 
-      objectReference: {fileID: 1177341549}
+      objectReference: {fileID: 1177341223}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[19]
       value: 
-      objectReference: {fileID: 1177341223}
+      objectReference: {fileID: 1177341548}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[20]
       value: 
-      objectReference: {fileID: 1177341548}
+      objectReference: {fileID: 1177341339}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[21]
       value: 
-      objectReference: {fileID: 1177341339}
+      objectReference: {fileID: 1177341547}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[22]
       value: 
-      objectReference: {fileID: 1177341547}
+      objectReference: {fileID: 1177341340}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[23]
       value: 
-      objectReference: {fileID: 1177341340}
+      objectReference: {fileID: 1177341546}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[24]
       value: 
-      objectReference: {fileID: 1177341546}
+      objectReference: {fileID: 1177341341}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[25]
       value: 
-      objectReference: {fileID: 1177341341}
+      objectReference: {fileID: 1177341534}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[26]
       value: 
-      objectReference: {fileID: 1177341534}
+      objectReference: {fileID: 1177341141}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[27]
       value: 
-      objectReference: {fileID: 1177341141}
+      objectReference: {fileID: 1177341545}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[28]
       value: 
-      objectReference: {fileID: 1177341545}
+      objectReference: {fileID: 1177341140}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[29]
       value: 
-      objectReference: {fileID: 1177341140}
+      objectReference: {fileID: 1177341544}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[30]
       value: 
-      objectReference: {fileID: 1177341544}
+      objectReference: {fileID: 1177341139}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[31]
       value: 
-      objectReference: {fileID: 1177341139}
+      objectReference: {fileID: 1177341543}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[32]
       value: 
-      objectReference: {fileID: 1177341543}
+      objectReference: {fileID: 1177341138}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[33]
       value: 
-      objectReference: {fileID: 1177341138}
+      objectReference: {fileID: 1177341542}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[34]
       value: 
-      objectReference: {fileID: 1177341542}
+      objectReference: {fileID: 1177341137}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[35]
       value: 
-      objectReference: {fileID: 1177341137}
+      objectReference: {fileID: 1177341541}
     - target: {fileID: 11479262, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: conversationText.stringVal
       value: "Player: \nCharles: \nPlayer: \r\nCharles: "
@@ -8750,15 +8792,15 @@ Prefab:
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[36]
       value: 
-      objectReference: {fileID: 1177341541}
+      objectReference: {fileID: 1177341136}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[37]
       value: 
-      objectReference: {fileID: 1177341136}
+      objectReference: {fileID: 1177341540}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[38]
       value: 
-      objectReference: {fileID: 1177341540}
+      objectReference: {fileID: 1177341536}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[2]
       value: 
@@ -8766,11 +8808,11 @@ Prefab:
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 1177341635}
+      objectReference: {fileID: 1177341146}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[39]
       value: 
-      objectReference: {fileID: 1177341536}
+      objectReference: {fileID: 1177341535}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[40]
       value: 
@@ -9006,147 +9048,147 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[4]
       value: 
-      objectReference: {fileID: 1177341261}
+      objectReference: {fileID: 1177341142}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[5]
       value: 
-      objectReference: {fileID: 1177341260}
+      objectReference: {fileID: 1177341261}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1177341259}
+      objectReference: {fileID: 1177341260}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1177341258}
+      objectReference: {fileID: 1177341259}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1177341257}
+      objectReference: {fileID: 1177341258}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 1177341256}
+      objectReference: {fileID: 1177341257}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 1177341498}
+      objectReference: {fileID: 1177341256}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[11]
       value: 
-      objectReference: {fileID: 1177341497}
+      objectReference: {fileID: 1177341498}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[12]
       value: 
-      objectReference: {fileID: 1177341255}
+      objectReference: {fileID: 1177341497}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[13]
       value: 
-      objectReference: {fileID: 1177341254}
+      objectReference: {fileID: 1177341255}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[14]
       value: 
-      objectReference: {fileID: 1177341253}
+      objectReference: {fileID: 1177341254}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[15]
       value: 
-      objectReference: {fileID: 1177341495}
+      objectReference: {fileID: 1177341253}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[16]
       value: 
-      objectReference: {fileID: 1177341494}
+      objectReference: {fileID: 1177341495}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[17]
       value: 
-      objectReference: {fileID: 1177341252}
+      objectReference: {fileID: 1177341494}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[18]
       value: 
-      objectReference: {fileID: 1177341251}
+      objectReference: {fileID: 1177341252}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[19]
       value: 
-      objectReference: {fileID: 1177341250}
+      objectReference: {fileID: 1177341251}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[20]
       value: 
-      objectReference: {fileID: 1177341363}
+      objectReference: {fileID: 1177341250}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[21]
       value: 
-      objectReference: {fileID: 1177341372}
+      objectReference: {fileID: 1177341363}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[22]
       value: 
-      objectReference: {fileID: 1177341492}
+      objectReference: {fileID: 1177341372}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[23]
       value: 
-      objectReference: {fileID: 1177341491}
+      objectReference: {fileID: 1177341492}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[24]
       value: 
-      objectReference: {fileID: 1177341249}
+      objectReference: {fileID: 1177341491}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[25]
       value: 
-      objectReference: {fileID: 1177341248}
+      objectReference: {fileID: 1177341249}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[26]
       value: 
-      objectReference: {fileID: 1177341490}
+      objectReference: {fileID: 1177341248}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[27]
       value: 
-      objectReference: {fileID: 1177341247}
+      objectReference: {fileID: 1177341490}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[28]
       value: 
-      objectReference: {fileID: 1177341246}
+      objectReference: {fileID: 1177341247}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[29]
       value: 
-      objectReference: {fileID: 1177341245}
+      objectReference: {fileID: 1177341246}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[30]
       value: 
-      objectReference: {fileID: 1177341489}
+      objectReference: {fileID: 1177341245}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[31]
       value: 
-      objectReference: {fileID: 1177341244}
+      objectReference: {fileID: 1177341489}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[32]
       value: 
-      objectReference: {fileID: 1177341488}
+      objectReference: {fileID: 1177341244}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[33]
       value: 
-      objectReference: {fileID: 1177341243}
+      objectReference: {fileID: 1177341488}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[34]
       value: 
-      objectReference: {fileID: 1177341487}
+      objectReference: {fileID: 1177341243}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[35]
       value: 
-      objectReference: {fileID: 1177341242}
+      objectReference: {fileID: 1177341487}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[36]
       value: 
-      objectReference: {fileID: 1177341486}
+      objectReference: {fileID: 1177341242}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[37]
       value: 
-      objectReference: {fileID: 1177341241}
+      objectReference: {fileID: 1177341486}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[38]
       value: 
-      objectReference: {fileID: 1177341485}
+      objectReference: {fileID: 1177341241}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[39]
       value: 
-      objectReference: {fileID: 1177341240}
+      objectReference: {fileID: 1177341485}
     - target: {fileID: 11485780, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: conversationText.stringVal
       value: "Player: What\u2019s going on? There are so many people here.\r\nBrange:
@@ -9161,15 +9203,15 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[40]
       value: 
-      objectReference: {fileID: 1177341484}
+      objectReference: {fileID: 1177341240}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[41]
       value: 
-      objectReference: {fileID: 1177341231}
+      objectReference: {fileID: 1177341484}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[42]
       value: 
-      objectReference: {fileID: 1177341483}
+      objectReference: {fileID: 1177341231}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[2]
       value: 
@@ -9177,11 +9219,11 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[43]
       value: 
-      objectReference: {fileID: 1177341229}
+      objectReference: {fileID: 1177341483}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[44]
       value: 
-      objectReference: {fileID: 1177341482}
+      objectReference: {fileID: 1177341229}
     - target: {fileID: 11498106, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: conversationText.stringVal
       value: "Player: \nBrange:  \nBrange: "
@@ -9189,11 +9231,11 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[45]
       value: 
-      objectReference: {fileID: 1177341640}
+      objectReference: {fileID: 1177341482}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[46]
       value: 
-      objectReference: {fileID: 1177341639}
+      objectReference: {fileID: 1177341640}
     - target: {fileID: 11451092, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: conversationText.stringVal
       value: "Player: \nBrange: \nBrange: "
@@ -9201,11 +9243,11 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[47]
       value: 
-      objectReference: {fileID: 1177341638}
+      objectReference: {fileID: 1177341639}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[48]
       value: 
-      objectReference: {fileID: 1177341637}
+      objectReference: {fileID: 1177341638}
     - target: {fileID: 11469194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: conversationText.stringVal
       value: "Player: ?\r\nBrange: "
@@ -9213,7 +9255,7 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[49]
       value: 
-      objectReference: {fileID: 1177341635}
+      objectReference: {fileID: 1177341637}
     - target: {fileID: 11429944, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: conversationText.stringVal
       value: "\rPlayer:\nBrange: \nPlayer: "
@@ -9237,11 +9279,11 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[50]
       value: 
-      objectReference: {fileID: 1177341633}
+      objectReference: {fileID: 1177341635}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[51]
       value: 
-      objectReference: {fileID: 1177341632}
+      objectReference: {fileID: 1177341633}
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedCommands.Array.data[1]
       value: 
@@ -9253,19 +9295,19 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[52]
       value: 
-      objectReference: {fileID: 1177341631}
+      objectReference: {fileID: 1177341632}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[53]
       value: 
-      objectReference: {fileID: 1177341630}
+      objectReference: {fileID: 1177341631}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[54]
       value: 
-      objectReference: {fileID: 1177341629}
+      objectReference: {fileID: 1177341630}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[55]
       value: 
-      objectReference: {fileID: 1177341481}
+      objectReference: {fileID: 1177341629}
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedCommands.Array.data[2]
       value: 
@@ -10205,11 +10247,11 @@ Prefab:
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[56]
       value: 
-      objectReference: {fileID: 1177341480}
+      objectReference: {fileID: 1177341481}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[57]
       value: 
-      objectReference: {fileID: 1177341479}
+      objectReference: {fileID: 1177341480}
     - target: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[58]
       value: 
@@ -13287,6 +13329,10 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1086574317 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 112244, guid: dca75686976fdf64e856cba5d6007d63, type: 2}
+  m_PrefabInternal: {fileID: 1991354800}
 --- !u!1001 &1094112184
 Prefab:
   m_ObjectHideFlags: 0
@@ -14392,20 +14438,47 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1177341142
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177341134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 692
+  itemId: 710
   indentLevel: 1
-  targetObject: {fileID: 438940252}
-  methodName: AddNote("mohan", "andrew")
-  delay: 0
+  targetObject: {fileID: 578203038}
+  targetComponentAssemblyName: Journalizer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Journalizer
+  targetMethod: addANote
+  targetMethodText: 'addANote (String): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.String, mscorlib, Version=2.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.String
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: hey brad
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: 
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &1177341143
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17945,9 +18018,9 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 855691200}
   m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
---- !u!114 &1177341626 stripped
+--- !u!114 &1177341616 stripped
 MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11441012, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
+  m_PrefabParentObject: {fileID: 11401966, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
     type: 2}
   m_PrefabInternal: {fileID: 855691200}
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
@@ -22396,7 +22469,7 @@ Prefab:
     - target: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1852669162}
+      objectReference: {fileID: 1852669301}
     - target: {fileID: 11463130, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: variable
       value: 
@@ -25729,7 +25802,7 @@ MonoBehaviour:
     stringVal: FINDSECURITYEVIDENCE
 --- !u!114 &1852669154
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25754,7 +25827,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1852669155
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25780,7 +25853,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1852669156
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25805,7 +25878,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1852669157
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25831,7 +25904,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1852669158
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25852,7 +25925,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &1852669159
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25873,7 +25946,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &1852669160
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25894,7 +25967,7 @@ MonoBehaviour:
   setMenuDialog: {fileID: 0}
 --- !u!114 &1852669161
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25918,7 +25991,7 @@ MonoBehaviour:
   - {fileID: 1852669164}
 --- !u!114 &1852669162
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25945,7 +26018,7 @@ MonoBehaviour:
   - {fileID: 1852669165}
 --- !u!114 &1852669163
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25969,7 +26042,7 @@ MonoBehaviour:
   - {fileID: 1852669166}
 --- !u!114 &1852669164
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -25996,7 +26069,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1852669165
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -26023,7 +26096,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1852669166
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -26050,7 +26123,7 @@ MonoBehaviour:
     stringVal: 
 --- !u!114 &1852669167
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -26075,7 +26148,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1852669168
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852669145}
@@ -26112,6 +26185,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+--- !u!114 &1852669301 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11484332, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!1 &1852707455
 GameObject:
   m_ObjectHideFlags: 0
@@ -27560,6 +27639,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11489002, guid: dca75686976fdf64e856cba5d6007d63, type: 2}
+      propertyPath: jnr
+      value: 
+      objectReference: {fileID: 578203039}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dca75686976fdf64e856cba5d6007d63, type: 2}
   m_IsPrefabParent: 0

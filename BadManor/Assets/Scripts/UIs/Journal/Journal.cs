@@ -18,6 +18,8 @@ public class Journal : Interface {
 	public GameObject notesPanel;
 	private GameObject currentPanel;
 
+    private Notes notesScript;
+
 	public enum MenuPanel {
 		GameMenu,
 		Inventory,
@@ -32,10 +34,12 @@ public class Journal : Interface {
         //journal.gameObject.SetActive(false);
 		currentPanel = gameMenuPanel;
 		SwitchPanel (0);
+        notesScript = notesPanel.GetComponent<Notes>();
     }
 
 	public void OpenJournal() {
 		journal.gameObject.SetActive(true);
+        
 		SwitchPanel (0);
 	}
 
@@ -47,7 +51,12 @@ public class Journal : Interface {
     }
 
 	public void SwitchPanel(int panel) {
-		currentPanel.SetActive (false);
+        if (currentPanel != null)
+        {
+            Debug.Log("good!");
+            currentPanel.SetActive(false);
+        } 
+        
 		switch (panel) 
 		{
 			case 0:
@@ -59,7 +68,10 @@ public class Journal : Interface {
 				break;
 			case 2:
 				currentPanel = notesPanel;
-				break;
+                currentPanel.SetActive(true);
+                notesScript.updateNotes();
+
+                break;
 			case 3:
 				currentPanel = profilesPanel;
 				break;
