@@ -1,0 +1,2828 @@
+fileFormatVersion: 2
+guid: 6a523a7008aa3f74e8e060c19d8b5e50
+timeCreated: 1508198229
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: iwo_0
+    21300002: iwo_1
+    21300004: iwo_2
+    21300006: iwo_3
+    21300008: iwo_4
+    21300010: iwo_5
+    21300012: iwo_6
+    21300014: iwo_7
+    21300016: iwo_8
+    21300018: iwo_9
+    21300020: iwo_10
+    21300022: iwo_11
+    21300024: iwo_12
+    21300026: iwo_13
+    21300028: iwo_14
+    21300030: iwo_15
+    21300032: iwo_16
+    21300034: iwo_17
+    21300036: iwo_18
+    21300038: iwo_19
+    21300040: iwo_20
+    21300042: iwo_21
+    21300044: iwo_22
+    21300046: iwo_23
+    21300048: iwo_24
+    21300050: iwo_25
+    21300052: iwo_26
+    21300054: iwo_27
+    21300056: iwo_28
+    21300058: iwo_29
+    21300060: iwo_30
+    21300062: iwo_31
+    21300064: iwo_32
+    21300066: iwo_33
+    21300068: iwo_34
+    21300070: iwo_35
+    21300072: iwo_36
+    21300074: iwo_37
+    21300076: iwo_38
+    21300078: iwo_39
+    21300080: iwo_40
+    21300082: iwo_41
+    21300084: iwo_42
+    21300086: iwo_43
+    21300088: iwo_44
+    21300090: iwo_45
+    21300092: iwo_46
+    21300094: iwo_47
+    21300096: iwo_48
+    21300098: iwo_49
+    21300100: iwo_50
+    21300102: iwo_51
+    21300104: iwo_52
+    21300106: iwo_53
+    21300108: iwo_54
+    21300110: iwo_55
+    21300112: iwo_56
+    21300114: iwo_57
+    21300116: iwo_58
+    21300118: iwo_59
+    21300120: iwo_60
+    21300122: iwo_61
+    21300124: iwo_62
+    21300126: iwo_63
+    21300128: iwo_64
+    21300130: iwo_65
+    21300132: iwo_66
+    21300134: iwo_67
+    21300136: iwo_68
+    21300138: iwo_69
+    21300140: iwo_70
+    21300142: iwo_71
+    21300144: iwo_72
+    21300146: iwo_73
+    21300148: iwo_74
+    21300150: iwo_75
+    21300152: iwo_76
+    21300154: iwo_77
+    21300156: iwo_78
+    21300158: iwo_79
+    21300160: iwo_80
+    21300162: iwo_81
+    21300164: iwo_82
+    21300166: iwo_83
+    21300168: iwo_84
+    21300170: iwo_85
+    21300172: iwo_86
+    21300174: iwo_87
+    21300176: iwo_88
+    21300178: iwo_89
+    21300180: iwo_90
+    21300182: iwo_91
+    21300184: iwo_92
+    21300186: iwo_93
+    21300188: iwo_94
+    21300190: iwo_95
+    21300192: iwo_96
+    21300194: iwo_97
+    21300196: iwo_98
+    21300198: iwo_99
+    21300200: iwo_100
+    21300202: iwo_101
+    21300204: iwo_102
+    21300206: iwo_103
+    21300208: iwo_104
+    21300210: iwo_105
+    21300212: iwo_106
+    21300214: iwo_107
+    21300216: iwo_108
+    21300218: iwo_109
+    21300220: iwo_110
+    21300222: iwo_111
+    21300224: iwo_112
+    21300226: iwo_113
+    21300228: iwo_114
+    21300230: iwo_115
+    21300232: iwo_116
+    21300234: iwo_117
+    21300236: iwo_118
+    21300238: iwo_119
+    21300240: iwo_120
+    21300242: iwo_121
+    21300244: iwo_122
+    21300246: iwo_123
+    21300248: iwo_124
+    21300250: iwo_125
+    21300252: iwo_126
+    21300254: iwo_127
+    21300256: iwo_128
+    21300258: iwo_129
+    21300260: iwo_130
+    21300262: iwo_131
+    21300264: iwo_132
+    21300266: iwo_133
+    21300268: iwo_134
+    21300270: iwo_135
+    21300272: iwo_136
+    21300274: iwo_137
+    21300276: iwo_138
+    21300278: iwo_139
+    21300280: iwo_140
+    21300282: iwo_141
+    21300284: iwo_142
+    21300286: iwo_143
+    21300288: iwo_144
+    21300290: iwo_145
+    21300292: iwo_146
+    21300294: iwo_147
+    21300296: iwo_148
+    21300298: iwo_149
+    21300300: iwo_150
+    21300302: iwo_151
+    21300304: iwo_152
+    21300306: iwo_153
+    21300308: iwo_154
+    21300310: iwo_155
+    21300312: iwo_156
+    21300314: iwo_157
+    21300316: iwo_158
+    21300318: iwo_159
+    21300320: iwo_160
+    21300322: iwo_161
+    21300324: iwo_162
+    21300326: iwo_163
+    21300328: iwo_164
+    21300330: iwo_165
+    21300332: iwo_166
+    21300334: iwo_167
+    21300336: iwo_168
+    21300338: iwo_169
+    21300340: iwo_170
+    21300342: iwo_171
+    21300344: iwo_172
+    21300346: iwo_173
+    21300348: iwo_174
+    21300350: iwo_175
+    21300352: iwo_176
+    21300354: iwo_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: iwo_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1281
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 24}
+        - {x: -17, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: 23}
+        - {x: 15, y: 24}
+    - name: iwo_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1281
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1281
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -19, y: 16}
+        - {x: -19, y: -18}
+        - {x: -17, y: -23}
+        - {x: -16, y: -24}
+        - {x: 19, y: -24}
+        - {x: 19, y: 15}
+        - {x: 13, y: 24}
+    - name: iwo_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1281
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -27, y: 11}
+        - {x: -27, y: -21}
+        - {x: -26, y: -24}
+        - {x: 26, y: -24}
+        - {x: 27, y: -20}
+        - {x: 27, y: 10}
+        - {x: 16, y: 24}
+    - name: iwo_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1281
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 24}
+        - {x: -12, y: 21}
+        - {x: -14, y: 15}
+        - {x: -17, y: 20}
+        - {x: -25, y: 19}
+        - {x: -25, y: -24}
+        - {x: 22, y: -24}
+        - {x: 25, y: -9}
+        - {x: 25, y: 24}
+    - name: iwo_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -19, y: 16}
+        - {x: -19, y: -18}
+        - {x: -17, y: -23}
+        - {x: -16, y: -24}
+        - {x: 19, y: -24}
+        - {x: 19, y: 15}
+        - {x: 13, y: 24}
+    - name: iwo_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1217
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1217
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: 7, y: -25}
+        - {x: 18, y: -2}
+        - {x: 18, y: 9}
+        - {x: 8, y: 25}
+    - name: iwo_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -18, y: 16}
+        - {x: -18, y: -7}
+        - {x: -15, y: -23}
+        - {x: -13, y: -25}
+        - {x: 7, y: -25}
+        - {x: 18, y: 1}
+        - {x: 18, y: 17}
+        - {x: 6, y: 25}
+    - name: iwo_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -17, y: 20}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -22}
+        - {x: 17, y: 7}
+        - {x: 14, y: 23}
+    - name: iwo_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 18}
+        - {x: 11, y: 25}
+    - name: iwo_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1153
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -14, y: 23}
+        - {x: -19, y: 5}
+        - {x: -19, y: -8}
+        - {x: -16, y: -11}
+        - {x: -16, y: -19}
+        - {x: -15, y: -25}
+        - {x: 18, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: 6}
+        - {x: 10, y: 25}
+    - name: iwo_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1153
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 25}
+        - {x: -10, y: 25}
+        - {x: -27, y: 13}
+        - {x: -27, y: 1}
+        - {x: -14, y: -25}
+        - {x: 17, y: -25}
+        - {x: 27, y: -10}
+        - {x: 27, y: 12}
+    - name: iwo_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 25}
+        - {x: -16, y: 25}
+        - {x: -25, y: 22}
+        - {x: -25, y: -13}
+        - {x: -21, y: -25}
+        - {x: 15, y: -25}
+        - {x: 15, y: -24}
+        - {x: 25, y: 2}
+        - {x: 25, y: 16}
+    - name: iwo_20
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1153
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -19, y: 7}
+        - {x: -19, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 25}
+    - name: iwo_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1089
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1089
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1089
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -12, y: 19}
+        - {x: -18, y: 8}
+        - {x: -18, y: -7}
+        - {x: -6, y: -25}
+        - {x: 13, y: -25}
+        - {x: 18, y: -20}
+        - {x: 18, y: 25}
+    - name: iwo_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1089
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 25}
+        - {x: -10, y: 25}
+        - {x: -15, y: 23}
+        - {x: -18, y: 11}
+        - {x: -18, y: 1}
+        - {x: -6, y: -25}
+        - {x: 13, y: -25}
+        - {x: 14, y: -22}
+        - {x: 18, y: -12}
+        - {x: 18, y: 17}
+    - name: iwo_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1089
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -17, y: 21}
+        - {x: -17, y: -17}
+        - {x: -14, y: -24}
+        - {x: 14, y: -24}
+        - {x: 17, y: -15}
+        - {x: 17, y: 12}
+        - {x: 12, y: 24}
+    - name: iwo_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1023
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1023
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1023
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 961
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 25}
+        - {x: -9, y: 18}
+        - {x: -16, y: 6}
+        - {x: -16, y: -14}
+        - {x: -9, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 23}
+        - {x: 15, y: 25}
+    - name: iwo_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 897
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -17, y: 20}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -22}
+        - {x: 17, y: 7}
+        - {x: 14, y: 23}
+    - name: iwo_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 833
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 25}
+        - {x: -11, y: 25}
+        - {x: -16, y: 19}
+        - {x: -16, y: -25}
+        - {x: 5, y: -25}
+        - {x: 16, y: -17}
+        - {x: 16, y: 13}
+        - {x: 11, y: 24}
+    - name: iwo_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -11, y: 25}
+        - {x: -16, y: 24}
+        - {x: -17, y: 20}
+        - {x: -17, y: -16}
+        - {x: -14, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -19}
+        - {x: 17, y: 7}
+        - {x: 14, y: 19}
+    - name: iwo_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -16, y: 24}
+        - {x: -17, y: 21}
+        - {x: -17, y: -17}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -15}
+        - {x: 17, y: 12}
+        - {x: 11, y: 25}
+    - name: iwo_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -15, y: 24}
+        - {x: -17, y: 14}
+        - {x: -17, y: -19}
+        - {x: -16, y: -24}
+        - {x: -12, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -17}
+        - {x: 17, y: 14}
+        - {x: 12, y: 25}
+    - name: iwo_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -13, y: 24}
+        - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: -5, y: -25}
+        - {x: 12, y: -25}
+        - {x: 16, y: -23}
+        - {x: 16, y: 23}
+        - {x: 12, y: 25}
+    - name: iwo_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -14, y: 23}
+        - {x: -17, y: 1}
+        - {x: -17, y: -19}
+        - {x: -15, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 22}
+        - {x: 8, y: 25}
+    - name: iwo_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -16, y: 24}
+        - {x: -17, y: 21}
+        - {x: -17, y: -17}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -15}
+        - {x: 17, y: 12}
+        - {x: 11, y: 25}
+    - name: iwo_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -6, y: 25}
+        - {x: -14, y: 23}
+        - {x: -17, y: 1}
+        - {x: -17, y: -12}
+        - {x: -11, y: -25}
+        - {x: 11, y: -25}
+        - {x: 17, y: -11}
+        - {x: 17, y: -2}
+        - {x: 14, y: 19}
+    - name: iwo_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 767
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -24}
+        - {x: -15, y: -25}
+        - {x: 12, y: -25}
+        - {x: 16, y: -17}
+        - {x: 16, y: 15}
+        - {x: 10, y: 25}
+    - name: iwo_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -11}
+        - {x: 17, y: -2}
+        - {x: 14, y: 19}
+    - name: iwo_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 705
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 705
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_73
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_76
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 705
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_78
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -17, y: 20}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -22}
+        - {x: 17, y: 7}
+        - {x: 14, y: 23}
+    - name: iwo_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 14}
+        - {x: -17, y: -22}
+        - {x: -14, y: -25}
+        - {x: 15, y: -25}
+        - {x: 17, y: -22}
+        - {x: 17, y: 9}
+        - {x: 10, y: 25}
+    - name: iwo_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 26}
+        - {x: -17, y: 22}
+        - {x: -17, y: -24}
+        - {x: -14, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 26}
+    - name: iwo_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -16, y: -15}
+        - {x: -13, y: -25}
+        - {x: 12, y: -25}
+        - {x: 16, y: -20}
+        - {x: 16, y: 11}
+        - {x: 10, y: 22}
+        - {x: 9, y: 25}
+        - {x: -15, y: 25}
+    - name: iwo_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -13, y: 26}
+        - {x: -17, y: 23}
+        - {x: -17, y: -26}
+        - {x: 14, y: -26}
+        - {x: 17, y: -13}
+        - {x: 17, y: 13}
+        - {x: 14, y: 24}
+    - name: iwo_83
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -14, y: 19}
+        - {x: -17, y: 0}
+        - {x: -17, y: -17}
+        - {x: -14, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: iwo_84
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -17}
+        - {x: -14, y: -26}
+        - {x: 11, y: -26}
+        - {x: 17, y: -16}
+        - {x: 17, y: 22}
+        - {x: 8, y: 26}
+    - name: iwo_85
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 639
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -25}
+        - {x: 8, y: -25}
+        - {x: 16, y: -19}
+        - {x: 16, y: 24}
+        - {x: 14, y: 25}
+    - name: iwo_86
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -15, y: 26}
+        - {x: -17, y: 24}
+        - {x: -17, y: -26}
+        - {x: 13, y: -26}
+        - {x: 17, y: -17}
+        - {x: 17, y: 22}
+    - name: iwo_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 577
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 577
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 577
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 513
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 24}
+        - {x: -17, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: 23}
+        - {x: 15, y: 24}
+    - name: iwo_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 511
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 511
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 511
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 511
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -12, y: 25}
+        - {x: -16, y: 24}
+        - {x: -19, y: 6}
+        - {x: -19, y: -17}
+        - {x: -16, y: -25}
+        - {x: 9, y: -25}
+        - {x: 11, y: -21}
+        - {x: 19, y: 0}
+        - {x: 19, y: 16}
+    - name: iwo_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 511
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 25}
+        - {x: -21, y: 16}
+        - {x: -21, y: -22}
+        - {x: -20, y: -25}
+        - {x: 5, y: -25}
+        - {x: 12, y: -24}
+        - {x: 21, y: 0}
+        - {x: 21, y: 9}
+        - {x: 9, y: 25}
+    - name: iwo_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 449
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 449
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 449
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_105
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 449
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -19, y: 4}
+        - {x: -19, y: -13}
+        - {x: -13, y: -25}
+        - {x: 14, y: -25}
+        - {x: 19, y: -20}
+        - {x: 19, y: 7}
+        - {x: 12, y: 25}
+    - name: iwo_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 449
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -5, y: 25}
+        - {x: -11, y: 23}
+        - {x: -19, y: 16}
+        - {x: -19, y: -11}
+        - {x: -13, y: -25}
+        - {x: 17, y: -25}
+        - {x: 19, y: -21}
+        - {x: 19, y: 5}
+        - {x: 14, y: 22}
+    - name: iwo_107
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 449
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -11, y: 22}
+        - {x: -18, y: 8}
+        - {x: -18, y: -4}
+        - {x: -8, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 7}
+        - {x: 11, y: 25}
+    - name: iwo_108
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 385
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -17, y: 20}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -22}
+        - {x: 17, y: 7}
+        - {x: 14, y: 23}
+    - name: iwo_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 385
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 385
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -8}
+        - {x: 11, y: -11}
+        - {x: 15, y: -11}
+        - {x: 19, y: -10}
+        - {x: 19, y: -2}
+        - {x: 16, y: 6}
+        - {x: 8, y: 25}
+        - {x: -15, y: 25}
+        - {x: -19, y: 11}
+        - {x: -19, y: -25}
+        - {x: 6, y: -25}
+        - {x: 9, y: -22}
+        - {x: 9, y: -12}
+        - {x: 8, y: -11}
+    - name: iwo_113
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 385
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -21, y: 21}
+        - {x: -21, y: -20}
+        - {x: -20, y: -25}
+        - {x: 14, y: -25}
+        - {x: 21, y: -18}
+        - {x: 21, y: 12}
+        - {x: 15, y: 25}
+    - name: iwo_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 321
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 321
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 321
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_117
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 321
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 25}
+        - {x: -19, y: 25}
+        - {x: -19, y: -25}
+        - {x: 13, y: -25}
+        - {x: 19, y: -22}
+        - {x: 19, y: 20}
+        - {x: 18, y: 23}
+    - name: iwo_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -25}
+        - {x: 7, y: -25}
+        - {x: 19, y: -3}
+        - {x: 19, y: 13}
+        - {x: 5, y: 25}
+    - name: iwo_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 19}
+        - {x: 5, y: 25}
+        - {x: -11, y: 25}
+        - {x: -18, y: 4}
+        - {x: -18, y: -21}
+        - {x: -16, y: -25}
+        - {x: 7, y: -25}
+        - {x: 9, y: -22}
+        - {x: 18, y: 2}
+        - {x: 18, y: 11}
+    - name: iwo_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 257
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -24}
+        - {x: 16, y: -24}
+        - {x: 16, y: 24}
+    - name: iwo_121
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_122
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 255
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 255
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 255
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 255
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_129
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 255
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_131
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 255
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_132
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 255
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_133
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 193
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 193
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -17, y: 23}
+        - {x: -18, y: 11}
+        - {x: -18, y: -21}
+        - {x: -13, y: -25}
+        - {x: 16, y: -25}
+        - {x: 18, y: -17}
+        - {x: 18, y: 13}
+        - {x: 15, y: 25}
+    - name: iwo_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -19, y: 5}
+        - {x: -19, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 15}
+        - {x: 14, y: 25}
+    - name: iwo_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -15}
+        - {x: -15, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 15}
+        - {x: 13, y: 25}
+    - name: iwo_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 193
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -9, y: 24}
+        - {x: -17, y: 17}
+        - {x: -17, y: -13}
+        - {x: -12, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: iwo_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -18, y: 18}
+        - {x: -18, y: -6}
+        - {x: -8, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 22}
+        - {x: 12, y: 25}
+    - name: iwo_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -5, y: 25}
+        - {x: -20, y: 12}
+        - {x: -20, y: -3}
+        - {x: -12, y: -24}
+        - {x: -7, y: -25}
+        - {x: 14, y: -25}
+        - {x: 15, y: -24}
+        - {x: 20, y: 3}
+        - {x: 20, y: 10}
+    - name: iwo_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 193
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -13, y: 24}
+        - {x: -21, y: 7}
+        - {x: -21, y: -7}
+        - {x: -9, y: -25}
+        - {x: 14, y: -25}
+        - {x: 21, y: -17}
+        - {x: 21, y: 20}
+        - {x: 17, y: 25}
+    - name: iwo_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -15}
+        - {x: -15, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 15}
+        - {x: 13, y: 25}
+    - name: iwo_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -9}
+        - {x: -10, y: -25}
+        - {x: 17, y: -25}
+        - {x: 19, y: -21}
+        - {x: 19, y: 16}
+        - {x: 14, y: 25}
+    - name: iwo_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 193
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -17, y: 18}
+        - {x: -17, y: -9}
+        - {x: -8, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -24}
+        - {x: 17, y: 23}
+        - {x: 13, y: 25}
+    - name: iwo_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -9}
+        - {x: -10, y: -25}
+        - {x: 17, y: -25}
+        - {x: 19, y: -21}
+        - {x: 19, y: 16}
+        - {x: 14, y: 25}
+    - name: iwo_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -16, y: 21}
+        - {x: -16, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 12}
+        - {x: 14, y: 23}
+    - name: iwo_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_157
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 129
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 65
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iwo_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 25}
+        - {x: -8, y: 25}
+        - {x: -16, y: 19}
+        - {x: -18, y: 7}
+        - {x: -18, y: -13}
+        - {x: -12, y: -25}
+        - {x: 11, y: -25}
+        - {x: 18, y: -12}
+        - {x: 18, y: 5}
+        - {x: 10, y: 18}
+    - name: iwo_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -1}
+        - {x: 18, y: 4}
+        - {x: 6, y: 25}
+        - {x: -12, y: 25}
+        - {x: -19, y: 22}
+        - {x: -19, y: -18}
+        - {x: -16, y: -25}
+        - {x: 7, y: -25}
+        - {x: 8, y: -22}
+        - {x: 8, y: -19}
+        - {x: 19, y: -9}
+    - name: iwo_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -17, y: 23}
+        - {x: -19, y: 15}
+        - {x: -19, y: -12}
+        - {x: -15, y: -25}
+        - {x: 11, y: -25}
+        - {x: 19, y: -16}
+        - {x: 19, y: 12}
+        - {x: 12, y: 25}
+    - name: iwo_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 65
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 11, y: -25}
+        - {x: 17, y: -9}
+        - {x: 17, y: 23}
+        - {x: 16, y: 25}
+    - name: iwo_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 25}
+        - {x: -16, y: 25}
+        - {x: -18, y: 24}
+        - {x: -18, y: -14}
+        - {x: -16, y: -25}
+        - {x: 6, y: -25}
+        - {x: 11, y: -17}
+        - {x: 18, y: -3}
+        - {x: 18, y: 17}
+    - name: iwo_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -20, y: 15}
+        - {x: -20, y: -6}
+        - {x: -14, y: -25}
+        - {x: 10, y: -25}
+        - {x: 20, y: -4}
+        - {x: 20, y: 16}
+        - {x: 6, y: 25}
+    - name: iwo_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 65
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -21, y: 11}
+        - {x: -21, y: -6}
+        - {x: -18, y: -16}
+        - {x: -14, y: -25}
+        - {x: 11, y: -25}
+        - {x: 21, y: -1}
+        - {x: 21, y: 10}
+        - {x: 5, y: 25}
+    - name: iwo_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -17, y: 23}
+        - {x: -19, y: 15}
+        - {x: -19, y: -12}
+        - {x: -15, y: -25}
+        - {x: 11, y: -25}
+        - {x: 19, y: -16}
+        - {x: 19, y: 12}
+        - {x: 12, y: 25}
+    - name: iwo_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -19, y: 21}
+        - {x: -19, y: -11}
+        - {x: -14, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -7}
+        - {x: 19, y: 13}
+        - {x: 8, y: 25}
+    - name: iwo_170
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 65
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 25}
+        - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 9, y: -25}
+        - {x: 17, y: -6}
+        - {x: 17, y: 13}
+        - {x: 8, y: 23}
+    - name: iwo_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -19, y: 21}
+        - {x: -19, y: -11}
+        - {x: -14, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -7}
+        - {x: 19, y: 13}
+        - {x: 8, y: 25}
+    - name: iwo_172
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -17, y: 20}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -22}
+        - {x: 17, y: 7}
+        - {x: 14, y: 23}
+    - name: iwo_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 24}
+        - {x: -17, y: 23}
+        - {x: -17, y: -24}
+        - {x: 16, y: -24}
+        - {x: 17, y: -21}
+        - {x: 17, y: 10}
+        - {x: 10, y: 24}
+    - name: iwo_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 6}
+        - {x: 9, y: 21}
+        - {x: -7, y: 21}
+        - {x: -14, y: 15}
+        - {x: -17, y: -8}
+        - {x: -17, y: -19}
+        - {x: -16, y: -21}
+        - {x: 10, y: -21}
+        - {x: 12, y: -19}
+        - {x: 17, y: -13}
+    - name: iwo_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 19}
+        - {x: -14, y: 16}
+        - {x: -17, y: 3}
+        - {x: -17, y: -19}
+        - {x: 13, y: -19}
+        - {x: 17, y: -15}
+        - {x: 17, y: 6}
+        - {x: 9, y: 19}
+    - name: iwo_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -11, y: 16}
+        - {x: -17, y: 10}
+        - {x: -17, y: -16}
+        - {x: 16, y: -16}
+        - {x: 17, y: -15}
+        - {x: 17, y: 5}
+        - {x: 14, y: 15}
+    - name: iwo_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 18.5}
+        - {x: -18, y: -18.5}
+        - {x: 18, y: -18.5}
+        - {x: 18, y: 18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

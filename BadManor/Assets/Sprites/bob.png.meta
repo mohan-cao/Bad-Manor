@@ -1,0 +1,2878 @@
+fileFormatVersion: 2
+guid: 18fe0b90575573f4fad2716881ef5ffb
+timeCreated: 1508460989
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bob_0
+    21300002: bob_1
+    21300004: bob_2
+    21300006: bob_3
+    21300008: bob_4
+    21300010: bob_5
+    21300012: bob_6
+    21300014: bob_7
+    21300016: bob_8
+    21300018: bob_9
+    21300020: bob_10
+    21300022: bob_11
+    21300024: bob_12
+    21300026: bob_13
+    21300028: bob_14
+    21300030: bob_15
+    21300032: bob_16
+    21300034: bob_17
+    21300036: bob_18
+    21300038: bob_19
+    21300040: bob_20
+    21300042: bob_21
+    21300044: bob_22
+    21300046: bob_23
+    21300048: bob_24
+    21300050: bob_25
+    21300052: bob_26
+    21300054: bob_27
+    21300056: bob_28
+    21300058: bob_29
+    21300060: bob_30
+    21300062: bob_31
+    21300064: bob_32
+    21300066: bob_33
+    21300068: bob_34
+    21300070: bob_35
+    21300072: bob_36
+    21300074: bob_37
+    21300076: bob_38
+    21300078: bob_39
+    21300080: bob_40
+    21300082: bob_41
+    21300084: bob_42
+    21300086: bob_43
+    21300088: bob_44
+    21300090: bob_45
+    21300092: bob_46
+    21300094: bob_47
+    21300096: bob_48
+    21300098: bob_49
+    21300100: bob_50
+    21300102: bob_51
+    21300104: bob_52
+    21300106: bob_53
+    21300108: bob_54
+    21300110: bob_55
+    21300112: bob_56
+    21300114: bob_57
+    21300116: bob_58
+    21300118: bob_59
+    21300120: bob_60
+    21300122: bob_61
+    21300124: bob_62
+    21300126: bob_63
+    21300128: bob_64
+    21300130: bob_65
+    21300132: bob_66
+    21300134: bob_67
+    21300136: bob_68
+    21300138: bob_69
+    21300140: bob_70
+    21300142: bob_71
+    21300144: bob_72
+    21300146: bob_73
+    21300148: bob_74
+    21300150: bob_75
+    21300152: bob_76
+    21300154: bob_77
+    21300156: bob_78
+    21300158: bob_79
+    21300160: bob_80
+    21300162: bob_81
+    21300164: bob_82
+    21300166: bob_83
+    21300168: bob_84
+    21300170: bob_85
+    21300172: bob_86
+    21300174: bob_87
+    21300176: bob_88
+    21300178: bob_89
+    21300180: bob_90
+    21300182: bob_91
+    21300184: bob_92
+    21300186: bob_93
+    21300188: bob_94
+    21300190: bob_95
+    21300192: bob_96
+    21300194: bob_97
+    21300196: bob_98
+    21300198: bob_99
+    21300200: bob_100
+    21300202: bob_101
+    21300204: bob_102
+    21300206: bob_103
+    21300208: bob_104
+    21300210: bob_105
+    21300212: bob_106
+    21300214: bob_107
+    21300216: bob_108
+    21300218: bob_109
+    21300220: bob_110
+    21300222: bob_111
+    21300224: bob_112
+    21300226: bob_113
+    21300228: bob_114
+    21300230: bob_115
+    21300232: bob_116
+    21300234: bob_117
+    21300236: bob_118
+    21300238: bob_119
+    21300240: bob_120
+    21300242: bob_121
+    21300244: bob_122
+    21300246: bob_123
+    21300248: bob_124
+    21300250: bob_125
+    21300252: bob_126
+    21300254: bob_127
+    21300256: bob_128
+    21300258: bob_129
+    21300260: bob_130
+    21300262: bob_131
+    21300264: bob_132
+    21300266: bob_133
+    21300268: bob_134
+    21300270: bob_135
+    21300272: bob_136
+    21300274: bob_137
+    21300276: bob_138
+    21300278: bob_139
+    21300280: bob_140
+    21300282: bob_141
+    21300284: bob_142
+    21300286: bob_143
+    21300288: bob_144
+    21300290: bob_145
+    21300292: bob_146
+    21300294: bob_147
+    21300296: bob_148
+    21300298: bob_149
+    21300300: bob_150
+    21300302: bob_151
+    21300304: bob_152
+    21300306: bob_153
+    21300308: bob_154
+    21300310: bob_155
+    21300312: bob_156
+    21300314: bob_157
+    21300316: bob_158
+    21300318: bob_159
+    21300320: bob_160
+    21300322: bob_161
+    21300324: bob_162
+    21300326: bob_163
+    21300328: bob_164
+    21300330: bob_165
+    21300332: bob_166
+    21300334: bob_167
+    21300336: bob_168
+    21300338: bob_169
+    21300340: bob_170
+    21300342: bob_171
+    21300344: bob_172
+    21300346: bob_173
+    21300348: bob_174
+    21300350: bob_175
+    21300352: bob_176
+    21300354: bob_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bob_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1281
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 24}
+        - {x: -14, y: 21}
+        - {x: -17, y: 10}
+        - {x: -17, y: -13}
+        - {x: -14, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: 23}
+        - {x: 13, y: 24}
+    - name: bob_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1281
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1281
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 24}
+        - {x: -19, y: 11}
+        - {x: -19, y: -17}
+        - {x: -14, y: -24}
+        - {x: 16, y: -24}
+        - {x: 19, y: -18}
+        - {x: 19, y: 13}
+        - {x: 10, y: 24}
+    - name: bob_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1281
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 24}
+        - {x: -27, y: 13}
+        - {x: -27, y: -16}
+        - {x: -23, y: -24}
+        - {x: 20, y: -24}
+        - {x: 27, y: -11}
+        - {x: 27, y: 19}
+        - {x: 17, y: 24}
+    - name: bob_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1281
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 24}
+        - {x: -25, y: -24}
+        - {x: 18, y: -24}
+        - {x: 25, y: 1}
+        - {x: 25, y: 20}
+        - {x: 24, y: 24}
+    - name: bob_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 24}
+        - {x: -19, y: 11}
+        - {x: -19, y: -17}
+        - {x: -14, y: -24}
+        - {x: 16, y: -24}
+        - {x: 19, y: -18}
+        - {x: 19, y: 13}
+        - {x: 10, y: 24}
+    - name: bob_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: 8, y: -25}
+        - {x: 18, y: -14}
+        - {x: 18, y: 13}
+        - {x: 7, y: 25}
+    - name: bob_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -18, y: 16}
+        - {x: -18, y: -8}
+        - {x: -15, y: -23}
+        - {x: -12, y: -25}
+        - {x: 8, y: -25}
+        - {x: 11, y: -24}
+        - {x: 18, y: 4}
+        - {x: 18, y: 14}
+        - {x: 4, y: 25}
+    - name: bob_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -25}
+        - {x: 16, y: -25}
+        - {x: 17, y: -24}
+        - {x: 17, y: 11}
+        - {x: 15, y: 18}
+    - name: bob_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 12}
+        - {x: 12, y: 25}
+    - name: bob_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1153
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 5}
+        - {x: 14, y: 17}
+        - {x: 9, y: 25}
+        - {x: -10, y: 25}
+        - {x: -17, y: 19}
+        - {x: -19, y: 8}
+        - {x: -19, y: -14}
+        - {x: -14, y: -25}
+        - {x: 14, y: -25}
+        - {x: 18, y: -20}
+        - {x: 19, y: -13}
+    - name: bob_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1153
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -27, y: 14}
+        - {x: -27, y: -11}
+        - {x: -23, y: -25}
+        - {x: 20, y: -25}
+        - {x: 27, y: -11}
+        - {x: 27, y: 14}
+        - {x: 19, y: 25}
+    - name: bob_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 24}
+        - {x: 15, y: 25}
+        - {x: -20, y: 25}
+        - {x: -24, y: 24}
+        - {x: -25, y: 21}
+        - {x: -25, y: -3}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 25, y: -2}
+        - {x: 25, y: 19}
+    - name: bob_20
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1153
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -19, y: 20}
+        - {x: -19, y: -22}
+        - {x: -17, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 20}
+        - {x: 14, y: 25}
+    - name: bob_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1089
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -18, y: 22}
+        - {x: -18, y: -23}
+        - {x: -17, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -24}
+        - {x: 18, y: -22}
+        - {x: 18, y: 21}
+        - {x: 16, y: 25}
+    - name: bob_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1089
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -18, y: 13}
+        - {x: -18, y: 3}
+        - {x: -7, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 25}
+    - name: bob_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1089
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 24}
+        - {x: -14, y: 21}
+        - {x: -17, y: 6}
+        - {x: -17, y: -16}
+        - {x: -12, y: -24}
+        - {x: 13, y: -24}
+        - {x: 17, y: -20}
+        - {x: 17, y: 11}
+        - {x: 12, y: 24}
+    - name: bob_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 961
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_39
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -16, y: 10}
+        - {x: -16, y: -13}
+        - {x: -6, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 25}
+    - name: bob_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_43
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 897
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -25}
+        - {x: 14, y: -25}
+        - {x: 16, y: -24}
+        - {x: 17, y: -11}
+        - {x: 17, y: 4}
+        - {x: 15, y: 18}
+        - {x: 11, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -14}
+        - {x: -16, y: -25}
+        - {x: -2, y: -25}
+        - {x: -1, y: -22}
+        - {x: -1, y: -18}
+        - {x: 1, y: -22}
+    - name: bob_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 833
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -16, y: 24}
+        - {x: -16, y: -25}
+        - {x: 8, y: -25}
+        - {x: 16, y: -10}
+        - {x: 16, y: 3}
+        - {x: 7, y: 25}
+    - name: bob_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -16, y: 22}
+        - {x: -17, y: 11}
+        - {x: -17, y: -23}
+        - {x: -14, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 13}
+        - {x: 13, y: 25}
+    - name: bob_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -14, y: 21}
+        - {x: -17, y: 6}
+        - {x: -17, y: -16}
+        - {x: -11, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -20}
+        - {x: 17, y: 11}
+        - {x: 12, y: 25}
+    - name: bob_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -16, y: 23}
+        - {x: -17, y: 20}
+        - {x: -17, y: -19}
+        - {x: -10, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 22}
+        - {x: 15, y: 25}
+    - name: bob_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -24}
+        - {x: -13, y: -25}
+        - {x: 14, y: -25}
+        - {x: 16, y: -21}
+        - {x: 16, y: 21}
+        - {x: 15, y: 25}
+    - name: bob_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -16, y: 24}
+        - {x: -17, y: 22}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 22}
+        - {x: 15, y: 25}
+    - name: bob_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -17, y: 11}
+        - {x: -17, y: -20}
+        - {x: -15, y: -23}
+        - {x: -10, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: bob_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -15, y: 22}
+        - {x: -17, y: 10}
+        - {x: -17, y: -16}
+        - {x: -14, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 24}
+        - {x: 14, y: 25}
+    - name: bob_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 767
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -10, y: 25}
+        - {x: -16, y: 19}
+        - {x: -16, y: -14}
+        - {x: -13, y: -22}
+        - {x: -12, y: -25}
+        - {x: 6, y: -25}
+        - {x: 9, y: -24}
+        - {x: 16, y: -15}
+        - {x: 16, y: 5}
+        - {x: 14, y: 19}
+    - name: bob_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -17, y: 16}
+        - {x: -17, y: -21}
+        - {x: -13, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -17}
+        - {x: 17, y: 22}
+        - {x: 12, y: 25}
+    - name: bob_69
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 705
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 705
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_77
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_78
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -25}
+        - {x: 14, y: -25}
+        - {x: 16, y: -24}
+        - {x: 17, y: -11}
+        - {x: 17, y: 4}
+        - {x: 15, y: 18}
+        - {x: 11, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -14}
+        - {x: -16, y: -25}
+        - {x: -2, y: -25}
+        - {x: -1, y: -22}
+        - {x: -1, y: -18}
+        - {x: 1, y: -22}
+    - name: bob_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 21}
+        - {x: 13, y: 25}
+    - name: bob_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 26}
+        - {x: -17, y: 9}
+        - {x: -17, y: -20}
+        - {x: -14, y: -23}
+        - {x: -4, y: -26}
+        - {x: 10, y: -26}
+        - {x: 16, y: -24}
+        - {x: 17, y: -21}
+        - {x: 17, y: 15}
+        - {x: 11, y: 26}
+    - name: bob_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -16, y: 17}
+        - {x: -16, y: -16}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 16, y: -21}
+        - {x: 16, y: 16}
+        - {x: 12, y: 25}
+    - name: bob_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 26}
+        - {x: -17, y: 12}
+        - {x: -17, y: -20}
+        - {x: -11, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 24}
+        - {x: 11, y: 26}
+    - name: bob_83
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -18}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 17, y: -19}
+        - {x: 17, y: 7}
+        - {x: 15, y: 18}
+    - name: bob_84
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 26}
+        - {x: -17, y: 15}
+        - {x: -17, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 13}
+        - {x: 13, y: 26}
+    - name: bob_85
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 639
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -16, y: 19}
+        - {x: -16, y: -25}
+        - {x: 13, y: -25}
+        - {x: 16, y: -22}
+        - {x: 16, y: 18}
+        - {x: 14, y: 25}
+    - name: bob_86
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 26}
+        - {x: -17, y: 18}
+        - {x: -17, y: -22}
+        - {x: -13, y: -26}
+        - {x: 4, y: -26}
+        - {x: 10, y: -25}
+        - {x: 17, y: -19}
+        - {x: 17, y: 12}
+        - {x: 12, y: 26}
+    - name: bob_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 577
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 577
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 513
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 24}
+        - {x: -14, y: 21}
+        - {x: -17, y: 10}
+        - {x: -17, y: -13}
+        - {x: -14, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: 23}
+        - {x: 13, y: 24}
+    - name: bob_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 511
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 511
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 511
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 511
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 25}
+        - {x: -19, y: -24}
+        - {x: -15, y: -25}
+        - {x: 14, y: -25}
+        - {x: 19, y: -2}
+        - {x: 19, y: 16}
+        - {x: 12, y: 25}
+    - name: bob_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 511
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 25}
+        - {x: -21, y: 25}
+        - {x: -21, y: -25}
+        - {x: 14, y: -25}
+        - {x: 21, y: -9}
+        - {x: 21, y: 13}
+        - {x: 13, y: 21}
+    - name: bob_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 449
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 449
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_104
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 449
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_105
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 449
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 25}
+        - {x: -11, y: 25}
+        - {x: -19, y: 4}
+        - {x: -19, y: -9}
+        - {x: -11, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 23}
+    - name: bob_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 449
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -19, y: 22}
+        - {x: -19, y: -6}
+        - {x: -11, y: -25}
+        - {x: 17, y: -25}
+        - {x: 19, y: -22}
+        - {x: 19, y: 10}
+        - {x: 14, y: 25}
+    - name: bob_107
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 449
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -12, y: 22}
+        - {x: -18, y: 8}
+        - {x: -18, y: -3}
+        - {x: -7, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 14}
+        - {x: 13, y: 25}
+    - name: bob_108
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 385
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -25}
+        - {x: 14, y: -25}
+        - {x: 16, y: -24}
+        - {x: 17, y: -11}
+        - {x: 17, y: 4}
+        - {x: 15, y: 18}
+        - {x: 11, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -14}
+        - {x: -16, y: -25}
+        - {x: -2, y: -25}
+        - {x: -1, y: -22}
+        - {x: -1, y: -18}
+        - {x: 1, y: -22}
+    - name: bob_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 385
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 385
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -19, y: 16}
+        - {x: -19, y: -25}
+        - {x: 12, y: -25}
+        - {x: 19, y: -18}
+        - {x: 19, y: 12}
+        - {x: 7, y: 25}
+    - name: bob_113
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 385
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -21, y: 23}
+        - {x: -21, y: -25}
+        - {x: 10, y: -25}
+        - {x: 21, y: -17}
+        - {x: 21, y: 12}
+        - {x: 14, y: 25}
+    - name: bob_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 321
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 321
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 321
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_117
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 321
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -19, y: 24}
+        - {x: -19, y: -25}
+        - {x: 8, y: -25}
+        - {x: 19, y: -17}
+        - {x: 19, y: 21}
+        - {x: 6, y: 25}
+    - name: bob_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -17, y: 22}
+        - {x: -19, y: 12}
+        - {x: -19, y: -21}
+        - {x: -17, y: -25}
+        - {x: 10, y: -25}
+        - {x: 19, y: -11}
+        - {x: 19, y: 12}
+        - {x: 10, y: 25}
+    - name: bob_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -17, y: 23}
+        - {x: -18, y: 19}
+        - {x: -18, y: -21}
+        - {x: -16, y: -25}
+        - {x: 10, y: -25}
+        - {x: 18, y: -6}
+        - {x: 18, y: 16}
+        - {x: 10, y: 25}
+    - name: bob_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 257
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -24}
+        - {x: 16, y: -24}
+        - {x: 16, y: 15}
+        - {x: 11, y: 24}
+    - name: bob_121
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_122
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 255
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_123
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 255
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_124
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 255
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: 1}
+        - {x: -11, y: -25}
+        - {x: 9, y: -25}
+        - {x: 16, y: -14}
+        - {x: 16, y: 15}
+        - {x: 12, y: 25}
+    - name: bob_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_126
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_127
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 255
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -11}
+        - {x: -15, y: -19}
+        - {x: -5, y: -25}
+        - {x: 10, y: -25}
+        - {x: 16, y: -14}
+        - {x: 16, y: 14}
+        - {x: 12, y: 25}
+    - name: bob_128
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 255
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: 1}
+        - {x: -11, y: -25}
+        - {x: 13, y: -25}
+        - {x: 16, y: -21}
+        - {x: 16, y: 14}
+        - {x: 11, y: 25}
+    - name: bob_129
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 255
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -1}
+        - {x: -12, y: -25}
+        - {x: 12, y: -25}
+        - {x: 16, y: -19}
+        - {x: 16, y: 18}
+        - {x: 13, y: 25}
+    - name: bob_130
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 255
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_131
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 255
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_132
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 255
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_133
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 193
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 193
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -18, y: 6}
+        - {x: -18, y: -15}
+        - {x: -13, y: -25}
+        - {x: 14, y: -25}
+        - {x: 18, y: -21}
+        - {x: 18, y: 20}
+        - {x: 16, y: 25}
+    - name: bob_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -5, y: 24}
+        - {x: -8, y: 21}
+        - {x: -11, y: 16}
+        - {x: -19, y: 1}
+        - {x: -19, y: -12}
+        - {x: -12, y: -25}
+        - {x: 17, y: -25}
+        - {x: 19, y: -22}
+        - {x: 19, y: 18}
+        - {x: 17, y: 25}
+    - name: bob_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -19, y: 12}
+        - {x: -19, y: -14}
+        - {x: -7, y: -25}
+        - {x: 17, y: -25}
+        - {x: 19, y: -21}
+        - {x: 19, y: 16}
+        - {x: 13, y: 25}
+    - name: bob_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -18, y: 12}
+        - {x: -18, y: -11}
+        - {x: -8, y: -25}
+        - {x: 17, y: -25}
+        - {x: 18, y: -20}
+        - {x: 18, y: 24}
+        - {x: 16, y: 25}
+    - name: bob_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 25}
+        - {x: -18, y: 17}
+        - {x: -18, y: -20}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 18, y: -22}
+        - {x: 18, y: 23}
+        - {x: 17, y: 25}
+    - name: bob_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -20, y: 14}
+        - {x: -20, y: -1}
+        - {x: -9, y: -25}
+        - {x: 18, y: -25}
+        - {x: 20, y: -20}
+        - {x: 20, y: 25}
+    - name: bob_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 193
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -21, y: -25}
+        - {x: 17, y: -25}
+        - {x: 21, y: -15}
+        - {x: 21, y: 14}
+        - {x: 9, y: 25}
+    - name: bob_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -19, y: 12}
+        - {x: -19, y: -14}
+        - {x: -7, y: -25}
+        - {x: 17, y: -25}
+        - {x: 19, y: -21}
+        - {x: 19, y: 16}
+        - {x: 13, y: 25}
+    - name: bob_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -19, y: 13}
+        - {x: -19, y: -3}
+        - {x: -8, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 25}
+    - name: bob_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -18, y: 7}
+        - {x: -18, y: -4}
+        - {x: -9, y: -25}
+        - {x: 16, y: -25}
+        - {x: 18, y: -20}
+        - {x: 18, y: 21}
+        - {x: 13, y: 25}
+    - name: bob_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -19, y: 13}
+        - {x: -19, y: -3}
+        - {x: -8, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 25}
+    - name: bob_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -25}
+        - {x: 14, y: -25}
+        - {x: 16, y: -24}
+        - {x: 16, y: 10}
+        - {x: 15, y: 18}
+        - {x: 10, y: 25}
+        - {x: -8, y: 25}
+        - {x: -16, y: 22}
+        - {x: -16, y: -25}
+        - {x: -2, y: -25}
+        - {x: -1, y: -22}
+        - {x: -1, y: -18}
+        - {x: 1, y: -22}
+    - name: bob_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bob_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -18, y: 19}
+        - {x: -18, y: -21}
+        - {x: -12, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 25}
+    - name: bob_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -18, y: 22}
+        - {x: -19, y: 19}
+        - {x: -19, y: -25}
+        - {x: 18, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: 13}
+        - {x: 9, y: 25}
+    - name: bob_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -19, y: 22}
+        - {x: -19, y: -10}
+        - {x: -17, y: -20}
+        - {x: -14, y: -25}
+        - {x: 8, y: -25}
+        - {x: 19, y: -16}
+        - {x: 19, y: 19}
+        - {x: 15, y: 25}
+    - name: bob_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 25}
+        - {x: -15, y: 25}
+        - {x: -18, y: 22}
+        - {x: -18, y: -25}
+        - {x: 9, y: -25}
+        - {x: 18, y: -2}
+        - {x: 18, y: 12}
+        - {x: 9, y: 23}
+    - name: bob_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -1}
+        - {x: 18, y: 1}
+        - {x: 18, y: 13}
+        - {x: 7, y: 25}
+        - {x: -13, y: 25}
+        - {x: -18, y: 23}
+        - {x: -18, y: -25}
+        - {x: 3, y: -25}
+        - {x: 5, y: -24}
+        - {x: 7, y: -22}
+        - {x: 7, y: -19}
+    - name: bob_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 25}
+        - {x: -20, y: -24}
+        - {x: -18, y: -25}
+        - {x: 8, y: -25}
+        - {x: 13, y: -24}
+        - {x: 20, y: -3}
+        - {x: 20, y: 13}
+        - {x: 9, y: 25}
+    - name: bob_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 65
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -19, y: 23}
+        - {x: -21, y: 19}
+        - {x: -21, y: -18}
+        - {x: -20, y: -21}
+        - {x: -15, y: -25}
+        - {x: 4, y: -25}
+        - {x: 12, y: -23}
+        - {x: 21, y: -4}
+        - {x: 21, y: 5}
+        - {x: 14, y: 25}
+    - name: bob_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -19, y: 22}
+        - {x: -19, y: -10}
+        - {x: -17, y: -20}
+        - {x: -14, y: -25}
+        - {x: 8, y: -25}
+        - {x: 19, y: -16}
+        - {x: 19, y: 19}
+        - {x: 15, y: 25}
+    - name: bob_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -22}
+        - {x: -17, y: -25}
+        - {x: 6, y: -25}
+        - {x: 11, y: -24}
+        - {x: 19, y: -9}
+        - {x: 19, y: 15}
+        - {x: 7, y: 25}
+    - name: bob_170
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -18, y: 24}
+        - {x: -18, y: -25}
+        - {x: 3, y: -25}
+        - {x: 10, y: -24}
+        - {x: 18, y: -14}
+        - {x: 18, y: 12}
+        - {x: 11, y: 25}
+    - name: bob_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -19, y: 17}
+        - {x: -19, y: -22}
+        - {x: -17, y: -25}
+        - {x: 6, y: -25}
+        - {x: 11, y: -24}
+        - {x: 19, y: -9}
+        - {x: 19, y: 15}
+        - {x: 7, y: 25}
+    - name: bob_172
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: -25}
+        - {x: 14, y: -25}
+        - {x: 16, y: -24}
+        - {x: 17, y: -11}
+        - {x: 17, y: 4}
+        - {x: 15, y: 18}
+        - {x: 11, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -14}
+        - {x: -16, y: -25}
+        - {x: -2, y: -25}
+        - {x: -1, y: -22}
+        - {x: -1, y: -18}
+        - {x: 1, y: -22}
+    - name: bob_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 24}
+        - {x: -10, y: 24}
+        - {x: -17, y: 21}
+        - {x: -17, y: -17}
+        - {x: -14, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: -1}
+        - {x: 15, y: 18}
+    - name: bob_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 21}
+        - {x: -8, y: 21}
+        - {x: -17, y: 17}
+        - {x: -17, y: -19}
+        - {x: -14, y: -21}
+        - {x: 12, y: -21}
+        - {x: 17, y: -15}
+        - {x: 17, y: -3}
+        - {x: 15, y: 14}
+    - name: bob_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 19}
+        - {x: -8, y: 19}
+        - {x: -17, y: 15}
+        - {x: -17, y: -19}
+        - {x: 16, y: -19}
+        - {x: 17, y: -16}
+        - {x: 17, y: -4}
+        - {x: 15, y: 12}
+    - name: bob_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 9}
+        - {x: 14, y: 16}
+        - {x: -15, y: 16}
+        - {x: -17, y: 11}
+        - {x: -17, y: -16}
+        - {x: -8, y: -16}
+        - {x: -3, y: -15}
+        - {x: 8, y: -16}
+        - {x: 17, y: -16}
+    - name: bob_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 18.5}
+        - {x: -18, y: -18.5}
+        - {x: 18, y: -18.5}
+        - {x: 18, y: 16.5}
+        - {x: 16, y: 18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2810 @@
+fileFormatVersion: 2
+guid: b11a39db3997ae94ea4437e7f6c00403
+timeCreated: 1508198001
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: maurice_0
+    21300002: maurice_1
+    21300004: maurice_2
+    21300006: maurice_3
+    21300008: maurice_4
+    21300010: maurice_5
+    21300012: maurice_6
+    21300014: maurice_7
+    21300016: maurice_8
+    21300018: maurice_9
+    21300020: maurice_10
+    21300022: maurice_11
+    21300024: maurice_12
+    21300026: maurice_13
+    21300028: maurice_14
+    21300030: maurice_15
+    21300032: maurice_16
+    21300034: maurice_17
+    21300036: maurice_18
+    21300038: maurice_19
+    21300040: maurice_20
+    21300042: maurice_21
+    21300044: maurice_22
+    21300046: maurice_23
+    21300048: maurice_24
+    21300050: maurice_25
+    21300052: maurice_26
+    21300054: maurice_27
+    21300056: maurice_28
+    21300058: maurice_29
+    21300060: maurice_30
+    21300062: maurice_31
+    21300064: maurice_32
+    21300066: maurice_33
+    21300068: maurice_34
+    21300070: maurice_35
+    21300072: maurice_36
+    21300074: maurice_37
+    21300076: maurice_38
+    21300078: maurice_39
+    21300080: maurice_40
+    21300082: maurice_41
+    21300084: maurice_42
+    21300086: maurice_43
+    21300088: maurice_44
+    21300090: maurice_45
+    21300092: maurice_46
+    21300094: maurice_47
+    21300096: maurice_48
+    21300098: maurice_49
+    21300100: maurice_50
+    21300102: maurice_51
+    21300104: maurice_52
+    21300106: maurice_53
+    21300108: maurice_54
+    21300110: maurice_55
+    21300112: maurice_56
+    21300114: maurice_57
+    21300116: maurice_58
+    21300118: maurice_59
+    21300120: maurice_60
+    21300122: maurice_61
+    21300124: maurice_62
+    21300126: maurice_63
+    21300128: maurice_64
+    21300130: maurice_65
+    21300132: maurice_66
+    21300134: maurice_67
+    21300136: maurice_68
+    21300138: maurice_69
+    21300140: maurice_70
+    21300142: maurice_71
+    21300144: maurice_72
+    21300146: maurice_73
+    21300148: maurice_74
+    21300150: maurice_75
+    21300152: maurice_76
+    21300154: maurice_77
+    21300156: maurice_78
+    21300158: maurice_79
+    21300160: maurice_80
+    21300162: maurice_81
+    21300164: maurice_82
+    21300166: maurice_83
+    21300168: maurice_84
+    21300170: maurice_85
+    21300172: maurice_86
+    21300174: maurice_87
+    21300176: maurice_88
+    21300178: maurice_89
+    21300180: maurice_90
+    21300182: maurice_91
+    21300184: maurice_92
+    21300186: maurice_93
+    21300188: maurice_94
+    21300190: maurice_95
+    21300192: maurice_96
+    21300194: maurice_97
+    21300196: maurice_98
+    21300198: maurice_99
+    21300200: maurice_100
+    21300202: maurice_101
+    21300204: maurice_102
+    21300206: maurice_103
+    21300208: maurice_104
+    21300210: maurice_105
+    21300212: maurice_106
+    21300214: maurice_107
+    21300216: maurice_108
+    21300218: maurice_109
+    21300220: maurice_110
+    21300222: maurice_111
+    21300224: maurice_112
+    21300226: maurice_113
+    21300228: maurice_114
+    21300230: maurice_115
+    21300232: maurice_116
+    21300234: maurice_117
+    21300236: maurice_118
+    21300238: maurice_119
+    21300240: maurice_120
+    21300242: maurice_121
+    21300244: maurice_122
+    21300246: maurice_123
+    21300248: maurice_124
+    21300250: maurice_125
+    21300252: maurice_126
+    21300254: maurice_127
+    21300256: maurice_128
+    21300258: maurice_129
+    21300260: maurice_130
+    21300262: maurice_131
+    21300264: maurice_132
+    21300266: maurice_133
+    21300268: maurice_134
+    21300270: maurice_135
+    21300272: maurice_136
+    21300274: maurice_137
+    21300276: maurice_138
+    21300278: maurice_139
+    21300280: maurice_140
+    21300282: maurice_141
+    21300284: maurice_142
+    21300286: maurice_143
+    21300288: maurice_144
+    21300290: maurice_145
+    21300292: maurice_146
+    21300294: maurice_147
+    21300296: maurice_148
+    21300298: maurice_149
+    21300300: maurice_150
+    21300302: maurice_151
+    21300304: maurice_152
+    21300306: maurice_153
+    21300308: maurice_154
+    21300310: maurice_155
+    21300312: maurice_156
+    21300314: maurice_157
+    21300316: maurice_158
+    21300318: maurice_159
+    21300320: maurice_160
+    21300322: maurice_161
+    21300324: maurice_162
+    21300326: maurice_163
+    21300328: maurice_164
+    21300330: maurice_165
+    21300332: maurice_166
+    21300334: maurice_167
+    21300336: maurice_168
+    21300338: maurice_169
+    21300340: maurice_170
+    21300342: maurice_171
+    21300344: maurice_172
+    21300346: maurice_173
+    21300348: maurice_174
+    21300350: maurice_175
+    21300352: maurice_176
+    21300354: maurice_177
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: maurice_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1281
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 24}
+        - {x: -17, y: 24}
+        - {x: -17, y: -24}
+        - {x: 13, y: -24}
+        - {x: 15, y: -22}
+        - {x: 17, y: -19}
+        - {x: 17, y: 8}
+    - name: maurice_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1281
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1281
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 24}
+        - {x: -19, y: 24}
+        - {x: -19, y: -24}
+        - {x: 16, y: -24}
+        - {x: 18, y: -23}
+        - {x: 19, y: -19}
+        - {x: 19, y: 9}
+    - name: maurice_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1281
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 24}
+        - {x: -27, y: 14}
+        - {x: -27, y: -12}
+        - {x: -21, y: -24}
+        - {x: 14, y: -24}
+        - {x: 27, y: -11}
+        - {x: 27, y: 22}
+        - {x: 25, y: 24}
+    - name: maurice_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1281
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 24}
+        - {x: -25, y: 17}
+        - {x: -25, y: -3}
+        - {x: -15, y: -24}
+        - {x: 21, y: -24}
+        - {x: 25, y: -20}
+        - {x: 25, y: 24}
+    - name: maurice_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 24}
+        - {x: -19, y: 24}
+        - {x: -19, y: -24}
+        - {x: 16, y: -24}
+        - {x: 18, y: -23}
+        - {x: 19, y: -19}
+        - {x: 19, y: 9}
+    - name: maurice_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1217
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1217
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1217
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1217
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1217
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 25}
+        - {x: -11, y: 25}
+        - {x: -18, y: 13}
+        - {x: -18, y: -25}
+        - {x: 9, y: -25}
+        - {x: 10, y: -24}
+        - {x: 18, y: -1}
+        - {x: 18, y: 12}
+    - name: maurice_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1217
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 25}
+        - {x: -11, y: 25}
+        - {x: -18, y: 16}
+        - {x: -18, y: -7}
+        - {x: -15, y: -23}
+        - {x: -13, y: -25}
+        - {x: 5, y: -25}
+        - {x: 7, y: -22}
+        - {x: 18, y: 3}
+        - {x: 18, y: 13}
+    - name: maurice_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1217
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -17, y: 22}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: maurice_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1153
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -17, y: 16}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: maurice_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1153
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1153
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -19, y: 8}
+        - {x: -19, y: -15}
+        - {x: -15, y: -25}
+        - {x: 14, y: -25}
+        - {x: 19, y: -16}
+        - {x: 19, y: 6}
+        - {x: 10, y: 25}
+    - name: maurice_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1153
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 25}
+        - {x: -11, y: 25}
+        - {x: -27, y: 11}
+        - {x: -27, y: 2}
+        - {x: -24, y: -7}
+        - {x: -13, y: -25}
+        - {x: 13, y: -25}
+        - {x: 16, y: -24}
+        - {x: 27, y: -10}
+        - {x: 27, y: 20}
+    - name: maurice_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1153
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 25}
+        - {x: -25, y: 21}
+        - {x: -25, y: -14}
+        - {x: -15, y: -25}
+        - {x: 25, y: -25}
+        - {x: 25, y: 25}
+    - name: maurice_20
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1153
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -11, y: 25}
+        - {x: -19, y: 7}
+        - {x: -19, y: -18}
+        - {x: -13, y: -25}
+        - {x: 17, y: -25}
+        - {x: 19, y: -22}
+        - {x: 19, y: 17}
+        - {x: 14, y: 23}
+    - name: maurice_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1089
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1089
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1089
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -8, y: 25}
+        - {x: -18, y: 8}
+        - {x: -18, y: -8}
+        - {x: -7, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -24}
+        - {x: 18, y: -20}
+        - {x: 18, y: 14}
+        - {x: 16, y: 23}
+    - name: maurice_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1089
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 25}
+        - {x: -18, y: -25}
+        - {x: 11, y: -25}
+        - {x: 17, y: -24}
+        - {x: 18, y: -21}
+        - {x: 18, y: 18}
+        - {x: 14, y: 25}
+    - name: maurice_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1089
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1025
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -17, y: 18}
+        - {x: -17, y: -16}
+        - {x: -15, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: 24}
+    - name: maurice_29
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1023
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1023
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1023
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1023
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1023
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 961
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 25}
+        - {x: -9, y: 18}
+        - {x: -16, y: 6}
+        - {x: -16, y: -14}
+        - {x: -9, y: -25}
+        - {x: 16, y: -25}
+        - {x: 16, y: 19}
+        - {x: 10, y: 25}
+    - name: maurice_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 961
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 961
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_44
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 897
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -17, y: 22}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: maurice_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 897
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_49
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 897
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 833
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_53
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 833
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -16, y: 25}
+        - {x: -16, y: -25}
+        - {x: 2, y: -25}
+        - {x: 8, y: -24}
+        - {x: 16, y: -15}
+        - {x: 16, y: 7}
+        - {x: 10, y: 23}
+    - name: maurice_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 833
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -16, y: 24}
+        - {x: -17, y: 13}
+        - {x: -17, y: -12}
+        - {x: -14, y: -21}
+        - {x: -11, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 23}
+        - {x: 14, y: 25}
+    - name: maurice_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 25}
+        - {x: -10, y: 25}
+        - {x: -17, y: 20}
+        - {x: -17, y: -25}
+        - {x: 8, y: -25}
+        - {x: 14, y: -23}
+        - {x: 17, y: -20}
+        - {x: 17, y: 11}
+    - name: maurice_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -14}
+        - {x: 17, y: 23}
+        - {x: 10, y: 25}
+    - name: maurice_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -16, y: 10}
+        - {x: -16, y: -15}
+        - {x: -7, y: -25}
+        - {x: 14, y: -25}
+        - {x: 16, y: -24}
+        - {x: 16, y: 17}
+        - {x: 13, y: 25}
+    - name: maurice_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 25}
+        - {x: -7, y: 25}
+        - {x: -15, y: 24}
+        - {x: -17, y: 10}
+        - {x: -17, y: -16}
+        - {x: -10, y: -25}
+        - {x: 12, y: -25}
+        - {x: 17, y: -17}
+        - {x: 17, y: 9}
+        - {x: 14, y: 19}
+    - name: maurice_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -17, y: 21}
+        - {x: -17, y: -25}
+        - {x: 14, y: -25}
+        - {x: 17, y: -18}
+        - {x: 17, y: 14}
+        - {x: 11, y: 25}
+    - name: maurice_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 25}
+        - {x: -12, y: 25}
+        - {x: -16, y: 24}
+        - {x: -17, y: 22}
+        - {x: -17, y: -21}
+        - {x: -15, y: -25}
+        - {x: 17, y: -25}
+    - name: maurice_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 767
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -22}
+        - {x: -14, y: -25}
+        - {x: 0, y: -25}
+        - {x: 8, y: -22}
+        - {x: 16, y: -14}
+        - {x: 16, y: 24}
+        - {x: 12, y: 25}
+    - name: maurice_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 11, y: -25}
+        - {x: 17, y: -20}
+        - {x: 17, y: 11}
+        - {x: 12, y: 25}
+    - name: maurice_69
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 705
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 705
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_72
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_73
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_76
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_77
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 705
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_78
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -17, y: 22}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: maurice_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 25}
+        - {x: -14, y: 24}
+        - {x: -17, y: 2}
+        - {x: -17, y: -21}
+        - {x: -16, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 24}
+        - {x: 15, y: 25}
+    - name: maurice_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 26}
+        - {x: -17, y: -23}
+        - {x: -10, y: -26}
+        - {x: 17, y: -26}
+        - {x: 17, y: 26}
+    - name: maurice_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 25}
+        - {x: -13, y: 25}
+        - {x: -16, y: 22}
+        - {x: -16, y: -20}
+        - {x: -13, y: -25}
+        - {x: 11, y: -25}
+        - {x: 12, y: -23}
+        - {x: 16, y: -13}
+        - {x: 16, y: 12}
+    - name: maurice_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -17, y: 26}
+        - {x: -17, y: -26}
+        - {x: 13, y: -26}
+        - {x: 17, y: -9}
+        - {x: 17, y: 11}
+        - {x: 14, y: 24}
+    - name: maurice_83
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 641
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 21}
+        - {x: 6, y: 25}
+        - {x: -8, y: 25}
+        - {x: -17, y: 22}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 7}
+    - name: maurice_84
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 20}
+        - {x: 10, y: 26}
+        - {x: -7, y: 26}
+        - {x: -13, y: 24}
+        - {x: -17, y: 19}
+        - {x: -17, y: -21}
+        - {x: -14, y: -26}
+        - {x: 15, y: -26}
+        - {x: 16, y: -25}
+        - {x: 17, y: -20}
+        - {x: 17, y: 10}
+    - name: maurice_85
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 639
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 25}
+        - {x: -9, y: 25}
+        - {x: -16, y: 10}
+        - {x: -16, y: -13}
+        - {x: -13, y: -23}
+        - {x: -9, y: -25}
+        - {x: 7, y: -25}
+        - {x: 15, y: -21}
+        - {x: 16, y: -18}
+        - {x: 16, y: 14}
+    - name: maurice_86
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 639
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 26}
+        - {x: -17, y: 26}
+        - {x: -17, y: -26}
+        - {x: 10, y: -26}
+        - {x: 17, y: -17}
+        - {x: 17, y: 21}
+    - name: maurice_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 577
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 577
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_89
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 577
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 577
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 577
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 513
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 24}
+        - {x: -17, y: 24}
+        - {x: -17, y: -24}
+        - {x: 13, y: -24}
+        - {x: 15, y: -22}
+        - {x: 17, y: -19}
+        - {x: 17, y: 8}
+    - name: maurice_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 511
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 511
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 511
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 25}
+        - {x: -16, y: -23}
+        - {x: -14, y: -25}
+        - {x: 14, y: -25}
+        - {x: 16, y: -19}
+        - {x: 16, y: 17}
+        - {x: 13, y: 25}
+    - name: maurice_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 511
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -16, y: 24}
+        - {x: -19, y: 8}
+        - {x: -19, y: -22}
+        - {x: -13, y: -25}
+        - {x: 12, y: -25}
+        - {x: 19, y: -11}
+        - {x: 19, y: 14}
+        - {x: 11, y: 25}
+    - name: maurice_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 511
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -21, y: 18}
+        - {x: -21, y: -24}
+        - {x: -17, y: -25}
+        - {x: 11, y: -25}
+        - {x: 21, y: -1}
+        - {x: 21, y: 10}
+        - {x: 5, y: 25}
+    - name: maurice_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 449
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 449
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 449
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_105
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 449
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -19, y: 6}
+        - {x: -19, y: -21}
+        - {x: -11, y: -25}
+        - {x: 18, y: -25}
+        - {x: 19, y: -23}
+        - {x: 19, y: 11}
+        - {x: 12, y: 25}
+    - name: maurice_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 449
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 25}
+        - {x: -19, y: 20}
+        - {x: -19, y: -20}
+        - {x: -18, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 11}
+        - {x: 13, y: 25}
+    - name: maurice_107
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 449
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -18, y: 13}
+        - {x: -18, y: -1}
+        - {x: -12, y: -25}
+        - {x: 18, y: -25}
+        - {x: 18, y: 14}
+        - {x: 13, y: 25}
+    - name: maurice_108
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 385
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -17, y: 22}
+        - {x: -17, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: maurice_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 385
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_111
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 385
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 385
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 25}
+        - {x: -19, y: 13}
+        - {x: -19, y: -25}
+        - {x: 13, y: -25}
+        - {x: 19, y: -18}
+        - {x: 19, y: 3}
+        - {x: 8, y: 25}
+    - name: maurice_113
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 385
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 23}
+        - {x: 4, y: 25}
+        - {x: -14, y: 25}
+        - {x: -17, y: 22}
+        - {x: -21, y: 1}
+        - {x: -21, y: -25}
+        - {x: 13, y: -25}
+        - {x: 21, y: -8}
+        - {x: 21, y: 7}
+    - name: maurice_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 321
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 321
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 321
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_117
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 321
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -15, y: 19}
+        - {x: -19, y: 3}
+        - {x: -19, y: -16}
+        - {x: -17, y: -25}
+        - {x: 12, y: -25}
+        - {x: 19, y: -17}
+        - {x: 19, y: 12}
+        - {x: 6, y: 25}
+    - name: maurice_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 321
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 25}
+        - {x: -11, y: 25}
+        - {x: -17, y: 19}
+        - {x: -19, y: 10}
+        - {x: -19, y: -21}
+        - {x: -17, y: -25}
+        - {x: 7, y: -25}
+        - {x: 19, y: -6}
+        - {x: 19, y: 12}
+        - {x: 15, y: 24}
+    - name: maurice_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 321
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 25}
+        - {x: -18, y: 5}
+        - {x: -18, y: -25}
+        - {x: 12, y: -25}
+        - {x: 18, y: -13}
+        - {x: 18, y: 12}
+        - {x: 9, y: 25}
+    - name: maurice_120
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 257
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -24}
+        - {x: 13, y: -24}
+        - {x: 16, y: -20}
+        - {x: 16, y: 23}
+        - {x: 14, y: 24}
+    - name: maurice_121
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_122
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 255
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 255
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 255
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 255
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_129
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 255
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 255
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_131
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 255
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_132
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 255
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_133
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 193
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 193
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -18, y: 6}
+        - {x: -18, y: -16}
+        - {x: -13, y: -25}
+        - {x: 14, y: -25}
+        - {x: 18, y: -20}
+        - {x: 18, y: 13}
+        - {x: 12, y: 25}
+    - name: maurice_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -19, y: -2}
+        - {x: -19, y: -11}
+        - {x: -11, y: -24}
+        - {x: -6, y: -25}
+        - {x: 16, y: -25}
+        - {x: 19, y: -16}
+        - {x: 19, y: 22}
+        - {x: 13, y: 25}
+    - name: maurice_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -9, y: 22}
+        - {x: -19, y: 4}
+        - {x: -19, y: -19}
+        - {x: -8, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 10}
+        - {x: 13, y: 25}
+    - name: maurice_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 193
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 25}
+        - {x: -17, y: 16}
+        - {x: -17, y: -16}
+        - {x: -13, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 25}
+    - name: maurice_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 193
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 25}
+        - {x: -18, y: 18}
+        - {x: -18, y: -20}
+        - {x: -16, y: -25}
+        - {x: 16, y: -25}
+        - {x: 18, y: -18}
+        - {x: 18, y: 19}
+        - {x: 16, y: 25}
+    - name: maurice_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 193
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 25}
+        - {x: -20, y: 12}
+        - {x: -20, y: -3}
+        - {x: -12, y: -24}
+        - {x: -10, y: -25}
+        - {x: 17, y: -25}
+        - {x: 20, y: -13}
+        - {x: 20, y: 15}
+        - {x: 10, y: 25}
+    - name: maurice_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 193
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -21, y: 21}
+        - {x: -21, y: -8}
+        - {x: -15, y: -25}
+        - {x: 16, y: -25}
+        - {x: 21, y: -13}
+        - {x: 21, y: 18}
+        - {x: 16, y: 25}
+    - name: maurice_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 25}
+        - {x: -9, y: 22}
+        - {x: -19, y: 4}
+        - {x: -19, y: -19}
+        - {x: -8, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 10}
+        - {x: 13, y: 25}
+    - name: maurice_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -19, y: 4}
+        - {x: -19, y: 0}
+        - {x: -9, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 24}
+        - {x: 14, y: 25}
+    - name: maurice_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 193
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 25}
+        - {x: -17, y: 8}
+        - {x: -17, y: -13}
+        - {x: -5, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 21}
+        - {x: 12, y: 25}
+    - name: maurice_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 193
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 25}
+        - {x: -19, y: 4}
+        - {x: -19, y: 0}
+        - {x: -9, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 24}
+        - {x: 14, y: 25}
+    - name: maurice_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 25}
+        - {x: -13, y: 25}
+        - {x: -16, y: 23}
+        - {x: -16, y: -25}
+        - {x: 15, y: -25}
+        - {x: 16, y: -22}
+        - {x: 16, y: 14}
+        - {x: 14, y: 23}
+    - name: maurice_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 129
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_156
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_157
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 129
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 129
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 65
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_160
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: maurice_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -18, y: 21}
+        - {x: -18, y: -10}
+        - {x: -11, y: -25}
+        - {x: 7, y: -25}
+        - {x: 12, y: -24}
+        - {x: 18, y: -10}
+        - {x: 18, y: 3}
+        - {x: 7, y: 25}
+    - name: maurice_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -19, y: 8}
+        - {x: -19, y: -25}
+        - {x: 15, y: -25}
+        - {x: 19, y: -18}
+        - {x: 19, y: 5}
+        - {x: 6, y: 25}
+    - name: maurice_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 25}
+        - {x: -13, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -19}
+        - {x: -16, y: -25}
+        - {x: 3, y: -25}
+        - {x: 10, y: -23}
+        - {x: 19, y: -3}
+        - {x: 19, y: 10}
+        - {x: 4, y: 24}
+    - name: maurice_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 65
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 8, y: -25}
+        - {x: 17, y: -4}
+        - {x: 17, y: 20}
+        - {x: 15, y: 25}
+    - name: maurice_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 65
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 1}
+        - {x: 18, y: 13}
+        - {x: 1, y: 25}
+        - {x: -9, y: 25}
+        - {x: -18, y: 23}
+        - {x: -18, y: -25}
+        - {x: 4, y: -25}
+        - {x: 7, y: -22}
+        - {x: 7, y: -19}
+        - {x: 17, y: -1}
+    - name: maurice_166
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 65
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 25}
+        - {x: -20, y: 13}
+        - {x: -20, y: -6}
+        - {x: -16, y: -25}
+        - {x: 6, y: -25}
+        - {x: 11, y: -23}
+        - {x: 20, y: -4}
+        - {x: 20, y: 15}
+        - {x: 5, y: 25}
+    - name: maurice_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 65
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -21, y: 14}
+        - {x: -21, y: -22}
+        - {x: -16, y: -25}
+        - {x: 4, y: -25}
+        - {x: 12, y: -23}
+        - {x: 21, y: -1}
+        - {x: 21, y: 10}
+        - {x: 5, y: 25}
+    - name: maurice_168
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 25}
+        - {x: -13, y: 25}
+        - {x: -19, y: 14}
+        - {x: -19, y: -19}
+        - {x: -16, y: -25}
+        - {x: 3, y: -25}
+        - {x: 10, y: -23}
+        - {x: 19, y: -3}
+        - {x: 19, y: 10}
+        - {x: 4, y: 24}
+    - name: maurice_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 25}
+        - {x: -8, y: 25}
+        - {x: -11, y: 24}
+        - {x: -15, y: 21}
+        - {x: -19, y: 3}
+        - {x: -19, y: -13}
+        - {x: -15, y: -25}
+        - {x: 2, y: -25}
+        - {x: 10, y: -23}
+        - {x: 19, y: -3}
+        - {x: 19, y: 10}
+        - {x: 4, y: 24}
+    - name: maurice_170
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 65
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 25}
+        - {x: -17, y: 25}
+        - {x: -17, y: -25}
+        - {x: 4, y: -25}
+        - {x: 9, y: -24}
+        - {x: 17, y: 0}
+        - {x: 17, y: 8}
+        - {x: 8, y: 23}
+    - name: maurice_171
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 65
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 25}
+        - {x: -19, y: -25}
+        - {x: 19, y: -25}
+        - {x: 19, y: 25}
+    - name: maurice_172
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -17, y: 10}
+        - {x: -17, y: -17}
+        - {x: -16, y: -25}
+        - {x: 17, y: -25}
+        - {x: 17, y: 11}
+        - {x: 9, y: 25}
+    - name: maurice_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 24}
+        - {x: -14, y: 19}
+        - {x: -17, y: 1}
+        - {x: -17, y: -17}
+        - {x: -11, y: -23}
+        - {x: -8, y: -24}
+        - {x: 14, y: -24}
+        - {x: 17, y: -21}
+        - {x: 17, y: 10}
+        - {x: 11, y: 24}
+    - name: maurice_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 21}
+        - {x: -8, y: 21}
+        - {x: -14, y: 19}
+        - {x: -17, y: -2}
+        - {x: -17, y: -18}
+        - {x: -16, y: -21}
+        - {x: 15, y: -21}
+        - {x: 17, y: -17}
+        - {x: 17, y: 8}
+        - {x: 11, y: 17}
+    - name: maurice_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 19}
+        - {x: -17, y: 5}
+        - {x: -17, y: -19}
+        - {x: 14, y: -19}
+        - {x: 17, y: -16}
+        - {x: 17, y: 7}
+        - {x: 10, y: 19}
+    - name: maurice_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -17, y: 12}
+        - {x: -17, y: -16}
+        - {x: 17, y: -16}
+        - {x: 17, y: 4}
+        - {x: 11, y: 16}
+    - name: maurice_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 18.5}
+        - {x: -18, y: 16.5}
+        - {x: -18, y: -18.5}
+        - {x: 18, y: -18.5}
+        - {x: 18, y: 12.5}
+        - {x: 16, y: 18.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
