@@ -80,16 +80,17 @@ public class Accusation : Interface {
             
             if (accusingName == "AccuseSam")
             {
+                GameManager.inst.correctAnswer();
                 Debug.Log("Accusation: Won");
                 hideAccusePanel();
-                SceneManager.LoadScene("EndScreenWin");
+                SceneManager.LoadScene("EndScreen");
 
             }
             else
             {
                 Debug.Log("Accusation: Lost");
                 hideAccusePanel();
-                SceneManager.LoadScene("EndScreenLose");
+                SceneManager.LoadScene("EndScreen");
             }
         }
         else

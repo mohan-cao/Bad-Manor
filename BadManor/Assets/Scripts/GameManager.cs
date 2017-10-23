@@ -29,6 +29,8 @@ namespace Assets.Scripts
         public UIManager UIManager;
         public WorldManager WorldManager;
 
+	    private Boolean _won = false;
+
 	    /// <summary>
 	    /// A dictionary which stores all parameters to do with game state.</summary>
 		public Dictionary<string,object> Parameters;
@@ -170,5 +172,15 @@ namespace Assets.Scripts
 			}
 			return null;
 		}
+
+	    public void correctAnswer()
+	    {
+		    _won = true;
+	    }
+
+	    public Boolean won()
+	    {
+		    return _won;
+	    }
     }
 }
