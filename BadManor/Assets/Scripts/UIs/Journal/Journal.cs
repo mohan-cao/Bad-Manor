@@ -16,7 +16,6 @@ public class Journal : Interface {
 	public GameObject inventoryPanel;
 	public GameObject profilesPanel;
 	public GameObject notesPanel;
-
 	private GameObject currentPanel;
 
 	public enum MenuPanel {
