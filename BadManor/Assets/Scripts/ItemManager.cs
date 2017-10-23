@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -6,7 +7,8 @@ namespace Assets.Scripts
 	/// <summary>
 	/// ItemManager is the state and interaction of all items. It is responsible for keeping track of which items have
 	/// been collected and seen. If collected they should be removed from the map and showed in the journal.</summary>
-    public class ItemManager : MonoBehaviour
+	[Serializable()]
+	public class ItemManager : MonoBehaviour
     {
 	    /// <summary>
 	    /// State of the dialogue.</summary>

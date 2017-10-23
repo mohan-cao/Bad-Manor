@@ -1,4 +1,7 @@
 ﻿using UnityEngine;
+using System.IO;  
+using System.Collections;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Assets.Scripts
 {
@@ -7,6 +10,8 @@ namespace Assets.Scripts
     /// currently only depends on GameManager for prototype but this is assumed to change</summary>
     public class GameLoader : MonoBehaviour
     {
+        string filename = Application.persistentDataPath + "savegame";
+        
         /// <summary>
         /// Singleton pattern instance to ensure there's only one GameLoader and state on the same PC.</summary>
         public static GameLoader Inst = null;
@@ -38,13 +43,27 @@ namespace Assets.Scripts
         /// Will load a saved game state but for prototype will create a new one.</summary>
         public void loadGame()
         {
-			newGame ();
+            if (File.Exists(filename))  
+            {  
+                Stream serialiseStream = File.OpenRead(filename);  
+                BinaryFormatter deserializer = new BinaryFormatter();  
+                _gameManager = (GameManager)deserializer.Deserialize(serialiseStream);  
+                serialiseStream.Close();  
+            }
+            else
+            {
+                newGame ();   
+            }
         }
 
         /// <summary>
         /// Only leaves the game for the prototype but should soon save too.</summary>
 		public void quitGame()
 		{
+		    Stream serialiseStream = File.Create(filename);  
+		    BinaryFormatter serializer = new BinaryFormatter();  
+		    serializer.Serialize(serialiseStream, _gameManager);  
+		    serialiseStream.Close(); 
 			Application.Quit ();
 		}
     }

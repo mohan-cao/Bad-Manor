@@ -8,6 +8,7 @@ namespace Assets.Scripts.Items
 {
     /// <summary>
     /// Item represents items in the game, they have names for what they are.</summary>
+    [Serializable()]
     public abstract class Item : MonoBehaviour
     {
         /// <summary>

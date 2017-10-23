@@ -1,10 +1,12 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using UnityEngine;
 
 namespace Assets.Scripts
 {
     /// <summary>
     /// State of the game score measured in how long it takes to finish the game.</summary>
+    [Serializable()]
     public class ScoreManager : MonoBehaviour
     {
         /// <summary>

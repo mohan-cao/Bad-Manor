@@ -14,6 +14,7 @@ namespace Assets.Scripts
 	/// </summary>
 	/// <remarks>
 	/// This implements a singleton pattern to ensure there is no double up of game state while playing.</remarks>
+	[Serializable()]
     public class GameManager : MonoBehaviour
     {
 	    /// <summary>
@@ -28,6 +29,8 @@ namespace Assets.Scripts
         public SoundManager SoundManager;
         public UIManager UIManager;
         public WorldManager WorldManager;
+
+	    private Boolean _won = false;
 
 	    /// <summary>
 	    /// A dictionary which stores all parameters to do with game state.</summary>
@@ -170,5 +173,15 @@ namespace Assets.Scripts
 			}
 			return null;
 		}
+
+	    public void correctAnswer()
+	    {
+		    _won = true;
+	    }
+
+	    public Boolean won()
+	    {
+		    return _won;
+	    }
     }
 }
