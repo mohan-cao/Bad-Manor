@@ -45,6 +45,7 @@ namespace Assets.Scripts.Characters
         public Flowchart dialogueFlowchart;
         private bool escapePressed = false;
         private SimpleJoystick js;
+        public static bool journalopen;
 
         private bool spacePressed = false;
 
@@ -73,6 +74,10 @@ namespace Assets.Scripts.Characters
                 //Configure the animation of the player
                 _animator.SetFloat("MoveX", 0f);
                 _animator.SetFloat("MoveY", 0f);
+            }
+            else if (_Journal.gameObject.activeSelf)
+            {
+                //do nothing
             }
             else
             {
