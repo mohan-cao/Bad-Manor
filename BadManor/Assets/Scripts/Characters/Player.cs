@@ -1,4 +1,5 @@
 
+using CnControls;
 using Fungus;
 using UnityEngine;
 
@@ -13,35 +14,45 @@ namespace Assets.Scripts.Characters
         /// Time the player moves for.</summary>
         public const float MoveTime = 0.1f;
 
-        /// <summary>
-        /// Rigid body the player sprite.</summary>
-        private Rigidbody2D _rigidBody2D;
-        /// <summary>
-        /// Responsible for managing dialogue.</summary>
-        private DialogueManager _dialogueManager;
-        /// <summary>
-        /// Whether or not the player is currently engaged in a conversation.</summary>
-        private bool _inConversation;
+	    /// <summary>
+	    /// Rigid body the player sprite.</summary>
+		private Rigidbody2D _rigidBody2D;
+
+	    /// <summary>
+	    /// Responsible for managing dialogue.</summary>
+	    private DialogueManager _dialogueManager;
+	    private SoundManager _soundManager;
+
+	    public AudioClip _walkingSound;
+        
+	    /// <summary>
+	    /// Whether or not the player is currently engaged in a conversation.</summary>
+		private bool _inConversation;
+
+
 
         private bool spacePressed = false;
         private bool escapePressed = false;
 
         public Flowchart dialogueFlowchart;
-
+	    private SimpleJoystick js;
+        
         //<summary>
         /// Private animator which assists with the animation when the player walks
         private Animator _animator;
+	    
+	    /// <summary>
+	    /// Initialises fields, this method is executed when the player is created in Unity.</summary>
+		void Start()
+		{
+			_rigidBody2D = GetComponent<Rigidbody2D> ();
+			_dialogueManager = FindObjectOfType<DialogueManager> ();
+			_soundManager = FindObjectOfType<SoundManager>();
+			_inConversation = false;
+		    _animator = GetComponent<Animator>();
+		}
 
-        /// <summary>
-        /// Initialises fields, this method is executed when the player is created in Unity.</summary>
-        void Start()
-        {
-            _rigidBody2D = GetComponent<Rigidbody2D>();
-            _dialogueManager = FindObjectOfType<DialogueManager>();
-            _inConversation = false;
-            _animator = GetComponent<Animator>();
 
-        }
 
         /// <summary>
         /// Method is run once per frame and checks how the player wants to proceed with conversation.</summary>
