@@ -6550,7 +6550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1475542897}
+  selectedFlowchart: {fileID: 80081938}
 --- !u!4 &949803200
 Transform:
   m_ObjectHideFlags: 1
@@ -11011,7 +11011,7 @@ MonoBehaviour:
   - {fileID: 1084141467}
 --- !u!114 &1084141475
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1084141311}
@@ -11029,7 +11029,7 @@ MonoBehaviour:
       blackjack table.\r"
 --- !u!114 &1084141476
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1084141311}
@@ -11054,7 +11054,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1084141477
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1084141311}
@@ -11069,6 +11069,12 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
+--- !u!114 &1084141483 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11443990, guid: b07c271709334584c8bb04ddbd6fca41,
+    type: 2}
+  m_PrefabInternal: {fileID: 1970266812}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &1084141485 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11496718, guid: b07c271709334584c8bb04ddbd6fca41,
@@ -12875,12 +12881,6 @@ MonoBehaviour:
   targetBlock: {fileID: 1084141375}
   startIndex: 0
   callMode: 0
---- !u!114 &1084141618 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11487468, guid: b07c271709334584c8bb04ddbd6fca41,
-    type: 2}
-  m_PrefabInternal: {fileID: 1970266812}
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
 --- !u!114 &1084141622 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11418254, guid: b07c271709334584c8bb04ddbd6fca41,
@@ -16376,7 +16376,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1475542788
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -16521,7 +16521,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1475542794
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475542784}
@@ -17331,12 +17331,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1587506604}
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
---- !u!114 &1475542897 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11419074, guid: c913766290c61754391fe0a838da1d5f,
-    type: 2}
-  m_PrefabInternal: {fileID: 1587506604}
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
 --- !u!114 &1475542899
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21675,7 +21669,7 @@ Prefab:
     - target: {fileID: 11470428, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1084141618}
+      objectReference: {fileID: 1084141483}
     - target: {fileID: 11446292, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
       propertyPath: nodeRect.width
       value: 162
@@ -22505,6 +22499,13 @@ Prefab:
     - target: {fileID: 11418254, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
       propertyPath: storyText
       value: '...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11460370, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
+      propertyPath: conversationText.stringVal
+      value: "\rPlayer: Do you know how I can get into the security room?\r\nBrange:
+        You need a key to get in. Usually Bertha handles this stuff, so I\u2019m not
+        too sure. \nPlayer: She does like hiding things under bathmats though. Mi
+        Na maybe has a key.\r"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11423788, guid: b07c271709334584c8bb04ddbd6fca41, type: 2}
