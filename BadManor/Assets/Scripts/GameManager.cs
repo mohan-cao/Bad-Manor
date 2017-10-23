@@ -15,7 +15,7 @@ namespace Assets.Scripts
 	/// <remarks>
 	/// This implements a singleton pattern to ensure there is no double up of game state while playing.</remarks>
     public class GameManager : MonoBehaviour
-    {
+    { 
 	    /// <summary>
 	    /// Instance of the singleton patter.</summary>
 	    public static GameManager inst = null;
