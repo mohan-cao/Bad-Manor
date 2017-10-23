@@ -5964,7 +5964,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
-      value: 40
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 11459962, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.size
@@ -6029,7 +6029,7 @@ Prefab:
     - target: {fileID: 11405192, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1177341578}
+      objectReference: {fileID: 1177341561}
     - target: {fileID: 11460834, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: targetObject
       value: 
@@ -6150,123 +6150,123 @@ Prefab:
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[6]
       value: 
-      objectReference: {fileID: 1177341554}
+      objectReference: {fileID: 1177341142}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[7]
       value: 
-      objectReference: {fileID: 1177341556}
+      objectReference: {fileID: 1177341554}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[8]
       value: 
-      objectReference: {fileID: 1177341145}
+      objectReference: {fileID: 1177341556}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[9]
       value: 
-      objectReference: {fileID: 1177341144}
+      objectReference: {fileID: 1177341145}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[10]
       value: 
-      objectReference: {fileID: 1177341552}
+      objectReference: {fileID: 1177341144}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[11]
       value: 
-      objectReference: {fileID: 1177341555}
+      objectReference: {fileID: 1177341552}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[12]
       value: 
-      objectReference: {fileID: 1177341143}
+      objectReference: {fileID: 1177341555}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[13]
       value: 
-      objectReference: {fileID: 1177341475}
+      objectReference: {fileID: 1177341143}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[14]
       value: 
-      objectReference: {fileID: 1177341361}
+      objectReference: {fileID: 1177341475}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[15]
       value: 
-      objectReference: {fileID: 1177341377}
+      objectReference: {fileID: 1177341361}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[16]
       value: 
-      objectReference: {fileID: 1177341550}
+      objectReference: {fileID: 1177341377}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[17]
       value: 
-      objectReference: {fileID: 1177341549}
+      objectReference: {fileID: 1177341550}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[18]
       value: 
-      objectReference: {fileID: 1177341223}
+      objectReference: {fileID: 1177341549}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[19]
       value: 
-      objectReference: {fileID: 1177341548}
+      objectReference: {fileID: 1177341223}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[20]
       value: 
-      objectReference: {fileID: 1177341339}
+      objectReference: {fileID: 1177341548}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[21]
       value: 
-      objectReference: {fileID: 1177341547}
+      objectReference: {fileID: 1177341339}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[22]
       value: 
-      objectReference: {fileID: 1177341340}
+      objectReference: {fileID: 1177341547}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[23]
       value: 
-      objectReference: {fileID: 1177341546}
+      objectReference: {fileID: 1177341340}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[24]
       value: 
-      objectReference: {fileID: 1177341341}
+      objectReference: {fileID: 1177341546}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[25]
       value: 
-      objectReference: {fileID: 1177341534}
+      objectReference: {fileID: 1177341341}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[26]
       value: 
-      objectReference: {fileID: 1177341141}
+      objectReference: {fileID: 1177341534}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[27]
       value: 
-      objectReference: {fileID: 1177341545}
+      objectReference: {fileID: 1177341141}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[28]
       value: 
-      objectReference: {fileID: 1177341140}
+      objectReference: {fileID: 1177341545}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[29]
       value: 
-      objectReference: {fileID: 1177341544}
+      objectReference: {fileID: 1177341140}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[30]
       value: 
-      objectReference: {fileID: 1177341139}
+      objectReference: {fileID: 1177341544}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[31]
       value: 
-      objectReference: {fileID: 1177341543}
+      objectReference: {fileID: 1177341139}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[32]
       value: 
-      objectReference: {fileID: 1177341138}
+      objectReference: {fileID: 1177341543}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[33]
       value: 
-      objectReference: {fileID: 1177341542}
+      objectReference: {fileID: 1177341138}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[34]
       value: 
-      objectReference: {fileID: 1177341137}
+      objectReference: {fileID: 1177341542}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[35]
       value: 
-      objectReference: {fileID: 1177341541}
+      objectReference: {fileID: 1177341137}
     - target: {fileID: 11479262, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: conversationText.stringVal
       value: "Player: \nCharles: \nPlayer: \r\nCharles: "
@@ -6274,15 +6274,15 @@ Prefab:
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[36]
       value: 
-      objectReference: {fileID: 1177341136}
+      objectReference: {fileID: 1177341541}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[37]
       value: 
-      objectReference: {fileID: 1177341540}
+      objectReference: {fileID: 1177341136}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[38]
       value: 
-      objectReference: {fileID: 1177341536}
+      objectReference: {fileID: 1177341540}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[2]
       value: 
@@ -6294,7 +6294,7 @@ Prefab:
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[39]
       value: 
-      objectReference: {fileID: 1177341535}
+      objectReference: {fileID: 1177341536}
     - target: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7, type: 2}
       propertyPath: commandList.Array.data[40]
       value: 
@@ -10705,6 +10705,22 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   setSayDialog: {fileID: 0}
+--- !u!114 &1177341142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177341134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 692
+  indentLevel: 1
+  targetObject: {fileID: 438940252}
+  methodName: AddNote("mohan", "andrew")
+  delay: 0
 --- !u!114 &1177341143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14200,9 +14216,9 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 855691200}
   m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
---- !u!114 &1177341578 stripped
+--- !u!114 &1177341561 stripped
 MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11494820, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
+  m_PrefabParentObject: {fileID: 11456194, guid: b66ac67dcff3c824ca5b1d240d6bb4b7,
     type: 2}
   m_PrefabInternal: {fileID: 855691200}
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
