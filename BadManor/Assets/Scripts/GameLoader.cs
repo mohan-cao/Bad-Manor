@@ -1,10 +1,7 @@
-﻿using System;
-using UnityEngine;
-using System.IO;  
-using System.Collections;
-using System.Diagnostics;
+﻿using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using Fungus;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
@@ -40,7 +37,7 @@ namespace Assets.Scripts
         /// Creates a new game state.</summary>
         public void newGame()
         {
-            _gameManager = gameObject.AddComponent<GameManager>() as GameManager;
+            _gameManager = gameObject.AddComponent<GameManager>();
         }
 
         /// <summary>
@@ -50,46 +47,15 @@ namespace Assets.Scripts
             newGame();
             if (File.Exists(filename))
             {
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+                Debug.LogWarning("TAKE ON UNITY");
                 Stream serialiseStream = File.OpenRead(filename);
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+                Debug.LogWarning("TAKE ON UNITY");
                 BinaryFormatter deserializer = new BinaryFormatter();
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                SaveGame saveGame = (SaveGame)deserializer.Deserialize(serialiseStream);
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+                Debug.LogWarning("TAKE ON UNITY");
+                SaveGame saveGame = deserializer.Deserialize(serialiseStream) as SaveGame;
+                Debug.LogWarning("TAKE ON UNITY");
                 serialiseStream.Close();
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                Scene currentScene = SceneManager.GetActiveScene();
-                GameObject[] rootGameObjects = currentScene.GetRootGameObjects();
-                Flowchart characFlowchart = null;
-                Flowchart itemFlowchart = null;
-                foreach (GameObject go in rootGameObjects)
-                {
-                    GameObject c1 = go.transform.Find("Char-Flowcharts").gameObject;
-                    GameObject c2 = go.transform.Find("Item-Flowchart").gameObject;
-                    if (c1 != null) characFlowchart = c1.GetComponent<Flowchart>();
-                    if (c2 != null) itemFlowchart = c2.GetComponent<Flowchart>();
-                }
-                
-                UnityEngine.Debug.LogWarning(characFlowchart);
-                UnityEngine.Debug.LogWarning(itemFlowchart);
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-             /*   itemFlowchart.SetBooleanVariable("IsPluggedIn", saveGame.IsPluggedIn);
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                itemFlowchart.SetBooleanVariable("IsBelt", saveGame.IsBelt);
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                itemFlowchart.SetBooleanVariable("IsMachine", saveGame.IsMachine);
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                characFlowchart.SetStringVariable("CURRENT_STATE", saveGame.CURRENT_STATE);
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                characFlowchart.SetIntegerVariable("RNG", saveGame.RNG);
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                _gameManager.ScoreManager = saveGame.ScoreManager;
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                _gameManager.ScoreManager._stopwatch = new Stopwatch();
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");
-                _gameManager.ScoreManager.resume();
-                UnityEngine.Debug.LogWarning("TAKE ON UNITY");*/
+                _gameManager.InitGameFromSave(saveGame);
             }
             else
             {

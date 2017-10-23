@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using Fungus;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Debug = UnityEngine.Debug;
 
 namespace Assets.Scripts
 {
@@ -28,9 +32,10 @@ namespace Assets.Scripts
         public ScoreManager ScoreManager;
         public SoundManager SoundManager;
         public UIManager UIManager;
-        public WorldManager WorldManager;
+	    public WorldManager WorldManager;
 
 	    private Boolean _won = false;
+	    private SaveGame _saveGame = null;
 
 	    /// <summary> 
 	    /// A dictionary which stores all parameters to do with game state.</summary>
@@ -90,6 +95,8 @@ namespace Assets.Scripts
 
 			SceneManager.LoadScene ("NewManor");
 	        
+	        StartCoroutine(WaitTilSceneLoaded("NewManor"));
+	        Debug.LogWarning(SceneManager.GetActiveScene().name);
 	        ScoreManager.resume();
             // Start everything here
             // Load to main screen
@@ -98,6 +105,58 @@ namespace Assets.Scripts
             // Load options picked
             // Get ready to start timing
         }
+
+	    private IEnumerator WaitTilSceneLoaded(string scene)
+	    {
+		    int i = 0;
+		    while(i == 0)
+		    {
+			    i++;
+			    yield return null;
+		    }
+		    SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene));
+		    yield break;
+	    }
+
+	    private void OnLevelWasLoaded(int level)
+	    {
+		    Flowchart characFlowchart = null;
+		    Flowchart itemFlowchart = null;
+		    GameObject c1 = GameObject.Find("Char-Flowcharts");
+		    GameObject c2 = GameObject.Find("Item-Flowchart");
+		    characFlowchart = c1.GetComponent<Flowchart>();
+		    itemFlowchart = c2.GetComponent<Flowchart>();
+           
+		    Debug.LogWarning("TAKE ON UNITY");
+		    itemFlowchart.SetBooleanVariable("IsPluggedIn", _saveGame.IsPluggedIn);
+		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+		       itemFlowchart.SetBooleanVariable("IsBelt", _saveGame.IsBelt);
+		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+		       itemFlowchart.SetBooleanVariable("IsMachine", _saveGame.IsMachine);
+		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+		       characFlowchart.SetStringVariable("CURRENT_STATE", _saveGame.CURRENT_STATE);
+		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+		       characFlowchart.SetIntegerVariable("RNG", _saveGame.RNG);
+		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+		       ScoreManager = _saveGame.ScoreManager;
+		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+		       ScoreManager._stopwatch = new Stopwatch();
+		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+		       ScoreManager.resume();
+		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+	    }
+
+	    public void InitGameFromSave(SaveGame saveGame)
+	    {
+		    _saveGame = saveGame;
+		    ScoreManager.resume();
+		    // Start everything here
+		    // Load to main screen
+		    // Find save game
+		    // Pre-load save game
+		    // Load options picked
+		    // Get ready to start timing
+	    }
 
 	    /// <summary>
 	    /// Informs the current story state.</summary>
