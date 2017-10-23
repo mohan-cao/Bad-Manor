@@ -68,7 +68,8 @@ namespace Assets.Scripts
         /// Only leaves the game for the prototype but should soon save too.</summary>
 		public void quitGame()
         {
-            saveGame();
+            if (_gameManager != null) { 
+                saveGame(); }
             Application.Quit ();
         }
 
