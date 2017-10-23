@@ -18026,7 +18026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 855691204}
+  selectedFlowchart: {fileID: 1610499356}
 --- !u!4 &949803200
 Transform:
   m_ObjectHideFlags: 1
@@ -38291,7 +38291,7 @@ Prefab:
     - target: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: selectedBlock
       value: 
-      objectReference: {fileID: 1852669162}
+      objectReference: {fileID: 1852669191}
     - target: {fileID: 11463130, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: variable
       value: 
@@ -38603,7 +38603,7 @@ Prefab:
     - target: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 1852669256}
+      objectReference: {fileID: 1852669188}
     - target: {fileID: 11495304, guid: a7de1d1445a553145ab9acedf63745af, type: 2}
       propertyPath: targetObject
       value: 
@@ -39068,6 +39068,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1610499350}
   m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+--- !u!114 &1610499356 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11424586, guid: a7de1d1445a553145ab9acedf63745af,
+    type: 2}
+  m_PrefabInternal: {fileID: 1610499350}
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
 --- !u!1 &1613623257
 GameObject:
   m_ObjectHideFlags: 0
@@ -43769,32 +43775,6 @@ MonoBehaviour:
   stringData:
     stringRef: {fileID: 0}
     stringVal: 
---- !u!114 &1852669189
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1852669145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 725
-  indentLevel: 0
-  storyText: There are a bunch of menus in one of these drawers. One is for a Mexican
-    restaurant; enchiladas are on sale!
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852669190
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -43845,7 +43825,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1852669187}
   commandList:
   - {fileID: 1852669190}
-  - {fileID: 1852669189}
   - {fileID: 1852669188}
   - {fileID: 1852669185}
 --- !u!114 &1852669192
