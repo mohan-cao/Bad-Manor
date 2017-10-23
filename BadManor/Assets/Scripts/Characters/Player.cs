@@ -81,8 +81,8 @@ namespace Assets.Scripts.Characters
             }
             else
             {
-	            if (CnInputManager.GetButtonDown("Esc"))
-	            {
+	            if (CnInputManager.GetButtonDown("Esc") || Input.GetKeyUp(KeyCode.Escape))
+                {
 		            _Journal.GetComponent<Journal>().OpenJournal();
 	            }
                 // Get X and Y vectors

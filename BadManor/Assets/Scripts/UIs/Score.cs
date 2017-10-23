@@ -53,7 +53,7 @@ namespace Assets.Scripts.UIs
         /// Quits the game for the user.</summary>
         public void Quit()
         {
-            _scores.Add(new ScoreEntry("", playerScore));
+            _scores.Add(new ScoreEntry(playerName.text, playerScore));
             saveScores();
             Application.Quit();
         }
@@ -77,7 +77,7 @@ namespace Assets.Scripts.UIs
             foreach (ScoreEntry s in _scores)
             {
                 Debug.Log(s);
-                content.text += "Previous time: " + s.score + " seconds \n";
+                content.text += "Previous time by " + s.playername + " in " + s.score + " seconds \n";
             }
             RectTransform rt = content.GetComponent<RectTransform>();
             float height = rt.sizeDelta.y;
@@ -97,10 +97,12 @@ namespace Assets.Scripts.UIs
     public class ScoreEntry : IComparable<ScoreEntry>
     {
         public long score;
+        public string playername;
 
         public ScoreEntry(String namge, long score)
         {
             this.score = score;
+            playername = namge;
         }
 
         public int CompareTo(ScoreEntry other)
