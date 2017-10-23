@@ -80,8 +80,8 @@ namespace Assets.Scripts.Characters
             else
             {
                 // Get X and Y vectors
-                float moveHorizontal = Input.GetAxisRaw("Horizontal");
-                float moveVertical = Input.GetAxisRaw("Vertical");
+                float moveHorizontal = Input.GetAxisRaw("Horizontal") + CnInputManager.GetAxisRaw("H");
+                float moveVertical = Input.GetAxisRaw("Vertical") + CnInputManager.GetAxisRaw("V");
                 // If vectors are non-zero
                 if (moveVertical != 0 || moveHorizontal != 0)
                 {

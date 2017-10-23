@@ -59,12 +59,17 @@ namespace Assets.Scripts
         /// <summary>
         /// Only leaves the game for the prototype but should soon save too.</summary>
 		public void quitGame()
-		{
-		    Stream serialiseStream = File.Create(filename);  
-		    BinaryFormatter serializer = new BinaryFormatter();  
-		    serializer.Serialize(serialiseStream, _gameManager);  
-		    serialiseStream.Close(); 
-			Application.Quit ();
-		}
+        {
+            saveGame();
+            Application.Quit ();
+        }
+
+        public void saveGame()
+        {
+            Stream serialiseStream = File.Create(filename);
+            BinaryFormatter serializer = new BinaryFormatter();
+            serializer.Serialize(serialiseStream, _gameManager);
+            serialiseStream.Close();
+        }
     }
 }

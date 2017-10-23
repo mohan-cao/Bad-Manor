@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts;
+using UnityEngine;
 using Assets.Scripts.UIs;
 
 /// <summary>
@@ -67,4 +68,13 @@ public class Journal : Interface {
 		currentPanel.SetActive (true);
 	}
 
+	public void save()
+	{
+		GameLoader.Inst.saveGame();
+	}
+	
+	public void quit()
+	{
+		GameLoader.Inst.quitGame();
+	}
 }
