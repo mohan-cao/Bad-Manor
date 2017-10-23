@@ -62,4 +62,3 @@ namespace Assets.Scripts.World
         }
     }
 }
-    

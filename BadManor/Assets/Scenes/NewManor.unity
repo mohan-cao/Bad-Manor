@@ -9098,7 +9098,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
@@ -14587,15 +14587,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22482760, guid: fafcc7dd86c7b0c46b6f93e4fa084dae, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 30
+      value: 27.5
       objectReference: {fileID: 0}
     - target: {fileID: 22482760, guid: fafcc7dd86c7b0c46b6f93e4fa084dae, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 294
       objectReference: {fileID: 0}
     - target: {fileID: 22482760, guid: fafcc7dd86c7b0c46b6f93e4fa084dae, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 30
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 22482760, guid: fafcc7dd86c7b0c46b6f93e4fa084dae, type: 2}
       propertyPath: m_AnchorMin.x
@@ -14626,6 +14626,14 @@ Prefab:
       value: '
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499380, guid: fafcc7dd86c7b0c46b6f93e4fa084dae, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 11499380, guid: fafcc7dd86c7b0c46b6f93e4fa084dae, type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fafcc7dd86c7b0c46b6f93e4fa084dae, type: 2}
