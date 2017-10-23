@@ -7,25 +7,28 @@ namespace Assets.Scripts
     /// <summary>
     /// State of the game score measured in how long it takes to finish the game.</summary>
     [Serializable()]
-    public class ScoreManager : MonoBehaviour
+    public class ScoreManager
     {
         /// <summary>
         /// Store for the name property.</summary>
-        [SerializeField]
-        private Stopwatch _stopwatch;
+        [field: NonSerialized]
+        public Stopwatch _stopwatch;
+        [SerializeField] public long offset; 
+        
 
         /// <summary>
         /// Creates a new stopwatch in preparation to keep track of time elapsed.</summary>
         public ScoreManager()
         {
             _stopwatch = new Stopwatch();
+            offset = 0;
         }
         
         /// <summary>
         /// Returns how long the player has been playing for.</summary>
         public long timeSinceStart()
         {
-            return _stopwatch.ElapsedMilliseconds;
+            return _stopwatch.ElapsedMilliseconds + offset;
         }
 
         /// <summary>

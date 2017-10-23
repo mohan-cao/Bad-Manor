@@ -89,14 +89,6 @@ namespace Assets.Scripts
 			Parameters = new Dictionary<string, object> ();
 
 			SceneManager.LoadScene ("NewManor");
-			TextAsset[] dialogueLoadedLines = Resources.LoadAll<TextAsset> ("");
-			string name = null;
-			foreach (TextAsset t in dialogueLoadedLines) {
-				JSONObject j = new JSONObject (t.text);
-				name = j.GetField ("name").str as String;
-				Dictionary<string,object> dictionary = (Dictionary<string,object>)accessData(j);
-				DialogueLines.Add (name, dictionary);
-			}
 	        
 	        ScoreManager.resume();
             // Start everything here
