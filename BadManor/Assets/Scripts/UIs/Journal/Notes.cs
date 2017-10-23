@@ -64,7 +64,7 @@ public class Notes : MonoBehaviour {
     public void updateNotes()
     {
         Debug.Log("adding");
-        foreach (string str in jnr.getList()) {
+        foreach (string str in jnr.getNotesList()) {
             Debug.Log(str);
             AddNote("NOTE", str);
         }

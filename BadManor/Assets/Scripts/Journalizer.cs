@@ -3,15 +3,8 @@ using System.Collections.Generic;
 
 public class Journalizer : MonoBehaviour {
 
-    public GameObject notesPanel;
-    public Notes notes;
-
     List<string> myNotes = new List<string>();
-
-    public void Start()
-    {
-        notes = notesPanel.GetComponent<Notes>();
-    }
+    List<string> achNames = new List<string>();
 
     public void addANote(string toAdd)
     {
@@ -20,7 +13,7 @@ public class Journalizer : MonoBehaviour {
         myNotes.Add(toAdd);
     }
 
-    public string[] getList()
+    public string[] getNotesList()
     {
         Debug.Log("getting list");
         string[] newNotes = new string[myNotes.Count];
@@ -34,4 +27,28 @@ public class Journalizer : MonoBehaviour {
         return newNotes;
 
     }
+
+    public void addAch(string toAdd)
+    {
+        Debug.Log("to add Achievements");
+
+        achNames.Add(toAdd);
+    }
+
+    public string[] getAchList()
+    {
+        Debug.Log("getting list");
+        string[] newAch = new string[achNames.Count];
+        achNames.CopyTo(newAch);
+        Debug.Log("the note contains:");
+        foreach (string e in newAch)
+        {
+            Debug.Log(e);
+        }
+        achNames.Clear();
+        return newAch;
+
+    }
+
+
 }

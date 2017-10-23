@@ -9,8 +9,9 @@ public class Achievements : MonoBehaviour {
 	public GameObject achievementPane;
 	public GameObject viewPort;
 	public Sprite[] sprites;
+    public Journalizer jnr;
 
-	public readonly string ACH_JOURNAL = "journal";
+    public readonly string ACH_JOURNAL = "journal";
 	public readonly string ACH_TALK = "talk";
 	public readonly string ACH_SECURITY = "security";
 	public readonly string ACH_IWO = "iwo";
@@ -86,9 +87,16 @@ public class Achievements : MonoBehaviour {
 		achievementBadges[ACH_SOFTWARE_ARCHITECTURE] = sprites [8];
 		achievementBadges[ACH_RED_HERRING] = sprites [9];
 
-		AddAchievement (ACH_JOURNAL);
-		AddAchievement (ACH_RED_HERRING);
-		AddAchievement (ACH_SOFTWARE_ARCHITECTURE);
-		AddAchievement (ACH_IWO);
+		
 	}
+
+    public void updateAchs()
+    {
+        Debug.Log("adding");
+        foreach (string str in jnr.getAchList())
+        {
+            Debug.Log(str);
+            AddAchievement(str);
+        }
+    }
 }
