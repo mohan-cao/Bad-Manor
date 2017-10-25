@@ -4,6 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// Class representing achievements.
+/// </summary>
 public class Achievements : MonoBehaviour {
 
 	public GameObject[] slots;
@@ -36,6 +39,11 @@ public class Achievements : MonoBehaviour {
         false, false
     };
 
+    /// <summary>
+    /// Gets the achievement id from a string representation.
+    /// </summary>
+    /// <param name="achieve">Achievement name</param>
+    /// <returns>Achievement ID</returns>
     public int getAchievementId(string achieve)
     {
         int i = 0;
@@ -57,6 +65,10 @@ public class Achievements : MonoBehaviour {
 	private Dictionary<string, GameObject> achievementBadges = new Dictionary<string, GameObject> ();
 	private RectTransform contentPos;
 
+    /// <summary>
+    /// Add an achievement.
+    /// </summary>
+    /// <param name="name">achievement to add</param>
 	public void AddAchievement(string name) {
 
         int achievementId = getAchievementId(name);
