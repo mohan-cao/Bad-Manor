@@ -7,7 +7,9 @@ using UnityEngine;
 namespace Assets.Scripts.Sounds
 {
     /// <summary>
-    /// Not implemented for prototype.</summary>
+    /// No longer used. Used to represent a sound.
+    /// Now using a SoundManager to manage sound.
+    /// </summary>
     abstract class Sound : MonoBehaviour
     {
     }
