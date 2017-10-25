@@ -22,6 +22,9 @@ public class Journal : Interface {
     private Notes notesScript;
     private Achievements achScript;
 
+	/// <summary>
+	/// Enum representing the menu items.
+	/// </summary>
 	public enum MenuPanel {
 		GameMenu,
 		Inventory,
@@ -40,6 +43,9 @@ public class Journal : Interface {
         achScript = achPanel.GetComponent<Achievements>();
     }
 
+	/// <summary>
+	/// Opens the journal.
+	/// </summary>
 	public void OpenJournal() {
 		journal.gameObject.SetActive(true);
         
@@ -53,6 +59,10 @@ public class Journal : Interface {
         journal.gameObject.SetActive(false);
     }
 
+	/// <summary>
+	/// Switches to panel ID
+	/// </summary>
+	/// <param name="panel">Panel ID</param>
 	public void SwitchPanel(int panel) {
         if (currentPanel != null)
         {
@@ -87,11 +97,17 @@ public class Journal : Interface {
 		currentPanel.SetActive (true);
 	}
 
+	/// <summary>
+	/// Save game button hook
+	/// </summary>
 	public void save()
 	{
 		GameLoader.Inst.saveGame();
 	}
 	
+	/// <summary>
+	/// Quit button hook
+	/// </summary>
 	public void quit()
 	{
 		GameLoader.Inst.quitGame();
