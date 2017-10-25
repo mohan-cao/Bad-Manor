@@ -51,12 +51,21 @@ namespace Assets.Scripts.World
         private bool inContact = false;
         GameObject player;
 
+        /// <summary>
+        /// Gets the room coordinates for specified entry points.
+        /// </summary>
+        /// <param name="room"></param>
+        /// <returns></returns>
         public static Vector3 getRoomCoords(EntryPoints room)
         {
             int enumAsInt = (int)room;
             return coords[enumAsInt];
         }
 
+        /// <summary>
+        /// Handles player entering of the warp zone
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
@@ -67,6 +76,10 @@ namespace Assets.Scripts.World
             }
         }
 
+        /// <summary>
+        /// Resets warp zone hint text
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerExit2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
@@ -76,6 +89,10 @@ namespace Assets.Scripts.World
             }
         }
 
+        /// <summary>
+        /// On update, get conditions for warping and check state.
+        /// Can force warp players.
+        /// </summary>
         void Update()
         {
             if (inContact && goTo.Equals(EntryPoints.RoofToChimney))

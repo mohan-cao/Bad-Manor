@@ -32,6 +32,10 @@ namespace Assets.Scripts.World
             }
         }
 
+        /// <summary>
+        /// Checks that player is still inside zone
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
@@ -41,6 +45,10 @@ namespace Assets.Scripts.World
             }
         }
 
+        /// <summary>
+        /// Checks that player has left zone
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerExit2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")

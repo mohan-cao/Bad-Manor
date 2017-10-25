@@ -8,7 +8,6 @@ namespace Assets.Scripts.World
     /// <summary>
     /// Subclass of Teleporter that serves as a spawn point rather than
     /// a teleporter.
-    /// TODO: Make Teleporter a Derived Class of this.
     /// </summary>
     [Serializable()]
     public class ArrivalTeleporter : Teleporter

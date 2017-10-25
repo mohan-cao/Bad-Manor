@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts.World
 {
+    /// <summary>
+    /// A class representing a warp pad/teleporter.
+    /// </summary>
     [Serializable()]
     public class Teleporter : MonoBehaviour
     {
@@ -14,6 +17,10 @@ namespace Assets.Scripts.World
         protected bool inContact = false;
         protected GameObject player;
 
+        /// <summary>
+        /// Check for player inside zone
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
@@ -24,6 +31,10 @@ namespace Assets.Scripts.World
             }
         }
 
+        /// <summary>
+        /// Check that player is still in zone.
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerStay2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
@@ -32,6 +43,10 @@ namespace Assets.Scripts.World
             }
         }
 
+        /// <summary>
+        /// Check that player has left zone.
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerExit2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
