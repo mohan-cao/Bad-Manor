@@ -3,6 +3,9 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts
 {
+  /// <summary>
+  /// Handles muting of the game music.
+  /// </summary>
   public class Mute : MonoBehaviour
   {
     public Button MuteButton;
@@ -15,11 +18,17 @@ namespace Assets.Scripts
         
     private bool muted = false;
 
+    /// <summary>
+    /// Unity initialization method
+    /// </summary>
     private void Awake()
     {
       _soundManager = FindObjectOfType<SoundManager>();
     }
 
+    /// <summary>
+    /// Mute object constructor
+    /// </summary>
     public Mute()
     {
       mute.gameObject.SetActive(false);
@@ -28,6 +37,9 @@ namespace Assets.Scripts
       _soundManager.setBgmVolume(1);
     }
 
+    /// <summary>
+    /// Toggles mute state
+    /// </summary>
     public void SwitchMute()
     {
       if (muted)
