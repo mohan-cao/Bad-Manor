@@ -3,6 +3,9 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// Class representing user inventory.
+/// </summary>
 public class Inventory : MonoBehaviour {
 
 	public GameObject[] slots;
@@ -18,15 +21,24 @@ public class Inventory : MonoBehaviour {
 
 	public GameObject popUp;
 
+	/// <summary>
+	/// Unity hook method on initialization
+	/// </summary>
 	void Start() {
 		UpdateDisplay ();
 	}
 
+	/// <summary>
+	/// Called when a new item is collected.
+	/// </summary>
 	public void NewItemCollected() {
 		itemsCollected++;
 		UpdateDisplay ();
 	}
 
+	/// <summary>
+	/// Updates the display. Hook method.
+	/// </summary>
 	void UpdateDisplay() {
 		for (int i = 0; i < itemsCollected; i++) {
 			GameObject slot = slots [i];
@@ -35,6 +47,10 @@ public class Inventory : MonoBehaviour {
 		}
 	}
 
+	/// <summary>
+	/// Shows popup of item ID.
+	/// </summary>
+	/// <param name="itemNum"></param>
 	public void showPopUp(int itemNum) {
 		if (itemNum < itemsCollected) {
 			foreach (GameObject obj in slots) {
@@ -48,6 +64,9 @@ public class Inventory : MonoBehaviour {
 		}
 	}
 
+	/// <summary>
+	/// Closes popup of item ID.
+	/// </summary>
 	public void closePopUp() {
 		foreach (GameObject obj in slots) {
 			Button btn = obj.GetComponent<Button> ();
