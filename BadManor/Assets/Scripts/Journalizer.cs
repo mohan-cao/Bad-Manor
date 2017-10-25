@@ -1,7 +1,6 @@
-﻿using UnityEngine;
-using System.Collections.Generic;
+﻿using Assets.Scripts;
+using UnityEngine;
 using UnityEngine.SceneManagement;
-using Assets.Scripts;
 
 /// <summary>
 /// A Journal helper class

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections;
-using UnityEngine;
 using System.Collections.Generic;
-using Assets.Scripts.Sounds;
-using Fungus;
+using UnityEngine;
 using Random = UnityEngine.Random;
 
 namespace Assets.Scripts

@@ -2,7 +2,6 @@
 using System.Runtime.Serialization.Formatters.Binary;
 using Fungus;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
@@ -26,6 +25,7 @@ namespace Assets.Scripts
         /// is only one at any given time to avoid destroying an existing game state.</summary>
         private void Awake()
         {
+            filename = Application.persistentDataPath + "/" + filename;
             Inst = Inst ?? this;
             if (Inst != this)
             {

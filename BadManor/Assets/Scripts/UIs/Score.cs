@@ -23,12 +23,13 @@ namespace Assets.Scripts.UIs
         public List<ScoreEntry> _scores;
         public long playerScore = 0;
 
-        string FileName = "scores";
+        string filename = "scores";
 
         /// <summary>
         /// Take the time taken by the player and place in the text field.</summary>
         private void Start()
         {
+            filename = Application.persistentDataPath + "/" + filename;
             playerScore = GameManager.inst.timeSinceStart() / 1000;
             scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart() / 1000 + " seconds";
             if (GameManager.inst.won())
@@ -61,10 +62,10 @@ namespace Assets.Scripts.UIs
 
         private void loadScores()
         {
-            if (File.Exists(FileName))
+            if (File.Exists(filename))
             {
                 Debug.Log("I H8 UNITY");
-                Stream scoFileStream = File.OpenRead(FileName);
+                Stream scoFileStream = File.OpenRead(filename);
                 Debug.Log("I H8 UNITY");
                 BinaryFormatter deserializer = new BinaryFormatter();
                 Debug.Log("I H8 UNITY");
@@ -87,7 +88,7 @@ namespace Assets.Scripts.UIs
 
         private void saveScores()
         {
-            Stream scoreFileStream = File.Create(FileName);
+            Stream scoreFileStream = File.Create(filename);
             BinaryFormatter serializer = new BinaryFormatter();
             serializer.Serialize(scoreFileStream, _scores);
             scoreFileStream.Close();

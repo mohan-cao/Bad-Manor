@@ -145,21 +145,21 @@ namespace Assets.Scripts
 
             Debug.LogWarning("TAKE ON UNITY");
             itemFlowchart.SetBooleanVariable("IsPluggedIn", _saveGame.IsPluggedIn);
-            UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+            Debug.LogWarning("TAKE ON UNITY");
             itemFlowchart.SetBooleanVariable("IsBelt", _saveGame.IsBelt);
-            UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+            Debug.LogWarning("TAKE ON UNITY");
             itemFlowchart.SetBooleanVariable("IsMachine", _saveGame.IsMachine);
-            UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+            Debug.LogWarning("TAKE ON UNITY");
             characFlowchart.SetStringVariable("CURRENT_STATE", _saveGame.CURRENT_STATE);
-            UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+            Debug.LogWarning("TAKE ON UNITY");
             characFlowchart.SetIntegerVariable("RNG", _saveGame.RNG);
-            UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+            Debug.LogWarning("TAKE ON UNITY");
             ScoreManager = _saveGame.ScoreManager;
-            UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+            Debug.LogWarning("TAKE ON UNITY");
             ScoreManager._stopwatch = new Stopwatch();
-            UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+            Debug.LogWarning("TAKE ON UNITY");
             ScoreManager.resume();
-            UnityEngine.Debug.LogWarning("TAKE ON UNITY");
+            Debug.LogWarning("TAKE ON UNITY");
         }
 
         /// <summary>

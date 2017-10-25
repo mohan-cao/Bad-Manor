@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-using System.Collections;
-using Assets.Scripts;
+﻿using Assets.Scripts;
 
 /// <summary>
 /// What each NPCs dialogue will implement.</summary>

@@ -1,10 +1,7 @@
 ﻿using System;
-using UnityEngine;
-using System.Collections;
-using Assets.Scripts;
-using Assets.Scripts.Characters;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
+using Assets.Scripts;
+using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>

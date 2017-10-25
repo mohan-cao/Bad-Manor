@@ -1,6 +1,6 @@
 ﻿using Assets.Scripts;
-using UnityEngine;
 using Assets.Scripts.UIs;
+using UnityEngine;
 
 /// <summary>
 /// Journal user interface for recording notes, for prototype only hides/shows and stores the player's notes. Future 

@@ -1,6 +1,5 @@
-﻿using UnityEngine;
-using System;
-using UnityEngine.SceneManagement;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.World

@@ -1,8 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 
 /// <summary>
 /// Journal note class for the writing down of notes.

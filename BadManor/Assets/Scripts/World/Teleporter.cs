@@ -1,6 +1,6 @@
-﻿using UnityEngine;
-using System;
+﻿using System;
 using CnControls;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.World

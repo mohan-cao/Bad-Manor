@@ -1,9 +1,9 @@
 ﻿using System;
-using UnityEngine;
 using Assets.Scripts;
 using Assets.Scripts.UIs;
-using UnityEngine.UI;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 /// <summary>
 /// Accusation is the user interface the player uses for accusing someone of the murders once they have all the 
