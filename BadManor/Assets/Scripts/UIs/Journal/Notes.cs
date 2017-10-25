@@ -4,6 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+/// Journal note class for the writing down of notes.
+/// </summary>
 public class Notes : MonoBehaviour {
 
 	public GameObject evenNote;
@@ -16,6 +19,11 @@ public class Notes : MonoBehaviour {
 
 	private RectTransform contentPos;
 
+	/// <summary>
+	/// Adds a note to the notebook.
+	/// </summary>
+	/// <param name="time"></param>
+	/// <param name="note"></param>
 	public void AddNote(string time, string note) {
 		notes.Add (new string[] { time.ToString (), note });
 		ScaleContent ();
@@ -40,6 +48,9 @@ public class Notes : MonoBehaviour {
 		rt.localScale = new Vector3 (1, 1, 1);
 	}
 
+	/// <summary>
+	/// Scales the content to the correct viewport size.
+	/// </summary>
 	void ScaleContent() {
 		Transform[] children = new Transform[viewPort.transform.childCount];
 		int i = 0;
@@ -61,6 +72,9 @@ public class Notes : MonoBehaviour {
         updateNotes();
 	}
 
+	/// <summary>
+	/// Debug method.
+	/// </summary>
     public void updateNotes()
     {
         Debug.Log("adding");
