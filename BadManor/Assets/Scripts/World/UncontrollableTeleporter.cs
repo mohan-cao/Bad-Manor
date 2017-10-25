@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+
 namespace Assets.Scripts.World
 {
     /// <summary>
@@ -10,8 +11,6 @@ namespace Assets.Scripts.World
     [Serializable()]
     public class UncontrollableTeleporter : Teleporter
     {
-       
-
         // Update is called once per frame
         void Update()
         {
@@ -29,7 +28,6 @@ namespace Assets.Scripts.World
                     }
                 }
             }
-
         }
     }
 }

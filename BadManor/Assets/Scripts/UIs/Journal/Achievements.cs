@@ -7,22 +7,22 @@ using System.Collections.Generic;
 /// <summary>
 /// Class representing achievements.
 /// </summary>
-public class Achievements : MonoBehaviour {
-
-	public GameObject[] slots;
+public class Achievements : MonoBehaviour
+{
+    public GameObject[] slots;
     public Journalizer jnr;
     public GameObject popUp;
 
     public static readonly string ACH_JOURNAL = "journal";
-	public static readonly string ACH_TALK = "talk";
+    public static readonly string ACH_TALK = "talk";
     public static readonly string ACH_SECURITY = "security";
-	public static readonly string ACH_IWO = "iwo";
-	public static readonly string ACH_KEYS = "keys";
-	public static readonly string ACH_SOLVED = "solved";
-	public static readonly string ACH_CHIMNEY = "chimney";
-	public static readonly string ACH_BERTHA = "bertha";
-	public static readonly string ACH_SOFTWARE_ARCHITECTURE = "sa";
-	public static readonly string ACH_RED_HERRING = "red";
+    public static readonly string ACH_IWO = "iwo";
+    public static readonly string ACH_KEYS = "keys";
+    public static readonly string ACH_SOLVED = "solved";
+    public static readonly string ACH_CHIMNEY = "chimney";
+    public static readonly string ACH_BERTHA = "bertha";
+    public static readonly string ACH_SOFTWARE_ARCHITECTURE = "sa";
+    public static readonly string ACH_RED_HERRING = "red";
     public List<string> all_achs = new List<string>();
 
     public static string[] achievements = new string[]
@@ -57,42 +57,48 @@ public class Achievements : MonoBehaviour {
         }
         return 0; //basic;
     }
-   
-    
 
 
-	private Dictionary<string, string[]> achievementStuff = new Dictionary<string, string[]> ();
-	private Dictionary<string, GameObject> achievementBadges = new Dictionary<string, GameObject> ();
-	private RectTransform contentPos;
+    private Dictionary<string, string[]> achievementStuff = new Dictionary<string, string[]>();
+    private Dictionary<string, GameObject> achievementBadges = new Dictionary<string, GameObject>();
+    private RectTransform contentPos;
 
     /// <summary>
     /// Add an achievement.
     /// </summary>
     /// <param name="name">achievement to add</param>
-	public void AddAchievement(string name) {
-
+    public void AddAchievement(string name)
+    {
         int achievementId = getAchievementId(name);
         Debug.Log("achievement:" + achievementId);
         isDisplayed[achievementId] = true;
         Debug.Log("hey yo" + isDisplayed[achievementId]);
-    //    itemImage.SetActive(true);
-      //  isDisplayed[name] = true;
+        //    itemImage.SetActive(true);
+        //  isDisplayed[name] = true;
     }
 
 
     // Use this for initialization
-    void Start () {
-
-        achievementStuff[ACH_JOURNAL] = new string[] { "Restricted books allowed", "You have opened the Journal for the first time." };
-        achievementStuff[ACH_TALK] = new string[] { "I would like to add you to my professional network", "You have talked to everyone in the manor." };
-        achievementStuff[ACH_SECURITY] = new string[] { "Cracking the puzzle interview", "You have solved security room puzzle." };
-        achievementStuff[ACH_IWO] = new string[] { "It depends", "You have talked to Iwo Tempo." };
-        achievementStuff[ACH_KEYS] = new string[] { "Found private keys", "You have found all the keys." };
-        achievementStuff[ACH_SOLVED] = new string[] { "Solved the murder", "You have correctly accused the murderer and solved the case." };
-        achievementStuff[ACH_CHIMNEY] = new string[] { "It's getting hot in here", "You have escaped the chimney." };
-        achievementStuff[ACH_BERTHA] = new string[] { "She's dead, Brange", "You have found Bertha's lifeless body." };
-        achievementStuff[ACH_SOFTWARE_ARCHITECTURE] = new string[] { "Software Architect", "You have read the Software Architecture in Practice 3rd Edition by Bass, Clements and Kazman." };
-        achievementStuff[ACH_RED_HERRING] = new string[] { "Red Herring", "You found the test fish. Please ignore." };
+    void Start()
+    {
+        achievementStuff[ACH_JOURNAL] = new string[]
+            {"Restricted books allowed", "You have opened the Journal for the first time."};
+        achievementStuff[ACH_TALK] = new string[]
+            {"I would like to add you to my professional network", "You have talked to everyone in the manor."};
+        achievementStuff[ACH_SECURITY] = new string[]
+            {"Cracking the puzzle interview", "You have solved security room puzzle."};
+        achievementStuff[ACH_IWO] = new string[] {"It depends", "You have talked to Iwo Tempo."};
+        achievementStuff[ACH_KEYS] = new string[] {"Found private keys", "You have found all the keys."};
+        achievementStuff[ACH_SOLVED] = new string[]
+            {"Solved the murder", "You have correctly accused the murderer and solved the case."};
+        achievementStuff[ACH_CHIMNEY] = new string[] {"It's getting hot in here", "You have escaped the chimney."};
+        achievementStuff[ACH_BERTHA] = new string[] {"She's dead, Brange", "You have found Bertha's lifeless body."};
+        achievementStuff[ACH_SOFTWARE_ARCHITECTURE] = new string[]
+        {
+            "Software Architect",
+            "You have read the Software Architecture in Practice 3rd Edition by Bass, Clements and Kazman."
+        };
+        achievementStuff[ACH_RED_HERRING] = new string[] {"Red Herring", "You found the test fish. Please ignore."};
 
         achievementBadges[ACH_JOURNAL] = slots[0];
         achievementBadges[ACH_TALK] = slots[1];
@@ -106,26 +112,20 @@ public class Achievements : MonoBehaviour {
         achievementBadges[ACH_RED_HERRING] = slots[9];
 
         updateAchs();
-
-
-        
-
     }
 
     public void updateAchs()
     {
-
         for (int i = 0; i < 10; i++)
         {
             if (isDisplayed[i])
             {
                 GameObject slot = achievementBadges[achievements[i]];
-                Debug.Log("slot:"+slot);
+                Debug.Log("slot:" + slot);
                 GameObject itemImage = slot.transform.GetChild(1).gameObject;
                 Debug.Log(itemImage);
                 itemImage.SetActive(true);
             }
-            
         }
     }
 

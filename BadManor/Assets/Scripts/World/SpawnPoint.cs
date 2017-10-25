@@ -9,7 +9,6 @@ namespace Assets.Scripts.World
     [Serializable()]
     public class SpawnPoint : MonoBehaviour
     {
-
         public String SpawnPointID;
 
         /// <summary>
@@ -18,6 +17,5 @@ namespace Assets.Scripts.World
         {
             return this.transform.position;
         }
-        
     }
 }

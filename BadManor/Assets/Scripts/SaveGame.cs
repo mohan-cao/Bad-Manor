@@ -10,13 +10,17 @@ namespace Assets.Scripts
     {
         //Item-Flowchart
         public bool IsPluggedIn;
+
         public bool IsBelt;
+
         public bool IsMachine;
+
         //Char-Flowcharts
         public string CURRENT_STATE;
+
         public int RNG;
         public ScoreManager ScoreManager;
-        
+
         /// <summary>
         /// SaveGame constructor which saves current game state.
         /// </summary>
@@ -26,7 +30,8 @@ namespace Assets.Scripts
         /// <param name="currentState"></param>
         /// <param name="rng"></param>
         /// <param name="scoreManager"></param>
-        public SaveGame(bool isPluggedIn, bool isBelt, bool isMachine, string currentState, int rng, ScoreManager scoreManager)
+        public SaveGame(bool isPluggedIn, bool isBelt, bool isMachine, string currentState, int rng,
+            ScoreManager scoreManager)
         {
             IsPluggedIn = isPluggedIn;
             IsMachine = isMachine;

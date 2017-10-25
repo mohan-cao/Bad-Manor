@@ -4,8 +4,8 @@ using Assets.Scripts;
 
 /// <summary>
 /// What each NPCs dialogue will implement.</summary>
-public interface CharacterDialogue {
-
+public interface CharacterDialogue
+{
     // Use this for initialization
     string[] getStoryLines(GameManager.GameState state);
 

@@ -10,19 +10,19 @@ using UnityEngine.UI;
 /// <summary>
 /// Manages the dialogue from interacting with items and NPCs, responsible for iniating and continuing.</summary>
 [Serializable()]
-public class DialogueManager : MonoBehaviour {
-
+public class DialogueManager : MonoBehaviour
+{
     /// <summary>
     /// All dialogues.</summary>
     private Dictionary<string, CharacterDialogue> characterDialogues = new Dictionary<string, CharacterDialogue>();
-    
+
     /// <summary>
     /// Used to check how many people talked to for tutorial level.</summary>
     private int timesTalked = 0;
-    
+
     /// <summary>
     /// How many lines in the dialogue are printed.</summary>
-	private int count = 0;
+    private int count = 0;
 
     /// <summary>
     /// Story line for item/npc.</summary>
@@ -30,24 +30,24 @@ public class DialogueManager : MonoBehaviour {
 
     /// <summary>
     /// Character being talked to.</summary>
-	string npcCharacter;
-    
+    string npcCharacter;
+
     /// <summary>
     /// Is the dialogue due to finish.</summary>
-	bool needtoendconvo;
-    
+    bool needtoendconvo;
+
     /// <summary>
     /// Is it an item being talked to.</summary>
     private bool isItem;
-    
+
     /// <summary>
     /// Dialogue box.</summary>
     public GameObject dBox;
-    
+
     /// <summary>
     /// Dialogue text field.</summary>
     public Text dText;
-    
+
     // Set up instances of Character Dialogue classes
     private void Start()
     {
@@ -61,10 +61,11 @@ public class DialogueManager : MonoBehaviour {
 
     /// <summary>
     /// Start conversation with a character.</summary>
-    public void StartConvo(string character){
+    public void StartConvo(string character)
+    {
         Debug.Log(character);
         Debug.Log(GameManager.inst.currentState());
-        
+
         // Set all variables
         npcCharacter = character;
         count = 0;
@@ -75,14 +76,14 @@ public class DialogueManager : MonoBehaviour {
         //GameManager.GameState gameState = GameManager.GameState.FIND_BERTHA;
         Debug.Log(GameManager.inst.currentState());
         storyLines = characterDialogues[npcCharacter].getStoryLines(gameState);
-        dBox.SetActive (true);
+        dBox.SetActive(true);
     }
 
     // Displaying appropriate text.
     // Returns true if convo is still going (a line was said)
     // Returns false if convo has ended (so dialogue box has now closed)
-    public bool NextLine() {
-        
+    public bool NextLine()
+    {
         // End dialogue with spacebar if it's an item
         if (isItem)
         {
@@ -90,7 +91,7 @@ public class DialogueManager : MonoBehaviour {
             EndConvo();
             return false;
         }
-        
+
         Debug.Log("DialogueManager: The conversation count is: " + count);
         // if character has no story during this game state and has already said one random line
         if (storyLines == null && count == 1)
@@ -131,15 +132,14 @@ public class DialogueManager : MonoBehaviour {
 
             return true;
         }
-
-	}
+    }
 
     /// <summary>
     /// Show the dialogue if it's an item.</summary>
     public void ShowItemDialogue(string line)
     {
         Debug.Log("Showing Item Dialogue");
-        dBox.SetActive (true);
+        dBox.SetActive(true);
         isItem = true;
         dText.text = line;
     }
@@ -148,7 +148,6 @@ public class DialogueManager : MonoBehaviour {
     /// Ends the conversation.</summary>
     public void EndConvo()
     {
-
         // If it's an item hide the box and reset isItem
         if (isItem)
         {
@@ -156,19 +155,20 @@ public class DialogueManager : MonoBehaviour {
             isItem = false;
             return;
         }
-        
+
         // Change story state if talking to Mi Na after investigating the evidence
-        if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE && npcCharacter.Equals("Mi Na"))
+        if (GameManager.inst.currentState() == GameManager.GameState.INVESTIGATE_EVIDENCE &&
+            npcCharacter.Equals("Mi Na"))
         {
             Debug.Log("DialogueManager: Mi Na story state change");
             GameManager.inst.WorldManager.openCharlesRoom();
         }
-        
+
         // Reset the dialogue box and NPC character
         Debug.Log("DialogueManager: End of conversation");
-        dBox.SetActive (false);
+        dBox.SetActive(false);
         npcCharacter = null;
-        
+
         //Switch to the next tutorial or find bertha story state after talking to enough people
         switch (timesTalked)
         {
@@ -190,5 +190,4 @@ public class DialogueManager : MonoBehaviour {
         }
         timesTalked++;
     }
-
 }

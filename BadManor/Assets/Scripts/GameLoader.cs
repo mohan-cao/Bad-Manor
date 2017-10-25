@@ -12,20 +12,21 @@ namespace Assets.Scripts
     public class GameLoader : MonoBehaviour
     {
         string filename = "savegame";
-        
+
         /// <summary>
         /// Singleton pattern instance to ensure there's only one GameLoader and state on the same PC.</summary>
         public static GameLoader Inst = null;
+
         /// <summary>
         /// State of the game.</summary>
         private GameManager _gameManager = null;
-        
+
         /// <summary>
         /// Enforces the singletone pattern, everytime an additional GameLoader is made it is destroyed to ensure there
         /// is only one at any given time to avoid destroying an existing game state.</summary>
         private void Awake()
         {
-			Inst = Inst ?? this;
+            Inst = Inst ?? this;
             if (Inst != this)
             {
                 Destroy(gameObject);
@@ -37,7 +38,7 @@ namespace Assets.Scripts
         /// Creates a new game state.</summary>
         public void newGame()
         {
-           // _gameManager = new GameManager();
+            // _gameManager = new GameManager();
             _gameManager = gameObject.AddComponent<GameManager>();
         }
 
@@ -60,17 +61,19 @@ namespace Assets.Scripts
             }
             else
             {
-                newGame();   
+                newGame();
             }
         }
 
         /// <summary>
         /// Only leaves the game for the prototype but should soon save too.</summary>
-		public void quitGame()
+        public void quitGame()
         {
-            if (_gameManager != null) { 
-                saveGame(); }
-            Application.Quit ();
+            if (_gameManager != null)
+            {
+                saveGame();
+            }
+            Application.Quit();
         }
 
         public void saveGame()

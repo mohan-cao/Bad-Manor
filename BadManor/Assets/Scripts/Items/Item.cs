@@ -13,7 +13,7 @@ namespace Assets.Scripts.Items
     {
         /// <summary>
         /// The name of the item.</summary>
-		public string name;
+        public string name;
 
         /// <summary>
         /// Creates the item.</summary>
@@ -21,7 +21,7 @@ namespace Assets.Scripts.Items
         {
             name = null;
         }
-        
+
         /// <summary>
         /// Creates the item with a name.</summary>
         public Item(String _name)

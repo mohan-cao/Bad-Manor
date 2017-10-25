@@ -12,7 +12,6 @@ namespace Assets.Scripts.World
     [Serializable()]
     public class ArrivalTeleporter : Teleporter
     {
-
         void OnTriggerEnter2D(Collider2D other)
         {
             //do nothing

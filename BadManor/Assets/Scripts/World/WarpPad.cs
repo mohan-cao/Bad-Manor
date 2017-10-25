@@ -5,17 +5,16 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts.World
 {
-    
     /// <summary>
     /// WarpPad moves the player from one room to another, its respoonsibility is teleport the player if the WorldManager
     /// lets it. It had no dependencies other than WorldManager and RoomLocations.</summary>
     [Serializable()]
     public class WarpPad : MonoBehaviour
     {
-
         /// <summary>
         /// Room the player wishes to access.</summary>   
         public RoomLocations.RoomsSpawns roomToGoTo;
+
         public Text guide;
 
         /// <summary>
@@ -27,7 +26,7 @@ namespace Assets.Scripts.World
             {
                 if (GameManager.inst.WorldManager.canGoTo(roomToGoTo))
                 {
-                    other.transform.position = RoomLocations.getRoomCoords(roomToGoTo);   
+                    other.transform.position = RoomLocations.getRoomCoords(roomToGoTo);
                 }
             }
         }

@@ -16,20 +16,21 @@ namespace Assets.Scripts.UIs
         /// <summary>
         /// Text field to change with time.</summary>
         public Text scoretext;
+
         public Text finalMessage;
         public Text content;
         public Text playerName;
         public List<ScoreEntry> _scores;
         public long playerScore = 0;
-        
-        string FileName = "scores";  
-        
+
+        string FileName = "scores";
+
         /// <summary>
         /// Take the time taken by the player and place in the text field.</summary>
         private void Start()
         {
             playerScore = GameManager.inst.timeSinceStart() / 1000;
-            scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart()/1000 + " seconds";
+            scoretext.text = "Time Taken: " + GameManager.inst.timeSinceStart() / 1000 + " seconds";
             if (GameManager.inst.won())
             {
                 finalMessage.text = "Sam was swiftly arrested once Brange recovered from fainting. Despite losing " +
@@ -60,14 +61,14 @@ namespace Assets.Scripts.UIs
 
         private void loadScores()
         {
-            if (File.Exists(FileName))  
+            if (File.Exists(FileName))
             {
                 Debug.Log("I H8 UNITY");
                 Stream scoFileStream = File.OpenRead(FileName);
                 Debug.Log("I H8 UNITY");
                 BinaryFormatter deserializer = new BinaryFormatter();
                 Debug.Log("I H8 UNITY");
-                _scores = (List<ScoreEntry>)deserializer.Deserialize(scoFileStream);
+                _scores = (List<ScoreEntry>) deserializer.Deserialize(scoFileStream);
                 Debug.Log("I H8 UNITY");
                 scoFileStream.Close();
                 Debug.Log("I H8 UNITY");
@@ -81,19 +82,19 @@ namespace Assets.Scripts.UIs
             }
             RectTransform rt = content.GetComponent<RectTransform>();
             float height = rt.sizeDelta.y;
-            rt.localPosition = new Vector3(rt.localPosition.x, 0f,  0f);
+            rt.localPosition = new Vector3(rt.localPosition.x, 0f, 0f);
         }
 
         private void saveScores()
         {
-            Stream scoreFileStream = File.Create(FileName);  
-            BinaryFormatter serializer = new BinaryFormatter();  
-            serializer.Serialize(scoreFileStream, _scores);  
-            scoreFileStream.Close();  
+            Stream scoreFileStream = File.Create(FileName);
+            BinaryFormatter serializer = new BinaryFormatter();
+            serializer.Serialize(scoreFileStream, _scores);
+            scoreFileStream.Close();
         }
     }
 
-    [Serializable()] 
+    [Serializable()]
     public class ScoreEntry : IComparable<ScoreEntry>
     {
         public long score;

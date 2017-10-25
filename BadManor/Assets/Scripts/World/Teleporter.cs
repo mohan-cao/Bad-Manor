@@ -59,7 +59,8 @@ namespace Assets.Scripts.World
         // Update is called once per frame
         void Update()
         {
-            if (inContact && (/*Input.GetKeyUp(KeyCode.Space) ||*/ Input.GetKeyUp(KeyCode.X) || CnInputManager.GetButtonDown("Space")))
+            if (inContact && ( /*Input.GetKeyUp(KeyCode.Space) ||*/
+                    Input.GetKeyUp(KeyCode.X) || CnInputManager.GetButtonDown("Space")))
             {
                 GameObject[] allTeleporters = GameObject.FindGameObjectsWithTag("Teleporter");
                 foreach (GameObject go in allTeleporters)
@@ -73,7 +74,6 @@ namespace Assets.Scripts.World
                     }
                 }
             }
-
         }
     }
 }

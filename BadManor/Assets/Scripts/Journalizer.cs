@@ -6,14 +6,13 @@ using Assets.Scripts;
 /// <summary>
 /// A Journal helper class
 /// </summary>
-public class Journalizer : MonoBehaviour {
-
+public class Journalizer : MonoBehaviour
+{
     /// <summary>
     /// Unity Start() hook method. Currently unused.
     /// </summary>
     public void Start()
     {
-        
     }
 
     /// <summary>
@@ -34,6 +33,4 @@ public class Journalizer : MonoBehaviour {
     {
         SceneManager.LoadScene("EndScreen");
     }
-
-
 }
