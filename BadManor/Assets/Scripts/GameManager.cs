@@ -106,6 +106,12 @@ namespace Assets.Scripts
             // Get ready to start timing
         }
 
+	    /// <summary>
+	    /// Deprecated. No longer used, but used to be used for scene loading.
+	    /// </summary>
+	    /// <param name="scene"></param>
+	    /// <returns></returns>
+	    [Obsolete]
 	    private IEnumerator WaitTilSceneLoaded(string scene)
 	    {
 		    int i = 0;
@@ -118,6 +124,10 @@ namespace Assets.Scripts
 		    yield break;
 	    }
 
+	    /// <summary>
+	    /// Unity trigger for onLevelLoad events.
+	    /// </summary>
+	    /// <param name="level"></param>
 	    private void OnLevelWasLoaded(int level)
 	    {
             if (_saveGame == null)
@@ -150,16 +160,14 @@ namespace Assets.Scripts
 		       UnityEngine.Debug.LogWarning("TAKE ON UNITY");
 	    }
 
+	    /// <summary>
+	    /// Initializes additional parameters on a save game load.
+	    /// </summary>
+	    /// <param name="saveGame"></param>
 	    public void InitGameFromSave(SaveGame saveGame)
 	    {
 		    _saveGame = saveGame;
 		    ScoreManager.resume();
-		    // Start everything here
-		    // Load to main screen
-		    // Find save game
-		    // Pre-load save game
-		    // Load options picked
-		    // Get ready to start timing
 	    }
 
 
