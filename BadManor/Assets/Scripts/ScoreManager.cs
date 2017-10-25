@@ -34,6 +34,10 @@ namespace Assets.Scripts
             return _stopwatch.ElapsedMilliseconds + offset;
         }
 
+        /// <summary>
+        /// Returns elapsed time in seconds.
+        /// </summary>
+        /// <returns></returns>
         public long time()
         {
             return timeSinceStart() / 1000;
@@ -53,11 +57,22 @@ namespace Assets.Scripts
             _stopwatch.Stop();
         }
 
+        /// <summary>
+        /// Used to be used for adding of score.
+        /// </summary>
+        /// <param name="score">Amount to be added</param>
+        [Obsolete]
         public void addScore(long score)
         {
             _score += score;
         }
 
+        /// <summary>
+        /// Used to be used to check current score.
+        /// Returns current stored score.
+        /// </summary>
+        /// <returns></returns>
+        [Obsolete]
         public long currentScore()
         {
             return _score;
