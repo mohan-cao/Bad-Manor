@@ -10,7 +10,7 @@ namespace Assets.Scripts
 {
     /// <inheritdoc />
     /// <summary>
-    /// SoundManager will manage sound effects and music but for prototype this does nothing.</summary>
+    /// SoundManager manages sound effects and music</summary>
 	[Serializable()]
 	public class SoundManager : MonoBehaviour 
 	{
@@ -25,6 +25,10 @@ namespace Assets.Scripts
         [Range(0f,1f)]
         public float SoundVolume = 1;
 
+		/// <summary>
+		/// Unity hook called when object is instantiated.
+		/// This method uses the singleton pattern.
+		/// </summary>
 		private void Awake ()
 		{
 			//Check if there is already an instance of SoundManager
@@ -44,12 +48,16 @@ namespace Assets.Scripts
 			DontDestroyOnLoad (gameObject);
 		}
 
-
-		/**
-		 * Overlayable sound clip playing
-		 * Returns a string indicating the clip that is playing
-		 * Starts at position 0 by default, with max duration in seconds (duration = -1)
-		 */
+		/// <summary>
+		/// Overlayable sound clip playing.
+		/// Returns a string indicating the clip that is playing
+		/// Starts at position 0 by default, with max duration in seconds (duration = -1)
+		/// </summary>
+		/// <param name="clip">AudioClip to play</param>
+		/// <param name="loop">Loop track (=false)</param>
+		/// <param name="start">Start time</param>
+		/// <param name="duration">Duration (=-1, until end)</param>
+		/// <returns>name of sound clip</returns>
 		public string PlaySound(AudioClip clip, bool loop=false, float start=0, float duration=-1)
 		{
 			//Set the clip of our efxSource audio source to the clip passed in as a parameter.
@@ -80,6 +88,10 @@ namespace Assets.Scripts
 			return n;
 		}
 
+		/// <summary>
+		/// Sets background music to new AudioClip
+		/// </summary>
+		/// <param name="clip">AudioClip to replace current BGM</param>
 		public void SetBgm(AudioClip clip){
 			if (MusicSource != null)
 			{
@@ -92,10 +104,11 @@ namespace Assets.Scripts
 			MusicSource.Play ();
 		}
 
-		/**
-		 * Randomly select one out of an array of audio clips to play
-		 * 
-		 */
+		/// <summary>
+		/// 
+		/// </summary>
+		/// <param name="clips"></param>
+		/// <returns></returns>
 		public string RandomizeSfx (params AudioClip[] clips)
 		{
 			//Generate a random number between 0 and the length of our array of clips passed in.
@@ -105,10 +118,11 @@ namespace Assets.Scripts
 			return PlaySound(clips[randomIndex]);
 		}
 
-		/**
-		 * Stops audio if it's playing
-		 * If it's not playing, returns false
-		 */
+		/// <summary>
+		/// Stops audio if it's playing
+		/// </summary>
+		/// <param name="clip"></param>
+		/// <returns>true if it's playing, false if it can't find audioclip.</returns>
 		public bool StopAudioIfPlaying(string clip){
 			if (!_efxSource.ContainsKey(clip)) return false;
 			_efxSource [clip].Stop ();
@@ -117,6 +131,13 @@ namespace Assets.Scripts
 			return true;
 		}
 
+		/// <summary>
+		/// Loop a sound.
+		/// </summary>
+		/// <param name="audioSource">AudioSource to loop</param>
+		/// <param name="start">Start point of loop</param>
+		/// <param name="end">End point of loop</param>
+		/// <returns>Yieldable generator</returns>
 		public IEnumerator loopSound(AudioSource audioSource, float start, float end)
 		{
 			while (audioSource!=null)
@@ -127,6 +148,13 @@ namespace Assets.Scripts
 			}
 		}
 
+		/// <summary>
+		/// Extends loopSound() with looping of sound from the beginning, then repeatedly from the two points.
+		/// </summary>
+		/// <param name="audioSource">AudioSource to be looped</param>
+		/// <param name="start">Start point of loop</param>
+		/// <param name="end">End point of loop</param>
+		/// <returns>Yieldable generator</returns>
 		public IEnumerator loopSoundFromBeginningThenTheTwoPoints(AudioSource audioSource, float start, float end)
 		{
 			audioSource.Play();
@@ -134,12 +162,20 @@ namespace Assets.Scripts
 			yield return loopSound(audioSource, start, end);
 		}
 
+		/// <summary>
+		/// Sets background music volume
+		/// </summary>
+		/// <param name="volume"></param>
 		public void setBgmVolume(float volume)
 		{
             BgmVolume = volume;
 			MusicSource.volume = volume;
 		}
 
+		/// <summary>
+		/// Sets all SFX volume
+		/// </summary>
+		/// <param name="volume"></param>
 		public void setSoundVolume(float volume)
 		{
             SoundVolume = volume;
