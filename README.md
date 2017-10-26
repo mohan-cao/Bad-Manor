@@ -8,8 +8,9 @@
 * Run the .exe with "Fantastic" option selected under Graphics Quality. (Else buttons eg Journal may not be sensitive due to Unity issues)
 * Use directional arrow keys to move player
 * Walk into a character or item to interact
-* Press [Space] to interact with NPCs via dialogue
-* Press [x] to move between rooms
+* Press [Space] to continue interactions with NPCs via dialogue
+* Press [X] to move between rooms
+* There is also an [X] button on the buttom right of the screen
 
 
 # Setting Up
@@ -56,7 +57,7 @@ Generally, use `git lfs track "*.ext"` to track a file of type extension if you 
 
 | Name         | UPI     | GitHub    |
 | ------------ | ------- | --------- |
-| Abby Shen    | [ashe848](mailto:ashe848@aucklanduni.ac.nz) | [ashe848](http://www.github.com/ashe848) + commits from 'unknown' |
+| Abby Shen    | [ashe848](mailto:ashe848@aucklanduni.ac.nz) | [ashe848](http://www.github.com/ashe848) |
 | Andrew Lyall    | [alya691](mailto:alya691@aucklanduni.ac.nz) | [Scoobster](http://www.github.com/Scoobster) |
 | Brad Miller    | [bmil852](mailto:bmil852@aucklanduni.ac.nz) | [bmil852](http://www.github.com/bmil852) + commits from 'unknown' |
 | Mohan Cao    | [mcao024](mailto:mcao024@aucklanduni.ac.nz) | [mohan-cao](http://www.github.com/mohan-cao) |

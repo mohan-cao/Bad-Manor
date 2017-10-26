@@ -1,6 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
-using System;
+﻿using System;
+using UnityEngine;
 
 namespace Assets.Scripts.World
 {
@@ -9,7 +8,6 @@ namespace Assets.Scripts.World
     [Serializable()]
     public class SpawnPoint : MonoBehaviour
     {
-
         public String SpawnPointID;
 
         /// <summary>
@@ -18,6 +16,5 @@ namespace Assets.Scripts.World
         {
             return this.transform.position;
         }
-        
     }
 }

@@ -1,21 +1,19 @@
-﻿using UnityEngine;
-using System;
-using UnityEngine.SceneManagement;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.World
 {
-    
     /// <summary>
     /// WarpPad moves the player from one room to another, its respoonsibility is teleport the player if the WorldManager
     /// lets it. It had no dependencies other than WorldManager and RoomLocations.</summary>
     [Serializable()]
     public class WarpPad : MonoBehaviour
     {
-
         /// <summary>
         /// Room the player wishes to access.</summary>   
         public RoomLocations.RoomsSpawns roomToGoTo;
+
         public Text guide;
 
         /// <summary>
@@ -27,11 +25,15 @@ namespace Assets.Scripts.World
             {
                 if (GameManager.inst.WorldManager.canGoTo(roomToGoTo))
                 {
-                    other.transform.position = RoomLocations.getRoomCoords(roomToGoTo);   
+                    other.transform.position = RoomLocations.getRoomCoords(roomToGoTo);
                 }
             }
         }
 
+        /// <summary>
+        /// Checks that player is still inside zone
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")
@@ -41,6 +43,10 @@ namespace Assets.Scripts.World
             }
         }
 
+        /// <summary>
+        /// Checks that player has left zone
+        /// </summary>
+        /// <param name="other"></param>
         void OnTriggerExit2D(Collider2D other)
         {
             if (other.gameObject.tag == "Player")

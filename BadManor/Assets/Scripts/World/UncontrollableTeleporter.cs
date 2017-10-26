@@ -1,14 +1,14 @@
 using System;
 using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
+
 namespace Assets.Scripts.World
 {
+    /// <summary>
+    /// A teleporter that is triggered automatically (like in the chimney)
+    /// </summary>
     [Serializable()]
     public class UncontrollableTeleporter : Teleporter
     {
-       
-
         // Update is called once per frame
         void Update()
         {
@@ -26,7 +26,6 @@ namespace Assets.Scripts.World
                     }
                 }
             }
-
         }
     }
 }

@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 /// <summary>
 /// List of door locations between rooms.</summary>
-public class RoomLocations : MonoBehaviour {
-
+public class RoomLocations : MonoBehaviour
+{
     /// <summary>
     /// The possible options (doors in rooms).</summary>
     public enum RoomsSpawns
@@ -51,7 +50,7 @@ public class RoomLocations : MonoBehaviour {
         RooftopFromChimney,
         RooftopChimney
     }
-    
+
     /// <summary>
     /// Coresponding vector co-ordinates for each door.</summary>
     static Vector3[] coords =
@@ -100,15 +99,13 @@ public class RoomLocations : MonoBehaviour {
         new Vector3(111.06f, 248f),
         new Vector3(14.4f, 266.94f),
         new Vector3(11.26f, 323.83f)
-
-
     };
 
     /// <summary>
     /// Maps the doors in rooms to the co-ordinates on the map the door will take them to.</summary>
-	public static Vector3 getRoomCoords(RoomsSpawns room)
+    public static Vector3 getRoomCoords(RoomsSpawns room)
     {
-        int enumAsInt = (int)room;
-        return coords[enumAsInt]; 
+        int enumAsInt = (int) room;
+        return coords[enumAsInt];
     }
 }

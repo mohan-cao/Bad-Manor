@@ -1,9 +1,9 @@
 ﻿using System;
-using UnityEngine;
 using Assets.Scripts;
 using Assets.Scripts.UIs;
-using UnityEngine.UI;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 /// <summary>
 /// Accusation is the user interface the player uses for accusing someone of the murders once they have all the 
@@ -11,21 +11,23 @@ using UnityEngine.SceneManagement;
 /// amonut of evidence is collected, check if the accusation is correct, show and hide itself. It depends only on 
 /// GameManager.</summary>
 [Serializable()]
-public class Accusation : Interface {
-
+public class Accusation : Interface
+{
     /// <summary>
     /// The parent of the interface.</summary>
-    [SerializeField]
-    Transform UIPanel;
+    [SerializeField] Transform UIPanel;
+
     /// <summary>
     /// Accusation options.</summary>
     public ToggleGroup tg;
+
     /// <summary>
     /// name of currently accused character.</summary>
     string accusingName;
+
     public Text AccuseBtnText;
     public Button AccuseBtn;
-    
+
     /// <summary>
     /// Run on loading of the GameMap to hide the accusation panel from the player until they're ready.</summary>
     void Start()
@@ -79,14 +81,13 @@ public class Accusation : Interface {
                 accusingName = t.name;
                 break;
             }
-            
+
             if (accusingName == "AccuseSam")
             {
                 GameManager.inst.correctAnswer();
                 Debug.Log("Accusation: Won");
                 hideAccusePanel();
                 SceneManager.LoadScene("EndScreen");
-
             }
             else
             {
