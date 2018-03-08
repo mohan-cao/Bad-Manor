@@ -4,6 +4,7 @@
 <sup>Master branch is currently </sup><a href="https://travis-ci.com/mohan-cao/revilo"><img style="display:inline-block;" src="https://travis-ci.com/mohan-cao/306P2.svg?token=geujzTyWrzPD96doTGqK&branch=master" alt="Build status"></a>
 </div>
 
+
 # Execution Instructions
 * Run the .exe with "Fantastic" option selected under Graphics Quality. (Else buttons eg Journal may not be sensitive due to Unity issues)
 * Use directional arrow keys to move player
